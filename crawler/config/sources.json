@@ -81,6 +81,80 @@
       "label": "Hackathon.com",
       "kind": "html",
       "url": "https://www.hackathon.com/theme/security"
+    },
+    {
+      "id": "defcon",
+      "label": "DEF CON",
+      "kind": "html",
+      "url": "https://defcon.org/",
+      "note": "DEF CON runs the best known CTF in the world; its qualifiers and villages are announced here."
+    },
+    {
+      "id": "nautilus",
+      "label": "Nautilus Institute (DEF CON CTF)",
+      "kind": "html",
+      "url": "https://nautilus.institute/",
+      "type": "ctf",
+      "note": "Organising team for the DEF CON CTF."
+    },
+    {
+      "id": "hitb",
+      "label": "Hack In The Box",
+      "kind": "html",
+      "url": "https://conference.hitb.org/",
+      "note": "HITB runs HITB CTF alongside its conferences."
+    },
+    {
+      "id": "zdi",
+      "label": "Zero Day Initiative (Pwn2Own)",
+      "kind": "html",
+      "url": "https://www.zerodayinitiative.com/",
+      "note": "Runs Pwn2Own, the flagship exploitation contest."
+    },
+    {
+      "id": "inctf",
+      "label": "InCTF",
+      "kind": "html",
+      "url": "https://inctf.in/",
+      "country": "India",
+      "type": "ctf",
+      "note": "Long-running Indian student CTF, organised from Amrita University."
+    },
+    {
+      "id": "csaw",
+      "label": "CSAW",
+      "kind": "html",
+      "url": "https://csaw.io/",
+      "type": "ctf",
+      "note": "NYU's student security games, with an India region."
+    },
+    {
+      "id": "owasp-events",
+      "label": "OWASP Events",
+      "kind": "html",
+      "url": "https://owasp.org/events/"
+    },
+    {
+      "id": "htb-events",
+      "label": "Hack The Box",
+      "kind": "html",
+      "url": "https://www.hackthebox.com/events",
+      "type": "ctf"
+    },
+    {
+      "id": "sans-holiday-hack",
+      "label": "SANS Holiday Hack Challenge",
+      "kind": "html",
+      "url": "https://www.sans.org/cyber-ranges/holiday-hack-challenge",
+      "type": "ctf",
+      "note": "Free annual challenge, beginner friendly."
+    },
+    {
+      "id": "google-ctf",
+      "label": "Google CTF",
+      "kind": "html",
+      "url": "https://capturetheflag.withgoogle.com/",
+      "type": "ctf"
     }
   ],
   "_removedFeeds": {
@@ -89,6 +163,9 @@
     "mygov-tasks": "https://www.mygov.in/task/ returns 404",
     "meity-whatsnew": "https://www.meity.gov.in/whats-new returns Access Denied",
     "certin-news": "https://www.cert-in.org.in/ connection fails",
-    "nciipc": "https://nciipc.gov.in/ connection fails"
+    "nciipc": "https://nciipc.gov.in/ connection fails",
+    "blackhat": "https://www.blackhat.com/ returns 403 from Cloudflare; see data/curated.json instead",
+    "certin-frameset": "https://www.cert-in.org.in/ responds 200 but serves a <frameset>, so there are no links to harvest",
+    "picoctf": "https://picoctf.org/ now only announces that it has become CyLab Security Academy; needs a new URL before it is worth crawling"
   }
 }

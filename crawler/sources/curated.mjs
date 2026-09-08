@@ -46,7 +46,13 @@ export async function fetchEvents() {
       sourceId: `curated-${r.id || r.url || i}`,
       sourceUrl: r.sourceUrl || r.url || "",
       trusted: true,
-      tags: [...(r.tags || []), "Curated by NFSU"],
+      // Scope stated by the curator wins over the classifier's guess.
+      scopeOverride: r.scope === "national" || r.scope === "international" ? r.scope : "",
+      // Provenance deliberately stays out of `tags`: the classifier reads tags,
+      // and a tag naming NFSU matches an India signal, which forced every
+      // curated entry to "national" regardless of where the event actually is.
+      // The source label already records that these are curated.
+      tags: [...(r.tags || [])],
       rules: [
         ...(r.rules || []),
         "This entry is maintained by the department because the announcing site cannot be crawled. Confirm the current details on the official page.",

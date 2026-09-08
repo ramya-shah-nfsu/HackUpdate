@@ -61,6 +61,7 @@ export function normalize(raw, sourceMeta) {
     // A human vouched for this record, so the relevance and dating gates in
     // crawler/index.mjs let it through untouched.
     trusted: raw.trusted === true,
+    scopeOverride: raw.scopeOverride || "",
     fetchedAt: new Date().toISOString(),
   };
 

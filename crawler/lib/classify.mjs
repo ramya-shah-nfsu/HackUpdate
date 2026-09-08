@@ -73,6 +73,13 @@ export function detectType(event, hay = haystack(event)) {
  * An explicit country from the source outranks any keyword guess.
  */
 export function detectScope(event, hay = haystack(event)) {
+  // A curator stating the scope outranks every heuristic below. This is a
+  // separate field from `scope` on purpose: `scope` is present on every record
+  // carried over from a previous run, and honouring that would freeze an old
+  // guess instead of re-deriving it.
+  if (event.scopeOverride === "national" || event.scopeOverride === "international") {
+    return { scope: event.scopeOverride, confidence: "high", why: "stated by the curator" };
+  }
   const country = (event.location?.country || "").toLowerCase();
   if (country) {
     if (/\bindia\b/.test(country)) return { scope: "national", confidence: "high", why: "source country = India" };

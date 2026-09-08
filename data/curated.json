@@ -16,7 +16,6 @@
     "",
     "Set \"published\": false to keep a draft here without showing it."
   ],
-
   "_schema": {
     "id": "optional stable key, e.g. cyber-kushti-2026",
     "title": "required",
@@ -28,15 +27,27 @@
     "organizer": "e.g. Ministry of Electronics and IT",
     "prize": "e.g. Rs 5,00,000",
     "eligibility": "who may enter",
-    "rules": ["one string per rule"],
+    "rules": [
+      "one string per rule"
+    ],
     "startsAt": "YYYY-MM-DD or a full ISO timestamp",
     "endsAt": "YYYY-MM-DD",
-    "registration": { "opensAt": "YYYY-MM-DD", "closesAt": "YYYY-MM-DD", "url": "…" },
-    "location": { "text": "Gandhinagar, Gujarat", "country": "India", "mode": "onsite | online | hybrid" },
-    "tags": ["free text"],
-    "published": "false to hide a draft"
+    "registration": {
+      "opensAt": "YYYY-MM-DD",
+      "closesAt": "YYYY-MM-DD",
+      "url": "…"
+    },
+    "location": {
+      "text": "Gandhinagar, Gujarat",
+      "country": "India",
+      "mode": "onsite | online | hybrid"
+    },
+    "tags": [
+      "free text"
+    ],
+    "published": "false to hide a draft",
+    "scope": "\"national\" (India) or \"international\"; stated explicitly because the classifier cannot always tell"
   },
-
   "_example": {
     "id": "example-remove-me",
     "title": "Example National Cyber Security Challenge 2026",
@@ -47,14 +58,269 @@
     "organizer": "Ministry of Electronics and Information Technology",
     "prize": "Rs 5,00,000",
     "eligibility": "Students enrolled in an Indian university.",
-    "rules": ["Teams of up to four.", "At least one member must be a registered student."],
+    "rules": [
+      "Teams of up to four.",
+      "At least one member must be a registered student."
+    ],
     "startsAt": "2026-11-02",
     "endsAt": "2026-11-04",
-    "registration": { "closesAt": "2026-10-20", "url": "https://example.gov.in/register" },
-    "location": { "text": "Gandhinagar, Gujarat", "country": "India", "mode": "onsite" },
-    "tags": ["Government of India"],
+    "registration": {
+      "closesAt": "2026-10-20",
+      "url": "https://example.gov.in/register"
+    },
+    "location": {
+      "text": "Gandhinagar, Gujarat",
+      "country": "India",
+      "mode": "onsite"
+    },
+    "tags": [
+      "Government of India"
+    ],
     "published": false
   },
-
-  "events": []
+  "events": [
+    {
+      "id": "smart-india-hackathon",
+      "title": "Smart India Hackathon",
+      "type": "hackathon",
+      "url": "https://www.sih.gov.in/",
+      "organizer": "Ministry of Education, Government of India",
+      "description": "India's national innovation programme for students of AICTE-affiliated institutions. Ministries, state departments and industry publish problem statements, several of which each edition cover cyber security, digital forensics, drone technology and critical infrastructure. Runs in software and hardware editions with a grand finale at nodal centres. Dates and problem statements are published on the official portal.",
+      "eligibility": "Students of AICTE-affiliated institutions in India, in teams.",
+      "location": {
+        "text": "Nodal centres across India",
+        "country": "India",
+        "mode": "hybrid"
+      },
+      "tags": [
+        "Flagship programme",
+        "Government of India",
+        "National"
+      ],
+      "scope": "national"
+    },
+    {
+      "id": "cert-in",
+      "title": "CERT-In programmes and advisories",
+      "type": "hackathon",
+      "url": "https://www.cert-in.org.in/",
+      "organizer": "Indian Computer Emergency Response Team (CERT-In), MeitY",
+      "description": "India's national nodal agency for cyber security incident response, under MeitY. Publishes vulnerability advisories and threat intelligence, runs incident response and digital forensics training, and holds periodic national cyber security exercises and challenges. Its site serves a frameset and blocks automated clients, so it is listed here rather than crawled.",
+      "location": {
+        "text": "India",
+        "country": "India"
+      },
+      "tags": [
+        "Flagship programme",
+        "Government of India",
+        "Incident response",
+        "National"
+      ],
+      "scope": "national"
+    },
+    {
+      "id": "black-hat",
+      "title": "Black Hat",
+      "type": "hackathon",
+      "url": "https://www.blackhat.com/",
+      "organizer": "Black Hat",
+      "description": "One of the largest international information security conference series, with Briefings, Trainings and the Arsenal tool showcase. Student rates and associated competitions are announced on the official site. The site blocks automated clients, so it is listed here rather than crawled.",
+      "location": {
+        "text": "International, multiple regions",
+        "mode": "onsite"
+      },
+      "tags": [
+        "Flagship programme",
+        "Conference",
+        "International"
+      ],
+      "scope": "international"
+    },
+    {
+      "id": "defcon",
+      "title": "DEF CON and DEF CON CTF",
+      "type": "ctf",
+      "url": "https://defcon.org/",
+      "sourceUrl": "https://nautilus.institute/",
+      "organizer": "DEF CON / Nautilus Institute",
+      "description": "The best known hacking conference in the world. Its CTF is among the most prestigious in the field, run by the Nautilus Institute, with open qualifiers ahead of the on-site final. DEF CON also hosts villages covering aerospace, ICS, IoT and car hacking.",
+      "location": {
+        "text": "Las Vegas, United States",
+        "country": "United States",
+        "mode": "onsite"
+      },
+      "tags": [
+        "Flagship programme",
+        "Conference",
+        "International"
+      ],
+      "scope": "international"
+    },
+    {
+      "id": "pwn2own",
+      "title": "Pwn2Own (Zero Day Initiative)",
+      "type": "ctf",
+      "url": "https://www.zerodayinitiative.com/",
+      "organizer": "Zero Day Initiative",
+      "description": "The flagship live exploitation contest, with categories spanning browsers, virtualisation, enterprise software, automotive and ICS or SCADA. Targets, rules and cash awards for each edition are published by ZDI.",
+      "location": {
+        "text": "International",
+        "mode": "onsite"
+      },
+      "tags": [
+        "Flagship programme",
+        "Conference",
+        "International"
+      ],
+      "scope": "international"
+    },
+    {
+      "id": "nullcon",
+      "title": "Nullcon and Battle Underground CTF",
+      "type": "ctf",
+      "url": "https://nullcon.net/",
+      "organizer": "Nullcon",
+      "description": "India's best known international security conference, running training, briefings and the Battle Underground CTF.",
+      "location": {
+        "text": "Goa and Berlin",
+        "country": "India",
+        "mode": "onsite"
+      },
+      "tags": [
+        "Flagship programme",
+        "Conference",
+        "National"
+      ],
+      "scope": "national"
+    },
+    {
+      "id": "c0c0n",
+      "title": "c0c0n",
+      "type": "hackathon",
+      "url": "https://india.c0c0n.org/",
+      "organizer": "Kerala Police Cyberdome and Society for the Policing of Cyberspace",
+      "description": "An international security conference run in association with Kerala Police, with CTF and hackathon tracks and a strong law-enforcement and digital-forensics focus.",
+      "location": {
+        "text": "Kerala, India",
+        "country": "India",
+        "mode": "onsite"
+      },
+      "tags": [
+        "Flagship programme",
+        "Conference",
+        "National"
+      ],
+      "scope": "national"
+    },
+    {
+      "id": "inctf",
+      "title": "InCTF",
+      "type": "ctf",
+      "url": "https://inctf.in/",
+      "organizer": "Amrita Vishwa Vidyapeetham (team bi0s)",
+      "description": "A long-running Indian student capture the flag, with a national junior edition and an international edition. Covers binary exploitation, reverse engineering, web, cryptography and forensics.",
+      "eligibility": "Junior edition is for school and undergraduate students in India.",
+      "location": {
+        "text": "Online and Amritapuri, India",
+        "country": "India"
+      },
+      "tags": [
+        "Flagship programme",
+        "Student CTF",
+        "National"
+      ],
+      "scope": "national"
+    },
+    {
+      "id": "csaw",
+      "title": "CSAW",
+      "type": "ctf",
+      "url": "https://csaw.io/",
+      "organizer": "NYU Tandon School of Engineering",
+      "description": "One of the largest student-run security events, with qualifier and final rounds and a dedicated India region hosted at IIT Kanpur.",
+      "eligibility": "Student teams; regional finals are open to qualifying teams.",
+      "location": {
+        "text": "Global, with an India region",
+        "mode": "hybrid"
+      },
+      "tags": [
+        "Flagship programme",
+        "Student CTF",
+        "International"
+      ],
+      "scope": "international"
+    },
+    {
+      "id": "hitb",
+      "title": "Hack In The Box",
+      "type": "ctf",
+      "url": "https://conference.hitb.org/",
+      "organizer": "Hack In The Box",
+      "description": "International security conference series running deeply technical briefings and the HITB CTF.",
+      "location": {
+        "text": "International",
+        "mode": "onsite"
+      },
+      "tags": [
+        "Flagship programme",
+        "Conference",
+        "International"
+      ],
+      "scope": "international"
+    },
+    {
+      "id": "google-ctf",
+      "title": "Google CTF",
+      "type": "ctf",
+      "url": "https://capturetheflag.withgoogle.com/",
+      "organizer": "Google",
+      "description": "Google's annual capture the flag, with a qualifier open to everyone and a Beginners Quest aimed at newcomers.",
+      "location": {
+        "text": "Online",
+        "mode": "online"
+      },
+      "tags": [
+        "Flagship programme",
+        "International"
+      ],
+      "scope": "international"
+    },
+    {
+      "id": "sans-holiday-hack",
+      "title": "SANS Holiday Hack Challenge",
+      "type": "ctf",
+      "url": "https://www.sans.org/cyber-ranges/holiday-hack-challenge",
+      "organizer": "SANS Institute",
+      "description": "A free annual challenge from SANS, deliberately beginner friendly and a good first CTF. Stays open for several weeks and covers a broad range of security skills.",
+      "eligibility": "Open to everyone, free to enter.",
+      "location": {
+        "text": "Online",
+        "mode": "online"
+      },
+      "tags": [
+        "Flagship programme",
+        "Beginner friendly",
+        "International"
+      ],
+      "scope": "international"
+    },
+    {
+      "id": "hackthebox",
+      "title": "Hack The Box competitions",
+      "type": "ctf",
+      "url": "https://www.hackthebox.com/events",
+      "organizer": "Hack The Box",
+      "description": "Runs the Business CTF, a University CTF for student teams, and continuous practice labs. Useful for building a team before entering a rated event.",
+      "location": {
+        "text": "Online",
+        "mode": "online"
+      },
+      "tags": [
+        "Flagship programme",
+        "Practice platform",
+        "International"
+      ],
+      "scope": "international"
+    }
+  ]
 }
