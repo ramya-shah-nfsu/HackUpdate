@@ -69,18 +69,26 @@ node crawler/demo.mjs                         # OVERWRITES data/events.json with
 
 ## Sources
 
-| Source | Type | State on 2026-09-08 | What it gives us |
+| Source | Type | Verified 2026-09-08 | What it gives us |
 | --- | --- | --- | --- |
-| **CTFtime** | Public JSON API | working, 51 events | The authoritative worldwide CTF calendar: dates, format, restrictions, logos, prizes |
-| **Unstop** | JSON endpoint | working, 99 events | Indian student competitions and hackathons |
-| **Devpost** | JSON endpoint | working, 46 events | Large international hackathons, queried per NFSU domain keyword |
-| **Devfolio** | JSON search API | working, 24 events | Indian college and community hackathons |
-| **Configured feeds** | RSS or HTML | working, 52 items | CTFtime RSS, Nullcon, c0c0n, DSCI, hackathon.com |
-| **MyGov Innovate India** | HTML | reachable | Ministry innovation challenges and the Smart India Hackathon. The one government source CI can reach |
-| **MLH** | HTML | repaired | International student hackathon league |
-| **Curated** | `data/curated.json` | manual | Programmes entered by the department, for sites no crawler can reach |
-| **HackerEarth** | JSON endpoint | **disabled** | Returns 403 to CI on every endpoint |
+| **MLH** | HTML | 106 fetched | International student hackathon league. Few clear the relevance gate: most are general-purpose student events |
+| **Unstop** | JSON endpoint | 99 fetched, 52 published | Indian student competitions and hackathons. The largest single contributor |
+| **CTFtime** | Public JSON API | 51 fetched, 48 published | The authoritative worldwide CTF calendar: dates, format, restrictions, logos, prizes |
+| **Devpost** | JSON endpoint | 46 fetched, 40 published | Large international hackathons, queried per NFSU domain keyword |
+| **Configured feeds** | RSS or HTML | 53 fetched | CTFtime RSS, Nullcon, c0c0n, DSCI, hackathon.com. Mostly corroborates other sources rather than adding new events |
+| **Devfolio** | JSON search API | 24 fetched, 13 published | Indian college and community hackathons |
+| **MyGov Innovate India** | HTML | 7 fetched, 5 published | Ministry innovation challenges and the Smart India Hackathon. The one government source CI can reach |
+| **Curated** | `data/curated.json` | 0, awaiting entries | Programmes added by the department, for sites no crawler can reach |
+| **HackerEarth** | JSON endpoint | **disabled** | Returns 403 to CI on every endpoint tried |
 | **PIB** | RSS plus HTML | **disabled** | pib.gov.in serves "Access Denied" to data-centre IPs |
+
+Totals on that run: **160 events, 111 hackathons and 49 CTFs, 79 national and
+81 international**, from 8 working sources with none failing.
+
+"Fetched" is what the source returned; "published" is what survived
+deduplication and the relevance gate. A large gap is the gate working, not a
+fault: MLH and Unstop both carry many general-purpose student hackathons with
+no bearing on these programmes.
 
 ### Government sites block the crawler, and what to do about it
 
