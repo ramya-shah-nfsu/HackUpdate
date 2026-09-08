@@ -132,8 +132,8 @@ async function dumpBlocks(url, count) {
   console.log("## most repeated class tokens");
   console.log("  " + top.map(([k, v]) => `${k}(${v})`).join("  "), "\n");
 
-  for (const token of ["event", "card", "challenge", "hackathon", "listing", "post"]) {
-    const re = new RegExp(`<(\\w+)[^>]*class=["'][^"']*\\b${token}\\b[^"']*["'][^>]*>`, "gi");
+  for (const token of ["challenge_item", "chl-", "event", "card", "hackathon", "listing"]) {
+    const re = new RegExp(`<(\\w+)[^>]*class=["'][^"']*${token}[^"']*["'][^>]*>`, "gi");
     const hits = [...html.matchAll(re)];
     if (!hits.length) continue;
     console.log(`## blocks whose class contains "${token}" (${hits.length})`);
