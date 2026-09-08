@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-08T09:39:34.605Z",
+  "generatedAt": "2026-09-08T09:40:58.783Z",
   "generatorVersion": 2,
-  "runMs": 21881,
+  "runMs": 15839,
   "counts": {
     "total": 160,
     "byType": {
@@ -102,7 +102,7 @@
       "homepage": "https://ctftime.org/",
       "status": "ok",
       "count": 51,
-      "ms": 1186
+      "ms": 731
     },
     {
       "id": "devpost",
@@ -110,7 +110,7 @@
       "homepage": "https://devpost.com/hackathons",
       "status": "ok",
       "count": 46,
-      "ms": 1654
+      "ms": 2440
     },
     {
       "id": "unstop",
@@ -118,7 +118,7 @@
       "homepage": "https://unstop.com/hackathons",
       "status": "ok",
       "count": 99,
-      "ms": 6661
+      "ms": 596
     },
     {
       "id": "devfolio",
@@ -126,7 +126,7 @@
       "homepage": "https://devfolio.co/hackathons",
       "status": "ok",
       "count": 24,
-      "ms": 2127
+      "ms": 1977
     },
     {
       "id": "hackerearth",
@@ -139,7 +139,7 @@
       "homepage": "https://www.mlh.com/seasons",
       "status": "ok",
       "count": 106,
-      "ms": 3365
+      "ms": 3354
     },
     {
       "id": "mygov",
@@ -147,7 +147,7 @@
       "homepage": "https://innovateindia.mygov.in/",
       "status": "ok",
       "count": 7,
-      "ms": 4221
+      "ms": 3139
     },
     {
       "id": "pib",
@@ -159,8 +159,8 @@
       "label": "Configured feeds",
       "homepage": "",
       "status": "ok",
-      "count": 51,
-      "ms": 2613
+      "count": 53,
+      "ms": 3552
     }
   ],
   "events": [
@@ -219,7 +219,7 @@
       "participants": null,
       "type": "hackathon",
       "trusted": false,
-      "fetchedAt": "2026-09-08T09:39:31.942Z",
+      "fetchedAt": "2026-09-08T09:40:55.184Z",
       "domains": [
         "cyber-security",
         "general-innovation"
@@ -298,7 +298,7 @@
       "participants": null,
       "type": "hackathon",
       "trusted": false,
-      "fetchedAt": "2026-09-08T09:39:31.942Z",
+      "fetchedAt": "2026-09-08T09:40:55.184Z",
       "domains": [
         "iot-security",
         "general-innovation"
@@ -369,7 +369,7 @@
       ],
       "participants": 2041,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.566Z",
+      "fetchedAt": "2026-09-08T09:40:46.116Z",
       "domains": [
         "iot-security",
         "ai-ml"
@@ -440,7 +440,7 @@
       ],
       "participants": 257,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.568Z",
+      "fetchedAt": "2026-09-08T09:40:46.118Z",
       "domains": [
         "ai-ml"
       ],
@@ -508,7 +508,7 @@
       ],
       "participants": 55,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.563Z",
+      "fetchedAt": "2026-09-08T09:40:46.113Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -579,7 +579,7 @@
       ],
       "participants": 832,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.566Z",
+      "fetchedAt": "2026-09-08T09:40:46.116Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -650,7 +650,7 @@
       ],
       "participants": 196,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.563Z",
+      "fetchedAt": "2026-09-08T09:40:46.113Z",
       "domains": [
         "ai-ml"
       ],
@@ -718,7 +718,7 @@
       ],
       "participants": 9907,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.564Z",
+      "fetchedAt": "2026-09-08T09:40:46.114Z",
       "domains": [
         "ai-ml"
       ],
@@ -793,7 +793,7 @@
       ],
       "participants": null,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:24.351Z",
+      "fetchedAt": "2026-09-08T09:40:48.689Z",
       "domains": [
         "cyber-security",
         "ai-ml",
@@ -881,7 +881,7 @@
       ],
       "participants": 651,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.204Z",
+      "fetchedAt": "2026-09-08T09:40:46.693Z",
       "domains": [
         "cyber-security",
         "general-innovation"
@@ -952,7 +952,7 @@
       ],
       "participants": 305,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.563Z",
+      "fetchedAt": "2026-09-08T09:40:46.113Z",
       "domains": [
         "cyber-security",
         "ai-ml",
@@ -1034,7 +1034,7 @@
       "participants": null,
       "type": "hackathon",
       "trusted": false,
-      "fetchedAt": "2026-09-08T09:39:31.941Z",
+      "fetchedAt": "2026-09-08T09:40:55.184Z",
       "domains": [
         "general-innovation"
       ],
@@ -1102,7 +1102,7 @@
       ],
       "participants": 404,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.568Z",
+      "fetchedAt": "2026-09-08T09:40:46.118Z",
       "domains": [
         "cyber-security"
       ],
@@ -1178,7 +1178,7 @@
       ],
       "participants": 1123,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.209Z",
+      "fetchedAt": "2026-09-08T09:40:46.696Z",
       "domains": [
         "ai-ml",
         "cyber-security"
@@ -1259,7 +1259,7 @@
       ],
       "participants": 1918,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.182Z",
+      "fetchedAt": "2026-09-08T09:40:46.673Z",
       "domains": [
         "ai-ml",
         "cyber-security",
@@ -1342,7 +1342,7 @@
       "participants": null,
       "type": "hackathon",
       "trusted": false,
-      "fetchedAt": "2026-09-08T09:39:31.941Z",
+      "fetchedAt": "2026-09-08T09:40:55.184Z",
       "domains": [
         "cyber-security",
         "general-innovation"
@@ -1421,7 +1421,7 @@
       "participants": null,
       "type": "hackathon",
       "trusted": false,
-      "fetchedAt": "2026-09-08T09:39:31.941Z",
+      "fetchedAt": "2026-09-08T09:40:55.184Z",
       "domains": [
         "general-innovation"
       ],
@@ -1489,7 +1489,7 @@
       ],
       "participants": 141,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.565Z",
+      "fetchedAt": "2026-09-08T09:40:46.115Z",
       "domains": [
         "blockchain"
       ],
@@ -1565,7 +1565,7 @@
       ],
       "participants": 331,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.198Z",
+      "fetchedAt": "2026-09-08T09:40:46.686Z",
       "domains": [
         "ai-ml"
       ],
@@ -1645,7 +1645,7 @@
       ],
       "participants": 69,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.202Z",
+      "fetchedAt": "2026-09-08T09:40:46.691Z",
       "domains": [
         "ai-ml"
       ],
@@ -1728,7 +1728,7 @@
       ],
       "participants": 36,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.201Z",
+      "fetchedAt": "2026-09-08T09:40:46.691Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -1800,7 +1800,7 @@
       ],
       "participants": 281,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.566Z",
+      "fetchedAt": "2026-09-08T09:40:46.116Z",
       "domains": [
         "ai-ml",
         "iot-security",
@@ -1882,7 +1882,7 @@
       ],
       "participants": 182,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.182Z",
+      "fetchedAt": "2026-09-08T09:40:46.673Z",
       "domains": [
         "cyber-security"
       ],
@@ -1951,7 +1951,7 @@
       ],
       "participants": 1297,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.566Z",
+      "fetchedAt": "2026-09-08T09:40:46.116Z",
       "domains": [
         "ai-ml",
         "iot-security"
@@ -2030,7 +2030,7 @@
       ],
       "participants": 837,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.208Z",
+      "fetchedAt": "2026-09-08T09:40:46.696Z",
       "domains": [
         "cyber-security",
         "ai-ml",
@@ -2107,7 +2107,7 @@
       ],
       "participants": 55,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.568Z",
+      "fetchedAt": "2026-09-08T09:40:46.118Z",
       "domains": [
         "ai-ml"
       ],
@@ -2189,7 +2189,7 @@
       ],
       "participants": 221,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.197Z",
+      "fetchedAt": "2026-09-08T09:40:46.686Z",
       "domains": [
         "ai-ml",
         "cyber-security",
@@ -2277,7 +2277,7 @@
       ],
       "participants": 9,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.205Z",
+      "fetchedAt": "2026-09-08T09:40:46.694Z",
       "domains": [
         "general-innovation"
       ],
@@ -2346,7 +2346,7 @@
       ],
       "participants": 86,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.563Z",
+      "fetchedAt": "2026-09-08T09:40:46.113Z",
       "domains": [
         "cyber-security",
         "general-innovation"
@@ -2432,7 +2432,7 @@
       ],
       "participants": 46,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.203Z",
+      "fetchedAt": "2026-09-08T09:40:46.692Z",
       "domains": [
         "iot-security",
         "ai-ml"
@@ -2518,7 +2518,7 @@
       ],
       "participants": 392,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.206Z",
+      "fetchedAt": "2026-09-08T09:40:46.694Z",
       "domains": [
         "cyber-security"
       ],
@@ -2600,7 +2600,7 @@
       ],
       "participants": 415,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.208Z",
+      "fetchedAt": "2026-09-08T09:40:46.696Z",
       "domains": [
         "ai-ml"
       ],
@@ -2683,7 +2683,7 @@
       ],
       "participants": 44,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.207Z",
+      "fetchedAt": "2026-09-08T09:40:46.695Z",
       "domains": [
         "ai-ml"
       ],
@@ -2759,7 +2759,7 @@
       ],
       "participants": 267,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.201Z",
+      "fetchedAt": "2026-09-08T09:40:46.691Z",
       "domains": [
         "general-innovation"
       ],
@@ -2827,7 +2827,7 @@
       ],
       "participants": 31,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.565Z",
+      "fetchedAt": "2026-09-08T09:40:46.115Z",
       "domains": [
         "iot-security",
         "ai-ml"
@@ -2912,7 +2912,7 @@
       ],
       "participants": 67,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.191Z",
+      "fetchedAt": "2026-09-08T09:40:46.680Z",
       "domains": [
         "cyber-security",
         "ai-ml",
@@ -3001,7 +3001,7 @@
       ],
       "participants": 87,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.209Z",
+      "fetchedAt": "2026-09-08T09:40:46.697Z",
       "domains": [
         "blockchain",
         "ai-ml",
@@ -3084,7 +3084,7 @@
       ],
       "participants": 243,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.203Z",
+      "fetchedAt": "2026-09-08T09:40:46.692Z",
       "domains": [
         "cyber-security"
       ],
@@ -3162,7 +3162,7 @@
       ],
       "participants": 29,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.200Z",
+      "fetchedAt": "2026-09-08T09:40:46.689Z",
       "domains": [
         "general-innovation"
       ],
@@ -3246,7 +3246,7 @@
       ],
       "participants": 22,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.198Z",
+      "fetchedAt": "2026-09-08T09:40:46.687Z",
       "domains": [
         "iot-security",
         "cyber-security",
@@ -3335,7 +3335,7 @@
       ],
       "participants": 11,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.199Z",
+      "fetchedAt": "2026-09-08T09:40:46.688Z",
       "domains": [
         "drone-security",
         "ai-ml",
@@ -3417,7 +3417,7 @@
       ],
       "participants": 563,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.200Z",
+      "fetchedAt": "2026-09-08T09:40:46.688Z",
       "domains": [
         "ai-ml"
       ],
@@ -3493,7 +3493,7 @@
       ],
       "participants": 48,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.200Z",
+      "fetchedAt": "2026-09-08T09:40:46.689Z",
       "domains": [
         "blockchain"
       ],
@@ -3576,7 +3576,7 @@
       ],
       "participants": 7,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.211Z",
+      "fetchedAt": "2026-09-08T09:40:46.699Z",
       "domains": [
         "general-innovation"
       ],
@@ -3654,7 +3654,7 @@
       ],
       "participants": 170,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.207Z",
+      "fetchedAt": "2026-09-08T09:40:46.695Z",
       "domains": [
         "cyber-security"
       ],
@@ -3737,7 +3737,7 @@
       ],
       "participants": 7,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.217Z",
+      "fetchedAt": "2026-09-08T09:40:46.704Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -3818,7 +3818,7 @@
       ],
       "participants": 11,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:22.229Z",
+      "fetchedAt": "2026-09-08T09:40:46.715Z",
       "domains": [
         "cyber-security"
       ],
@@ -3900,7 +3900,7 @@
       ],
       "participants": 2,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.229Z",
+      "fetchedAt": "2026-09-08T09:40:46.715Z",
       "domains": [
         "cyber-security"
       ],
@@ -3977,7 +3977,7 @@
       ],
       "participants": 1135,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.185Z",
+      "fetchedAt": "2026-09-08T09:40:46.676Z",
       "domains": [
         "general-innovation"
       ],
@@ -4057,7 +4057,7 @@
       ],
       "participants": 899,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.195Z",
+      "fetchedAt": "2026-09-08T09:40:46.684Z",
       "domains": [
         "general-innovation"
       ],
@@ -4132,7 +4132,7 @@
       ],
       "participants": 765,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.218Z",
+      "fetchedAt": "2026-09-08T09:40:46.704Z",
       "domains": [
         "ai-ml"
       ],
@@ -4210,7 +4210,7 @@
       ],
       "participants": 15,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.222Z",
+      "fetchedAt": "2026-09-08T09:40:46.709Z",
       "domains": [
         "cyber-security"
       ],
@@ -4287,7 +4287,7 @@
       ],
       "participants": 464,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.195Z",
+      "fetchedAt": "2026-09-08T09:40:46.684Z",
       "domains": [
         "cyber-security"
       ],
@@ -4369,7 +4369,7 @@
       ],
       "participants": 8,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.194Z",
+      "fetchedAt": "2026-09-08T09:40:46.683Z",
       "domains": [
         "general-innovation"
       ],
@@ -4435,9 +4435,9 @@
           "at": "2026-10-05T00:00:00.000Z"
         }
       ],
-      "participants": 64,
+      "participants": 65,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.568Z",
+      "fetchedAt": "2026-09-08T09:40:46.118Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -4516,7 +4516,7 @@
       ],
       "participants": 21,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.189Z",
+      "fetchedAt": "2026-09-08T09:40:46.678Z",
       "domains": [
         "cyber-security",
         "digital-forensics",
@@ -4602,7 +4602,7 @@
       ],
       "participants": 15,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.226Z",
+      "fetchedAt": "2026-09-08T09:40:46.713Z",
       "domains": [
         "iot-security",
         "cyber-security",
@@ -4688,7 +4688,7 @@
       ],
       "participants": 519,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.190Z",
+      "fetchedAt": "2026-09-08T09:40:46.679Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -4767,7 +4767,7 @@
       ],
       "participants": 276,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.187Z",
+      "fetchedAt": "2026-09-08T09:40:46.677Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -4852,7 +4852,7 @@
       ],
       "participants": 10,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.193Z",
+      "fetchedAt": "2026-09-08T09:40:46.682Z",
       "domains": [
         "general-innovation",
         "blockchain"
@@ -4932,7 +4932,7 @@
       ],
       "participants": 37,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.191Z",
+      "fetchedAt": "2026-09-08T09:40:46.680Z",
       "domains": [
         "cyber-security"
       ],
@@ -5014,7 +5014,7 @@
       ],
       "participants": 88,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.190Z",
+      "fetchedAt": "2026-09-08T09:40:46.679Z",
       "domains": [
         "cyber-security"
       ],
@@ -5091,7 +5091,7 @@
       ],
       "participants": 51,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.185Z",
+      "fetchedAt": "2026-09-08T09:40:46.675Z",
       "domains": [
         "cyber-security"
       ],
@@ -5172,7 +5172,7 @@
       ],
       "participants": 63,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.220Z",
+      "fetchedAt": "2026-09-08T09:40:46.706Z",
       "domains": [
         "ai-ml",
         "cyber-security"
@@ -5256,7 +5256,7 @@
       ],
       "participants": 50,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.221Z",
+      "fetchedAt": "2026-09-08T09:40:46.708Z",
       "domains": [
         "ai-ml"
       ],
@@ -5336,7 +5336,7 @@
       ],
       "participants": 197,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.222Z",
+      "fetchedAt": "2026-09-08T09:40:46.710Z",
       "domains": [
         "general-innovation"
       ],
@@ -5417,7 +5417,7 @@
       ],
       "participants": 8,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.216Z",
+      "fetchedAt": "2026-09-08T09:40:46.703Z",
       "domains": [
         "ai-ml",
         "cyber-security"
@@ -5503,7 +5503,7 @@
       ],
       "participants": 10,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.183Z",
+      "fetchedAt": "2026-09-08T09:40:46.674Z",
       "domains": [
         "cyber-security"
       ],
@@ -5582,7 +5582,7 @@
       ],
       "participants": 1583,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.184Z",
+      "fetchedAt": "2026-09-08T09:40:46.675Z",
       "domains": [
         "general-innovation"
       ],
@@ -5658,7 +5658,7 @@
       ],
       "participants": 55,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.186Z",
+      "fetchedAt": "2026-09-08T09:40:46.676Z",
       "domains": [
         "cyber-security",
         "general-innovation"
@@ -5742,7 +5742,7 @@
       ],
       "participants": 3,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.188Z",
+      "fetchedAt": "2026-09-08T09:40:46.677Z",
       "domains": [
         "cyber-security",
         "general-innovation"
@@ -5824,7 +5824,7 @@
       ],
       "participants": 11,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.183Z",
+      "fetchedAt": "2026-09-08T09:40:46.674Z",
       "domains": [
         "ai-ml",
         "general-innovation"
@@ -5910,7 +5910,7 @@
       ],
       "participants": 23,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:22.212Z",
+      "fetchedAt": "2026-09-08T09:40:46.699Z",
       "domains": [
         "blockchain"
       ],
@@ -5981,7 +5981,7 @@
       ],
       "participants": 175,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.897Z",
+      "fetchedAt": "2026-09-08T09:40:43.665Z",
       "domains": [
         "cyber-security"
       ],
@@ -6059,7 +6059,7 @@
       ],
       "participants": 74,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.898Z",
+      "fetchedAt": "2026-09-08T09:40:43.665Z",
       "domains": [
         "cyber-security"
       ],
@@ -6135,7 +6135,7 @@
       ],
       "participants": 9,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.565Z",
+      "fetchedAt": "2026-09-08T09:40:46.115Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -6208,7 +6208,7 @@
       ],
       "participants": 174,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.898Z",
+      "fetchedAt": "2026-09-08T09:40:43.665Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -6288,7 +6288,7 @@
       ],
       "participants": 69,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.568Z",
+      "fetchedAt": "2026-09-08T09:40:46.119Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -6359,7 +6359,7 @@
       ],
       "participants": 23,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.567Z",
+      "fetchedAt": "2026-09-08T09:40:46.117Z",
       "domains": [
         "iot-security"
       ],
@@ -6430,7 +6430,7 @@
       ],
       "participants": 13,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.899Z",
+      "fetchedAt": "2026-09-08T09:40:43.666Z",
       "domains": [
         "cyber-security"
       ],
@@ -6508,7 +6508,7 @@
       ],
       "participants": 3,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.566Z",
+      "fetchedAt": "2026-09-08T09:40:46.117Z",
       "domains": [
         "iot-security",
         "ai-ml"
@@ -6579,7 +6579,7 @@
       ],
       "participants": 25,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.566Z",
+      "fetchedAt": "2026-09-08T09:40:46.116Z",
       "domains": [
         "ai-ml"
       ],
@@ -6649,7 +6649,7 @@
       ],
       "participants": 36,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.899Z",
+      "fetchedAt": "2026-09-08T09:40:43.666Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -6731,7 +6731,7 @@
       ],
       "participants": 47,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.900Z",
+      "fetchedAt": "2026-09-08T09:40:43.667Z",
       "domains": [
         "cyber-security"
       ],
@@ -6809,7 +6809,7 @@
       ],
       "participants": 34,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.901Z",
+      "fetchedAt": "2026-09-08T09:40:43.668Z",
       "domains": [
         "cyber-security"
       ],
@@ -6885,7 +6885,7 @@
       ],
       "participants": 128,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.563Z",
+      "fetchedAt": "2026-09-08T09:40:46.113Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -6958,7 +6958,7 @@
       ],
       "participants": 3,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.902Z",
+      "fetchedAt": "2026-09-08T09:40:43.668Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -7040,7 +7040,7 @@
       ],
       "participants": 0,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.902Z",
+      "fetchedAt": "2026-09-08T09:40:43.669Z",
       "domains": [
         "cyber-security"
       ],
@@ -7120,7 +7120,7 @@
       ],
       "participants": 19,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.903Z",
+      "fetchedAt": "2026-09-08T09:40:43.669Z",
       "domains": [
         "digital-forensics",
         "cyber-security"
@@ -7204,7 +7204,7 @@
       "participants": 0,
       "type": "ctf",
       "trusted": false,
-      "fetchedAt": "2026-09-08T09:39:13.903Z",
+      "fetchedAt": "2026-09-08T09:40:43.669Z",
       "domains": [
         "cyber-security"
       ],
@@ -7285,7 +7285,7 @@
       ],
       "participants": 0,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.903Z",
+      "fetchedAt": "2026-09-08T09:40:43.670Z",
       "domains": [
         "cyber-security"
       ],
@@ -7365,7 +7365,7 @@
       ],
       "participants": 4,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.904Z",
+      "fetchedAt": "2026-09-08T09:40:43.670Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -7447,7 +7447,7 @@
       ],
       "participants": 4,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.904Z",
+      "fetchedAt": "2026-09-08T09:40:43.670Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -7530,7 +7530,7 @@
       ],
       "participants": null,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:24.349Z",
+      "fetchedAt": "2026-09-08T09:40:48.687Z",
       "domains": [
         "cyber-security"
       ],
@@ -7602,7 +7602,7 @@
       ],
       "participants": null,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:24.348Z",
+      "fetchedAt": "2026-09-08T09:40:48.687Z",
       "domains": [
         "ai-ml"
       ],
@@ -7671,7 +7671,7 @@
       ],
       "participants": 2,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.905Z",
+      "fetchedAt": "2026-09-08T09:40:43.671Z",
       "domains": [
         "cyber-security"
       ],
@@ -7749,7 +7749,7 @@
       ],
       "participants": 11,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.905Z",
+      "fetchedAt": "2026-09-08T09:40:43.671Z",
       "domains": [
         "cyber-security"
       ],
@@ -7826,7 +7826,7 @@
       ],
       "participants": 20,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.563Z",
+      "fetchedAt": "2026-09-08T09:40:46.114Z",
       "domains": [
         "cyber-security"
       ],
@@ -7896,7 +7896,7 @@
       ],
       "participants": 33,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.905Z",
+      "fetchedAt": "2026-09-08T09:40:43.671Z",
       "domains": [
         "cyber-security"
       ],
@@ -7975,7 +7975,7 @@
       ],
       "participants": 54,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.906Z",
+      "fetchedAt": "2026-09-08T09:40:43.672Z",
       "domains": [
         "cyber-security"
       ],
@@ -8054,7 +8054,7 @@
       ],
       "participants": 12,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.906Z",
+      "fetchedAt": "2026-09-08T09:40:43.672Z",
       "domains": [
         "cyber-security"
       ],
@@ -8133,7 +8133,7 @@
       ],
       "participants": 35,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.906Z",
+      "fetchedAt": "2026-09-08T09:40:43.672Z",
       "domains": [
         "cyber-security"
       ],
@@ -8213,7 +8213,7 @@
       ],
       "participants": 0,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.906Z",
+      "fetchedAt": "2026-09-08T09:40:43.672Z",
       "domains": [
         "cyber-security",
         "blockchain"
@@ -8292,7 +8292,7 @@
       ],
       "participants": 8,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.563Z",
+      "fetchedAt": "2026-09-08T09:40:46.114Z",
       "domains": [
         "cyber-security"
       ],
@@ -8360,7 +8360,7 @@
       ],
       "participants": 33,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.567Z",
+      "fetchedAt": "2026-09-08T09:40:46.117Z",
       "domains": [
         "iot-security",
         "ai-ml"
@@ -8437,7 +8437,7 @@
       ],
       "participants": 10,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.907Z",
+      "fetchedAt": "2026-09-08T09:40:43.673Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -8520,7 +8520,7 @@
       ],
       "participants": null,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:24.349Z",
+      "fetchedAt": "2026-09-08T09:40:48.688Z",
       "domains": [
         "cyber-security"
       ],
@@ -8588,7 +8588,7 @@
       ],
       "participants": 2,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.564Z",
+      "fetchedAt": "2026-09-08T09:40:46.114Z",
       "domains": [
         "cyber-security"
       ],
@@ -8656,7 +8656,7 @@
       ],
       "participants": 87,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.564Z",
+      "fetchedAt": "2026-09-08T09:40:46.114Z",
       "domains": [
         "ai-ml"
       ],
@@ -8726,7 +8726,7 @@
       ],
       "participants": 14,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.907Z",
+      "fetchedAt": "2026-09-08T09:40:43.673Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -8808,7 +8808,7 @@
       ],
       "participants": 8,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.908Z",
+      "fetchedAt": "2026-09-08T09:40:43.674Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -8890,7 +8890,7 @@
       ],
       "participants": 6,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.909Z",
+      "fetchedAt": "2026-09-08T09:40:43.674Z",
       "domains": [
         "cyber-security"
       ],
@@ -8970,7 +8970,7 @@
       "participants": 0,
       "type": "ctf",
       "trusted": false,
-      "fetchedAt": "2026-09-08T09:39:13.909Z",
+      "fetchedAt": "2026-09-08T09:40:43.675Z",
       "domains": [
         "cyber-security"
       ],
@@ -8989,6 +8989,7 @@
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
+        "+1 detailed",
         "+2 listed on 2 sources"
       ],
       "alsoOn": [
@@ -9046,7 +9047,7 @@
       ],
       "participants": 290,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.564Z",
+      "fetchedAt": "2026-09-08T09:40:46.114Z",
       "domains": [
         "cyber-security",
         "ai-ml",
@@ -9124,7 +9125,7 @@
       ],
       "participants": null,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:24.352Z",
+      "fetchedAt": "2026-09-08T09:40:48.690Z",
       "domains": [
         "cyber-security"
       ],
@@ -9196,7 +9197,7 @@
       ],
       "participants": null,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:24.350Z",
+      "fetchedAt": "2026-09-08T09:40:48.688Z",
       "domains": [
         "blockchain"
       ],
@@ -9268,7 +9269,7 @@
       ],
       "participants": null,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:24.350Z",
+      "fetchedAt": "2026-09-08T09:40:48.688Z",
       "domains": [
         "cyber-security"
       ],
@@ -9340,7 +9341,7 @@
       ],
       "participants": null,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:24.351Z",
+      "fetchedAt": "2026-09-08T09:40:48.689Z",
       "domains": [
         "critical-infrastructure",
         "cyber-security"
@@ -9411,7 +9412,7 @@
       ],
       "participants": 5,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.567Z",
+      "fetchedAt": "2026-09-08T09:40:46.117Z",
       "domains": [
         "iot-security"
       ],
@@ -9488,7 +9489,7 @@
       ],
       "participants": null,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:24.355Z",
+      "fetchedAt": "2026-09-08T09:40:48.691Z",
       "domains": [
         "cyber-security",
         "unclassified"
@@ -9568,7 +9569,7 @@
       ],
       "participants": 4,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.909Z",
+      "fetchedAt": "2026-09-08T09:40:43.675Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -9652,7 +9653,7 @@
       ],
       "participants": null,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:24.352Z",
+      "fetchedAt": "2026-09-08T09:40:48.690Z",
       "domains": [
         "ai-ml"
       ],
@@ -9722,7 +9723,7 @@
       ],
       "participants": 3,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.565Z",
+      "fetchedAt": "2026-09-08T09:40:46.115Z",
       "domains": [
         "ai-ml"
       ],
@@ -9790,7 +9791,7 @@
       "participants": null,
       "type": "hackathon",
       "trusted": false,
-      "fetchedAt": "2026-09-08T09:39:27.711Z",
+      "fetchedAt": "2026-09-08T09:40:52.039Z",
       "domains": [
         "ai-ml"
       ],
@@ -9857,7 +9858,7 @@
       "participants": null,
       "type": "hackathon",
       "trusted": false,
-      "fetchedAt": "2026-09-08T09:39:27.711Z",
+      "fetchedAt": "2026-09-08T09:40:52.039Z",
       "domains": [
         "ai-ml"
       ],
@@ -9926,7 +9927,7 @@
       ],
       "participants": 25,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.909Z",
+      "fetchedAt": "2026-09-08T09:40:43.675Z",
       "domains": [
         "cyber-security"
       ],
@@ -10006,7 +10007,7 @@
       ],
       "participants": 0,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.910Z",
+      "fetchedAt": "2026-09-08T09:40:43.675Z",
       "domains": [
         "cyber-security"
       ],
@@ -10084,7 +10085,7 @@
       ],
       "participants": 6,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.569Z",
+      "fetchedAt": "2026-09-08T09:40:46.119Z",
       "domains": [
         "ai-ml",
         "cyber-security"
@@ -10157,7 +10158,7 @@
       ],
       "participants": 37,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.910Z",
+      "fetchedAt": "2026-09-08T09:40:43.675Z",
       "domains": [
         "cyber-security"
       ],
@@ -10176,6 +10177,7 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed",
+        "+1 detailed",
         "+2 listed on 2 sources"
       ],
       "alsoOn": [
@@ -10235,7 +10237,7 @@
       ],
       "participants": 53,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.910Z",
+      "fetchedAt": "2026-09-08T09:40:43.675Z",
       "domains": [
         "cyber-security"
       ],
@@ -10254,6 +10256,7 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed",
+        "+1 detailed",
         "+2 listed on 2 sources"
       ],
       "alsoOn": [
@@ -10316,7 +10319,7 @@
       ],
       "participants": null,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:24.353Z",
+      "fetchedAt": "2026-09-08T09:40:48.690Z",
       "domains": [
         "blockchain"
       ],
@@ -10384,7 +10387,7 @@
       ],
       "participants": 6,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.564Z",
+      "fetchedAt": "2026-09-08T09:40:46.114Z",
       "domains": [
         "cyber-security",
         "blockchain"
@@ -10454,7 +10457,7 @@
       ],
       "participants": 2,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.565Z",
+      "fetchedAt": "2026-09-08T09:40:46.116Z",
       "domains": [
         "ai-ml"
       ],
@@ -10524,7 +10527,7 @@
       ],
       "participants": 11,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.910Z",
+      "fetchedAt": "2026-09-08T09:40:43.675Z",
       "domains": [
         "cyber-security"
       ],
@@ -10596,7 +10599,7 @@
       ],
       "participants": 0,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.910Z",
+      "fetchedAt": "2026-09-08T09:40:43.676Z",
       "domains": [
         "cyber-security"
       ],
@@ -10676,7 +10679,7 @@
       ],
       "participants": null,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:24.355Z",
+      "fetchedAt": "2026-09-08T09:40:48.692Z",
       "domains": [
         "ai-ml",
         "blockchain"
@@ -10751,7 +10754,7 @@
       ],
       "participants": null,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:24.355Z",
+      "fetchedAt": "2026-09-08T09:40:48.692Z",
       "domains": [
         "ai-ml",
         "blockchain"
@@ -10822,7 +10825,7 @@
       ],
       "participants": 51,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.564Z",
+      "fetchedAt": "2026-09-08T09:40:46.114Z",
       "domains": [
         "ai-ml"
       ],
@@ -10892,7 +10895,7 @@
       ],
       "participants": 9,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.911Z",
+      "fetchedAt": "2026-09-08T09:40:43.676Z",
       "domains": [
         "cyber-security"
       ],
@@ -10971,7 +10974,7 @@
       ],
       "participants": 8,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.912Z",
+      "fetchedAt": "2026-09-08T09:40:43.677Z",
       "domains": [
         "cyber-security"
       ],
@@ -11049,7 +11052,7 @@
       ],
       "participants": 5,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.912Z",
+      "fetchedAt": "2026-09-08T09:40:43.677Z",
       "domains": [
         "cyber-security",
         "digital-forensics",
@@ -11134,7 +11137,7 @@
       "participants": 6,
       "type": "ctf",
       "trusted": false,
-      "fetchedAt": "2026-09-08T09:39:13.912Z",
+      "fetchedAt": "2026-09-08T09:40:43.677Z",
       "domains": [
         "cyber-security"
       ],
@@ -11211,7 +11214,7 @@
       ],
       "participants": 2,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.567Z",
+      "fetchedAt": "2026-09-08T09:40:46.117Z",
       "domains": [
         "iot-security"
       ],
@@ -11279,7 +11282,7 @@
       ],
       "participants": 3,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.567Z",
+      "fetchedAt": "2026-09-08T09:40:46.117Z",
       "domains": [
         "iot-security"
       ],
@@ -11347,7 +11350,7 @@
       ],
       "participants": 3,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.565Z",
+      "fetchedAt": "2026-09-08T09:40:46.115Z",
       "domains": [
         "ai-ml"
       ],
@@ -11416,7 +11419,7 @@
       ],
       "participants": 2,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.912Z",
+      "fetchedAt": "2026-09-08T09:40:43.677Z",
       "domains": [
         "cyber-security"
       ],
@@ -11494,7 +11497,7 @@
       ],
       "participants": 63,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.912Z",
+      "fetchedAt": "2026-09-08T09:40:43.677Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -11575,7 +11578,7 @@
       ],
       "participants": 1,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.913Z",
+      "fetchedAt": "2026-09-08T09:40:43.678Z",
       "domains": [
         "cyber-security"
       ],
@@ -11645,7 +11648,7 @@
       ],
       "participants": 10,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.913Z",
+      "fetchedAt": "2026-09-08T09:40:43.678Z",
       "domains": [
         "cyber-security"
       ],
@@ -11715,7 +11718,7 @@
       ],
       "participants": 17,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.913Z",
+      "fetchedAt": "2026-09-08T09:40:43.678Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -11786,7 +11789,7 @@
       ],
       "participants": 5,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.569Z",
+      "fetchedAt": "2026-09-08T09:40:46.119Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -11859,7 +11862,7 @@
       ],
       "participants": 7,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.913Z",
+      "fetchedAt": "2026-09-08T09:40:43.678Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -11932,7 +11935,7 @@
       ],
       "participants": 2,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.914Z",
+      "fetchedAt": "2026-09-08T09:40:43.679Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -12005,7 +12008,7 @@
       ],
       "participants": 0,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.914Z",
+      "fetchedAt": "2026-09-08T09:40:43.679Z",
       "domains": [
         "cyber-security",
         "drone-security"
@@ -12078,7 +12081,7 @@
       ],
       "participants": 2,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.567Z",
+      "fetchedAt": "2026-09-08T09:40:46.117Z",
       "domains": [
         "iot-security"
       ],
@@ -12147,7 +12150,7 @@
       ],
       "participants": 11,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.915Z",
+      "fetchedAt": "2026-09-08T09:40:43.680Z",
       "domains": [
         "cyber-security",
         "digital-forensics",
@@ -12223,7 +12226,7 @@
       ],
       "participants": 0,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.915Z",
+      "fetchedAt": "2026-09-08T09:40:43.680Z",
       "domains": [
         "cyber-security"
       ],
@@ -12291,7 +12294,7 @@
       ],
       "participants": 53,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.567Z",
+      "fetchedAt": "2026-09-08T09:40:46.118Z",
       "domains": [
         "iot-security",
         "ai-ml"
@@ -12362,7 +12365,7 @@
       ],
       "participants": 13,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:39:15.568Z",
+      "fetchedAt": "2026-09-08T09:40:46.118Z",
       "domains": [
         "iot-security"
       ],
@@ -12432,7 +12435,7 @@
       ],
       "participants": 23,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:39:13.897Z",
+      "fetchedAt": "2026-09-08T09:40:43.664Z",
       "domains": [
         "cyber-security",
         "digital-forensics",
