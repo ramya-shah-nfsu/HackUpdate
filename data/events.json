@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-08T16:24:12.580Z",
+  "generatedAt": "2026-09-08T16:29:26.931Z",
   "generatorVersion": 2,
-  "runMs": 29792,
+  "runMs": 26420,
   "counts": {
     "total": 175,
     "byType": {
@@ -97,7 +97,7 @@
       "homepage": "",
       "status": "ok",
       "count": 13,
-      "ms": 10
+      "ms": 7
     },
     {
       "id": "ctftime",
@@ -105,7 +105,7 @@
       "homepage": "https://ctftime.org/",
       "status": "ok",
       "count": 51,
-      "ms": 771
+      "ms": 587
     },
     {
       "id": "devpost",
@@ -113,7 +113,7 @@
       "homepage": "https://devpost.com/hackathons",
       "status": "ok",
       "count": 45,
-      "ms": 2161
+      "ms": 1059
     },
     {
       "id": "unstop",
@@ -121,7 +121,7 @@
       "homepage": "https://unstop.com/hackathons",
       "status": "ok",
       "count": 100,
-      "ms": 5390
+      "ms": 5997
     },
     {
       "id": "devfolio",
@@ -129,7 +129,7 @@
       "homepage": "https://devfolio.co/hackathons",
       "status": "ok",
       "count": 24,
-      "ms": 2008
+      "ms": 1581
     },
     {
       "id": "hackerearth",
@@ -142,7 +142,7 @@
       "homepage": "https://www.mlh.com/seasons",
       "status": "ok",
       "count": 106,
-      "ms": 4777
+      "ms": 3526
     },
     {
       "id": "mygov",
@@ -150,7 +150,7 @@
       "homepage": "https://innovateindia.mygov.in/",
       "status": "ok",
       "count": 7,
-      "ms": 4372
+      "ms": 4465
     },
     {
       "id": "pib",
@@ -163,7 +163,7 @@
       "homepage": "",
       "status": "ok",
       "count": 84,
-      "ms": 10239
+      "ms": 9146
     }
   ],
   "events": [
@@ -223,7 +223,8 @@
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:24:02.281Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:17.737Z",
       "domains": [
         "cyber-security",
         "general-innovation"
@@ -303,7 +304,8 @@
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:24:02.280Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:17.737Z",
       "domains": [
         "iot-security",
         "general-innovation"
@@ -376,7 +378,8 @@
       "participants": 2046,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.730Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.164Z",
       "domains": [
         "iot-security",
         "ai-ml"
@@ -448,7 +451,8 @@
       "participants": 258,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.732Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.166Z",
       "domains": [
         "ai-ml"
       ],
@@ -517,7 +521,8 @@
       "participants": 55,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.726Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.161Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -589,7 +594,8 @@
       "participants": 840,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.730Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.164Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -661,7 +667,8 @@
       "participants": 196,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.726Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.161Z",
       "domains": [
         "ai-ml"
       ],
@@ -730,7 +737,8 @@
       "participants": 9946,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.728Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.163Z",
       "domains": [
         "ai-ml"
       ],
@@ -806,7 +814,8 @@
       "participants": null,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:53.127Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:09.742Z",
       "domains": [
         "cyber-security",
         "ai-ml",
@@ -896,7 +905,8 @@
       "participants": 657,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.093Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.142Z",
       "domains": [
         "cyber-security",
         "general-innovation"
@@ -968,7 +978,8 @@
       "participants": 307,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.726Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.161Z",
       "domains": [
         "cyber-security",
         "ai-ml",
@@ -1051,7 +1062,8 @@
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:24:02.280Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:17.736Z",
       "domains": [
         "general-innovation"
       ],
@@ -1120,7 +1132,8 @@
       "participants": 410,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.733Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.167Z",
       "domains": [
         "cyber-security"
       ],
@@ -1194,10 +1207,11 @@
           "at": "2026-09-20T13:31:00.000Z"
         }
       ],
-      "participants": 1159,
+      "participants": 1160,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.098Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.146Z",
       "domains": [
         "ai-ml",
         "cyber-security"
@@ -1276,10 +1290,11 @@
           "at": "2026-09-27T18:29:00.000Z"
         }
       ],
-      "participants": 1942,
+      "participants": 1946,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.070Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.123Z",
       "domains": [
         "ai-ml",
         "cyber-security",
@@ -1363,7 +1378,8 @@
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:24:02.280Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:17.736Z",
       "domains": [
         "cyber-security",
         "general-innovation"
@@ -1443,7 +1459,8 @@
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:24:02.279Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:17.736Z",
       "domains": [
         "general-innovation"
       ],
@@ -1512,7 +1529,8 @@
       "participants": 145,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.728Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.163Z",
       "domains": [
         "blockchain"
       ],
@@ -1589,7 +1607,8 @@
       "participants": 346,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.085Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.137Z",
       "domains": [
         "ai-ml"
       ],
@@ -1671,7 +1690,8 @@
       "participants": 74,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.091Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.140Z",
       "domains": [
         "ai-ml"
       ],
@@ -1755,7 +1775,8 @@
       "participants": 37,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.090Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.140Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -1829,7 +1850,8 @@
       "participants": 287,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.730Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.164Z",
       "domains": [
         "ai-ml",
         "iot-security",
@@ -1912,7 +1934,8 @@
       "participants": 272,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.070Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.124Z",
       "domains": [
         "cyber-security"
       ],
@@ -1982,7 +2005,8 @@
       "participants": 1312,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.730Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.164Z",
       "domains": [
         "ai-ml",
         "iot-security"
@@ -2062,7 +2086,8 @@
       "participants": 871,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.098Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.145Z",
       "domains": [
         "cyber-security",
         "ai-ml",
@@ -2141,7 +2166,8 @@
       "participants": 56,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.732Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.166Z",
       "domains": [
         "ai-ml"
       ],
@@ -2221,10 +2247,11 @@
           "at": "2026-09-26T14:01:00.000Z"
         }
       ],
-      "participants": 238,
+      "participants": 239,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.085Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.137Z",
       "domains": [
         "ai-ml",
         "cyber-security",
@@ -2314,7 +2341,8 @@
       "participants": 17,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.094Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.143Z",
       "domains": [
         "general-innovation"
       ],
@@ -2385,7 +2413,8 @@
       "participants": 89,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.726Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.161Z",
       "domains": [
         "cyber-security",
         "general-innovation"
@@ -2472,7 +2501,8 @@
       "participants": 49,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.092Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.141Z",
       "domains": [
         "iot-security",
         "ai-ml"
@@ -2559,7 +2589,8 @@
       "participants": 394,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.095Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.143Z",
       "domains": [
         "cyber-security"
       ],
@@ -2639,10 +2670,11 @@
           "at": "2026-09-14T18:30:00.000Z"
         }
       ],
-      "participants": 421,
+      "participants": 422,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.098Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.146Z",
       "domains": [
         "ai-ml"
       ],
@@ -2726,7 +2758,8 @@
       "participants": 45,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.097Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.145Z",
       "domains": [
         "ai-ml"
       ],
@@ -2803,7 +2836,8 @@
       "participants": 276,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.090Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.140Z",
       "domains": [
         "general-innovation"
       ],
@@ -2873,7 +2907,8 @@
       "participants": 35,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.729Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.164Z",
       "domains": [
         "iot-security",
         "ai-ml"
@@ -2959,7 +2994,8 @@
       "participants": 75,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.079Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.130Z",
       "domains": [
         "cyber-security",
         "ai-ml",
@@ -3049,7 +3085,8 @@
       "participants": 89,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.099Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.147Z",
       "domains": [
         "blockchain",
         "ai-ml",
@@ -3133,7 +3170,8 @@
       "participants": 253,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.092Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.141Z",
       "domains": [
         "cyber-security"
       ],
@@ -3212,7 +3250,8 @@
       "participants": 33,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.088Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.139Z",
       "domains": [
         "general-innovation"
       ],
@@ -3297,7 +3336,8 @@
       "participants": 29,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.086Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.137Z",
       "domains": [
         "iot-security",
         "cyber-security",
@@ -3387,7 +3427,8 @@
       "participants": 12,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.087Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.138Z",
       "domains": [
         "drone-security",
         "ai-ml",
@@ -3471,7 +3512,8 @@
       "participants": 579,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.088Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.138Z",
       "domains": [
         "ai-ml"
       ],
@@ -3548,7 +3590,8 @@
       "participants": 48,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.088Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.139Z",
       "domains": [
         "blockchain"
       ],
@@ -3632,7 +3675,8 @@
       "participants": 13,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.104Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.151Z",
       "domains": [
         "general-innovation"
       ],
@@ -3711,7 +3755,8 @@
       "participants": 181,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.096Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.144Z",
       "domains": [
         "cyber-security"
       ],
@@ -3796,7 +3841,8 @@
       "participants": 10,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.112Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.157Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -4034,10 +4080,11 @@
           "at": "2026-09-20T11:30:00.000Z"
         }
       ],
-      "participants": 1389,
+      "participants": 1391,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.073Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.126Z",
       "domains": [
         "general-innovation"
       ],
@@ -4118,7 +4165,8 @@
       "participants": 1011,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.083Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.134Z",
       "domains": [
         "general-innovation"
       ],
@@ -4191,10 +4239,11 @@
           "at": "2026-09-30T18:29:00.000Z"
         }
       ],
-      "participants": 1174,
+      "participants": 1185,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.112Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.158Z",
       "domains": [
         "ai-ml"
       ],
@@ -4273,7 +4322,8 @@
       "participants": 17,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.118Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.161Z",
       "domains": [
         "cyber-security"
       ],
@@ -4348,10 +4398,11 @@
           "at": "2026-09-18T18:30:00.000Z"
         }
       ],
-      "participants": 496,
+      "participants": 499,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.082Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.134Z",
       "domains": [
         "cyber-security"
       ],
@@ -4434,7 +4485,8 @@
       "participants": 9,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.081Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.132Z",
       "domains": [
         "general-innovation"
       ],
@@ -4504,7 +4556,8 @@
       "participants": 66,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.733Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.166Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -4584,7 +4637,8 @@
       "participants": 31,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.077Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.129Z",
       "domains": [
         "cyber-security",
         "digital-forensics",
@@ -4671,7 +4725,8 @@
       "participants": 21,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.123Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.164Z",
       "domains": [
         "iot-security",
         "cyber-security",
@@ -4837,7 +4892,8 @@
       "participants": 331,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.076Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.127Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -4923,7 +4979,8 @@
       "participants": 10,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.080Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.131Z",
       "domains": [
         "general-innovation",
         "blockchain"
@@ -5004,7 +5061,8 @@
       "participants": 41,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.078Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.129Z",
       "domains": [
         "cyber-security"
       ],
@@ -5087,7 +5145,8 @@
       "participants": 96,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.078Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.129Z",
       "domains": [
         "cyber-security"
       ],
@@ -5162,10 +5221,11 @@
           "at": "2026-10-26T17:30:28.000Z"
         }
       ],
-      "participants": 64,
+      "participants": 65,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.073Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.126Z",
       "domains": [
         "cyber-security"
       ],
@@ -5247,7 +5307,8 @@
       "participants": 78,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.114Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.159Z",
       "domains": [
         "ai-ml",
         "cyber-security"
@@ -5332,7 +5393,8 @@
       "participants": 56,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.117Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.160Z",
       "domains": [
         "ai-ml"
       ],
@@ -5413,7 +5475,8 @@
       "participants": 222,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.118Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.161Z",
       "domains": [
         "general-innovation"
       ],
@@ -5495,7 +5558,8 @@
       "participants": 10,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.111Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.157Z",
       "domains": [
         "ai-ml",
         "cyber-security"
@@ -5582,7 +5646,8 @@
       "participants": 14,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.071Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.124Z",
       "domains": [
         "cyber-security"
       ],
@@ -5659,10 +5724,11 @@
           "at": "2026-10-07T09:30:50.000Z"
         }
       ],
-      "participants": 2906,
+      "participants": 2931,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.072Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.125Z",
       "domains": [
         "general-innovation"
       ],
@@ -5739,7 +5805,8 @@
       "participants": 98,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.075Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.127Z",
       "domains": [
         "cyber-security",
         "general-innovation"
@@ -5824,7 +5891,8 @@
       "participants": 5,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.076Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.128Z",
       "domains": [
         "cyber-security",
         "general-innovation"
@@ -5907,7 +5975,8 @@
       "participants": 14,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.071Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.124Z",
       "domains": [
         "ai-ml",
         "general-innovation"
@@ -5993,7 +6062,8 @@
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.101Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.149Z",
       "domains": [
         "ai-ml"
       ],
@@ -6076,7 +6146,8 @@
       "participants": 35,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.105Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.152Z",
       "domains": [
         "blockchain"
       ],
@@ -6151,11 +6222,12 @@
           "at": "2026-09-10T18:29:00.000Z"
         }
       ],
-      "participants": 54,
+      "participants": 61,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:51.101Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:08.148Z",
       "domains": [
         "cyber-security"
       ],
@@ -6227,7 +6299,8 @@
       "participants": 189,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.554Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.089Z",
       "domains": [
         "cyber-security"
       ],
@@ -6306,7 +6379,8 @@
       "participants": 79,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.555Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.090Z",
       "domains": [
         "cyber-security"
       ],
@@ -6383,7 +6457,8 @@
       "participants": 10,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.729Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.164Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -6457,7 +6532,8 @@
       "participants": 178,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.555Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.090Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -6538,7 +6614,8 @@
       "participants": 72,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.733Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.167Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -6610,7 +6687,8 @@
       "participants": 23,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.731Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.165Z",
       "domains": [
         "iot-security"
       ],
@@ -6682,7 +6760,8 @@
       "participants": 13,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.555Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.091Z",
       "domains": [
         "cyber-security"
       ],
@@ -6761,7 +6840,8 @@
       "participants": 3,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.730Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.165Z",
       "domains": [
         "iot-security",
         "ai-ml"
@@ -6833,7 +6913,8 @@
       "participants": 26,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.730Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.165Z",
       "domains": [
         "ai-ml"
       ],
@@ -6904,7 +6985,8 @@
       "participants": 37,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.556Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.091Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -6987,7 +7069,8 @@
       "participants": 47,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.556Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.092Z",
       "domains": [
         "cyber-security"
       ],
@@ -7066,7 +7149,8 @@
       "participants": 36,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.558Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.093Z",
       "domains": [
         "cyber-security"
       ],
@@ -7143,7 +7227,8 @@
       "participants": 135,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.726Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.162Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -7217,7 +7302,8 @@
       "participants": 3,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.558Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.093Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -7300,7 +7386,8 @@
       "participants": 0,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.558Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.094Z",
       "domains": [
         "cyber-security"
       ],
@@ -7381,7 +7468,8 @@
       "participants": 20,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.559Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.094Z",
       "domains": [
         "digital-forensics",
         "cyber-security"
@@ -7466,7 +7554,8 @@
       "type": "ctf",
       "trusted": false,
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.559Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.095Z",
       "domains": [
         "cyber-security"
       ],
@@ -7548,7 +7637,8 @@
       "participants": 0,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.560Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.095Z",
       "domains": [
         "cyber-security"
       ],
@@ -7629,7 +7719,8 @@
       "participants": 4,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.560Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.096Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -7713,7 +7804,8 @@
       "participants": 4,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.561Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.097Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -7797,7 +7889,8 @@
       "participants": null,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:53.125Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:09.740Z",
       "domains": [
         "cyber-security"
       ],
@@ -7870,7 +7963,8 @@
       "participants": null,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:53.124Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:09.739Z",
       "domains": [
         "ai-ml"
       ],
@@ -7940,7 +8034,8 @@
       "participants": 2,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.561Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.097Z",
       "domains": [
         "cyber-security"
       ],
@@ -8019,7 +8114,8 @@
       "participants": 12,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.561Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.097Z",
       "domains": [
         "cyber-security"
       ],
@@ -8097,7 +8193,8 @@
       "participants": 20,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.727Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.162Z",
       "domains": [
         "cyber-security"
       ],
@@ -8168,7 +8265,8 @@
       "participants": 33,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.562Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.098Z",
       "domains": [
         "cyber-security"
       ],
@@ -8248,7 +8346,8 @@
       "participants": 54,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.562Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.098Z",
       "domains": [
         "cyber-security"
       ],
@@ -8328,7 +8427,8 @@
       "participants": 13,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.562Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.098Z",
       "domains": [
         "cyber-security"
       ],
@@ -8408,7 +8508,8 @@
       "participants": 35,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.563Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.099Z",
       "domains": [
         "cyber-security"
       ],
@@ -8489,7 +8590,8 @@
       "participants": 0,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.563Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.099Z",
       "domains": [
         "cyber-security",
         "blockchain"
@@ -8569,7 +8671,8 @@
       "participants": 8,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.727Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.162Z",
       "domains": [
         "cyber-security"
       ],
@@ -8638,7 +8741,8 @@
       "participants": 33,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.731Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.165Z",
       "domains": [
         "iot-security",
         "ai-ml"
@@ -8716,7 +8820,8 @@
       "participants": 10,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.564Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.100Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -8800,7 +8905,8 @@
       "participants": null,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:53.125Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:09.740Z",
       "domains": [
         "cyber-security"
       ],
@@ -8869,7 +8975,8 @@
       "participants": 2,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.727Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.162Z",
       "domains": [
         "cyber-security"
       ],
@@ -8938,7 +9045,8 @@
       "participants": 95,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.727Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.162Z",
       "domains": [
         "ai-ml"
       ],
@@ -9009,7 +9117,8 @@
       "participants": 15,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.564Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.101Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -9092,7 +9201,8 @@
       "participants": 8,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.565Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.101Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -9175,7 +9285,8 @@
       "participants": 6,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.565Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.102Z",
       "domains": [
         "cyber-security"
       ],
@@ -9256,7 +9367,8 @@
       "type": "ctf",
       "trusted": false,
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.566Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.102Z",
       "domains": [
         "cyber-security"
       ],
@@ -9334,7 +9446,8 @@
       "participants": 291,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.727Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.162Z",
       "domains": [
         "cyber-security",
         "ai-ml",
@@ -9413,7 +9526,8 @@
       "participants": null,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:53.128Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:09.742Z",
       "domains": [
         "cyber-security"
       ],
@@ -9486,7 +9600,8 @@
       "participants": null,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:53.126Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:09.741Z",
       "domains": [
         "blockchain"
       ],
@@ -9559,7 +9674,8 @@
       "participants": null,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:53.126Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:09.740Z",
       "domains": [
         "cyber-security"
       ],
@@ -9632,7 +9748,8 @@
       "participants": null,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:53.127Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:09.742Z",
       "domains": [
         "critical-infrastructure",
         "cyber-security"
@@ -9704,7 +9821,8 @@
       "participants": 5,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.731Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.165Z",
       "domains": [
         "iot-security"
       ],
@@ -9782,7 +9900,8 @@
       "participants": null,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:53.130Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:09.744Z",
       "domains": [
         "cyber-security",
         "unclassified"
@@ -9863,7 +9982,8 @@
       "participants": 5,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.566Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.102Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -9948,7 +10068,8 @@
       "participants": null,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:53.128Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:09.742Z",
       "domains": [
         "ai-ml"
       ],
@@ -10019,7 +10140,8 @@
       "participants": 3,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.729Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.163Z",
       "domains": [
         "ai-ml"
       ],
@@ -10088,7 +10210,8 @@
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:57.897Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:13.264Z",
       "domains": [
         "ai-ml"
       ],
@@ -10156,7 +10279,8 @@
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:57.897Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:13.264Z",
       "domains": [
         "ai-ml"
       ],
@@ -10226,7 +10350,8 @@
       "participants": 26,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.566Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.102Z",
       "domains": [
         "cyber-security"
       ],
@@ -10307,7 +10432,8 @@
       "participants": 0,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.566Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.103Z",
       "domains": [
         "cyber-security"
       ],
@@ -10386,7 +10512,8 @@
       "participants": 6,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.733Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.167Z",
       "domains": [
         "ai-ml",
         "cyber-security"
@@ -10460,7 +10587,8 @@
       "participants": 40,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.566Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.103Z",
       "domains": [
         "cyber-security"
       ],
@@ -10540,7 +10668,8 @@
       "participants": 53,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.567Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.103Z",
       "domains": [
         "cyber-security"
       ],
@@ -10623,7 +10752,8 @@
       "participants": null,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:53.128Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:09.743Z",
       "domains": [
         "blockchain"
       ],
@@ -10692,7 +10822,8 @@
       "participants": 6,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.727Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.162Z",
       "domains": [
         "cyber-security",
         "blockchain"
@@ -10763,7 +10894,8 @@
       "participants": 2,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.729Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.164Z",
       "domains": [
         "ai-ml"
       ],
@@ -10834,7 +10966,8 @@
       "participants": 11,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.567Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.103Z",
       "domains": [
         "cyber-security"
       ],
@@ -10907,7 +11040,8 @@
       "participants": 0,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.567Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.103Z",
       "domains": [
         "cyber-security"
       ],
@@ -10988,7 +11122,8 @@
       "participants": null,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:53.131Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:09.744Z",
       "domains": [
         "ai-ml",
         "blockchain"
@@ -11064,7 +11199,8 @@
       "participants": null,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:53.130Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:09.744Z",
       "domains": [
         "ai-ml",
         "blockchain"
@@ -11136,7 +11272,8 @@
       "participants": 52,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.728Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.162Z",
       "domains": [
         "ai-ml"
       ],
@@ -11207,7 +11344,8 @@
       "participants": 9,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.568Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.104Z",
       "domains": [
         "cyber-security"
       ],
@@ -11287,7 +11425,8 @@
       "participants": 9,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.569Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.105Z",
       "domains": [
         "cyber-security"
       ],
@@ -11366,7 +11505,8 @@
       "participants": 5,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.569Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.105Z",
       "domains": [
         "cyber-security",
         "digital-forensics",
@@ -11452,7 +11592,8 @@
       "type": "ctf",
       "trusted": false,
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.569Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.105Z",
       "domains": [
         "cyber-security"
       ],
@@ -11530,7 +11671,8 @@
       "participants": 2,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.731Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.165Z",
       "domains": [
         "iot-security"
       ],
@@ -11599,7 +11741,8 @@
       "participants": 3,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.731Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.165Z",
       "domains": [
         "iot-security"
       ],
@@ -11668,7 +11811,8 @@
       "participants": 3,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.728Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.163Z",
       "domains": [
         "ai-ml"
       ],
@@ -11738,7 +11882,8 @@
       "participants": 2,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.569Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.105Z",
       "domains": [
         "cyber-security"
       ],
@@ -11817,7 +11962,8 @@
       "participants": 63,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.569Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.105Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -11899,7 +12045,8 @@
       "participants": 1,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.570Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.105Z",
       "domains": [
         "cyber-security"
       ],
@@ -11970,7 +12117,8 @@
       "participants": 10,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.570Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.106Z",
       "domains": [
         "cyber-security"
       ],
@@ -12041,7 +12189,8 @@
       "participants": 17,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.570Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.106Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -12113,7 +12262,8 @@
       "participants": 5,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.734Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.167Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -12187,7 +12337,8 @@
       "participants": 7,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.571Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.106Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -12261,7 +12412,8 @@
       "participants": 2,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.571Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.107Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -12335,7 +12487,8 @@
       "participants": 0,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.572Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.107Z",
       "domains": [
         "cyber-security",
         "drone-security"
@@ -12409,7 +12562,8 @@
       "participants": 2,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.732Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.166Z",
       "domains": [
         "iot-security"
       ],
@@ -12479,7 +12633,8 @@
       "participants": 11,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.572Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.107Z",
       "domains": [
         "cyber-security",
         "digital-forensics",
@@ -12556,7 +12711,8 @@
       "participants": 0,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.572Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.107Z",
       "domains": [
         "cyber-security"
       ],
@@ -12625,7 +12781,8 @@
       "participants": 53,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.732Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.166Z",
       "domains": [
         "iot-security",
         "ai-ml"
@@ -12697,7 +12854,8 @@
       "participants": 13,
       "type": "hackathon",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:45.732Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:02.166Z",
       "domains": [
         "iot-security"
       ],
@@ -12768,7 +12926,8 @@
       "participants": 23,
       "type": "ctf",
       "scopeOverride": "",
-      "fetchedAt": "2026-09-08T16:23:43.554Z",
+      "aliases": [],
+      "fetchedAt": "2026-09-08T16:29:01.089Z",
       "domains": [
         "cyber-security",
         "digital-forensics",
@@ -12835,7 +12994,12 @@
       "type": "hackathon",
       "trusted": true,
       "scopeOverride": "national",
-      "fetchedAt": "2026-09-08T16:23:42.796Z",
+      "aliases": [
+        "SIH",
+        "Smart India Hackathon Software Edition",
+        "Smart India Hackathon Hardware Edition"
+      ],
+      "fetchedAt": "2026-09-08T16:29:00.517Z",
       "domains": [
         "digital-forensics",
         "drone-security",
@@ -12905,7 +13069,12 @@
       "type": "hackathon",
       "trusted": true,
       "scopeOverride": "national",
-      "fetchedAt": "2026-09-08T16:23:42.799Z",
+      "aliases": [
+        "cocon",
+        "cOcOn",
+        "Cyberdome"
+      ],
+      "fetchedAt": "2026-09-08T16:29:00.519Z",
       "domains": [
         "digital-forensics",
         "cyber-security",
@@ -12970,7 +13139,12 @@
       "type": "hackathon",
       "trusted": true,
       "scopeOverride": "national",
-      "fetchedAt": "2026-09-08T16:23:42.798Z",
+      "aliases": [
+        "CERTIn",
+        "Indian Computer Emergency Response Team",
+        "ICERT"
+      ],
+      "fetchedAt": "2026-09-08T16:29:00.518Z",
       "domains": [
         "digital-forensics",
         "cyber-security"
@@ -13031,7 +13205,12 @@
       "type": "ctf",
       "trusted": true,
       "scopeOverride": "national",
-      "fetchedAt": "2026-09-08T16:23:42.800Z",
+      "aliases": [
+        "In CTF",
+        "bi0s",
+        "Amrita CTF"
+      ],
+      "fetchedAt": "2026-09-08T16:29:00.520Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -13092,7 +13271,12 @@
       "type": "ctf",
       "trusted": true,
       "scopeOverride": "international",
-      "fetchedAt": "2026-09-08T16:23:42.799Z",
+      "aliases": [
+        "Pwn 2 Own",
+        "ZDI",
+        "Zero Day Initiative"
+      ],
+      "fetchedAt": "2026-09-08T16:29:00.519Z",
       "domains": [
         "cyber-security",
         "ot-ics"
@@ -13153,7 +13337,12 @@
       "type": "ctf",
       "trusted": true,
       "scopeOverride": "international",
-      "fetchedAt": "2026-09-08T16:23:42.798Z",
+      "aliases": [
+        "DEFCON",
+        "DC CTF",
+        "Nautilus Institute"
+      ],
+      "fetchedAt": "2026-09-08T16:29:00.518Z",
       "domains": [
         "iot-security",
         "cyber-security"
@@ -13214,7 +13403,12 @@
       "type": "ctf",
       "trusted": true,
       "scopeOverride": "national",
-      "fetchedAt": "2026-09-08T16:23:42.799Z",
+      "aliases": [
+        "Null con",
+        "Battle Underground",
+        "HackIM"
+      ],
+      "fetchedAt": "2026-09-08T16:29:00.519Z",
       "domains": [
         "critical-infrastructure",
         "cyber-security"
@@ -13274,7 +13468,12 @@
       "type": "ctf",
       "trusted": true,
       "scopeOverride": "international",
-      "fetchedAt": "2026-09-08T16:23:42.801Z",
+      "aliases": [
+        "HITB",
+        "HITBSecConf",
+        "Hack in the Box"
+      ],
+      "fetchedAt": "2026-09-08T16:29:00.520Z",
       "domains": [
         "critical-infrastructure",
         "cyber-security"
@@ -13334,7 +13533,13 @@
       "type": "hackathon",
       "trusted": true,
       "scopeOverride": "international",
-      "fetchedAt": "2026-09-08T16:23:42.798Z",
+      "aliases": [
+        "BlackHat",
+        "BH USA",
+        "Black Hat Asia",
+        "Black Hat Europe"
+      ],
+      "fetchedAt": "2026-09-08T16:29:00.518Z",
       "domains": [
         "cyber-security"
       ],
@@ -13391,7 +13596,11 @@
       "type": "ctf",
       "trusted": true,
       "scopeOverride": "international",
-      "fetchedAt": "2026-09-08T16:23:42.801Z",
+      "aliases": [
+        "GoogleCTF",
+        "Beginners Quest"
+      ],
+      "fetchedAt": "2026-09-08T16:29:00.520Z",
       "domains": [
         "cyber-security"
       ],
@@ -13448,7 +13657,12 @@
       "type": "ctf",
       "trusted": true,
       "scopeOverride": "international",
-      "fetchedAt": "2026-09-08T16:23:42.801Z",
+      "aliases": [
+        "Holiday Hack",
+        "SANS HHC",
+        "KringleCon"
+      ],
+      "fetchedAt": "2026-09-08T16:29:00.521Z",
       "domains": [
         "cyber-security"
       ],
@@ -13506,7 +13720,12 @@
       "type": "ctf",
       "trusted": true,
       "scopeOverride": "international",
-      "fetchedAt": "2026-09-08T16:23:42.802Z",
+      "aliases": [
+        "HTB",
+        "Hack The Box University CTF",
+        "Business CTF"
+      ],
+      "fetchedAt": "2026-09-08T16:29:00.521Z",
       "domains": [
         "cyber-security"
       ],
@@ -13564,7 +13783,11 @@
       "type": "ctf",
       "trusted": true,
       "scopeOverride": "international",
-      "fetchedAt": "2026-09-08T16:23:42.800Z",
+      "aliases": [
+        "CS AW",
+        "Cyber Security Awareness Week"
+      ],
+      "fetchedAt": "2026-09-08T16:29:00.520Z",
       "domains": [
         "cyber-security"
       ],
