@@ -183,8 +183,20 @@ function mergeInto(target, incoming) {
     target.scopeReason = incoming.scopeReason;
   }
 
-  target.relevance = Math.max(target.relevance, incoming.relevance) + 2; // corroborated by 2+ sources
-  target.alsoOn = [...new Set([...(target.alsoOn || []), { id: incoming.source, label: incoming.sourceLabel, url: incoming.sourceUrl }].map((s) => JSON.stringify(s)))].map((s) => JSON.parse(s));
+  target.relevance = Math.max(target.relevance, incoming.relevance);
+
+  // Only a *different* source counts as corroboration. Every run merges each
+  // event with its own carried-forward copy, so without this check an event
+  // ends up citing itself and the detail view lists one source twice.
+  if (incoming.source && incoming.source !== target.source) {
+    const seenSources = new Set((target.alsoOn || []).map((s) => s.id));
+    if (!seenSources.has(incoming.source)) {
+      target.alsoOn = [
+        ...(target.alsoOn || []),
+        { id: incoming.source, label: incoming.sourceLabel, url: incoming.sourceUrl },
+      ];
+    }
+  }
   return target;
 }
 
@@ -227,6 +239,17 @@ export function dedupe(events) {
       out.push(event);
       for (const k of keys) byKey.set(k, event);
     }
+  }
+
+  // Score the corroboration once, from the final source list, so the number is
+  // the same however many times an event was merged and always agrees with the
+  // reasons printed beside it.
+  for (const event of out) {
+    const extra = (event.alsoOn || []).length;
+    if (!extra) continue;
+    const bonus = Math.min(extra, 3) * 2;
+    event.relevance += bonus;
+    event.relevanceReasons = [...(event.relevanceReasons || []), `+${bonus} listed on ${extra + 1} sources`];
   }
   return out;
 }

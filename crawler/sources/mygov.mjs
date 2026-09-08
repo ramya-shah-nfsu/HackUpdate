@@ -10,7 +10,7 @@
  * .chl-pic (image), .chl-title (title and link), .sort-description,
  * .subm-last-date (deadline) and .chl_status / .sbm-open (state).
  */
-import { getText, stripHTML, absoluteURL, matchAll, summarize, toISO, extractMinistry } from "../lib/core.mjs";
+import { getText, stripHTML, absoluteURL, matchAll, summarize, extractMinistry, parseDMYRange } from "../lib/core.mjs";
 
 export const meta = {
   id: "mygov",
@@ -75,39 +75,48 @@ function parsePage(html, pageUrl) {
       const deadlineText = stripHTML(
         (block.match(/class=["'][^"']*subm-last-date[^"']*["'][^>]*>([\s\S]*?)<\/(?:div|p|span)>/i) || [])[1] || ""
       );
+      // The site emits src="https://…webp " with a trailing space.
       const image = absoluteURL(
-        ((block.match(/class=["'][^"']*chl-pic[^"']*["'][\s\S]{0,400}?<img[^>]+src=["']([^"']+)["']/i) ||
-          block.match(/<img[^>]+src=["']([^"']+)["']/i) || [])[1]) || "",
+        (((block.match(/class=["'][^"']*chl-pic[^"']*["'][\s\S]{0,400}?<img[^>]+src=["']([^"']+)["']/i) ||
+          block.match(/<img[^>]+src=["']([^"']+)["']/i) || [])[1]) || "").trim(),
         pageUrl
       );
 
       const open = /sbm-open/i.test(block) || /submission\s+open/i.test(block);
-      const closesAt = toISO(extractDate(deadlineText));
+      // The listing prints a day-first range, "21/08/2026 - 15/10/2026", which
+      // is the submission window: it opens on the first date, closes on the second.
+      const { from: opensAt, to } = parseDMYRange(deadlineText);
+      const closesAt = to || opensAt;
 
       return {
         sourceId: `mygov-${url || title}`,
         type: "hackathon",
         title,
         description: summarize(
-          [description, deadlineText && `Submission deadline as listed: ${deadlineText}.`]
+          [description, deadlineText && `Submission window as listed: ${deadlineText}.`]
             .filter(Boolean).join(" "),
           600
         ),
         url,
         sourceUrl: pageUrl,
         image,
-        organizer: extractMinistry(block) || "Government of India (MyGov)",
+        // The listing carries the ministry in its own field; fall back to a scan.
+        organizer:
+          stripHTML((block.match(/class=["'][^"']*byministry[^"']*["'][^>]*>([\s\S]*?)<\/span>/i) || [])[1] || "")
+            .replace(/^By\s*:\s*/i, "").trim() ||
+          extractMinistry(block) ||
+          "Government of India (MyGov)",
         rules: [
           open
             ? "Listed as open for submissions at the time of the last crawl."
             : "Submission state not stated on the listing; confirm on the official page.",
           "Government of India innovation challenge. Eligibility is usually restricted to Indian citizens or institutions.",
         ],
-        // These listings publish a deadline, not a start date. Treating the
-        // deadline as the event date is what makes the entry actionable.
-        startsAt: closesAt,
+        // The submission window is the actionable period for a student, so it
+        // doubles as the event's own dates.
+        startsAt: opensAt || closesAt,
         endsAt: closesAt,
-        registration: { closesAt, url },
+        registration: { opensAt, closesAt, url },
         location: { text: "India", country: "India" },
         tags: ["MyGov", "Government of India", "Innovation challenge"],
       };
@@ -115,12 +124,3 @@ function parsePage(html, pageUrl) {
     .filter(Boolean);
 }
 
-function extractDate(text = "") {
-  return (
-    text.match(/\b\d{1,2}(?:st|nd|rd|th)?\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\,?\s+20\d{2}\b/i) ||
-    text.match(/\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+\d{1,2}\,?\s+20\d{2}\b/i) ||
-    text.match(/\b\d{1,2}[\/-]\d{1,2}[\/-]20\d{2}\b/) ||
-    text.match(/\b20\d{2}-\d{2}-\d{2}\b/) ||
-    [null]
-  )[0];
-}

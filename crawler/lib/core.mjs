@@ -201,6 +201,32 @@ export function toISO(value) {
  * word that is neither capitalised nor a connective. Without that stop the
  * pattern runs on into the sentence that follows the name.
  */
+/**
+ * Parse a day-first date, the convention on Indian government sites.
+ *
+ * This cannot be left to Date: "21/08/2026" is read as month 21 and returns
+ * Invalid Date, while "05/08/2026" silently parses as 8 May instead of 5 August,
+ * which is worse than failing. Returns an ISO string or null.
+ */
+export function parseDMY(value) {
+  const m = String(value || "").trim().match(/^(\d{1,2})[\/.-](\d{1,2})[\/.-](\d{4})$/);
+  if (!m) return null;
+  const [, d, mo, y] = m.map(Number);
+  if (mo < 1 || mo > 12 || d < 1 || d > 31) return null;
+  const date = new Date(Date.UTC(y, mo - 1, d));
+  // Reject a rolled-over date such as 31/02/2026.
+  if (date.getUTCMonth() !== mo - 1 || date.getUTCDate() !== d) return null;
+  return date.toISOString();
+}
+
+/** "21/08/2026 - 15/10/2026" into its two ends; either may be null. */
+export function parseDMYRange(value) {
+  const parts = String(value || "").split(/\s*(?:-|–|—|to)\s*/i).filter(Boolean);
+  const from = parseDMY(parts[0]);
+  const to = parts.length > 1 ? parseDMY(parts[1]) : null;
+  return { from, to };
+}
+
 export function extractMinistry(text = "") {
   const m = stripHTML(text).match(
     /\b(?:Ministry|Department)\s+of\s+(?:[A-Z][A-Za-z&.]*|and|of|the)(?:\s+(?:[A-Z][A-Za-z&.]*|and|of|the))*/
