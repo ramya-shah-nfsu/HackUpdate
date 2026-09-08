@@ -187,12 +187,34 @@ per event in `relevanceReasons`, so it is easy to see why something was kept or 
 
 ## Deploying
 
-**GitHub Pages, from Actions** (recommended):
-Settings → Pages → Build and deployment → Source: **GitHub Actions**.
-`.github/workflows/pages.yml` then publishes on every push to the default branch.
+The site is live at **https://ramya-shah-nfsu.github.io/HackUpdate/** once the
+two settings below are applied. Every path in the page is relative, so it works
+under the `/HackUpdate/` sub-path without configuration.
 
-**GitHub Pages, from a branch** also works, since the repository root is the site.
-`.nojekyll` is present so Jekyll does not interfere.
+### One-time setup
+
+1. **Settings → General → Danger Zone → Change visibility → Public.**
+   GitHub Pages only serves private repositories on a paid plan. Nothing in this
+   repository is sensitive: no credentials, no personal data, and no workflow
+   reads a secret (the crawl uses only the automatic `GITHUB_TOKEN`).
+2. **Settings → Pages → Build and deployment → Source: GitHub Actions.**
+   `.github/workflows/pages.yml` then publishes on every push to `main`.
+
+`main` is the production branch: Pages deploys from it and the daily crawl
+commits its refreshed `data/events.json` to it, which in turn triggers a
+redeploy. Nothing else needs to be wired up.
+
+### After that
+
+- Every push to `main` republishes the site.
+- The crawl runs at 01:30 UTC (07:00 IST) daily and republishes when the feed
+  changes.
+- To publish immediately at any time, run **Deploy portal to Pages** from the
+  Actions tab.
+
+Deploying from a branch instead of Actions also works, since the repository root
+is the site and `.nojekyll` is present so Jekyll does not interfere. Use that only
+if you prefer it; the Actions route is already configured.
 
 The daily crawl (`.github/workflows/crawl.yml`) needs `contents: write`, which is
 already declared. It also runs on `workflow_dispatch`, so you can trigger it by hand
