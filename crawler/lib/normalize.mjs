@@ -107,8 +107,16 @@ function titleKey(title) {
 function dupeKeys(event) {
   const keys = [];
   const startDay = event.startsAt ? event.startsAt.slice(0, 10) : "nodate";
+
+  // titleKey strips years, editions and filler words, which can leave almost
+  // nothing: "TLN Hackathon 2026" reduces to "tln". Such an event, if it also
+  // has no usable URL, would produce no keys at all and could never merge with
+  // its own carried-forward copy, so a duplicate would accumulate every run.
+  // Fall back to the plain normalized title, which is still a valid key.
   const tk = titleKey(event.title);
-  if (tk.length > 4) keys.push(`t:${tk}|${startDay}`);
+  const plain = String(event.title).toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").trim();
+  const titlePart = tk.length > 4 ? tk : plain;
+  if (titlePart) keys.push(`t:${titlePart}|${startDay}`);
   for (const u of [event.url, event.sourceUrl]) {
     if (!u) continue;
     try {
@@ -209,12 +217,18 @@ function mergeInto(target, incoming) {
  * report that it happened rather than hide it.
  */
 export function ensureUniqueIds(events) {
-  const seen = new Map();
+  const used = new Set();
   let collisions = 0;
   for (const event of events) {
-    const n = seen.get(event.id) || 0;
-    seen.set(event.id, n + 1);
-    if (n > 0) { event.id = `${event.id}-${n + 1}`; collisions++; }
+    if (!used.has(event.id)) { used.add(event.id); continue; }
+    // Probe for a free suffix. Simply appending "-2" is not enough: a record
+    // carried over from a previous run may already hold that exact renamed id.
+    let n = 2;
+    let candidate = `${event.id}-${n}`;
+    while (used.has(candidate)) candidate = `${event.id}-${++n}`;
+    event.id = candidate;
+    used.add(candidate);
+    collisions++;
   }
   return collisions;
 }
