@@ -138,6 +138,40 @@
       ]
     },
     {
+      "id": "kavach",
+      "title": "KAVACH: National Cyber Security Hackathon",
+      "type": "hackathon",
+      "scope": "national",
+      "url": "https://kavach.mic.gov.in/",
+      "sourceUrl": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=1899836",
+      "organizer": "MoE Innovation Cell and AICTE, with BPR&D and I4C, Ministry of Home Affairs",
+      "description": "A national hackathon run jointly by the Ministry of Education's Innovation Cell, AICTE, the Bureau of Police Research and Development and the Indian Cybercrime Coordination Centre, to find technological answers to problems faced by law enforcement agencies and citizens. A 36-hour final, open to students and registered start-ups, with problem statements grouped into buckets including malware analysis and digital forensics, dark web, phishing detection, video analytics and CCTV, obscene content detection, fake news and social media, women's safety and spam alerts. Status note: the most recent edition confirmed from an official Government of India announcement is KAVACH 2023, whose grand finale ran at five nodal centres in August 2023. A later edition could not be confirmed from an official source, and the portal does not respond to automated checks, so check the official site for the current edition before planning around it.",
+      "eligibility": "Students of educational institutions across India, and registered start-ups, in teams.",
+      "rules": [
+        "36-hour grand finale, held at nodal centres across India.",
+        "Problem statements are published by law enforcement agencies each edition.",
+        "Solutions are expected to use AI, machine learning, deep learning, big data or cloud technologies."
+      ],
+      "location": {
+        "text": "Nodal centres across India",
+        "country": "India",
+        "mode": "hybrid"
+      },
+      "tags": [
+        "Flagship programme",
+        "Government of India",
+        "Law enforcement",
+        "National"
+      ],
+      "aliases": [
+        "KAVACH",
+        "Kavach 2023",
+        "AICTE cyber security hackathon",
+        "I4C hackathon",
+        "BPRD hackathon"
+      ]
+    },
+    {
       "id": "smart-india-hackathon",
       "title": "Smart India Hackathon",
       "type": "hackathon",

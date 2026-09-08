@@ -166,6 +166,7 @@
     "nciipc": "https://nciipc.gov.in/ connection fails",
     "blackhat": "https://www.blackhat.com/ returns 403 from Cloudflare; see data/curated.json instead",
     "certin-frameset": "https://www.cert-in.org.in/ responds 200 but serves a <frameset>, so there are no links to harvest",
-    "picoctf": "https://picoctf.org/ now only announces that it has become CyLab Security Academy; needs a new URL before it is worth crawling"
+    "picoctf": "https://picoctf.org/ now only announces that it has become CyLab Security Academy; needs a new URL before it is worth crawling",
+    "kavach": "https://kavach.mic.gov.in/ does not respond to CI at all, on two separate probes: no status code, the connection simply fails, unlike sih.gov.in and mic.gov.in which at least return 403. Possibly down or reachable only from within India. Listed in data/curated.json instead."
   }
 }
