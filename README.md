@@ -69,16 +69,49 @@ node crawler/demo.mjs                         # OVERWRITES data/events.json with
 
 ## Sources
 
-| Source | Type | What it gives us |
-| --- | --- | --- |
-| **CTFtime** | Public JSON API | The authoritative worldwide CTF calendar: dates, format, restrictions, logos, prizes |
-| **Devpost** | JSON endpoint | Large international hackathons, queried per NFSU domain keyword |
-| **Unstop** | JSON endpoint | Indian student competitions and hackathons |
-| **Devfolio** | JSON search API | Indian college and community hackathons |
-| **HackerEarth** | JSON endpoint | Indian corporate hackathons and coding challenges |
-| **MLH** | HTML scrape | International student hackathon league events |
-| **PIB (pib.gov.in)** | RSS plus HTML | Government of India announcements: this is where programmes like Cyber Kushti, Kavach and the Smart India Hackathon are announced first |
-| **Configured feeds** | RSS or HTML | Anything listed in `crawler/config/sources.json`, including MyGov, SIH, MeitY, CERT-In, NCIIPC, Nullcon and c0c0n |
+| Source | Type | State on 2026-09-08 | What it gives us |
+| --- | --- | --- | --- |
+| **CTFtime** | Public JSON API | working, 51 events | The authoritative worldwide CTF calendar: dates, format, restrictions, logos, prizes |
+| **Unstop** | JSON endpoint | working, 99 events | Indian student competitions and hackathons |
+| **Devpost** | JSON endpoint | working, 46 events | Large international hackathons, queried per NFSU domain keyword |
+| **Devfolio** | JSON search API | working, 24 events | Indian college and community hackathons |
+| **Configured feeds** | RSS or HTML | working, 52 items | CTFtime RSS, Nullcon, c0c0n, DSCI, hackathon.com |
+| **MyGov Innovate India** | HTML | reachable | Ministry innovation challenges and the Smart India Hackathon. The one government source CI can reach |
+| **MLH** | HTML | repaired | International student hackathon league |
+| **Curated** | `data/curated.json` | manual | Programmes entered by the department, for sites no crawler can reach |
+| **HackerEarth** | JSON endpoint | **disabled** | Returns 403 to CI on every endpoint |
+| **PIB** | RSS plus HTML | **disabled** | pib.gov.in serves "Access Denied" to data-centre IPs |
+
+### Government sites block the crawler, and what to do about it
+
+Probed from GitHub Actions on 2026-09-08, every one of these refused the request:
+
+| Site | Response |
+| --- | --- |
+| `pib.gov.in` | Access Denied on all five endpoints tried |
+| `meity.gov.in` | Access Denied |
+| `sih.gov.in` | 403 from its Azure Application Gateway |
+| `cert-in.org.in` | connection fails |
+| `nciipc.gov.in` | connection fails |
+
+This is IP-reputation filtering against data-centre ranges, not something a
+different request shape fixes. Two honest ways round it:
+
+1. **Enter those events by hand** in `data/curated.json`. This is the supported
+   path and needs no code: add an object, commit, and the next crawl picks it up.
+   Curated entries are trusted, so they skip the relevance filter and may be
+   undated while a programme's calendar is still unannounced. If the same event
+   later appears on a crawled source, the two records merge.
+2. **Run the crawl from an Indian network.** Register a
+   [self-hosted runner](https://docs.github.com/en/actions/hosting-your-own-runners)
+   on a college machine, change `runs-on: ubuntu-latest` to `runs-on: self-hosted`
+   in `.github/workflows/crawl.yml`, and re-enable `pib` and the removed feeds in
+   `crawler/config/sources.json`. The adapters are already written and were left
+   in place for exactly this.
+
+When a source turns red or empty, run the **Diagnose sources** workflow from the
+Actions tab. It reports what each endpoint actually returned. **Dump page markup**
+prints a listing page's real card markup, so a scraper is repaired against fact.
 
 Each source is isolated. **One source failing degrades the run, it never fails it**,
 and the failure is published in `data/events.json` under `sources`, so the portal
@@ -191,6 +224,14 @@ untrusted:
   listing page is not always that event's date. Treat the official page as the truth.
 - **First run**: `data/events.json` ships empty. Run the crawl, or trigger the
   workflow from the Actions tab, before the portal shows anything.
+- **Government announcements need manual entry.** See the table above. Cyber
+  Kushti, Kavach and anything else announced only through PIB has to be added to
+  `data/curated.json` by hand until the crawl runs from an Indian network.
+- **Relevance is enforced, not suggested.** A hackathon that matches no domain in
+  the taxonomy is dropped rather than published. The first live crawl found 86 of
+  209 listings were generic college events with no bearing on the programmes.
+  Every CTF is exempt, because a capture the flag is a security competition by
+  definition.
 
 ---
 
@@ -206,15 +247,19 @@ assets/js/icons.js             inline SVG icons
 crawler/index.mjs              orchestrator
 crawler/validate.mjs           CI gate on the published feed
 crawler/demo.mjs               fabricated sample data for offline UI work
+crawler/diagnose.mjs           endpoint probe and markup dump, for repairing adapters
 crawler/lib/core.mjs           fetch with retries, HTML and feed parsing, dates
 crawler/lib/classify.mjs       type, domains, scope, mode, status, relevance
 crawler/lib/normalize.mjs      the event schema, plus cross-source deduplication
 crawler/sources/*.mjs          one adapter per source
 crawler/config/sources.json    which adapters run, thresholds, extra feeds
 crawler/config/taxonomy.json   every keyword list
+data/curated.json              hand-maintained entries for uncrawlable sources
 data/events.json               generated feed, committed by the daily workflow
 .github/workflows/crawl.yml    the daily crawl
 .github/workflows/pages.yml    Pages deployment
+.github/workflows/diagnose.yml probe every source endpoint, on demand
+.github/workflows/dump.yml     print a listing page's real markup, on demand
 ```
 
 ---

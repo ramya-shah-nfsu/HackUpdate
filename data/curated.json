@@ -1,0 +1,60 @@
+{
+  "_readme": [
+    "Events added by hand, for programmes no crawler can reach.",
+    "",
+    "WHY: pib.gov.in, meity.gov.in, sih.gov.in, cert-in.org.in and nciipc.gov.in all",
+    "refuse requests from data-centre IP ranges, so the GitHub Actions crawl is served",
+    "'Access Denied'. National programmes announced only there (Cyber Kushti, Kavach,",
+    "the Smart India Hackathon) therefore have to be entered here.",
+    "",
+    "HOW: add an object to 'events' below. Only 'title' is required, but an event with",
+    "no startsAt is shown as 'Dates to be announced'. Edit this file on GitHub and the",
+    "next crawl picks it up; no code change and no redeploy is needed.",
+    "",
+    "Curated entries are trusted: they skip the relevance filter and may be undated.",
+    "If the same event later appears on a crawled source, the two are merged.",
+    "",
+    "Set \"published\": false to keep a draft here without showing it."
+  ],
+
+  "_schema": {
+    "id": "optional stable key, e.g. cyber-kushti-2026",
+    "title": "required",
+    "type": "\"hackathon\" or \"ctf\"; omit to let the classifier decide",
+    "description": "a paragraph students can act on",
+    "url": "official page to apply on",
+    "sourceUrl": "where it was announced, e.g. the PIB release",
+    "image": "https URL only, optional",
+    "organizer": "e.g. Ministry of Electronics and IT",
+    "prize": "e.g. Rs 5,00,000",
+    "eligibility": "who may enter",
+    "rules": ["one string per rule"],
+    "startsAt": "YYYY-MM-DD or a full ISO timestamp",
+    "endsAt": "YYYY-MM-DD",
+    "registration": { "opensAt": "YYYY-MM-DD", "closesAt": "YYYY-MM-DD", "url": "…" },
+    "location": { "text": "Gandhinagar, Gujarat", "country": "India", "mode": "onsite | online | hybrid" },
+    "tags": ["free text"],
+    "published": "false to hide a draft"
+  },
+
+  "_example": {
+    "id": "example-remove-me",
+    "title": "Example National Cyber Security Challenge 2026",
+    "type": "ctf",
+    "description": "Replace this block with a real programme. It is here only to show the shape of an entry and is not published, because \"published\" is false.",
+    "url": "https://example.gov.in/challenge",
+    "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=0000000",
+    "organizer": "Ministry of Electronics and Information Technology",
+    "prize": "Rs 5,00,000",
+    "eligibility": "Students enrolled in an Indian university.",
+    "rules": ["Teams of up to four.", "At least one member must be a registered student."],
+    "startsAt": "2026-11-02",
+    "endsAt": "2026-11-04",
+    "registration": { "closesAt": "2026-10-20", "url": "https://example.gov.in/register" },
+    "location": { "text": "Gandhinagar, Gujarat", "country": "India", "mode": "onsite" },
+    "tags": ["Government of India"],
+    "published": false
+  },
+
+  "events": []
+}

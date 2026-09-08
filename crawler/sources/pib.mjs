@@ -6,7 +6,7 @@
  * PIB has no API. We read its RSS feeds for the relevant ministries and fall
  * back to the "All Releases" listing page, then keyword-filter the results.
  */
-import { getText, parseFeed, stripHTML, absoluteURL, summarize, matchAll } from "../lib/core.mjs";
+import { getText, parseFeed, stripHTML, absoluteURL, summarize, matchAll, extractMinistry } from "../lib/core.mjs";
 
 export const meta = {
   id: "pib",
@@ -119,7 +119,7 @@ async function toEvent(c) {
     url: c.url,
     sourceUrl: c.url,
     image,
-    organizer: guessMinistry(body) || "Government of India",
+    organizer: extractMinistry(body) || "Government of India",
     rules: [
       "Announced via a Press Information Bureau release; confirm the current rules on the official portal linked above.",
     ],
@@ -128,11 +128,6 @@ async function toEvent(c) {
     location: { text: "India", country: "India" },
     tags: ["PIB", "Government of India", c.via],
   };
-}
-
-function guessMinistry(text = "") {
-  const m = text.match(/Ministry of [A-Z][A-Za-z&,\s]{3,60}/);
-  return m ? m[0].replace(/\s+/g, " ").trim().replace(/[,\s]+$/, "") : "";
 }
 
 /** Find the first "12 March 2026"-ish date inside a release body. */

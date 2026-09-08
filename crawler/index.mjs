@@ -28,7 +28,7 @@ const args = process.argv.slice(2);
 const DRY_RUN = args.includes("--dry-run");
 const ONLY = (args.find((a) => a.startsWith("--only=")) || "").replace("--only=", "").split(",").filter(Boolean);
 
-const ADAPTERS = ["ctftime", "devpost", "unstop", "devfolio", "hackerearth", "mlh", "pib", "feeds"];
+const ADAPTERS = ["curated", "ctftime", "devpost", "unstop", "devfolio", "hackerearth", "mlh", "mygov", "pib", "feeds"];
 
 async function run() {
   const started = Date.now();
@@ -85,18 +85,24 @@ async function run() {
   const horizon = Date.now() + settings.windowDays * 86400000;
 
   const kept = merged
-    .filter((e) => e.relevance >= settings.minScore)
+    // Trusted (curated) records bypass scoring entirely. An undated entry scores
+    // near zero by design, so without this a hand-added programme awaiting its
+    // calendar would be dropped by the very threshold meant to filter scrapes.
+    .filter((e) => e.trusted || e.relevance >= settings.minScore)
     // A hackathon that matched no domain is a generic college event, not one of
     // ours. CTFs are exempt: a capture the flag is a security competition even
     // when its blurb never says so.
     .filter((e) => {
       if (!settings.requireDomainMatch) return true;
-      if (e.type === "ctf") return true;
+      if (e.trusted || e.type === "ctf") return true;
       return !(e.domains.length === 1 && e.domains[0] === UNCLASSIFIED);
     })
     .filter((e) => {
       const end = e.endsAt || e.startsAt;
-      if (!end) return false;                       // undated records are noise
+      // A curated entry may legitimately have no date yet: a programme is often
+      // announced months before its calendar is published. Everything crawled
+      // still needs one, because an undated scrape is noise.
+      if (!end) return e.trusted === true;
       const t = +new Date(end);
       return t >= cutoff && +new Date(e.startsAt || end) <= horizon;
     })
@@ -104,7 +110,7 @@ async function run() {
     .slice(0, settings.maxEvents);
 
   const dropped = merged.length - kept.length;
-  const offTopic = merged.filter((e) => e.type !== "ctf" && e.domains.length === 1 && e.domains[0] === UNCLASSIFIED).length;
+  const offTopic = merged.filter((e) => !e.trusted && e.type !== "ctf" && e.domains.length === 1 && e.domains[0] === UNCLASSIFIED).length;
   log.ok(`${kept.length} published, ${dropped} filtered out (${offTopic} off-topic, rest below score ${settings.minScore}, undated or finished)`);
 
   const payload = {

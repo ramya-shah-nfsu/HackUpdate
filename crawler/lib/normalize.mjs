@@ -49,6 +49,9 @@ export function normalize(raw, sourceMeta) {
     timeline: buildTimeline(raw, startsAt, endsAt),
     participants: Number.isFinite(raw.participants) ? raw.participants : null,
     type: raw.type || "",
+    // A human vouched for this record, so the relevance and dating gates in
+    // crawler/index.mjs let it through untouched.
+    trusted: raw.trusted === true,
     fetchedAt: new Date().toISOString(),
   };
 
@@ -142,6 +145,7 @@ function mergeInto(target, incoming) {
   target.startsAt = target.startsAt || incoming.startsAt;
   target.endsAt = target.endsAt || incoming.endsAt;
   target.participants = target.participants ?? incoming.participants;
+  target.trusted = target.trusted || incoming.trusted;
 
   target.rules = [...new Set([...target.rules, ...incoming.rules])].slice(0, 12);
   target.tags = [...new Set([...target.tags, ...incoming.tags])].slice(0, 14);

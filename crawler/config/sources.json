@@ -11,6 +11,10 @@
     "_requireDomainMatchNote": "Publish only events matching a real NFSU domain. Every CTF is exempt: a capture the flag is a security competition by definition. Set false to accept any hackathon that clears minScore."
   },
   "adapters": {
+    "curated": {
+      "enabled": true,
+      "_note": "Hand-maintained entries in data/curated.json. Needs no network."
+    },
     "ctftime": {
       "enabled": true
     },
@@ -24,64 +28,25 @@
       "enabled": true
     },
     "hackerearth": {
-      "enabled": true
+      "enabled": false,
+      "_note": "Disabled 2026-09-08: every endpoint returns 403 from CI. Re-enable if it opens up."
     },
     "mlh": {
       "enabled": true
     },
+    "mygov": {
+      "enabled": true,
+      "_note": "The one Government of India source reachable from CI. Carries ministry challenges and the Smart India Hackathon."
+    },
     "pib": {
-      "enabled": true
+      "enabled": false,
+      "_note": "Disabled 2026-09-08: pib.gov.in serves Access Denied to data-centre IPs. Use data/curated.json, or run the crawl on a self-hosted runner with an Indian IP and re-enable."
     },
     "feeds": {
       "enabled": true
     }
   },
   "feeds": [
-    {
-      "id": "mygov-innovate",
-      "label": "MyGov Innovate India",
-      "kind": "html",
-      "url": "https://innovateindia.mygov.in/",
-      "country": "India",
-      "note": "Hosts Smart India Hackathon, Toycathon and other national challenges."
-    },
-    {
-      "id": "sih",
-      "label": "Smart India Hackathon",
-      "kind": "html",
-      "url": "https://www.sih.gov.in/",
-      "country": "India",
-      "type": "hackathon"
-    },
-    {
-      "id": "mygov-tasks",
-      "label": "MyGov Tasks & Contests",
-      "kind": "html",
-      "url": "https://www.mygov.in/task/",
-      "country": "India"
-    },
-    {
-      "id": "meity-whatsnew",
-      "label": "MeitY Announcements",
-      "kind": "html",
-      "url": "https://www.meity.gov.in/whats-new",
-      "country": "India"
-    },
-    {
-      "id": "certin-news",
-      "label": "CERT-In",
-      "kind": "html",
-      "url": "https://www.cert-in.org.in/",
-      "country": "India"
-    },
-    {
-      "id": "nciipc",
-      "label": "NCIIPC",
-      "kind": "html",
-      "url": "https://nciipc.gov.in/",
-      "country": "India",
-      "note": "Critical information infrastructure protection; runs responsible disclosure and challenge programmes."
-    },
     {
       "id": "ctftime-rss",
       "label": "CTFtime upcoming (RSS)",
@@ -101,7 +66,7 @@
       "id": "c0c0n",
       "label": "c0c0n (Kerala Police Cyberdome)",
       "kind": "html",
-      "url": "https://india.c0c0n.org/",
+      "url": "https://india.c0c0n.org/2025/",
       "country": "India"
     },
     {
@@ -117,5 +82,13 @@
       "kind": "html",
       "url": "https://www.hackathon.com/theme/security"
     }
-  ]
+  ],
+  "_removedFeeds": {
+    "_note": "Probed 2026-09-08 and unreachable from GitHub Actions. Kept here so the reason is not lost. Restore them if the crawl moves to a self-hosted runner on an Indian network.",
+    "sih": "https://www.sih.gov.in/ returns 403 (Azure Application Gateway)",
+    "mygov-tasks": "https://www.mygov.in/task/ returns 404",
+    "meity-whatsnew": "https://www.meity.gov.in/whats-new returns Access Denied",
+    "certin-news": "https://www.cert-in.org.in/ connection fails",
+    "nciipc": "https://nciipc.gov.in/ connection fails"
+  }
 }

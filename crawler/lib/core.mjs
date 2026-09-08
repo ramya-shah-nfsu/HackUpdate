@@ -193,6 +193,23 @@ export function toISO(value) {
   return null;
 }
 
+/**
+ * Pull a ministry or department name out of free text.
+ *
+ * Names are Title Case joined by lowercase connectives ("Ministry of Home
+ * Affairs", "Department of Atomic Energy"), so the match stops at the first
+ * word that is neither capitalised nor a connective. Without that stop the
+ * pattern runs on into the sentence that follows the name.
+ */
+export function extractMinistry(text = "") {
+  const m = stripHTML(text).match(
+    /\b(?:Ministry|Department)\s+of\s+(?:[A-Z][A-Za-z&.]*|and|of|the)(?:\s+(?:[A-Z][A-Za-z&.]*|and|of|the))*/
+  );
+  if (!m) return "";
+  // A trailing connective belongs to the next clause, not to the name.
+  return m[0].replace(/\s+(?:and|of|the)$/i, "").replace(/\s+/g, " ").trim().slice(0, 90);
+}
+
 export const log = {
   info: (...a) => console.log("  ", ...a),
   step: (...a) => console.log("\n▶", ...a),
