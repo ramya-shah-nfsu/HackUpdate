@@ -187,57 +187,75 @@ per event in `relevanceReasons`, so it is easy to see why something was kept or 
 
 ## Deploying
 
-The site is live at **https://ramya-shah-nfsu.github.io/HackUpdate/** once the
-two settings below are applied. Every path in the page is relative, so it works
-under the `/HackUpdate/` sub-path without configuration.
+The portal is hosted on **Cloudflare Pages**. It is a static site with no build
+step, so the import is a one-time setup and every later push publishes itself.
 
 ### One-time setup
 
-Both steps are in the repository settings and neither can be automated.
+1. Sign in at <https://dash.cloudflare.com> and go to **Workers & Pages → Create
+   → Pages → Connect to Git**.
+2. Authorise GitHub and pick **ramya-shah-nfsu/HackUpdate**.
+3. Configure the build:
 
-1. **Settings → General → Danger Zone → Change visibility → Public.**
-   Pages serves a private repository only on a paid plan. Nothing here is
-   sensitive: no credentials, no personal data, and no workflow reads a secret
-   (the crawl uses only the automatic `GITHUB_TOKEN`).
-2. **Settings → Pages → Build and deployment → Source: GitHub Actions.**
+   | Setting | Value |
+   | --- | --- |
+   | Production branch | `main` |
+   | Framework preset | **None** |
+   | Build command | *leave empty* |
+   | Build output directory | `/` |
+   | Root directory | `/` |
 
-Step 2 has to be done by hand, and there is no way around it.
-`actions/configure-pages` accepts `enablement: true`, but creating a Pages site
-needs admin rights the workflow's `GITHUB_TOKEN` does not have. That was tested
-here on a private repo, on a public repo, and on a public repo with a verified
-account email; all three returned "Resource not accessible by integration".
-Once the site exists the token can deploy to it, which is all the workflow needs.
+4. **Save and Deploy.**
 
-Two account-level prerequisites are easy to miss, and both produce a deploy that
-fails with "Get Pages site failed... Not Found" rather than a useful message:
+There is nothing to build, so the first deploy takes seconds. Cloudflare then
+gives the site a `*.pages.dev` address, and rebuilds on every push to `main`.
 
-- the repository must be public (on a free plan), and
-- **the account's email address must be verified**, at
-  <https://github.com/settings/emails>. Until it is, GitHub accepts the Pages
-  source selection in the UI but never creates the site.
+### Why this works without further wiring
 
-After both, push anything to `main` (or run **Deploy portal to Pages** from the
-Actions tab) and the site goes live.
+The daily crawl commits the refreshed `data/events.json` to `main`, and that
+commit triggers a Cloudflare rebuild on its own. No deploy key, no secret and no
+extra workflow is involved.
 
-`main` is the production branch: Pages deploys from it and the daily crawl
-commits its refreshed `data/events.json` to it, which in turn triggers a
-redeploy. Nothing else needs to be wired up.
+Every path in the page is relative, so the site works unchanged at a domain
+root, under a `*.pages.dev` subdomain, or at a sub-path.
 
-### After that
+### `_headers`
 
-- Every push to `main` republishes the site.
-- The crawl runs at 01:30 UTC (07:00 IST) daily and republishes when the feed
-  changes.
-- To publish immediately at any time, run **Deploy portal to Pages** from the
-  Actions tab.
+Cloudflare reads `_headers` at the repository root. It sets the usual defensive
+response headers and, more importantly, keeps `data/events.json` from being held
+at the edge: the feed changes daily, and a long cache would hide a newly
+published event from students for the rest of the day. Nothing in the site
+carries a content hash in its filename, so nothing is cached without
+revalidating first.
 
-Deploying from a branch instead of Actions also works, since the repository root
-is the site and `.nojekyll` is present so Jekyll does not interfere. Use that only
-if you prefer it; the Actions route is already configured.
+### A custom domain
+
+In the Pages project: **Custom domains → Set up a custom domain**. If the domain
+is already on Cloudflare the DNS record is created automatically; otherwise add
+the CNAME the dashboard shows. TLS is provisioned for you.
+
+### GitHub Pages
+
+`.github/workflows/pages.yml` is kept but runs only on manual dispatch. GitHub
+Pages was tried first and never activated on this account: the deploy failed
+with "Get Pages site failed... Not Found" under every combination of repository
+visibility, verified account email and Pages source. Two prerequisites are worth
+knowing if it is ever revisited, because both fail with that same unhelpful
+message:
+
+- the repository must be public, on a free plan, and
+- the account's email address must be verified, at
+  <https://github.com/settings/emails>.
+
+Enabling Pages cannot be automated. `actions/configure-pages` accepts
+`enablement: true`, but creating a Pages site needs admin rights the workflow's
+`GITHUB_TOKEN` does not have; that was tested on a private repository, a public
+one, and a public one with a verified email, and all three returned "Resource
+not accessible by integration".
 
 The daily crawl (`.github/workflows/crawl.yml`) needs `contents: write`, which is
-already declared. It also runs on `workflow_dispatch`, so you can trigger it by hand
-from the Actions tab and pass a comma-separated list of source ids to run.
+already declared. It also runs on `workflow_dispatch`, so you can trigger it by
+hand from the Actions tab and pass a comma-separated list of source ids to run.
 
 ---
 

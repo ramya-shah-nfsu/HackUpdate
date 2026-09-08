@@ -1,0 +1,25 @@
+# Cloudflare Pages response headers. Netlify reads the same format; the file is
+# inert on any other host.
+#
+# Comments must start at column 0. An indented "#" line inside a rule block is
+# parsed as a header name, not as a comment.
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: DENY
+  Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=()
+  Cross-Origin-Opener-Policy: same-origin
+  Cache-Control: public, max-age=0, must-revalidate
+
+# The feed is rewritten by the daily crawl. Holding it at the edge for longer
+# than a few minutes would hide a newly published event for the rest of the day.
+
+/data/events.json
+  Cache-Control: public, max-age=300, must-revalidate
+
+# There is no build step, so filenames carry no content hash and nothing may be
+# cached without checking. Revalidation is cheap: a 304 when nothing changed.
+
+/assets/*
+  Cache-Control: public, max-age=600, must-revalidate
