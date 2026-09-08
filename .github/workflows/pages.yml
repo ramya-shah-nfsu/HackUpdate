@@ -5,13 +5,17 @@
 #   1. the repository is public (Pages serves a private repo only on a paid plan)
 #   2. Settings -> Pages -> Build and deployment -> Source: "GitHub Actions"
 #
-# Step 2 has to be done by a person. actions/configure-pages accepts
-# enablement: true, but creating a Pages site needs admin rights the workflow's
-# GITHUB_TOKEN does not have. That was tested on this repository both while it
-# was private and after it was made public, and it returned "Resource not
-# accessible by integration" both times, so repository visibility was not the
-# cause. The token can deploy to a Pages site that already exists, which is all
-# this workflow needs once the setting is applied.
+# Step 2 has to be done by a person, once. Do not try to automate it.
+# actions/configure-pages accepts enablement: true, but creating a Pages site
+# needs admin rights the workflow's GITHUB_TOKEN does not have. Tested on this
+# repository under three states, all returning "Resource not accessible by
+# integration":
+#   - private repository, unverified account email
+#   - public repository, unverified account email
+#   - public repository, verified account email
+# So neither visibility nor account eligibility was the cause; the token simply
+# cannot create a Pages site. It can deploy to one that already exists, which is
+# all this workflow needs once the setting is applied.
 name: Deploy portal to Pages
 
 on:
@@ -37,8 +41,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
-        with:
-          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           # The portal is static; the whole repository root is the site.

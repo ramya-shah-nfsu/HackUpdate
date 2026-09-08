@@ -201,11 +201,20 @@ Both steps are in the repository settings and neither can be automated.
    (the crawl uses only the automatic `GITHUB_TOKEN`).
 2. **Settings → Pages → Build and deployment → Source: GitHub Actions.**
 
-Step 2 has to be done by hand. `actions/configure-pages` accepts
-`enablement: true`, but creating a Pages site needs admin rights that the
-workflow's `GITHUB_TOKEN` does not have, so it fails with "Resource not
-accessible by integration". Once the site exists, the token can deploy to it,
-which is all the workflow needs.
+Step 2 has to be done by hand, and there is no way around it.
+`actions/configure-pages` accepts `enablement: true`, but creating a Pages site
+needs admin rights the workflow's `GITHUB_TOKEN` does not have. That was tested
+here on a private repo, on a public repo, and on a public repo with a verified
+account email; all three returned "Resource not accessible by integration".
+Once the site exists the token can deploy to it, which is all the workflow needs.
+
+Two account-level prerequisites are easy to miss, and both produce a deploy that
+fails with "Get Pages site failed... Not Found" rather than a useful message:
+
+- the repository must be public (on a free plan), and
+- **the account's email address must be verified**, at
+  <https://github.com/settings/emails>. Until it is, GitHub accepts the Pages
+  source selection in the UI but never creates the site.
 
 After both, push anything to `main` (or run **Deploy portal to Pages** from the
 Actions tab) and the site goes live.
