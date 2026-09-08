@@ -1,0 +1,39 @@
+# Manual endpoint probe. Run this from the Actions tab when a source turns red
+# or empty on the portal; the summary shows exactly what each endpoint returned,
+# so the adapter can be repaired against the real response.
+name: Diagnose sources
+
+on:
+  workflow_dispatch:
+    inputs:
+      groups:
+        description: "Space-separated groups to probe (blank = all): ctftime hackerearth mlh pib feeds"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Probe endpoints
+        run: |
+          set -o pipefail
+          node crawler/diagnose.mjs ${{ inputs.groups }} 2>&1 | tee diagnose.log
+      - name: Publish the probe report
+        if: always()
+        run: |
+          {
+            echo "## Source diagnosis"
+            echo
+            echo '```'
+            cat diagnose.log 2>/dev/null || echo "no log produced"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
