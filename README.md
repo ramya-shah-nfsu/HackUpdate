@@ -193,9 +193,10 @@ The portal is hosted on Cloudflare. It is a static site with no build step, so
 the import is a one-time setup and every later push publishes itself.
 
 Note the address is a `workers.dev` one, so this is deployed as a Worker serving
-static assets rather than as a classic Pages project. Everything about the site
-is the same either way; the one thing to confirm is whether `_headers` is
-honoured on that platform (see below).
+static assets rather than as a classic Pages project. That makes no difference
+here: `_headers` is honoured on that platform, confirmed against the live site,
+which returns `cache-control: public, max-age=300, must-revalidate` on
+`data/events.json` exactly as the file specifies.
 
 ### One-time setup
 
@@ -228,8 +229,9 @@ root, under a `*.pages.dev` subdomain, or at a sub-path.
 
 ### `_headers`
 
-Cloudflare reads `_headers` at the repository root. It sets the usual defensive
-response headers and, more importantly, keeps `data/events.json` from being held
+Cloudflare reads `_headers` at the repository root, on Pages projects and on
+Workers static assets alike (verified on the live deployment). It sets the usual
+defensive response headers and, more importantly, keeps `data/events.json` from being held
 at the edge: the feed changes daily, and a long cache would hide a newly
 published event from students for the rest of the day. Nothing in the site
 carries a content hash in its filename, so nothing is cached without
