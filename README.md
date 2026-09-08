@@ -187,8 +187,15 @@ per event in `relevanceReasons`, so it is easy to see why something was kept or 
 
 ## Deploying
 
-The portal is hosted on **Cloudflare Pages**. It is a static site with no build
-step, so the import is a one-time setup and every later push publishes itself.
+**Live at <https://hackathon-updates.ramya-shah.workers.dev/>**
+
+The portal is hosted on Cloudflare. It is a static site with no build step, so
+the import is a one-time setup and every later push publishes itself.
+
+Note the address is a `workers.dev` one, so this is deployed as a Worker serving
+static assets rather than as a classic Pages project. Everything about the site
+is the same either way; the one thing to confirm is whether `_headers` is
+honoured on that platform (see below).
 
 ### One-time setup
 
