@@ -29,6 +29,31 @@ const TARGETS = {
     ["PressReleasePage", "https://www.pib.gov.in/PressReleasePage.aspx"],
     ["indexd", "https://www.pib.gov.in/indexd.aspx"],
   ],
+  flagship: [
+    ["SIH (www)", "https://www.sih.gov.in/"],
+    ["SIH (bare)", "https://sih.gov.in/"],
+    ["MoE Innovation Cell", "https://mic.gov.in/"],
+    ["Kavach", "https://kavach.mic.gov.in/"],
+    ["CERT-In", "https://www.cert-in.org.in/"],
+    ["NCIIPC", "https://nciipc.gov.in/"],
+    ["Black Hat", "https://www.blackhat.com/"],
+    ["Black Hat upcoming", "https://www.blackhat.com/upcoming.html"],
+    ["DEF CON", "https://defcon.org/"],
+    ["Nautilus Institute", "https://nautilus.institute/"],
+    ["Nullcon", "https://nullcon.net/"],
+    ["c0c0n", "https://india.c0c0n.org/"],
+    ["HITB", "https://conference.hitb.org/"],
+    ["Zero Day Initiative", "https://www.zerodayinitiative.com/"],
+    ["SANS Holiday Hack", "https://www.sans.org/mlp/holiday-hack-challenge/"],
+    ["picoCTF", "https://picoctf.org/"],
+    ["Google CTF", "https://capturetheflag.withgoogle.com/"],
+    ["Hack The Box", "https://www.hackthebox.com/"],
+    ["TryHackMe", "https://tryhackme.com/"],
+    ["InCTF", "https://inctf.in/"],
+    ["CSAW", "https://www.csaw.io/"],
+    ["OWASP events", "https://owasp.org/events/"],
+    ["DSCI", "https://www.dsci.in/"],
+  ],
   feeds: [
     ["SIH", "https://www.sih.gov.in/"],
     ["MyGov innovate", "https://innovateindia.mygov.in/"],
@@ -74,6 +99,8 @@ for (const group of groups) {
       const ct = (res.headers.get("content-type") || "?").split(";")[0];
       console.log(`  ${name}`);
       console.log(`    ${res.status} ${ct} ${body.length}b ${Date.now() - t0}ms  final=${res.url !== url ? res.url : "(no redirect)"}`);
+      const title = (body.match(/<title[^>]*>([\s\S]*?)<\/title>/i) || [])[1] || "";
+      console.log(`    title: ${title.replace(/\s+/g, " ").trim().slice(0, 90) || "(none)"}`);
       console.log(`    shape: ${describe(body)}`);
       console.log(`    head : ${body.replace(/\s+/g, " ").slice(0, 260)}`);
     } catch (err) {
