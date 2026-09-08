@@ -1,0 +1,6 @@
+node_modules/
+crawl.log
+*.log
+.DS_Store
+.vscode/
+data/events.sample.json

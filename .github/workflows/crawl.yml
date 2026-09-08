@@ -1,0 +1,83 @@
+name: Daily crawl
+
+on:
+  schedule:
+    # 01:30 UTC = 07:00 IST, so the feed is fresh before the college day starts.
+    - cron: "30 1 * * *"
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Comma-separated source ids to run (blank = all)"
+        required: false
+        default: ""
+  push:
+    branches: [main, master, "claude/**"]
+    paths:
+      - "crawler/**"
+      - ".github/workflows/crawl.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hackupdate-crawl
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run the crawl
+        id: crawl
+        run: |
+          set -o pipefail
+          ARGS=""
+          if [ -n "${{ inputs.only }}" ]; then ARGS="--only=${{ inputs.only }}"; fi
+          node crawler/index.mjs $ARGS 2>&1 | tee crawl.log
+
+      - name: Validate the output
+        run: node crawler/validate.mjs
+
+      - name: Publish the run report
+        if: always()
+        run: |
+          {
+            echo "## HackUpdate crawl"
+            echo
+            echo '```'
+            tail -n 40 crawl.log 2>/dev/null || echo "no log produced"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit the refreshed feed
+        run: |
+          if git diff --quiet -- data/events.json; then
+            echo "No change in data/events.json; nothing to commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/events.json
+          COUNT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('data/events.json','utf8')).counts.total)")
+          git commit -m "data: refresh event feed (${COUNT} listings)"
+          for i in 1 2 3 4; do
+            git push && break
+            echo "push failed, retrying in $((2 ** i))s"
+            sleep $((2 ** i))
+            git pull --rebase --autostash
+          done
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: crawl-log
+          path: crawl.log
+          retention-days: 14

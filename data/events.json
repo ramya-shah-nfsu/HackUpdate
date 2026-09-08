@@ -1,0 +1,10 @@
+{
+  "generatedAt": "1970-01-01T00:00:00.000Z",
+  "generatorVersion": 2,
+  "bootstrap": true,
+  "runMs": 0,
+  "counts": { "total": 0, "byType": {}, "byScope": {}, "byStatus": {}, "byDomain": {}, "bySource": {} },
+  "domains": [],
+  "sources": [],
+  "events": []
+}

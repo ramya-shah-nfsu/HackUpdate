@@ -1,0 +1,106 @@
+{
+  "_comment": "Runtime configuration for the daily crawl. `feeds` needs no code: add an RSS/Atom URL or a listing page and the generic adapter picks it up on the next run.",
+
+  "settings": {
+    "minScore": 6,
+    "windowDays": 300,
+    "keepPastDays": 3,
+    "maxEvents": 600,
+    "maxFeedItemsPerSource": 40,
+    "requestDelayMs": 350
+  },
+
+  "adapters": {
+    "ctftime": { "enabled": true },
+    "devpost": { "enabled": true },
+    "unstop": { "enabled": true },
+    "devfolio": { "enabled": true },
+    "hackerearth": { "enabled": true },
+    "mlh": { "enabled": true },
+    "pib": { "enabled": true },
+    "feeds": { "enabled": true }
+  },
+
+  "feeds": [
+    {
+      "id": "mygov-innovate",
+      "label": "MyGov Innovate India",
+      "kind": "html",
+      "url": "https://innovateindia.mygov.in/",
+      "country": "India",
+      "note": "Hosts Smart India Hackathon, Toycathon and other national challenges."
+    },
+    {
+      "id": "sih",
+      "label": "Smart India Hackathon",
+      "kind": "html",
+      "url": "https://www.sih.gov.in/",
+      "country": "India",
+      "type": "hackathon"
+    },
+    {
+      "id": "mygov-tasks",
+      "label": "MyGov Tasks & Contests",
+      "kind": "html",
+      "url": "https://www.mygov.in/task/",
+      "country": "India"
+    },
+    {
+      "id": "meity-whatsnew",
+      "label": "MeitY Announcements",
+      "kind": "html",
+      "url": "https://www.meity.gov.in/whats-new",
+      "country": "India"
+    },
+    {
+      "id": "certin-news",
+      "label": "CERT-In",
+      "kind": "html",
+      "url": "https://www.cert-in.org.in/",
+      "country": "India"
+    },
+    {
+      "id": "nciipc",
+      "label": "NCIIPC",
+      "kind": "html",
+      "url": "https://nciipc.gov.in/",
+      "country": "India",
+      "note": "Critical information infrastructure protection; runs responsible disclosure and challenge programmes."
+    },
+    {
+      "id": "ctftime-rss",
+      "label": "CTFtime upcoming (RSS)",
+      "kind": "rss",
+      "url": "https://ctftime.org/event/list/upcoming/rss/",
+      "type": "ctf"
+    },
+    {
+      "id": "nullcon",
+      "label": "Nullcon",
+      "kind": "html",
+      "url": "https://nullcon.net/",
+      "country": "India",
+      "note": "Runs Battle Underground CTF and HackIM."
+    },
+    {
+      "id": "c0c0n",
+      "label": "c0c0n (Kerala Police Cyberdome)",
+      "kind": "html",
+      "url": "https://india.c0c0n.org/",
+      "country": "India"
+    },
+    {
+      "id": "dsci-events",
+      "label": "Data Security Council of India",
+      "kind": "html",
+      "url": "https://www.dsci.in/events",
+      "country": "India"
+    },
+    {
+      "id": "hackathon-com",
+      "label": "Hackathon.com",
+      "kind": "html",
+      "url": "https://www.hackathon.com/theme/security"
+    }
+  ]
+}

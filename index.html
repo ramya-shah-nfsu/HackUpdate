@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en" data-theme="brutal">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HackUpdate | Hackathons &amp; CTFs for NFSU</title>
+<meta name="description" content="A daily-updated portal of national and international hackathons and Capture the Flag competitions in cyber security, digital forensics, drone and UAV security, IoT, OT and critical infrastructure, and AI. Built for students of the National Forensic Sciences University.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#ffd23f">
+
+<meta property="og:title" content="HackUpdate | Hackathons &amp; CTFs for NFSU">
+<meta property="og:description" content="Daily-updated hackathons and CTFs across cyber security, digital forensics, drone security, IoT, OT and critical infrastructure.">
+<meta property="og:type" content="website">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='16' fill='%23ffd23f'/><text y='72' x='50' text-anchor='middle' font-size='62' font-family='monospace' font-weight='bold'>&gt;_</text></svg>">
+
+<script>
+  /* Resolve the theme before first paint so the page never flashes. */
+  (function () {
+    try {
+      var saved = JSON.parse(localStorage.getItem("hackupdate:theme") || '""');
+      var themes = ["brutal", "neon", "calm"];
+      if (themes.indexOf(saved) === -1) {
+        saved = window.matchMedia("(prefers-color-scheme: dark)").matches ? "neon" : "brutal";
+      }
+      document.documentElement.setAttribute("data-theme", saved);
+    } catch (e) { /* private mode: the default in the html tag stands */ }
+  })();
+</script>
+</head>
+
+<body>
+<div class="bg-layer" aria-hidden="true"></div>
+<a class="skip-link" href="#main">Skip to the event list</a>
+
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="./" aria-label="HackUpdate home">
+      <span class="brand__mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#12100c" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 17l5-5-5-5"/><path d="M12 19h8"/>
+        </svg>
+      </span>
+      <span>
+        <span class="brand__name">HackUpdate</span>
+        <span class="brand__org">National Forensic Sciences University</span>
+      </span>
+    </a>
+
+    <div class="header-tools">
+      <span class="freshness" id="freshness" data-stale="false">
+        <span class="dot" aria-hidden="true"></span>
+        <span id="freshness-text">Loading feed</span>
+      </span>
+
+      <div class="theme-switch" id="theme-switch" role="group" aria-label="Colour theme">
+        <button type="button" data-theme="brutal" aria-pressed="true">Brutal</button>
+        <button type="button" data-theme="neon" aria-pressed="false">Neon</button>
+        <button type="button" data-theme="calm" aria-pressed="false">Calm</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="wrap hero">
+    <span class="hero__eyebrow">Updated every day by an automated crawl</span>
+    <h1>Every hackathon and <span class="hl">CTF</span> worth your semester, in one place.</h1>
+    <p class="lede">
+      HackUpdate tracks national and international competitions across cyber security, digital forensics,
+      drone and UAV security, IoT and embedded systems, OT, ICS and critical infrastructure, AI, and open
+      innovation programmes such as the Smart India Hackathon. Sources include CTFtime, Devpost, Unstop,
+      Devfolio, MLH and Press Information Bureau announcements.
+    </p>
+
+    <div class="stats">
+      <div class="stat panel"><div class="stat__n" id="stat-total">0</div><div class="stat__l">Live listings</div></div>
+      <div class="stat panel"><div class="stat__n" id="stat-ctf">0</div><div class="stat__l">Capture the Flag</div></div>
+      <div class="stat panel"><div class="stat__n" id="stat-national">0</div><div class="stat__l">National (India)</div></div>
+      <div class="stat panel"><div class="stat__n" id="stat-week">0</div><div class="stat__l">Starting in 30 days</div></div>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <div class="controls panel" role="search" aria-label="Filter events">
+      <div class="controls__row">
+        <label class="search" for="search-input">
+          <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+          <span class="sr-only">Search events</span>
+          <input id="search-input" type="search" placeholder="Search: drone forensics, SCADA, Smart India Hackathon, jeopardy…" autocomplete="off">
+          <kbd>/</kbd>
+        </label>
+
+        <div class="tabs" id="type-tabs" role="tablist" aria-label="Event type">
+          <button type="button" role="tab" data-type="all" aria-selected="true">All</button>
+          <button type="button" role="tab" data-type="hackathon" aria-selected="false">Hackathons</button>
+          <button type="button" role="tab" data-type="ctf" aria-selected="false">CTFs</button>
+        </div>
+      </div>
+
+      <div class="controls__row">
+        <label class="sr-only" for="scope-select">Scope</label>
+        <select class="select" id="scope-select">
+          <option value="all">Scope: national and international</option>
+          <option value="national">National (India) only</option>
+          <option value="international">International only</option>
+        </select>
+
+        <label class="sr-only" for="status-select">Status</label>
+        <select class="select" id="status-select">
+          <option value="open">Open to register</option>
+          <option value="upcoming">Upcoming</option>
+          <option value="ongoing">Running now</option>
+          <option value="all">Any status, including finished</option>
+        </select>
+
+        <label class="sr-only" for="mode-select">Mode</label>
+        <select class="select" id="mode-select">
+          <option value="all">Any mode</option>
+          <option value="online">Online</option>
+          <option value="onsite">On-site</option>
+          <option value="hybrid">Hybrid</option>
+        </select>
+
+        <label class="sr-only" for="sort-select">Sort</label>
+        <select class="select" id="sort-select">
+          <option value="soonest">Sort: starting soonest</option>
+          <option value="deadline">Registration deadline</option>
+          <option value="relevance">Relevance to our courses</option>
+          <option value="newest">Recently added</option>
+        </select>
+
+        <button class="btn btn--sm" id="saved-toggle" type="button" aria-pressed="false">
+          Bookmarked<span id="saved-count"></span>
+        </button>
+        <button class="btn btn--sm btn--ghost" id="reset-filters" type="button">Reset</button>
+      </div>
+
+      <div class="controls__row">
+        <span class="sr-only" id="domain-label">Filter by domain</span>
+        <div class="chips" id="domain-chips" role="group" aria-labelledby="domain-label"></div>
+      </div>
+    </div>
+
+    <div class="results-bar">
+      <h2>Listings</h2>
+      <p id="result-count" aria-live="polite">Loading…</p>
+    </div>
+
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section class="wrap sources panel" id="sources">
+    <h2>Where this data comes from</h2>
+    <p id="sources-note">Checking source health…</p>
+    <div class="sources__grid" id="sources-grid"></div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h3>About</h3>
+        <p>
+          HackUpdate is a student-facing noticeboard maintained for the Cyber Security and Digital Forensics
+          programmes at the National Forensic Sciences University. A scheduled crawl runs once a day and
+          rebuilds the listing from public sources.
+        </p>
+      </div>
+      <div>
+        <h3>How to use it</h3>
+        <ul>
+          <li>Press <b>/</b> to jump to search.</li>
+          <li>Bookmark an event to keep it in the "Bookmarked" view on this device.</li>
+          <li>Use "Add to calendar" to get a reminder before registration closes.</li>
+          <li>Share an event by copying its link; it opens straight to that entry.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Add a source</h3>
+        <p>
+          Missing an event? Add the organiser's page or RSS feed to
+          <code>crawler/config/sources.json</code> and it is picked up on the next run.
+          Tune what counts as relevant in <code>crawler/config/taxonomy.json</code>.
+        </p>
+      </div>
+    </div>
+
+    <p class="legal">
+      Listings are gathered automatically from public websites and are provided for information only.
+      Dates, fees, eligibility and rules can change without notice. Always verify on the organiser's
+      official page before registering or paying anything. HackUpdate is not affiliated with any of the
+      platforms it links to. &copy; <span id="year">2026</span> National Forensic Sciences University.
+    </p>
+  </div>
+</footer>
+
+<dialog class="detail" id="detail" aria-labelledby="detail-title"></dialog>
+<div id="toast" class="badge" role="status" hidden
+     style="position:fixed;left:50%;bottom:1.4rem;transform:translateX(-50%);z-index:60;padding:.6rem 1rem;box-shadow:var(--shadow);background:var(--ink);color:var(--bg);"></div>
+
+<script type="module" src="assets/js/app.js"></script>
+</body>
+</html>
