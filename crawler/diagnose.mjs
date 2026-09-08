@@ -139,7 +139,7 @@ async function dumpBlocks(url, count) {
     console.log(`## blocks whose class contains "${token}" (${hits.length})`);
     for (const h of hits.slice(0, count)) {
       console.log("  ---");
-      console.log("  " + html.slice(h.index, h.index + 1400).replace(/\s+/g, " "));
+      console.log("  " + html.slice(h.index, h.index + 3200).replace(/\s+/g, " "));
     }
     console.log();
   }

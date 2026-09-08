@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       url:
-        description: "Page to dump"
+        description: "Page(s) to dump, space separated"
         required: true
       n:
         description: "Blocks per class token"
@@ -27,7 +27,12 @@ jobs:
           node-version: "22"
       - run: |
           set -o pipefail
-          node crawler/diagnose.mjs "--dump=${{ inputs.url }}" "--n=${{ inputs.n }}" 2>&1 | tee dump.log
+          : > dump.log
+          for u in ${{ inputs.url }}; do
+            echo "==================== $u ====================" >> dump.log
+            node crawler/diagnose.mjs "--dump=$u" "--n=${{ inputs.n }}" >> dump.log 2>&1 || echo "  (dump failed)" >> dump.log
+          done
+          cat dump.log
       - if: always()
         run: |
           { echo '## Markup dump'; echo; echo '```html'; head -c 60000 dump.log; echo; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
