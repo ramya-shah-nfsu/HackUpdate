@@ -1,26 +1,41 @@
 {
   "_comment": "Runtime configuration for the daily crawl. `feeds` needs no code: add an RSS/Atom URL or a listing page and the generic adapter picks it up on the next run.",
-
   "settings": {
     "minScore": 6,
     "windowDays": 300,
     "keepPastDays": 3,
     "maxEvents": 600,
     "maxFeedItemsPerSource": 40,
-    "requestDelayMs": 350
+    "requestDelayMs": 350,
+    "requireDomainMatch": true,
+    "_requireDomainMatchNote": "Publish only events matching a real NFSU domain. Every CTF is exempt: a capture the flag is a security competition by definition. Set false to accept any hackathon that clears minScore."
   },
-
   "adapters": {
-    "ctftime": { "enabled": true },
-    "devpost": { "enabled": true },
-    "unstop": { "enabled": true },
-    "devfolio": { "enabled": true },
-    "hackerearth": { "enabled": true },
-    "mlh": { "enabled": true },
-    "pib": { "enabled": true },
-    "feeds": { "enabled": true }
+    "ctftime": {
+      "enabled": true
+    },
+    "devpost": {
+      "enabled": true
+    },
+    "unstop": {
+      "enabled": true
+    },
+    "devfolio": {
+      "enabled": true
+    },
+    "hackerearth": {
+      "enabled": true
+    },
+    "mlh": {
+      "enabled": true
+    },
+    "pib": {
+      "enabled": true
+    },
+    "feeds": {
+      "enabled": true
+    }
   },
-
   "feeds": [
     {
       "id": "mygov-innovate",

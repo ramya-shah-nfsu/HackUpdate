@@ -17,7 +17,7 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { normalize, dedupe } from "./lib/normalize.mjs";
-import { classify, DOMAINS } from "./lib/classify.mjs";
+import { classify, DOMAINS, UNCLASSIFIED } from "./lib/classify.mjs";
 import { log } from "./lib/core.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -86,6 +86,14 @@ async function run() {
 
   const kept = merged
     .filter((e) => e.relevance >= settings.minScore)
+    // A hackathon that matched no domain is a generic college event, not one of
+    // ours. CTFs are exempt: a capture the flag is a security competition even
+    // when its blurb never says so.
+    .filter((e) => {
+      if (!settings.requireDomainMatch) return true;
+      if (e.type === "ctf") return true;
+      return !(e.domains.length === 1 && e.domains[0] === UNCLASSIFIED);
+    })
     .filter((e) => {
       const end = e.endsAt || e.startsAt;
       if (!end) return false;                       // undated records are noise
@@ -96,7 +104,8 @@ async function run() {
     .slice(0, settings.maxEvents);
 
   const dropped = merged.length - kept.length;
-  log.ok(`${kept.length} published, ${dropped} filtered out (below score ${settings.minScore}, undated or finished)`);
+  const offTopic = merged.filter((e) => e.type !== "ctf" && e.domains.length === 1 && e.domains[0] === UNCLASSIFIED).length;
+  log.ok(`${kept.length} published, ${dropped} filtered out (${offTopic} off-topic, rest below score ${settings.minScore}, undated or finished)`);
 
   const payload = {
     generatedAt: new Date().toISOString(),

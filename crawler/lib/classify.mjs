@@ -9,11 +9,19 @@
 import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 
+/** Bucket for events that matched no domain at all. The publish gate in
+ *  crawler/index.mjs drops these, so generic college hackathons with no
+ *  relevance to the programmes do not dilute the portal. */
+export const UNCLASSIFIED = "unclassified";
+
 const TAXONOMY = JSON.parse(
   readFileSync(fileURLToPath(new URL("../config/taxonomy.json", import.meta.url)), "utf8")
 );
 
-export const DOMAINS = TAXONOMY.domains.map(({ id, label }) => ({ id, label }));
+export const DOMAINS = [
+  ...TAXONOMY.domains.map(({ id, label }) => ({ id, label })),
+  { id: UNCLASSIFIED, label: "Unclassified" },
+];
 
 /** Lowercased, punctuation-padded haystack so " ai " style keywords work. */
 function haystack(event) {
@@ -160,8 +168,8 @@ export function classify(event, now = new Date()) {
   return {
     ...event,
     type: detectType(event, hay),
-    domains: domains.length ? domains.map((d) => d.id) : ["general-innovation"],
-    domainLabels: domains.length ? domains.map((d) => d.label) : ["General Innovation"],
+    domains: domains.length ? domains.map((d) => d.id) : [UNCLASSIFIED],
+    domainLabels: domains.length ? domains.map((d) => d.label) : ["Unclassified"],
     scope,
     scopeConfidence: confidence,
     scopeReason: why,

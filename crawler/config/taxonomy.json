@@ -39,7 +39,21 @@
         "steganography",
         "reverse engineering",
         "binary exploitation",
-        "pwn"
+        "pwn",
+        "ctf",
+        "capture the flag",
+        "capture-the-flag",
+        "jeopardy",
+        "attack-defense",
+        "attack-defence",
+        "wargame",
+        "exploit",
+        "shellcode",
+        "forensics challenge",
+        "web exploitation",
+        "misc challenge",
+        "crypto challenge",
+        "rev challenge"
       ]
     },
     {
@@ -474,5 +488,6 @@
       "online and offline",
       "online & offline"
     ]
-  }
+  },
+  "_unclassifiedNote": "Events matching no domain below are tagged 'unclassified' and are dropped when settings.requireDomainMatch is true. Widen a keyword list here to rescue a category rather than lowering minScore."
 }
