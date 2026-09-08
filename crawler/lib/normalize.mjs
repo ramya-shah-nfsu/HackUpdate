@@ -191,7 +191,12 @@ function mergeInto(target, incoming) {
     target.scopeReason = incoming.scopeReason;
   }
 
-  target.relevance = Math.max(target.relevance, incoming.relevance);
+  // Take the reasons along with the score. Keeping one record's number beside
+  // the other's explanation leaves the two disagreeing.
+  if (incoming.relevance > target.relevance) {
+    target.relevance = incoming.relevance;
+    target.relevanceReasons = incoming.relevanceReasons;
+  }
 
   // Only a *different* source counts as corroboration. Every run merges each
   // event with its own carried-forward copy, so without this check an event
