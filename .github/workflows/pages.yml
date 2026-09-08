@@ -19,8 +19,10 @@
 name: Deploy portal to Pages
 
 on:
-  push:
-    branches: [main, master]
+  # Manual only. Under "Deploy from a branch" GitHub builds and publishes the
+  # site itself on every push, so running this as well would be redundant, and
+  # it fails noisily on every commit while the Pages source is not "GitHub
+  # Actions". Kept available for a switch back to the Actions source.
   workflow_dispatch:
 
 permissions:
