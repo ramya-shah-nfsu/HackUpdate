@@ -3,13 +3,15 @@
 # Two prerequisites, both one-time and both done by a person in the repository
 # settings:
 #   1. the repository is public (Pages serves a private repo only on a paid plan)
-#   2. Settings -> Pages -> Source: "GitHub Actions"
+#   2. Settings -> Pages -> Source: "GitHub Actions", if the step below cannot
+#      do it for us
 #
-# Step 2 cannot be automated from here. actions/configure-pages accepts
-# enablement: true, but creating a Pages site needs admin rights that the
-# workflow's GITHUB_TOKEN does not have, so it fails with "Resource not
-# accessible by integration". The token can deploy to a Pages site that already
-# exists, which is all this workflow needs once the setting is applied.
+# configure-pages is asked to create the Pages site itself. That failed while
+# the repository was private with "Resource not accessible by integration",
+# which reads like a token limitation but is also what GitHub returns for a
+# private repository on a plan that cannot serve Pages. Now that the repository
+# is public it is worth letting the action try, since it saves a manual step.
+# It is a no-op once a Pages site exists.
 name: Deploy portal to Pages
 
 on:
@@ -35,6 +37,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           # The portal is static; the whole repository root is the site.
