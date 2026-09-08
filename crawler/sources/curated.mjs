@@ -53,6 +53,9 @@ export async function fetchEvents() {
       // curated entry to "national" regardless of where the event actually is.
       // The source label already records that these are curated.
       tags: [...(r.tags || [])],
+      // Extra spellings students actually type. Search-only: deliberately not
+      // fed to the classifier, which reads tags and would mis-read them.
+      aliases: Array.isArray(r.aliases) ? r.aliases : [],
       rules: [
         ...(r.rules || []),
         "This entry is maintained by the department because the announcing site cannot be crawled. Confirm the current details on the official page.",

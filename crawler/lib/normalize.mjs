@@ -62,6 +62,7 @@ export function normalize(raw, sourceMeta) {
     // crawler/index.mjs let it through untouched.
     trusted: raw.trusted === true,
     scopeOverride: raw.scopeOverride || "",
+    aliases: (raw.aliases || []).map((a) => String(a).trim()).filter(Boolean).slice(0, 10),
     fetchedAt: new Date().toISOString(),
   };
 
@@ -167,6 +168,7 @@ function mergeInto(target, incoming) {
 
   target.rules = [...new Set([...target.rules, ...incoming.rules])].slice(0, 12);
   target.tags = [...new Set([...target.tags, ...incoming.tags])].slice(0, 14);
+  target.aliases = [...new Set([...(target.aliases || []), ...(incoming.aliases || [])])].slice(0, 10);
   target.domains = [...new Set([...target.domains, ...incoming.domains])];
   target.domainLabels = [...new Set([...target.domainLabels, ...incoming.domainLabels])];
 

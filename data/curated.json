@@ -46,7 +46,8 @@
       "free text"
     ],
     "published": "false to hide a draft",
-    "scope": "\"national\" (India) or \"international\"; stated explicitly because the classifier cannot always tell"
+    "scope": "\"national\" (India) or \"international\"; stated explicitly because the classifier cannot always tell",
+    "aliases": "alternative names and abbreviations students may search for; used by search only, never by the classifier"
   },
   "_example": {
     "id": "example-remove-me",
@@ -97,7 +98,12 @@
         "Government of India",
         "National"
       ],
-      "scope": "national"
+      "scope": "national",
+      "aliases": [
+        "SIH",
+        "Smart India Hackathon Software Edition",
+        "Smart India Hackathon Hardware Edition"
+      ]
     },
     {
       "id": "cert-in",
@@ -116,7 +122,12 @@
         "Incident response",
         "National"
       ],
-      "scope": "national"
+      "scope": "national",
+      "aliases": [
+        "CERTIn",
+        "Indian Computer Emergency Response Team",
+        "ICERT"
+      ]
     },
     {
       "id": "black-hat",
@@ -134,7 +145,13 @@
         "Conference",
         "International"
       ],
-      "scope": "international"
+      "scope": "international",
+      "aliases": [
+        "BlackHat",
+        "BH USA",
+        "Black Hat Asia",
+        "Black Hat Europe"
+      ]
     },
     {
       "id": "defcon",
@@ -154,7 +171,12 @@
         "Conference",
         "International"
       ],
-      "scope": "international"
+      "scope": "international",
+      "aliases": [
+        "DEFCON",
+        "DC CTF",
+        "Nautilus Institute"
+      ]
     },
     {
       "id": "pwn2own",
@@ -172,7 +194,12 @@
         "Conference",
         "International"
       ],
-      "scope": "international"
+      "scope": "international",
+      "aliases": [
+        "Pwn 2 Own",
+        "ZDI",
+        "Zero Day Initiative"
+      ]
     },
     {
       "id": "nullcon",
@@ -191,7 +218,12 @@
         "Conference",
         "National"
       ],
-      "scope": "national"
+      "scope": "national",
+      "aliases": [
+        "Null con",
+        "Battle Underground",
+        "HackIM"
+      ]
     },
     {
       "id": "c0c0n",
@@ -210,7 +242,12 @@
         "Conference",
         "National"
       ],
-      "scope": "national"
+      "scope": "national",
+      "aliases": [
+        "cocon",
+        "cOcOn",
+        "Cyberdome"
+      ]
     },
     {
       "id": "inctf",
@@ -229,7 +266,12 @@
         "Student CTF",
         "National"
       ],
-      "scope": "national"
+      "scope": "national",
+      "aliases": [
+        "In CTF",
+        "bi0s",
+        "Amrita CTF"
+      ]
     },
     {
       "id": "csaw",
@@ -248,7 +290,11 @@
         "Student CTF",
         "International"
       ],
-      "scope": "international"
+      "scope": "international",
+      "aliases": [
+        "CS AW",
+        "Cyber Security Awareness Week"
+      ]
     },
     {
       "id": "hitb",
@@ -266,7 +312,12 @@
         "Conference",
         "International"
       ],
-      "scope": "international"
+      "scope": "international",
+      "aliases": [
+        "HITB",
+        "HITBSecConf",
+        "Hack in the Box"
+      ]
     },
     {
       "id": "google-ctf",
@@ -283,7 +334,11 @@
         "Flagship programme",
         "International"
       ],
-      "scope": "international"
+      "scope": "international",
+      "aliases": [
+        "GoogleCTF",
+        "Beginners Quest"
+      ]
     },
     {
       "id": "sans-holiday-hack",
@@ -302,7 +357,12 @@
         "Beginner friendly",
         "International"
       ],
-      "scope": "international"
+      "scope": "international",
+      "aliases": [
+        "Holiday Hack",
+        "SANS HHC",
+        "KringleCon"
+      ]
     },
     {
       "id": "hackthebox",
@@ -320,7 +380,12 @@
         "Practice platform",
         "International"
       ],
-      "scope": "international"
+      "scope": "international",
+      "aliases": [
+        "HTB",
+        "Hack The Box University CTF",
+        "Business CTF"
+      ]
     }
   ]
 }

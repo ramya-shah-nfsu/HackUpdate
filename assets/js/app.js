@@ -70,16 +70,47 @@ async function loadData() {
 
 /* --------------------------------- filters -------------------------------- */
 
+const terms = (q) => q.toLowerCase().split(/\s+/).filter(Boolean);
+
+/** Strip everything but letters and digits, so "defcon" matches "DEF CON" and
+ *  "hackthebox" matches "Hack The Box". Event names are punctuated and spaced
+ *  inconsistently across sources, and students type them either way. */
+const squash = (s) => String(s).toLowerCase().replace(/[^\p{L}\p{N}]+/gu, "");
+
 /** Free-text match across the fields a student would actually search. */
 function matchesQuery(event, q) {
   if (!q) return true;
   const hay = [
     event.title, event.description, event.organizer, event.location?.text,
     event.format, (event.tags || []).join(" "), (event.domainLabels || []).join(" "),
-    event.sourceLabel,
+    (event.aliases || []).join(" "), event.sourceLabel,
   ].filter(Boolean).join(" ").toLowerCase();
-  // Every whitespace-separated term must appear somewhere.
-  return q.toLowerCase().split(/\s+/).filter(Boolean).every((term) => hay.includes(term));
+  const squashed = squash(hay);
+  // Every whitespace-separated term must appear, in the text or with spacing
+  // and punctuation removed.
+  return terms(q).every((term) => hay.includes(term) || squashed.includes(squash(term)));
+}
+
+/**
+ * How well an event answers the query, so that searching a name puts that name
+ * first. Without this the results are ordered by date alone, and an event whose
+ * dates are not yet announced sorts last even when the query is its exact title.
+ */
+function queryScore(event, q) {
+  if (!q) return 0;
+  const title = String(event.title || "").toLowerCase();
+  const needle = q.toLowerCase().trim();
+  const sqTitle = squash(title);
+  const sqNeedle = squash(needle);
+  let score = 0;
+  if (title === needle || sqTitle === sqNeedle) score += 100;
+  else if (title.startsWith(needle) || sqTitle.startsWith(sqNeedle)) score += 60;
+  else if (title.includes(needle) || (sqNeedle && sqTitle.includes(sqNeedle))) score += 40;
+  for (const term of terms(q)) if (title.includes(term) || sqTitle.includes(squash(term))) score += 8;
+  if (String(event.organizer || "").toLowerCase().includes(needle)) score += 10;
+  // An alias is an alternative name, so treat a hit as a name hit.
+  if ((event.aliases || []).some((a) => squash(a) === sqNeedle)) score += 80;
+  return score;
 }
 
 function visibleEvents() {
@@ -102,13 +133,18 @@ function visibleEvents() {
   const time = (e) => +new Date(e.startsAt || e.endsAt || 0) || Infinity;
   const deadline = (e) => +new Date(e.registration?.closesAt || e.startsAt || 0) || Infinity;
 
+  // With a query present, how well an event answers it outranks every other
+  // ordering; the chosen sort then breaks ties.
+  const byQuery = (a, b) => queryScore(b, f.q) - queryScore(a, f.q);
+
   const sorters = {
     soonest: (a, b) => time(a) - time(b),
     deadline: (a, b) => deadline(a) - deadline(b),
     relevance: (a, b) => (b.relevance || 0) - (a.relevance || 0) || time(a) - time(b),
     newest: (a, b) => +new Date(b.fetchedAt || 0) - +new Date(a.fetchedAt || 0),
   };
-  return rows.sort(sorters[f.sort] || sorters.soonest);
+  const sorter = sorters[f.sort] || sorters.soonest;
+  return rows.sort(f.q ? (a, b) => byQuery(a, b) || sorter(a, b) : sorter);
 }
 
 /* --------------------------------- render --------------------------------- */
