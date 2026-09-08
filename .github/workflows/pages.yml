@@ -1,8 +1,15 @@
 # Publishes the portal to GitHub Pages.
 #
-# The only prerequisite is that the repository is public, because Pages serves a
-# private repository only on a paid plan. Pages itself does not need enabling by
-# hand: configure-pages does it below.
+# Two prerequisites, both one-time and both done by a person in the repository
+# settings:
+#   1. the repository is public (Pages serves a private repo only on a paid plan)
+#   2. Settings -> Pages -> Source: "GitHub Actions"
+#
+# Step 2 cannot be automated from here. actions/configure-pages accepts
+# enablement: true, but creating a Pages site needs admin rights that the
+# workflow's GITHUB_TOKEN does not have, so it fails with "Resource not
+# accessible by integration". The token can deploy to a Pages site that already
+# exists, which is all this workflow needs once the setting is applied.
 name: Deploy portal to Pages
 
 on:
@@ -28,10 +35,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
-        with:
-          # Turn Pages on and point it at Actions, instead of requiring someone
-          # to set it in the repository settings first. A no-op once enabled.
-          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           # The portal is static; the whole repository root is the site.

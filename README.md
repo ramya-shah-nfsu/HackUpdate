@@ -193,15 +193,22 @@ under the `/HackUpdate/` sub-path without configuration.
 
 ### One-time setup
 
-**Settings → General → Danger Zone → Change visibility → Public.**
+Both steps are in the repository settings and neither can be automated.
 
-That is the only manual step. GitHub Pages serves a private repository only on a
-paid plan, and nothing here is sensitive: no credentials, no personal data, and
-no workflow reads a secret (the crawl uses only the automatic `GITHUB_TOKEN`).
+1. **Settings → General → Danger Zone → Change visibility → Public.**
+   Pages serves a private repository only on a paid plan. Nothing here is
+   sensitive: no credentials, no personal data, and no workflow reads a secret
+   (the crawl uses only the automatic `GITHUB_TOKEN`).
+2. **Settings → Pages → Build and deployment → Source: GitHub Actions.**
 
-Pages does not need enabling by hand. `.github/workflows/pages.yml` passes
-`enablement: true` to `actions/configure-pages`, so the first run after the
-repository is public turns Pages on, points it at Actions, and deploys.
+Step 2 has to be done by hand. `actions/configure-pages` accepts
+`enablement: true`, but creating a Pages site needs admin rights that the
+workflow's `GITHUB_TOKEN` does not have, so it fails with "Resource not
+accessible by integration". Once the site exists, the token can deploy to it,
+which is all the workflow needs.
+
+After both, push anything to `main` (or run **Deploy portal to Pages** from the
+Actions tab) and the site goes live.
 
 `main` is the production branch: Pages deploys from it and the daily crawl
 commits its refreshed `data/events.json` to it, which in turn triggers a
