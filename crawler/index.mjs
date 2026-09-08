@@ -16,7 +16,7 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
-import { normalize, dedupe } from "./lib/normalize.mjs";
+import { normalize, dedupe, ensureUniqueIds } from "./lib/normalize.mjs";
 import { classify, DOMAINS, UNCLASSIFIED } from "./lib/classify.mjs";
 import { log } from "./lib/core.mjs";
 
@@ -108,6 +108,9 @@ async function run() {
     })
     .sort(byRelevanceThenDate)
     .slice(0, settings.maxEvents);
+
+  const collisions = ensureUniqueIds(kept);
+  if (collisions) log.warn(`${collisions} id collision(s) renamed; distinct events shared identifying fields`);
 
   const dropped = merged.length - kept.length;
   const offTopic = merged.filter((e) => !e.trusted && e.type !== "ctf" && e.domains.length === 1 && e.domains[0] === UNCLASSIFIED).length;

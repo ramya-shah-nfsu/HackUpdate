@@ -6,9 +6,18 @@ import { createHash } from "node:crypto";
 import { summarize, stripHTML, toISO } from "./core.mjs";
 import { classify } from "./classify.mjs";
 
-/** Stable id from source + upstream id (or URL) so reruns keep the same key. */
-function makeId(source, key) {
-  return `${source}-${createHash("sha1").update(String(key)).digest("hex").slice(0, 10)}`;
+/**
+ * Stable id from source plus everything that identifies the event.
+ *
+ * Hashing a single field is not safe: a source row missing both its id and its
+ * URL collapses to the same key as every other such row, and distinct events
+ * end up sharing an id. The portal keys bookmarks and deep links off the id, so
+ * a collision makes one card open another. Combining the fields keeps the id
+ * stable across runs while distinguishing events that share any one of them.
+ */
+function makeId(source, parts) {
+  const key = parts.map((p) => String(p ?? "").trim()).filter(Boolean).join("\u0000");
+  return `${source}-${createHash("sha1").update(key).digest("hex").slice(0, 10)}`;
 }
 
 /** Sources hand us loose objects; this pins them to the schema. */
@@ -20,7 +29,7 @@ export function normalize(raw, sourceMeta) {
   const endsAt = toISO(raw.endsAt) || startsAt;
 
   const event = {
-    id: makeId(sourceMeta.id, raw.sourceId || raw.url || raw.sourceUrl || title),
+    id: makeId(sourceMeta.id, [raw.sourceId, raw.url || raw.sourceUrl, title, startsAt]),
     source: sourceMeta.id,
     sourceLabel: sourceMeta.label,
     sourceUrl: raw.sourceUrl || raw.url || "",
@@ -177,6 +186,25 @@ function mergeInto(target, incoming) {
   target.relevance = Math.max(target.relevance, incoming.relevance) + 2; // corroborated by 2+ sources
   target.alsoOn = [...new Set([...(target.alsoOn || []), { id: incoming.source, label: incoming.sourceLabel, url: incoming.sourceUrl }].map((s) => JSON.stringify(s)))].map((s) => JSON.parse(s));
   return target;
+}
+
+/**
+ * Last line of defence: guarantee the published ids are unique.
+ *
+ * Deduplication merges records it recognises as the same event; anything left
+ * sharing an id is a distinct event whose identifying fields collided. Renaming
+ * it here keeps the portal navigable, and the returned count lets the caller
+ * report that it happened rather than hide it.
+ */
+export function ensureUniqueIds(events) {
+  const seen = new Map();
+  let collisions = 0;
+  for (const event of events) {
+    const n = seen.get(event.id) || 0;
+    seen.set(event.id, n + 1);
+    if (n > 0) { event.id = `${event.id}-${n + 1}`; collisions++; }
+  }
+  return collisions;
 }
 
 /** Collapse duplicates across sources into one enriched record each. */

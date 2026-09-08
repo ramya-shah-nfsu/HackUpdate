@@ -59,7 +59,9 @@ function mapHackathon(h) {
   if (h.time_left_to_submission) rules.push(`Time left to submit at crawl time: ${h.time_left_to_submission}`);
 
   return {
-    sourceId: `devpost-${h.id ?? h.url}`,
+    // Some rows arrive with neither id nor url; fall back to the title so the
+    // key never degrades to a constant shared by every such row.
+    sourceId: `devpost-${h.id ?? h.url ?? h.title ?? ""}`,
     type: "hackathon",
     title: h.title,
     description: [h.tagline, (h.themes || []).map((t) => t.name).join(", ")].filter(Boolean).join(": "),
