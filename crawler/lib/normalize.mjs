@@ -78,10 +78,18 @@ function buildTimeline(raw, startsAt, endsAt) {
     ["Event ends", endsAt],
     ...(raw.timeline || []).map((t) => [t.label, toISO(t.at)]),
   ];
+  const CANONICAL = new Set(["Registration opens", "Registration closes", "Event starts", "Event ends"]);
+  const valid = rows.filter(([label, at]) => label && at);
+
+  // A source that names its milestones says more than the generic label does.
+  // "Round 1: The Akhada" beside "Event starts" on the same date is noise, so
+  // the named one wins whenever both fall at the same moment.
+  const namedAt = new Set(valid.filter(([label]) => !CANONICAL.has(label)).map(([, at]) => at));
+
   const seen = new Set();
-  return rows
+  return valid
     .filter(([label, at]) => {
-      if (!label || !at) return false;
+      if (CANONICAL.has(label) && namedAt.has(at)) return false;
       const key = `${label}|${at}`;
       if (seen.has(key)) return false;
       seen.add(key);

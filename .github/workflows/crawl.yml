@@ -14,6 +14,7 @@ on:
     branches: [main, master, "claude/**"]
     paths:
       - "crawler/**"
+      - "data/curated.json"
       - ".github/workflows/crawl.yml"
 
 permissions:

@@ -81,6 +81,63 @@
   },
   "events": [
     {
+      "id": "cyber-kushti-2026",
+      "title": "Cyber Kushti 2026: National Cybersecurity & AI Hackathon",
+      "type": "hackathon",
+      "scope": "national",
+      "url": "https://nccdfi.nielitkohima.in/register-hackathon",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2300120&reg=48&lang=2",
+      "organizer": "NIELIT, Ministry of Electronics and Information Technology",
+      "description": "The official parallel technical track of NCCDFI 2026, the 3rd National Conference on Cyber Security, Digital Forensics and Intelligence. Unlike a conventional CTF, it scores judgement rather than detection speed: every team receives the same deliberately imperfect Security Assessment Package containing AI-generated findings, static analysis output, dependency and secrets scans, architecture documentation, source code and application logs. The package mixes genuine, false and duplicated findings, and some real vulnerabilities are deliberately left out. Teams must decide which findings are real, which are false positives, and which matter most.",
+      "eligibility": "Teams of exactly three. Open to students of recognised educational institutions across all academic disciplines, and to independent researchers. Free to enter.",
+      "rules": [
+        "Teams of exactly three members.",
+        "Round 1, The Akhada: online, 15 September 2026. Fifty teams advance.",
+        "Round 2, The Dangal: online, 24 September 2026. Ten finalist teams are selected.",
+        "Final round, The Kesari: in person, 9 October 2026, at the Dr. Ambedkar International Centre, New Delhi.",
+        "Scoring rewards correct triage and prioritisation of findings, not the number of vulnerabilities found."
+      ],
+      "startsAt": "2026-09-15",
+      "endsAt": "2026-10-09",
+      "registration": {
+        "opensAt": "2026-08-15",
+        "closesAt": "2026-09-10",
+        "url": "https://nccdfi.nielitkohima.in/register-hackathon"
+      },
+      "timeline": [
+        {
+          "label": "Round 1: The Akhada (online)",
+          "at": "2026-09-15"
+        },
+        {
+          "label": "Round 2: The Dangal (online)",
+          "at": "2026-09-24"
+        },
+        {
+          "label": "Final: The Kesari, New Delhi",
+          "at": "2026-10-09"
+        }
+      ],
+      "location": {
+        "text": "Online rounds, final at Dr. Ambedkar International Centre, New Delhi",
+        "country": "India",
+        "mode": "hybrid"
+      },
+      "tags": [
+        "Flagship programme",
+        "Government of India",
+        "NCCDFI 2026",
+        "National"
+      ],
+      "aliases": [
+        "Cyber Kushti",
+        "CyberKushti",
+        "Kushti",
+        "NCCDFI",
+        "NIELIT hackathon"
+      ]
+    },
+    {
       "id": "smart-india-hackathon",
       "title": "Smart India Hackathon",
       "type": "hackathon",
