@@ -1,27 +1,27 @@
 {
-  "generatedAt": "2026-09-08T09:33:36.137Z",
+  "generatedAt": "2026-09-08T09:39:34.605Z",
   "generatorVersion": 2,
-  "runMs": 12080,
+  "runMs": 21881,
   "counts": {
-    "total": 159,
+    "total": 160,
     "byType": {
-      "hackathon": 110,
+      "hackathon": 111,
       "ctf": 49
     },
     "byScope": {
-      "international": 85,
-      "national": 74
+      "national": 79,
+      "international": 81
     },
     "byStatus": {
-      "ongoing": 68,
-      "upcoming": 90,
+      "ongoing": 73,
+      "upcoming": 86,
       "past": 1
     },
     "byDomain": {
-      "iot-security": 20,
-      "ai-ml": 61,
       "cyber-security": 103,
-      "general-innovation": 23,
+      "general-innovation": 28,
+      "iot-security": 19,
+      "ai-ml": 59,
       "blockchain": 15,
       "digital-forensics": 18,
       "drone-security": 2,
@@ -29,7 +29,8 @@
       "unclassified": 1
     },
     "bySource": {
-      "devpost": 44,
+      "mygov": 5,
+      "devpost": 40,
       "devfolio": 13,
       "unstop": 52,
       "ctftime": 48,
@@ -93,7 +94,7 @@
       "homepage": "",
       "status": "empty",
       "count": 0,
-      "ms": 3
+      "ms": 2
     },
     {
       "id": "ctftime",
@@ -101,7 +102,7 @@
       "homepage": "https://ctftime.org/",
       "status": "ok",
       "count": 51,
-      "ms": 663
+      "ms": 1186
     },
     {
       "id": "devpost",
@@ -109,7 +110,7 @@
       "homepage": "https://devpost.com/hackathons",
       "status": "ok",
       "count": 46,
-      "ms": 1339
+      "ms": 1654
     },
     {
       "id": "unstop",
@@ -117,7 +118,7 @@
       "homepage": "https://unstop.com/hackathons",
       "status": "ok",
       "count": 99,
-      "ms": 295
+      "ms": 6661
     },
     {
       "id": "devfolio",
@@ -125,7 +126,7 @@
       "homepage": "https://devfolio.co/hackathons",
       "status": "ok",
       "count": 24,
-      "ms": 1554
+      "ms": 2127
     },
     {
       "id": "hackerearth",
@@ -138,7 +139,7 @@
       "homepage": "https://www.mlh.com/seasons",
       "status": "ok",
       "count": 106,
-      "ms": 2526
+      "ms": 3365
     },
     {
       "id": "mygov",
@@ -146,7 +147,7 @@
       "homepage": "https://innovateindia.mygov.in/",
       "status": "ok",
       "count": 7,
-      "ms": 3143
+      "ms": 4221
     },
     {
       "id": "pib",
@@ -158,11 +159,169 @@
       "label": "Configured feeds",
       "homepage": "",
       "status": "ok",
-      "count": 53,
-      "ms": 2495
+      "count": 51,
+      "ms": 2613
     }
   ],
   "events": [
+    {
+      "id": "mygov-c88dc3eaea",
+      "source": "mygov",
+      "sourceLabel": "MyGov Innovate India",
+      "sourceUrl": "https://innovateindia.mygov.in/",
+      "url": "https://innovateindia.mygov.in/csir-societal-platform-2024/",
+      "title": "CSIR Societal Platform 2024",
+      "description": "The Council of Scientific & Industrial Research (CSIR), known for its cutting edge R&D knowledgebase in diverse S&T areas, is a contemporary R&D organization. Submission window as listed: 16/02/2024 - 31/12/2026.",
+      "image": "https://static.mygov.in/innovateindia/2025/05/05/mygov-10000000001887999785.webp",
+      "organizer": "Government of India (MyGov)",
+      "format": "",
+      "prize": "",
+      "eligibility": "",
+      "rules": [
+        "Listed as open for submissions at the time of the last crawl.",
+        "Government of India innovation challenge. Eligibility is usually restricted to Indian citizens or institutions."
+      ],
+      "tags": [
+        "MyGov",
+        "Government of India",
+        "Innovation challenge"
+      ],
+      "location": {
+        "text": "India",
+        "country": "India",
+        "mode": "unspecified"
+      },
+      "startsAt": "2024-02-16T00:00:00.000Z",
+      "endsAt": "2026-12-31T00:00:00.000Z",
+      "registration": {
+        "opensAt": "2024-02-16T00:00:00.000Z",
+        "closesAt": "2026-12-31T00:00:00.000Z",
+        "url": "https://innovateindia.mygov.in/csir-societal-platform-2024/"
+      },
+      "timeline": [
+        {
+          "label": "Registration opens",
+          "at": "2024-02-16T00:00:00.000Z"
+        },
+        {
+          "label": "Event starts",
+          "at": "2024-02-16T00:00:00.000Z"
+        },
+        {
+          "label": "Registration closes",
+          "at": "2026-12-31T00:00:00.000Z"
+        },
+        {
+          "label": "Event ends",
+          "at": "2026-12-31T00:00:00.000Z"
+        }
+      ],
+      "participants": null,
+      "type": "hackathon",
+      "trusted": false,
+      "fetchedAt": "2026-09-08T09:39:31.942Z",
+      "domains": [
+        "cyber-security",
+        "general-innovation"
+      ],
+      "domainLabels": [
+        "Cyber Security",
+        "General Innovation"
+      ],
+      "scope": "national",
+      "scopeConfidence": "high",
+      "scopeReason": "source country = India",
+      "status": "ongoing",
+      "registrationStatus": "open",
+      "relevance": 15,
+      "relevanceReasons": [
+        "+6 Cyber Security",
+        "+2 General Innovation",
+        "+3 ongoing",
+        "+2 has official URL",
+        "+1 has image",
+        "+1 detailed"
+      ]
+    },
+    {
+      "id": "mygov-2523b9bcef",
+      "source": "mygov",
+      "sourceLabel": "MyGov Innovate India",
+      "sourceUrl": "https://innovateindia.mygov.in/",
+      "url": "https://innovateindia.mygov.in/bioe3/",
+      "title": "D.E.S.I.G.N for BioE3 Challenge “Empowering Youth to Solve Critical Issues of their TIMES”",
+      "description": "The D.E.S.I.G.N. for BioE3 Challenge is an initiative under the BioE3 (Biotechnology for Economy, Environment and Employment) policy framework, aimed at inspiring innovative, sustainable, and scalable biotechnological solutions driven by young students and researchers of the country with an overarching theme of 'Empowering Youth to Solve Critical Issues of their TIMES'. Submission window as listed: 01/11/2025 - 20/09/2026.",
+      "image": "https://static.mygov.in/innovateindia/2025/11/04/mygov-10000000002114931834.webp",
+      "organizer": "Government of India (MyGov)",
+      "format": "",
+      "prize": "",
+      "eligibility": "",
+      "rules": [
+        "Listed as open for submissions at the time of the last crawl.",
+        "Government of India innovation challenge. Eligibility is usually restricted to Indian citizens or institutions."
+      ],
+      "tags": [
+        "MyGov",
+        "Government of India",
+        "Innovation challenge"
+      ],
+      "location": {
+        "text": "India",
+        "country": "India",
+        "mode": "unspecified"
+      },
+      "startsAt": "2025-11-01T00:00:00.000Z",
+      "endsAt": "2026-09-20T00:00:00.000Z",
+      "registration": {
+        "opensAt": "2025-11-01T00:00:00.000Z",
+        "closesAt": "2026-09-20T00:00:00.000Z",
+        "url": "https://innovateindia.mygov.in/bioe3/"
+      },
+      "timeline": [
+        {
+          "label": "Registration opens",
+          "at": "2025-11-01T00:00:00.000Z"
+        },
+        {
+          "label": "Event starts",
+          "at": "2025-11-01T00:00:00.000Z"
+        },
+        {
+          "label": "Registration closes",
+          "at": "2026-09-20T00:00:00.000Z"
+        },
+        {
+          "label": "Event ends",
+          "at": "2026-09-20T00:00:00.000Z"
+        }
+      ],
+      "participants": null,
+      "type": "hackathon",
+      "trusted": false,
+      "fetchedAt": "2026-09-08T09:39:31.942Z",
+      "domains": [
+        "iot-security",
+        "general-innovation"
+      ],
+      "domainLabels": [
+        "IoT & Embedded",
+        "General Innovation"
+      ],
+      "scope": "national",
+      "scopeConfidence": "high",
+      "scopeReason": "source country = India",
+      "status": "ongoing",
+      "registrationStatus": "open",
+      "relevance": 16,
+      "relevanceReasons": [
+        "+7 IoT & Embedded",
+        "+2 General Innovation",
+        "+3 ongoing",
+        "+2 has official URL",
+        "+1 has image",
+        "+1 detailed"
+      ]
+    },
     {
       "id": "devpost-170055bb64",
       "source": "devpost",
@@ -210,7 +369,7 @@
       ],
       "participants": 2041,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.062Z",
+      "fetchedAt": "2026-09-08T09:39:15.566Z",
       "domains": [
         "iot-security",
         "ai-ml"
@@ -224,7 +383,7 @@
       "scopeReason": "no India signal found",
       "status": "ongoing",
       "registrationStatus": "closed",
-      "relevance": 20,
+      "relevance": 18,
       "relevanceReasons": [
         "+7 IoT & Embedded",
         "+4 AI / ML",
@@ -232,13 +391,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://volthacks.devpost.com/"
-        }
       ]
     },
     {
@@ -288,7 +440,7 @@
       ],
       "participants": 257,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.065Z",
+      "fetchedAt": "2026-09-08T09:39:15.568Z",
       "domains": [
         "ai-ml"
       ],
@@ -300,20 +452,13 @@
       "scopeReason": "no India signal found",
       "status": "ongoing",
       "registrationStatus": "closed",
-      "relevance": 13,
+      "relevance": 11,
       "relevanceReasons": [
         "+4 AI / ML",
         "+3 ongoing",
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://buuniex-hackathon.devpost.com/"
-        }
       ]
     },
     {
@@ -363,7 +508,7 @@
       ],
       "participants": 55,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.058Z",
+      "fetchedAt": "2026-09-08T09:39:15.563Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -377,7 +522,7 @@
       "scopeReason": "no India signal found",
       "status": "ongoing",
       "registrationStatus": "closed",
-      "relevance": 19,
+      "relevance": 17,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+4 AI / ML",
@@ -385,13 +530,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://htcj-aviation-futures.devpost.com/"
-        }
       ]
     },
     {
@@ -441,7 +579,7 @@
       ],
       "participants": 832,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.062Z",
+      "fetchedAt": "2026-09-08T09:39:15.566Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -455,7 +593,7 @@
       "scopeReason": "no India signal found",
       "status": "ongoing",
       "registrationStatus": "closed",
-      "relevance": 19,
+      "relevance": 17,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+4 AI / ML",
@@ -463,13 +601,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://gibc-v2.devpost.com/"
-        }
       ]
     },
     {
@@ -519,7 +650,7 @@
       ],
       "participants": 196,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.059Z",
+      "fetchedAt": "2026-09-08T09:39:15.563Z",
       "domains": [
         "ai-ml"
       ],
@@ -531,20 +662,13 @@
       "scopeReason": "no India signal found",
       "status": "ongoing",
       "registrationStatus": "closed",
-      "relevance": 13,
+      "relevance": 11,
       "relevanceReasons": [
         "+4 AI / ML",
         "+3 ongoing",
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://syntax-summit.devpost.com/"
-        }
       ]
     },
     {
@@ -594,7 +718,7 @@
       ],
       "participants": 9907,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.060Z",
+      "fetchedAt": "2026-09-08T09:39:15.564Z",
       "domains": [
         "ai-ml"
       ],
@@ -606,20 +730,13 @@
       "scopeReason": "no India signal found",
       "status": "ongoing",
       "registrationStatus": "closed",
-      "relevance": 13,
+      "relevance": 11,
       "relevanceReasons": [
         "+4 AI / ML",
         "+3 ongoing",
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://agentic-cinema.devpost.com/"
-        }
       ]
     },
     {
@@ -676,7 +793,7 @@
       ],
       "participants": null,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:27.910Z",
+      "fetchedAt": "2026-09-08T09:39:24.351Z",
       "domains": [
         "cyber-security",
         "ai-ml",
@@ -692,7 +809,7 @@
       "scopeReason": "no India signal found",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 22,
+      "relevance": 20,
       "relevanceReasons": [
         "+7 Cyber Security",
         "+4 AI / ML",
@@ -701,13 +818,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devfolio",
-          "label": "Devfolio",
-          "url": "https://codestorm-futureforge.devfolio.co/"
-        }
       ]
     },
     {
@@ -771,7 +881,7 @@
       ],
       "participants": 651,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.330Z",
+      "fetchedAt": "2026-09-08T09:39:22.204Z",
       "domains": [
         "cyber-security",
         "general-innovation"
@@ -785,7 +895,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 17,
+      "relevance": 15,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+2 General Innovation",
@@ -793,13 +903,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/samadhan-2026-national-social-innovation-challenge-upay-underprivileged-advancements-by-youth-1724048"
-        }
       ]
     },
     {
@@ -849,7 +952,7 @@
       ],
       "participants": 305,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.058Z",
+      "fetchedAt": "2026-09-08T09:39:15.563Z",
       "domains": [
         "cyber-security",
         "ai-ml",
@@ -865,7 +968,7 @@
       "scopeReason": "no India signal found",
       "status": "ongoing",
       "registrationStatus": "closed",
-      "relevance": 22,
+      "relevance": 20,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+4 AI / ML",
@@ -874,13 +977,82 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
+      ]
+    },
+    {
+      "id": "mygov-25036c36af",
+      "source": "mygov",
+      "sourceLabel": "MyGov Innovate India",
+      "sourceUrl": "https://innovateindia.mygov.in/",
+      "url": "https://innovateindia.mygov.in/digital-shram-sankalp/",
+      "title": "Digital Shram Sankalp",
+      "description": "The Ministry of Labour & Employment is one of India’s oldest and most significant ministries, dedicated to safeguarding workers’ rights and promoting their welfare, especially among economically weaker and disadvantaged sections. It strives to ensure fair working conditions, enhance workplace well-being, expand employment opportunities, and strengthen vocational skill development. Submission window as listed: 05/08/2026 - 18/09/2026.",
+      "image": "https://static.mygov.in/innovateindia/2026/08/04/mygov-9999999991394057784.webp",
+      "organizer": "Ministry of Labour and Employment",
+      "format": "",
+      "prize": "",
+      "eligibility": "",
+      "rules": [
+        "Listed as open for submissions at the time of the last crawl.",
+        "Government of India innovation challenge. Eligibility is usually restricted to Indian citizens or institutions."
       ],
-      "alsoOn": [
+      "tags": [
+        "MyGov",
+        "Government of India",
+        "Innovation challenge"
+      ],
+      "location": {
+        "text": "India",
+        "country": "India",
+        "mode": "unspecified"
+      },
+      "startsAt": "2026-08-05T00:00:00.000Z",
+      "endsAt": "2026-09-18T00:00:00.000Z",
+      "registration": {
+        "opensAt": "2026-08-05T00:00:00.000Z",
+        "closesAt": "2026-09-18T00:00:00.000Z",
+        "url": "https://innovateindia.mygov.in/digital-shram-sankalp/"
+      },
+      "timeline": [
         {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://compsphere12.devpost.com/"
+          "label": "Registration opens",
+          "at": "2026-08-05T00:00:00.000Z"
+        },
+        {
+          "label": "Event starts",
+          "at": "2026-08-05T00:00:00.000Z"
+        },
+        {
+          "label": "Registration closes",
+          "at": "2026-09-18T00:00:00.000Z"
+        },
+        {
+          "label": "Event ends",
+          "at": "2026-09-18T00:00:00.000Z"
         }
+      ],
+      "participants": null,
+      "type": "hackathon",
+      "trusted": false,
+      "fetchedAt": "2026-09-08T09:39:31.941Z",
+      "domains": [
+        "general-innovation"
+      ],
+      "domainLabels": [
+        "General Innovation"
+      ],
+      "scope": "national",
+      "scopeConfidence": "high",
+      "scopeReason": "source country = India",
+      "status": "ongoing",
+      "registrationStatus": "open",
+      "relevance": 9,
+      "relevanceReasons": [
+        "+2 General Innovation",
+        "+3 ongoing",
+        "+2 has official URL",
+        "+1 has image",
+        "+1 detailed"
       ]
     },
     {
@@ -930,7 +1102,7 @@
       ],
       "participants": 404,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.065Z",
+      "fetchedAt": "2026-09-08T09:39:15.568Z",
       "domains": [
         "cyber-security"
       ],
@@ -942,20 +1114,13 @@
       "scopeReason": "no India signal found",
       "status": "ongoing",
       "registrationStatus": "closed",
-      "relevance": 15,
+      "relevance": 13,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+3 ongoing",
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://univabio.devpost.com/"
-        }
       ]
     },
     {
@@ -1013,7 +1178,7 @@
       ],
       "participants": 1123,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.335Z",
+      "fetchedAt": "2026-09-08T09:39:22.209Z",
       "domains": [
         "ai-ml",
         "cyber-security"
@@ -1027,7 +1192,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 21,
+      "relevance": 19,
       "relevanceReasons": [
         "+6 AI / ML",
         "+6 Cyber Security",
@@ -1035,13 +1200,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/hackday-10-decodep-community-1737351"
-        }
       ]
     },
     {
@@ -1099,9 +1257,9 @@
           "at": "2026-09-27T18:29:00.000Z"
         }
       ],
-      "participants": 1915,
+      "participants": 1918,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.303Z",
+      "fetchedAt": "2026-09-08T09:39:22.182Z",
       "domains": [
         "ai-ml",
         "cyber-security",
@@ -1117,7 +1275,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 23,
+      "relevance": 21,
       "relevanceReasons": [
         "+5 AI / ML",
         "+6 Cyber Security",
@@ -1127,13 +1285,161 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
+      ]
+    },
+    {
+      "id": "mygov-8a37f37d3d",
+      "source": "mygov",
+      "sourceLabel": "MyGov Innovate India",
+      "sourceUrl": "https://innovateindia.mygov.in/",
+      "url": "https://innovateindia.mygov.in/avinya27-energy-startup-challenge/",
+      "title": "Avinya’27 – Energy Startup Challenge",
+      "description": "Avinya, the energy startup competition, aims to promote Indian startups in the energy sector. Anchored in the spirit of Atmanirbhar Bharat, the initiative aims to highlight innovation, socio-economic impact, sustainability, and diversity. Submission window as listed: 21/08/2026 - 15/10/2026.",
+      "image": "https://static.mygov.in/innovateindia/2026/08/21/mygov-1000000000239116680.webp",
+      "organizer": "Ministry of Petroleum and Natural Gas",
+      "format": "",
+      "prize": "",
+      "eligibility": "",
+      "rules": [
+        "Listed as open for submissions at the time of the last crawl.",
+        "Government of India innovation challenge. Eligibility is usually restricted to Indian citizens or institutions."
       ],
-      "alsoOn": [
+      "tags": [
+        "MyGov",
+        "Government of India",
+        "Innovation challenge"
+      ],
+      "location": {
+        "text": "India",
+        "country": "India",
+        "mode": "unspecified"
+      },
+      "startsAt": "2026-08-21T00:00:00.000Z",
+      "endsAt": "2026-10-15T00:00:00.000Z",
+      "registration": {
+        "opensAt": "2026-08-21T00:00:00.000Z",
+        "closesAt": "2026-10-15T00:00:00.000Z",
+        "url": "https://innovateindia.mygov.in/avinya27-energy-startup-challenge/"
+      },
+      "timeline": [
         {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/hackcelestial-30-pillai-university-navi-mumbai-1737808"
+          "label": "Registration opens",
+          "at": "2026-08-21T00:00:00.000Z"
+        },
+        {
+          "label": "Event starts",
+          "at": "2026-08-21T00:00:00.000Z"
+        },
+        {
+          "label": "Registration closes",
+          "at": "2026-10-15T00:00:00.000Z"
+        },
+        {
+          "label": "Event ends",
+          "at": "2026-10-15T00:00:00.000Z"
         }
+      ],
+      "participants": null,
+      "type": "hackathon",
+      "trusted": false,
+      "fetchedAt": "2026-09-08T09:39:31.941Z",
+      "domains": [
+        "cyber-security",
+        "general-innovation"
+      ],
+      "domainLabels": [
+        "Cyber Security",
+        "General Innovation"
+      ],
+      "scope": "national",
+      "scopeConfidence": "high",
+      "scopeReason": "source country = India",
+      "status": "ongoing",
+      "registrationStatus": "open",
+      "relevance": 16,
+      "relevanceReasons": [
+        "+6 Cyber Security",
+        "+3 General Innovation",
+        "+3 ongoing",
+        "+2 has official URL",
+        "+1 has image",
+        "+1 detailed"
+      ]
+    },
+    {
+      "id": "mygov-1a82f3f2a9",
+      "source": "mygov",
+      "sourceLabel": "MyGov Innovate India",
+      "sourceUrl": "https://innovateindia.mygov.in/",
+      "url": "https://innovateindia.mygov.in/innovation-for-her/",
+      "title": "Innovation for Her – Ideas for Women’s Safety",
+      "description": "Nirbhaya Fund is a dedicated non-lapsable fund established by the Government of India. Ensuring the safety and security of women and girls is a collective responsibility. Submission window as listed: 21/08/2026 - 16/09/2026.",
+      "image": "https://static.mygov.in/innovateindia/2026/08/20/mygov-10000000001326494503.webp",
+      "organizer": "Ministry of Women and Child Development",
+      "format": "",
+      "prize": "",
+      "eligibility": "",
+      "rules": [
+        "Listed as open for submissions at the time of the last crawl.",
+        "Government of India innovation challenge. Eligibility is usually restricted to Indian citizens or institutions."
+      ],
+      "tags": [
+        "MyGov",
+        "Government of India",
+        "Innovation challenge"
+      ],
+      "location": {
+        "text": "India",
+        "country": "India",
+        "mode": "unspecified"
+      },
+      "startsAt": "2026-08-21T00:00:00.000Z",
+      "endsAt": "2026-09-16T00:00:00.000Z",
+      "registration": {
+        "opensAt": "2026-08-21T00:00:00.000Z",
+        "closesAt": "2026-09-16T00:00:00.000Z",
+        "url": "https://innovateindia.mygov.in/innovation-for-her/"
+      },
+      "timeline": [
+        {
+          "label": "Registration opens",
+          "at": "2026-08-21T00:00:00.000Z"
+        },
+        {
+          "label": "Event starts",
+          "at": "2026-08-21T00:00:00.000Z"
+        },
+        {
+          "label": "Registration closes",
+          "at": "2026-09-16T00:00:00.000Z"
+        },
+        {
+          "label": "Event ends",
+          "at": "2026-09-16T00:00:00.000Z"
+        }
+      ],
+      "participants": null,
+      "type": "hackathon",
+      "trusted": false,
+      "fetchedAt": "2026-09-08T09:39:31.941Z",
+      "domains": [
+        "general-innovation"
+      ],
+      "domainLabels": [
+        "General Innovation"
+      ],
+      "scope": "national",
+      "scopeConfidence": "high",
+      "scopeReason": "source country = India",
+      "status": "ongoing",
+      "registrationStatus": "open",
+      "relevance": 9,
+      "relevanceReasons": [
+        "+2 General Innovation",
+        "+3 ongoing",
+        "+2 has official URL",
+        "+1 has image",
+        "+1 detailed"
       ]
     },
     {
@@ -1183,7 +1489,7 @@
       ],
       "participants": 141,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.060Z",
+      "fetchedAt": "2026-09-08T09:39:15.565Z",
       "domains": [
         "blockchain"
       ],
@@ -1195,20 +1501,13 @@
       "scopeReason": "no India signal found",
       "status": "ongoing",
       "registrationStatus": "closed",
-      "relevance": 12,
+      "relevance": 10,
       "relevanceReasons": [
         "+3 Blockchain & Web3",
         "+3 ongoing",
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://3rd-web-hack.devpost.com/"
-        }
       ]
     },
     {
@@ -1266,7 +1565,7 @@
       ],
       "participants": 331,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.322Z",
+      "fetchedAt": "2026-09-08T09:39:22.198Z",
       "domains": [
         "ai-ml"
       ],
@@ -1278,20 +1577,13 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 13,
+      "relevance": 11,
       "relevanceReasons": [
         "+4 AI / ML",
         "+3 ongoing",
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/statnova-minecraft-ai-vibe-coding-challenge-vit-bhopal-university-vit-bhopal-1731974"
-        }
       ]
     },
     {
@@ -1353,7 +1645,7 @@
       ],
       "participants": 69,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.328Z",
+      "fetchedAt": "2026-09-08T09:39:22.202Z",
       "domains": [
         "ai-ml"
       ],
@@ -1365,20 +1657,13 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 14,
+      "relevance": 12,
       "relevanceReasons": [
         "+5 AI / ML",
         "+3 ongoing",
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/the-pareidolia-paradox-sies-gst-nerul-1743714"
-        }
       ]
     },
     {
@@ -1443,7 +1728,7 @@
       ],
       "participants": 36,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.328Z",
+      "fetchedAt": "2026-09-08T09:39:22.201Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -1457,7 +1742,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 29,
+      "relevance": 27,
       "relevanceReasons": [
         "+9 Cyber Security",
         "+10 Digital Forensics",
@@ -1466,13 +1751,6 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/seize-da-flaq-cyberonites-club-1724723"
-        }
       ]
     },
     {
@@ -1522,7 +1800,7 @@
       ],
       "participants": 281,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.062Z",
+      "fetchedAt": "2026-09-08T09:39:15.566Z",
       "domains": [
         "ai-ml",
         "iot-security",
@@ -1538,7 +1816,7 @@
       "scopeReason": "no India signal found",
       "status": "ongoing",
       "registrationStatus": "closed",
-      "relevance": 27,
+      "relevance": 25,
       "relevanceReasons": [
         "+5 AI / ML",
         "+7 IoT & Embedded",
@@ -1547,13 +1825,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://hyperbloom-september.devpost.com/"
-        }
       ]
     },
     {
@@ -1609,9 +1880,9 @@
           "at": "2026-09-14T18:30:00.000Z"
         }
       ],
-      "participants": 181,
+      "participants": 182,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.305Z",
+      "fetchedAt": "2026-09-08T09:39:22.182Z",
       "domains": [
         "cyber-security"
       ],
@@ -1623,7 +1894,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 16,
+      "relevance": 14,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+3 ongoing",
@@ -1631,13 +1902,6 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/tejas-india-hackathon-2026-government-engineering-college-gec-sheikhpura-1744276"
-        }
       ]
     },
     {
@@ -1687,7 +1951,7 @@
       ],
       "participants": 1297,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.062Z",
+      "fetchedAt": "2026-09-08T09:39:15.566Z",
       "domains": [
         "ai-ml",
         "iot-security"
@@ -1701,7 +1965,7 @@
       "scopeReason": "no India signal found",
       "status": "ongoing",
       "registrationStatus": "closed",
-      "relevance": 21,
+      "relevance": 19,
       "relevanceReasons": [
         "+5 AI / ML",
         "+7 IoT & Embedded",
@@ -1709,13 +1973,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://opencv26.devpost.com/"
-        }
       ]
     },
     {
@@ -1773,7 +2030,7 @@
       ],
       "participants": 837,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.334Z",
+      "fetchedAt": "2026-09-08T09:39:22.208Z",
       "domains": [
         "cyber-security",
         "ai-ml",
@@ -1791,7 +2048,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 25,
+      "relevance": 23,
       "relevanceReasons": [
         "+7 Cyber Security",
         "+4 AI / ML",
@@ -1801,13 +2058,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/buildforge-hackathon-invoqe-1746404"
-        }
       ]
     },
     {
@@ -1857,7 +2107,7 @@
       ],
       "participants": 55,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.064Z",
+      "fetchedAt": "2026-09-08T09:39:15.568Z",
       "domains": [
         "ai-ml"
       ],
@@ -1869,20 +2119,13 @@
       "scopeReason": "no India signal found",
       "status": "ongoing",
       "registrationStatus": "closed",
-      "relevance": 14,
+      "relevance": 12,
       "relevanceReasons": [
         "+5 AI / ML",
         "+3 ongoing",
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://venturefix.devpost.com/"
-        }
       ]
     },
     {
@@ -1946,7 +2189,7 @@
       ],
       "participants": 221,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.321Z",
+      "fetchedAt": "2026-09-08T09:39:22.197Z",
       "domains": [
         "ai-ml",
         "cyber-security",
@@ -1962,7 +2205,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 22,
+      "relevance": 20,
       "relevanceReasons": [
         "+5 AI / ML",
         "+6 Cyber Security",
@@ -1971,13 +2214,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/sit-flagship-hackathon-2026-8-hour-ai-hackathon-symbiosis-institute-of-technology-sit-pune-1746836"
-        }
       ]
     },
     {
@@ -2041,7 +2277,7 @@
       ],
       "participants": 9,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.332Z",
+      "fetchedAt": "2026-09-08T09:39:22.205Z",
       "domains": [
         "general-innovation"
       ],
@@ -2053,7 +2289,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 13,
+      "relevance": 11,
       "relevanceReasons": [
         "+3 General Innovation",
         "+3 ongoing",
@@ -2061,13 +2297,6 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/hack-with-vizag-40-nadimpalli-satyanarayana-raju-institute-of-technology-nsrit-andhra-pradesh-1746827"
-        }
       ]
     },
     {
@@ -2117,7 +2346,7 @@
       ],
       "participants": 86,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.058Z",
+      "fetchedAt": "2026-09-08T09:39:15.563Z",
       "domains": [
         "cyber-security",
         "general-innovation"
@@ -2131,7 +2360,7 @@
       "scopeReason": "no India signal found",
       "status": "ongoing",
       "registrationStatus": "closed",
-      "relevance": 17,
+      "relevance": 15,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+2 General Innovation",
@@ -2139,13 +2368,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://csh-social-impact-ideathon.devpost.com/"
-        }
       ]
     },
     {
@@ -2210,7 +2432,7 @@
       ],
       "participants": 46,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.330Z",
+      "fetchedAt": "2026-09-08T09:39:22.203Z",
       "domains": [
         "iot-security",
         "ai-ml"
@@ -2224,7 +2446,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 21,
+      "relevance": 19,
       "relevanceReasons": [
         "+7 IoT & Embedded",
         "+4 AI / ML",
@@ -2233,13 +2455,6 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/global-mesh-ai-swarm-robotics-challenge-2026-build-open-source-edge-systems-vidya-sanskar-public-school-1747770"
-        }
       ]
     },
     {
@@ -2303,7 +2518,7 @@
       ],
       "participants": 392,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.332Z",
+      "fetchedAt": "2026-09-08T09:39:22.206Z",
       "domains": [
         "cyber-security"
       ],
@@ -2315,20 +2530,13 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 17,
+      "relevance": 15,
       "relevanceReasons": [
         "+8 Cyber Security",
         "+3 ongoing",
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/hackosquad-cyber-week-2026-learn-hack-compete-in-7-days-hacksquad-cyber-week-2026-learn-hack-compete-in-7-day-1747788"
-        }
       ]
     },
     {
@@ -2392,7 +2600,7 @@
       ],
       "participants": 415,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.334Z",
+      "fetchedAt": "2026-09-08T09:39:22.208Z",
       "domains": [
         "ai-ml"
       ],
@@ -2404,7 +2612,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 14,
+      "relevance": 12,
       "relevanceReasons": [
         "+4 AI / ML",
         "+3 ongoing",
@@ -2412,13 +2620,6 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/boss-1000-contributor-hackathon-boss-console-1747592"
-        }
       ]
     },
     {
@@ -2482,7 +2683,7 @@
       ],
       "participants": 44,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.334Z",
+      "fetchedAt": "2026-09-08T09:39:22.207Z",
       "domains": [
         "ai-ml"
       ],
@@ -2494,20 +2695,13 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 13,
+      "relevance": 11,
       "relevanceReasons": [
         "+4 AI / ML",
         "+3 ongoing",
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/autopilot-hackathon-ahmedabad-edition-supervity-1746507"
-        }
       ]
     },
     {
@@ -2565,7 +2759,7 @@
       ],
       "participants": 267,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.326Z",
+      "fetchedAt": "2026-09-08T09:39:22.201Z",
       "domains": [
         "general-innovation"
       ],
@@ -2577,20 +2771,13 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 12,
+      "relevance": 10,
       "relevanceReasons": [
         "+3 General Innovation",
         "+3 ongoing",
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/vibeathon-2026-ac-patil-college-of-engineering-department-of-information-technology-1747384"
-        }
       ]
     },
     {
@@ -2640,7 +2827,7 @@
       ],
       "participants": 31,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.061Z",
+      "fetchedAt": "2026-09-08T09:39:15.565Z",
       "domains": [
         "iot-security",
         "ai-ml"
@@ -2654,7 +2841,7 @@
       "scopeReason": "matched bengaluru",
       "status": "ongoing",
       "registrationStatus": "closed",
-      "relevance": 20,
+      "relevance": 18,
       "relevanceReasons": [
         "+7 IoT & Embedded",
         "+4 AI / ML",
@@ -2662,13 +2849,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://next-gen-hackathon.devpost.com/"
-        }
       ]
     },
     {
@@ -2732,7 +2912,7 @@
       ],
       "participants": 67,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.314Z",
+      "fetchedAt": "2026-09-08T09:39:22.191Z",
       "domains": [
         "cyber-security",
         "ai-ml",
@@ -2748,7 +2928,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 22,
+      "relevance": 20,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+4 AI / ML",
@@ -2758,13 +2938,6 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/singularity-hackathon-aj-institute-of-engineering-and-technology-ajiet-mangalore-karnataka-1735180"
-        }
       ]
     },
     {
@@ -2826,9 +2999,9 @@
           "at": "2026-10-01T13:30:00.000Z"
         }
       ],
-      "participants": 88,
+      "participants": 87,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.336Z",
+      "fetchedAt": "2026-09-08T09:39:22.209Z",
       "domains": [
         "blockchain",
         "ai-ml",
@@ -2844,7 +3017,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 20,
+      "relevance": 18,
       "relevanceReasons": [
         "+4 Blockchain & Web3",
         "+4 AI / ML",
@@ -2854,13 +3027,6 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/prysm26-eshan-group-of-institutions-uttar-pradesh-1747181"
-        }
       ]
     },
     {
@@ -2918,7 +3084,7 @@
       ],
       "participants": 243,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.329Z",
+      "fetchedAt": "2026-09-08T09:39:22.203Z",
       "domains": [
         "cyber-security"
       ],
@@ -2930,7 +3096,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 16,
+      "relevance": 14,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+3 ongoing",
@@ -2938,13 +3104,6 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/qiskit-fall-fest-mukesh-patel-school-of-technology-management-and-engineering-nmims-mumbai-1748182"
-        }
       ]
     },
     {
@@ -3003,7 +3162,7 @@
       ],
       "participants": 29,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.325Z",
+      "fetchedAt": "2026-09-08T09:39:22.200Z",
       "domains": [
         "general-innovation"
       ],
@@ -3015,7 +3174,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 12,
+      "relevance": 10,
       "relevanceReasons": [
         "+2 General Innovation",
         "+3 ongoing",
@@ -3023,13 +3182,6 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/competitions/kernel-prime26-24-hour-hackathon-sa-engineering-college-1747854"
-        }
       ]
     },
     {
@@ -3094,7 +3246,7 @@
       ],
       "participants": 22,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.322Z",
+      "fetchedAt": "2026-09-08T09:39:22.198Z",
       "domains": [
         "iot-security",
         "cyber-security",
@@ -3110,7 +3262,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 29,
+      "relevance": 27,
       "relevanceReasons": [
         "+8 IoT & Embedded",
         "+7 Cyber Security",
@@ -3119,13 +3271,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/innovators-day-2026-sri-manakula-vinayagar-engineering-college-smvec-puducherry-1748928"
-        }
       ]
     },
     {
@@ -3190,7 +3335,7 @@
       ],
       "participants": 11,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.324Z",
+      "fetchedAt": "2026-09-08T09:39:22.199Z",
       "domains": [
         "drone-security",
         "ai-ml",
@@ -3206,7 +3351,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 24,
+      "relevance": 22,
       "relevanceReasons": [
         "+8 Drone & UAV",
         "+5 AI / ML",
@@ -3215,13 +3360,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/code-cortex-30-gravitas26-vit-vellore-1748822"
-        }
       ]
     },
     {
@@ -3279,7 +3417,7 @@
       ],
       "participants": 563,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.324Z",
+      "fetchedAt": "2026-09-08T09:39:22.200Z",
       "domains": [
         "ai-ml"
       ],
@@ -3291,20 +3429,13 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 16,
+      "relevance": 14,
       "relevanceReasons": [
         "+7 AI / ML",
         "+3 ongoing",
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/aiml-with-data-science-free-demo-quality-thought-info-systems-1748700"
-        }
       ]
     },
     {
@@ -3362,7 +3493,7 @@
       ],
       "participants": 48,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.325Z",
+      "fetchedAt": "2026-09-08T09:39:22.200Z",
       "domains": [
         "blockchain"
       ],
@@ -3374,20 +3505,13 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 12,
+      "relevance": 10,
       "relevanceReasons": [
         "+3 Blockchain & Web3",
         "+3 ongoing",
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/redefine-gravitas26-vit-vellore-1748546"
-        }
       ]
     },
     {
@@ -3452,7 +3576,7 @@
       ],
       "participants": 7,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.338Z",
+      "fetchedAt": "2026-09-08T09:39:22.211Z",
       "domains": [
         "general-innovation"
       ],
@@ -3464,7 +3588,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 12,
+      "relevance": 10,
       "relevanceReasons": [
         "+2 General Innovation",
         "+3 ongoing",
@@ -3472,13 +3596,6 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/competitions/ideathon-60-ideathon-60-kalinga-university-1748497"
-        }
       ]
     },
     {
@@ -3535,9 +3652,9 @@
           "at": "2026-10-03T15:30:00.000Z"
         }
       ],
-      "participants": 168,
+      "participants": 170,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.333Z",
+      "fetchedAt": "2026-09-08T09:39:22.207Z",
       "domains": [
         "cyber-security"
       ],
@@ -3549,7 +3666,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 16,
+      "relevance": 14,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+3 ongoing",
@@ -3557,13 +3674,6 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/paradox-hackathon-institute-of-engineering-management-kolkata-1747830"
-        }
       ]
     },
     {
@@ -3627,7 +3737,7 @@
       ],
       "participants": 7,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.345Z",
+      "fetchedAt": "2026-09-08T09:39:22.217Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -3641,7 +3751,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 19,
+      "relevance": 17,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+4 AI / ML",
@@ -3649,13 +3759,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/competitions/synofura-26-international-student-symposium-on-humanizing-technology-2026-egs-pillay-engineering-college-1749381"
-        }
       ]
     },
     {
@@ -3715,7 +3818,7 @@
       ],
       "participants": 11,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:26.360Z",
+      "fetchedAt": "2026-09-08T09:39:22.229Z",
       "domains": [
         "cyber-security"
       ],
@@ -3727,20 +3830,13 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 18,
+      "relevance": 16,
       "relevanceReasons": [
         "+9 Cyber Security",
         "+3 ongoing",
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/quiz/capture-the-flag-20-rv-university-bangalore-1749268"
-        }
       ]
     },
     {
@@ -3804,7 +3900,7 @@
       ],
       "participants": 2,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.360Z",
+      "fetchedAt": "2026-09-08T09:39:22.229Z",
       "domains": [
         "cyber-security"
       ],
@@ -3816,7 +3912,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 16,
+      "relevance": 14,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+3 ongoing",
@@ -3824,13 +3920,6 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/competitions/escape-room-kalpavikas-20-rv-university-1749313"
-        }
       ]
     },
     {
@@ -3886,9 +3975,9 @@
           "at": "2026-09-20T11:30:00.000Z"
         }
       ],
-      "participants": 1128,
+      "participants": 1135,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.308Z",
+      "fetchedAt": "2026-09-08T09:39:22.185Z",
       "domains": [
         "general-innovation"
       ],
@@ -3900,7 +3989,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 13,
+      "relevance": 11,
       "relevanceReasons": [
         "+3 General Innovation",
         "+3 ongoing",
@@ -3908,13 +3997,6 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/hack-devengers-20-devengers-1749441"
-        }
       ]
     },
     {
@@ -3973,9 +4055,9 @@
           "at": "2026-09-10T18:30:00.000Z"
         }
       ],
-      "participants": 898,
+      "participants": 899,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.319Z",
+      "fetchedAt": "2026-09-08T09:39:22.195Z",
       "domains": [
         "general-innovation"
       ],
@@ -3987,20 +4069,13 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 11,
+      "relevance": 9,
       "relevanceReasons": [
         "+2 General Innovation",
         "+3 ongoing",
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/industrysolve-idea-thon-product-a-thon-2026-indraprastha-institute-of-information-technology-iiit-delhi-1749452"
-        }
       ]
     },
     {
@@ -4055,9 +4130,9 @@
           "at": "2026-09-30T18:29:00.000Z"
         }
       ],
-      "participants": 751,
+      "participants": 765,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.346Z",
+      "fetchedAt": "2026-09-08T09:39:22.218Z",
       "domains": [
         "ai-ml"
       ],
@@ -4069,20 +4144,13 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 13,
+      "relevance": 11,
       "relevanceReasons": [
         "+4 AI / ML",
         "+3 ongoing",
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/competitions/crp-snapdragon-ai-lab-build-present-challenge-qualcomm-1748893"
-        }
       ]
     },
     {
@@ -4142,7 +4210,7 @@
       ],
       "participants": 15,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.352Z",
+      "fetchedAt": "2026-09-08T09:39:22.222Z",
       "domains": [
         "cyber-security"
       ],
@@ -4154,7 +4222,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 16,
+      "relevance": 14,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+3 ongoing",
@@ -4162,13 +4230,6 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/competitions/itcodera26-international-symposium-on-emerging-technologies-human-centric-innovation-egs-pillay-engineering-1749638"
-        }
       ]
     },
     {
@@ -4226,7 +4287,7 @@
       ],
       "participants": 464,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.319Z",
+      "fetchedAt": "2026-09-08T09:39:22.195Z",
       "domains": [
         "cyber-security"
       ],
@@ -4238,20 +4299,13 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 15,
+      "relevance": 13,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+3 ongoing",
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/zinnovatio-40-chandigarh-university-cu-ajitgarh-punjab-1749579"
-        }
       ]
     },
     {
@@ -4315,7 +4369,7 @@
       ],
       "participants": 8,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.317Z",
+      "fetchedAt": "2026-09-08T09:39:22.194Z",
       "domains": [
         "general-innovation"
       ],
@@ -4327,20 +4381,13 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 11,
+      "relevance": 9,
       "relevanceReasons": [
         "+2 General Innovation",
         "+3 ongoing",
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/buildonomics-gravitas26-vit-vellore-1749938"
-        }
       ]
     },
     {
@@ -4390,7 +4437,7 @@
       ],
       "participants": 64,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.065Z",
+      "fetchedAt": "2026-09-08T09:39:15.568Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -4404,7 +4451,7 @@
       "scopeReason": "no India signal found",
       "status": "ongoing",
       "registrationStatus": "closed",
-      "relevance": 19,
+      "relevance": 17,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+4 AI / ML",
@@ -4412,13 +4459,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://ml-build-challenge-3.devpost.com/"
-        }
       ]
     },
     {
@@ -4476,7 +4516,7 @@
       ],
       "participants": 21,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.312Z",
+      "fetchedAt": "2026-09-08T09:39:22.189Z",
       "domains": [
         "cyber-security",
         "digital-forensics",
@@ -4494,7 +4534,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 36,
+      "relevance": 34,
       "relevanceReasons": [
         "+9 Cyber Security",
         "+10 Digital Forensics",
@@ -4505,13 +4545,6 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/zerobreach-20-ctf-2026-sanjivani-college-of-engineering-sce-kopargaon-1750241"
-        }
       ]
     },
     {
@@ -4569,7 +4602,7 @@
       ],
       "participants": 15,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.357Z",
+      "fetchedAt": "2026-09-08T09:39:22.226Z",
       "domains": [
         "iot-security",
         "cyber-security",
@@ -4587,7 +4620,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 30,
+      "relevance": 28,
       "relevanceReasons": [
         "+8 IoT & Embedded",
         "+6 Cyber Security",
@@ -4598,13 +4631,6 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/competitions/ideathon-40-rv-university-bangalore-1750113"
-        }
       ]
     },
     {
@@ -4660,9 +4686,9 @@
           "at": "2026-09-19T18:30:00.000Z"
         }
       ],
-      "participants": 514,
+      "participants": 519,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.313Z",
+      "fetchedAt": "2026-09-08T09:39:22.190Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -4676,7 +4702,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 21,
+      "relevance": 19,
       "relevanceReasons": [
         "+7 Cyber Security",
         "+5 AI / ML",
@@ -4684,13 +4710,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/data-quest-3o-prelims-vellore-institute-of-technology-vit-chennai-1750118"
-        }
       ]
     },
     {
@@ -4748,7 +4767,7 @@
       ],
       "participants": 276,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.310Z",
+      "fetchedAt": "2026-09-08T09:39:22.187Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -4762,7 +4781,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 19,
+      "relevance": 17,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+4 AI / ML",
@@ -4770,13 +4789,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/devhack-2026-gdg-on-campus-iimt-meerut-1750208"
-        }
       ]
     },
     {
@@ -4840,7 +4852,7 @@
       ],
       "participants": 10,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.316Z",
+      "fetchedAt": "2026-09-08T09:39:22.193Z",
       "domains": [
         "general-innovation",
         "blockchain"
@@ -4854,7 +4866,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 17,
+      "relevance": 15,
       "relevanceReasons": [
         "+4 General Innovation",
         "+3 Blockchain & Web3",
@@ -4863,13 +4875,6 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/udbhav26-idea-build-pitch-pimpri-chinchwad-college-of-engineering-research-1749090"
-        }
       ]
     },
     {
@@ -4925,9 +4930,9 @@
           "at": "2026-09-28T18:30:00.000Z"
         }
       ],
-      "participants": 36,
+      "participants": 37,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.313Z",
+      "fetchedAt": "2026-09-08T09:39:22.191Z",
       "domains": [
         "cyber-security"
       ],
@@ -4939,20 +4944,13 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 15,
+      "relevance": 13,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+3 ongoing",
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/secura-srm-institute-of-science-technology-trichy-1750028"
-        }
       ]
     },
     {
@@ -5016,7 +5014,7 @@
       ],
       "participants": 88,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.313Z",
+      "fetchedAt": "2026-09-08T09:39:22.190Z",
       "domains": [
         "cyber-security"
       ],
@@ -5028,7 +5026,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 16,
+      "relevance": 14,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+3 ongoing",
@@ -5036,13 +5034,6 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/build-with-bharat-40-codeverse-1750139"
-        }
       ]
     },
     {
@@ -5100,7 +5091,7 @@
       ],
       "participants": 51,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.308Z",
+      "fetchedAt": "2026-09-08T09:39:22.185Z",
       "domains": [
         "cyber-security"
       ],
@@ -5112,7 +5103,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 16,
+      "relevance": 14,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+3 ongoing",
@@ -5120,13 +5111,6 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/hackwave-30-chameli-devi-group-of-institutions-1750278"
-        }
       ]
     },
     {
@@ -5188,7 +5172,7 @@
       ],
       "participants": 63,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.348Z",
+      "fetchedAt": "2026-09-08T09:39:22.220Z",
       "domains": [
         "ai-ml",
         "cyber-security"
@@ -5202,7 +5186,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 22,
+      "relevance": 20,
       "relevanceReasons": [
         "+6 AI / ML",
         "+6 Cyber Security",
@@ -5211,13 +5195,6 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/competitions/arvexis-egs-pillay-engineering-college-1750514"
-        }
       ]
     },
     {
@@ -5279,7 +5256,7 @@
       ],
       "participants": 50,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.350Z",
+      "fetchedAt": "2026-09-08T09:39:22.221Z",
       "domains": [
         "ai-ml"
       ],
@@ -5291,20 +5268,13 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 13,
+      "relevance": 11,
       "relevanceReasons": [
         "+4 AI / ML",
         "+3 ongoing",
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/competitions/acm-pixelprompt-a-national-level-buildathon-madhav-institute-of-technology-and-science-mits-gwalior-1750451"
-        }
       ]
     },
     {
@@ -5364,9 +5334,9 @@
           "at": "2026-10-14T18:30:00.000Z"
         }
       ],
-      "participants": 196,
+      "participants": 197,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.353Z",
+      "fetchedAt": "2026-09-08T09:39:22.222Z",
       "domains": [
         "general-innovation"
       ],
@@ -5378,7 +5348,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 12,
+      "relevance": 10,
       "relevanceReasons": [
         "+2 General Innovation",
         "+3 ongoing",
@@ -5386,13 +5356,6 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/competitions/student-innovation-idea-challenge-2026-ies-university-bhopal-1750392"
-        }
       ]
     },
     {
@@ -5454,7 +5417,7 @@
       ],
       "participants": 8,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.344Z",
+      "fetchedAt": "2026-09-08T09:39:22.216Z",
       "domains": [
         "ai-ml",
         "cyber-security"
@@ -5468,7 +5431,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 21,
+      "relevance": 19,
       "relevanceReasons": [
         "+5 AI / ML",
         "+6 Cyber Security",
@@ -5477,13 +5440,6 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/competitions/hypnexis-2026-manipal-university-mu-jaipur-1711890"
-        }
       ]
     },
     {
@@ -5545,9 +5501,9 @@
           "at": "2026-10-10T04:30:00.000Z"
         }
       ],
-      "participants": 6,
+      "participants": 10,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.306Z",
+      "fetchedAt": "2026-09-08T09:39:22.183Z",
       "domains": [
         "cyber-security"
       ],
@@ -5559,7 +5515,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 16,
+      "relevance": 14,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+3 ongoing",
@@ -5567,13 +5523,6 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/agnitia-2026-36-hours-national-level-hackathon-prestige-institute-of-engineering-management-and-research-pimr-1750621"
-        }
       ]
     },
     {
@@ -5631,9 +5580,9 @@
           "at": "2026-10-07T09:30:50.000Z"
         }
       ],
-      "participants": 1569,
+      "participants": 1583,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.307Z",
+      "fetchedAt": "2026-09-08T09:39:22.184Z",
       "domains": [
         "general-innovation"
       ],
@@ -5645,20 +5594,13 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 11,
+      "relevance": 9,
       "relevanceReasons": [
         "+2 General Innovation",
         "+3 ongoing",
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/crp-amazon-ml-challenge-2026-amazon-1743604"
-        }
       ]
     },
     {
@@ -5714,9 +5656,9 @@
           "at": "2026-09-29T18:30:00.000Z"
         }
       ],
-      "participants": 54,
+      "participants": 55,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.309Z",
+      "fetchedAt": "2026-09-08T09:39:22.186Z",
       "domains": [
         "cyber-security",
         "general-innovation"
@@ -5730,7 +5672,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 17,
+      "relevance": 15,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+2 General Innovation",
@@ -5738,13 +5680,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/hackpulse-university-of-engineering-management-uem-jaipur-1747911"
-        }
       ]
     },
     {
@@ -5807,7 +5742,7 @@
       ],
       "participants": 3,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.310Z",
+      "fetchedAt": "2026-09-08T09:39:22.188Z",
       "domains": [
         "cyber-security",
         "general-innovation"
@@ -5821,7 +5756,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 17,
+      "relevance": 15,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+2 General Innovation",
@@ -5829,13 +5764,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/avishkaar-season-4-hackathon-a-national-level-innovation-challenge-aditya-institute-of-technology-and-managem-1750320"
-        }
       ]
     },
     {
@@ -5896,7 +5824,7 @@
       ],
       "participants": 11,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.306Z",
+      "fetchedAt": "2026-09-08T09:39:22.183Z",
       "domains": [
         "ai-ml",
         "general-innovation"
@@ -5910,7 +5838,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 16,
+      "relevance": 14,
       "relevanceReasons": [
         "+4 AI / ML",
         "+2 General Innovation",
@@ -5919,13 +5847,6 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/hackathons/convergence-2k26-24hr-hardware-hackathon-vallurupalli-nageswara-rao-vignana-jyothi-institute-of-engineering-t-1750727"
-        }
       ]
     },
     {
@@ -5989,7 +5910,7 @@
       ],
       "participants": 23,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.339Z",
+      "fetchedAt": "2026-09-08T09:39:22.212Z",
       "domains": [
         "blockchain"
       ],
@@ -6001,7 +5922,7 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 13,
+      "relevance": 11,
       "relevanceReasons": [
         "+3 Blockchain & Web3",
         "+3 ongoing",
@@ -6009,13 +5930,6 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "unstop",
-          "label": "Unstop",
-          "url": "https://unstop.com/competitions/louis-stitch-x-iit-delhi-design-case-competition-rendezvous-26-iit-delhi-1750823"
-        }
       ]
     },
     {
@@ -6067,7 +5981,7 @@
       ],
       "participants": 175,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.706Z",
+      "fetchedAt": "2026-09-08T09:39:13.897Z",
       "domains": [
         "cyber-security"
       ],
@@ -6079,25 +5993,21 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 22,
+      "relevance": 20,
       "relevanceReasons": [
         "+8 Cyber Security",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3145"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3145/"
         }
       ]
     },
@@ -6149,7 +6059,7 @@
       ],
       "participants": 74,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.706Z",
+      "fetchedAt": "2026-09-08T09:39:13.898Z",
       "domains": [
         "cyber-security"
       ],
@@ -6161,24 +6071,20 @@
       "scopeReason": "matched goa",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 22,
+      "relevance": 20,
       "relevanceReasons": [
         "+9 Cyber Security",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3360"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3360/"
         }
       ]
     },
@@ -6229,7 +6135,7 @@
       ],
       "participants": 9,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.061Z",
+      "fetchedAt": "2026-09-08T09:39:15.565Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -6243,7 +6149,7 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 21,
+      "relevance": 19,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+4 AI / ML",
@@ -6251,13 +6157,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://steminate-texas-wildcard-hack.devpost.com/"
-        }
       ]
     },
     {
@@ -6309,7 +6208,7 @@
       ],
       "participants": 174,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.707Z",
+      "fetchedAt": "2026-09-08T09:39:13.898Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -6323,7 +6222,7 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 32,
+      "relevance": 30,
       "relevanceReasons": [
         "+9 Cyber Security",
         "+9 Digital Forensics",
@@ -6331,18 +6230,14 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3159"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3159/"
         }
       ]
     },
@@ -6393,7 +6288,7 @@
       ],
       "participants": 69,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.065Z",
+      "fetchedAt": "2026-09-08T09:39:15.568Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -6407,7 +6302,7 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 21,
+      "relevance": 19,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+4 AI / ML",
@@ -6415,13 +6310,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://hack-the-weather.devpost.com/"
-        }
       ]
     },
     {
@@ -6471,7 +6359,7 @@
       ],
       "participants": 23,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.063Z",
+      "fetchedAt": "2026-09-08T09:39:15.567Z",
       "domains": [
         "iot-security"
       ],
@@ -6483,20 +6371,13 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 18,
+      "relevance": 16,
       "relevanceReasons": [
         "+7 IoT & Embedded",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://neurohack-1-0-by-axonic.devpost.com/"
-        }
       ]
     },
     {
@@ -6549,7 +6430,7 @@
       ],
       "participants": 13,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.707Z",
+      "fetchedAt": "2026-09-08T09:39:13.899Z",
       "domains": [
         "cyber-security"
       ],
@@ -6561,7 +6442,7 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 14,
+      "relevance": 12,
       "relevanceReasons": [
         "+8 Cyber Security",
         "-8 noise (dance)",
@@ -6569,18 +6450,14 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3265"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3265/"
         }
       ]
     },
@@ -6631,7 +6508,7 @@
       ],
       "participants": 3,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.063Z",
+      "fetchedAt": "2026-09-08T09:39:15.566Z",
       "domains": [
         "iot-security",
         "ai-ml"
@@ -6645,7 +6522,7 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 22,
+      "relevance": 20,
       "relevanceReasons": [
         "+7 IoT & Embedded",
         "+4 AI / ML",
@@ -6653,13 +6530,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://comma-hack-7.devpost.com/"
-        }
       ]
     },
     {
@@ -6709,7 +6579,7 @@
       ],
       "participants": 25,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.062Z",
+      "fetchedAt": "2026-09-08T09:39:15.566Z",
       "domains": [
         "ai-ml"
       ],
@@ -6721,20 +6591,13 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 15,
+      "relevance": 13,
       "relevanceReasons": [
         "+4 AI / ML",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://bayhacks-2026.devpost.com/"
-        }
       ]
     },
     {
@@ -6786,7 +6649,7 @@
       ],
       "participants": 36,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.708Z",
+      "fetchedAt": "2026-09-08T09:39:13.899Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -6800,7 +6663,7 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 33,
+      "relevance": 31,
       "relevanceReasons": [
         "+9 Cyber Security",
         "+10 Digital Forensics",
@@ -6808,18 +6671,14 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3346"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3346/"
         }
       ]
     },
@@ -6872,7 +6731,7 @@
       ],
       "participants": 47,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.708Z",
+      "fetchedAt": "2026-09-08T09:39:13.900Z",
       "domains": [
         "cyber-security"
       ],
@@ -6884,25 +6743,21 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 23,
+      "relevance": 21,
       "relevanceReasons": [
         "+9 Cyber Security",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3392"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3392/"
         }
       ]
     },
@@ -6954,7 +6809,7 @@
       ],
       "participants": 34,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.710Z",
+      "fetchedAt": "2026-09-08T09:39:13.901Z",
       "domains": [
         "cyber-security"
       ],
@@ -6966,24 +6821,20 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 20,
+      "relevance": 18,
       "relevanceReasons": [
         "+7 Cyber Security",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3355"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3355/"
         }
       ]
     },
@@ -7034,151 +6885,7 @@
       ],
       "participants": 128,
       "type": "hackathon",
-      "trusted": false,
-      "fetchedAt": "2026-09-08T09:33:26.059Z",
-      "domains": [
-        "cyber-security",
-        "ai-ml"
-      ],
-      "domainLabels": [
-        "Cyber Security",
-        "AI / ML"
-      ],
-      "scope": "international",
-      "scopeConfidence": "low",
-      "scopeReason": "no India signal found",
-      "status": "upcoming",
-      "registrationStatus": "likely-open",
-      "relevance": 19,
-      "relevanceReasons": [
-        "+6 Cyber Security",
-        "+4 AI / ML",
-        "+5 upcoming",
-        "+2 has official URL",
-        "+1 has image",
-        "+1 prize listed"
-      ]
-    },
-    {
-      "id": "devpost-71489d8b50-2",
-      "source": "devpost",
-      "sourceLabel": "Devpost",
-      "sourceUrl": "https://tln-cybersecurity-challenge.devpost.com/",
-      "url": "https://tln-cybersecurity-challenge.devpost.com/",
-      "title": "TLN Hackathon 2026",
-      "description": "Beginner Friendly, Cybersecurity, Machine Learning/AI",
-      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/182/052/datas/medium_square.png",
-      "organizer": "Tech Literacy Network",
-      "format": "",
-      "prize": "$ 126,929",
-      "eligibility": "",
-      "rules": [
-        "Submission window: Sep 19 - 20, 2026",
-        "Time left to submit at crawl time: Upcoming"
-      ],
-      "tags": [
-        "Devpost",
-        "Beginner Friendly",
-        "Cybersecurity",
-        "Machine Learning/AI"
-      ],
-      "location": {
-        "text": "Online",
-        "country": "",
-        "mode": "online"
-      },
-      "startsAt": "2026-09-19T00:00:00.000Z",
-      "endsAt": "2026-09-19T00:00:00.000Z",
-      "registration": {
-        "opensAt": null,
-        "closesAt": null,
-        "url": ""
-      },
-      "timeline": [
-        {
-          "label": "Event starts",
-          "at": "2026-09-19T00:00:00.000Z"
-        },
-        {
-          "label": "Event ends",
-          "at": "2026-09-19T00:00:00.000Z"
-        }
-      ],
-      "participants": 128,
-      "type": "hackathon",
-      "trusted": false,
-      "fetchedAt": "2026-09-08T09:32:06.461Z",
-      "domains": [
-        "cyber-security",
-        "ai-ml"
-      ],
-      "domainLabels": [
-        "Cyber Security",
-        "AI / ML"
-      ],
-      "scope": "international",
-      "scopeConfidence": "low",
-      "scopeReason": "no India signal found",
-      "status": "upcoming",
-      "registrationStatus": "likely-open",
-      "relevance": 19,
-      "relevanceReasons": [
-        "+6 Cyber Security",
-        "+4 AI / ML",
-        "+5 upcoming",
-        "+2 has official URL",
-        "+1 has image",
-        "+1 prize listed"
-      ]
-    },
-    {
-      "id": "devpost-9fcce51821",
-      "source": "devpost",
-      "sourceLabel": "Devpost",
-      "sourceUrl": "https://tln-cybersecurity-challenge.devpost.com/",
-      "url": "https://tln-cybersecurity-challenge.devpost.com/",
-      "title": "TLN Hackathon 2026",
-      "description": "Beginner Friendly, Cybersecurity, Machine Learning/AI",
-      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/182/052/datas/medium_square.png",
-      "organizer": "Tech Literacy Network",
-      "format": "",
-      "prize": "$ 126,929",
-      "eligibility": "",
-      "rules": [
-        "Submission window: Sep 19 - 20, 2026",
-        "Time left to submit at crawl time: Upcoming"
-      ],
-      "tags": [
-        "Devpost",
-        "Beginner Friendly",
-        "Cybersecurity",
-        "Machine Learning/AI"
-      ],
-      "location": {
-        "text": "Online",
-        "country": "",
-        "mode": "online"
-      },
-      "startsAt": "2026-09-19T00:00:00.000Z",
-      "endsAt": "2026-09-19T00:00:00.000Z",
-      "registration": {
-        "opensAt": null,
-        "closesAt": null,
-        "url": ""
-      },
-      "timeline": [
-        {
-          "label": "Event starts",
-          "at": "2026-09-19T00:00:00.000Z"
-        },
-        {
-          "label": "Event ends",
-          "at": "2026-09-19T00:00:00.000Z"
-        }
-      ],
-      "participants": 128,
-      "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:05:37.288Z",
+      "fetchedAt": "2026-09-08T09:39:15.563Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -7251,7 +6958,7 @@
       ],
       "participants": 3,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.711Z",
+      "fetchedAt": "2026-09-08T09:39:13.902Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -7265,25 +6972,21 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 30,
+      "relevance": 28,
       "relevanceReasons": [
         "+9 Cyber Security",
         "+8 Digital Forensics",
         "+5 upcoming",
         "+2 has official URL",
         "+1 prize listed",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3412"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3412/"
         }
       ]
     },
@@ -7337,7 +7040,7 @@
       ],
       "participants": 0,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.712Z",
+      "fetchedAt": "2026-09-08T09:39:13.902Z",
       "domains": [
         "cyber-security"
       ],
@@ -7349,7 +7052,7 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 14,
+      "relevance": 12,
       "relevanceReasons": [
         "+8 Cyber Security",
         "-8 noise (dance)",
@@ -7357,18 +7060,14 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3431"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3431/"
         }
       ]
     },
@@ -7421,7 +7120,7 @@
       ],
       "participants": 19,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.712Z",
+      "fetchedAt": "2026-09-08T09:39:13.903Z",
       "domains": [
         "digital-forensics",
         "cyber-security"
@@ -7435,7 +7134,7 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 30,
+      "relevance": 28,
       "relevanceReasons": [
         "+9 Digital Forensics",
         "+7 Cyber Security",
@@ -7443,18 +7142,14 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3326"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3326/"
         }
       ]
     },
@@ -7509,7 +7204,7 @@
       "participants": 0,
       "type": "ctf",
       "trusted": false,
-      "fetchedAt": "2026-09-08T09:33:24.713Z",
+      "fetchedAt": "2026-09-08T09:39:13.903Z",
       "domains": [
         "cyber-security"
       ],
@@ -7521,7 +7216,7 @@
       "scopeReason": "matched india, vit ",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 13,
+      "relevance": 11,
       "relevanceReasons": [
         "+7 Cyber Security",
         "-8 noise (dance)",
@@ -7529,18 +7224,14 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3428"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3428/"
         }
       ]
     },
@@ -7594,7 +7285,7 @@
       ],
       "participants": 0,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.713Z",
+      "fetchedAt": "2026-09-08T09:39:13.903Z",
       "domains": [
         "cyber-security"
       ],
@@ -7606,7 +7297,7 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 15,
+      "relevance": 13,
       "relevanceReasons": [
         "+9 Cyber Security",
         "-8 noise (dance)",
@@ -7614,18 +7305,14 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3401"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3401/"
         }
       ]
     },
@@ -7678,7 +7365,7 @@
       ],
       "participants": 4,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.714Z",
+      "fetchedAt": "2026-09-08T09:39:13.904Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -7692,7 +7379,7 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 31,
+      "relevance": 29,
       "relevanceReasons": [
         "+9 Cyber Security",
         "+8 Digital Forensics",
@@ -7700,18 +7387,14 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3365"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3365/"
         }
       ]
     },
@@ -7764,7 +7447,7 @@
       ],
       "participants": 4,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.714Z",
+      "fetchedAt": "2026-09-08T09:39:13.904Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -7778,25 +7461,21 @@
       "scopeReason": "matched thiruvananthapuram",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 31,
+      "relevance": 29,
       "relevanceReasons": [
         "+9 Cyber Security",
         "+9 Digital Forensics",
         "+5 upcoming",
         "+2 has official URL",
         "+1 prize listed",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3435"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3435/"
         }
       ]
     },
@@ -7851,7 +7530,7 @@
       ],
       "participants": null,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:27.906Z",
+      "fetchedAt": "2026-09-08T09:39:24.349Z",
       "domains": [
         "cyber-security"
       ],
@@ -7863,20 +7542,13 @@
       "scopeReason": "source country = India",
       "status": "upcoming",
       "registrationStatus": "open",
-      "relevance": 17,
+      "relevance": 15,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devfolio",
-          "label": "Devfolio",
-          "url": "https://binary-hacks-4.devfolio.co/"
-        }
       ]
     },
     {
@@ -7930,7 +7602,7 @@
       ],
       "participants": null,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:27.905Z",
+      "fetchedAt": "2026-09-08T09:39:24.348Z",
       "domains": [
         "ai-ml"
       ],
@@ -7942,20 +7614,13 @@
       "scopeReason": "source country = India",
       "status": "upcoming",
       "registrationStatus": "open",
-      "relevance": 15,
+      "relevance": 13,
       "relevanceReasons": [
         "+4 AI / ML",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devfolio",
-          "label": "Devfolio",
-          "url": "https://webcraft24.devfolio.co/"
-        }
       ]
     },
     {
@@ -8006,7 +7671,7 @@
       ],
       "participants": 2,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.715Z",
+      "fetchedAt": "2026-09-08T09:39:13.905Z",
       "domains": [
         "cyber-security"
       ],
@@ -8018,24 +7683,20 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 22,
+      "relevance": 20,
       "relevanceReasons": [
         "+9 Cyber Security",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3422"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3422/"
         }
       ]
     },
@@ -8088,7 +7749,7 @@
       ],
       "participants": 11,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.715Z",
+      "fetchedAt": "2026-09-08T09:39:13.905Z",
       "domains": [
         "cyber-security"
       ],
@@ -8100,25 +7761,21 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 23,
+      "relevance": 21,
       "relevanceReasons": [
         "+9 Cyber Security",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3374"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3374/"
         }
       ]
     },
@@ -8169,7 +7826,7 @@
       ],
       "participants": 20,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.059Z",
+      "fetchedAt": "2026-09-08T09:39:15.563Z",
       "domains": [
         "cyber-security"
       ],
@@ -8181,20 +7838,13 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 17,
+      "relevance": 15,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://cyber-hawk-hackathon.devpost.com/"
-        }
       ]
     },
     {
@@ -8246,7 +7896,7 @@
       ],
       "participants": 33,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.716Z",
+      "fetchedAt": "2026-09-08T09:39:13.905Z",
       "domains": [
         "cyber-security"
       ],
@@ -8258,30 +7908,21 @@
       "scopeReason": "matched india, indian, srm",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 24,
+      "relevance": 20,
       "relevanceReasons": [
         "+8 Cyber Security",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3093"
-        },
-        {
-          "id": "feeds",
-          "label": "Configured feeds",
-          "url": "https://ctftime.org/event/3094"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3093/"
         }
       ]
     },
@@ -8334,7 +7975,7 @@
       ],
       "participants": 54,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.716Z",
+      "fetchedAt": "2026-09-08T09:39:13.906Z",
       "domains": [
         "cyber-security"
       ],
@@ -8346,25 +7987,21 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 22,
+      "relevance": 20,
       "relevanceReasons": [
         "+8 Cyber Security",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3312"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3312/"
         }
       ]
     },
@@ -8417,7 +8054,7 @@
       ],
       "participants": 12,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.716Z",
+      "fetchedAt": "2026-09-08T09:39:13.906Z",
       "domains": [
         "cyber-security"
       ],
@@ -8429,25 +8066,21 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 21,
+      "relevance": 19,
       "relevanceReasons": [
         "+7 Cyber Security",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3399"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3399/"
         }
       ]
     },
@@ -8500,7 +8133,7 @@
       ],
       "participants": 35,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.716Z",
+      "fetchedAt": "2026-09-08T09:39:13.906Z",
       "domains": [
         "cyber-security"
       ],
@@ -8512,25 +8145,21 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 22,
+      "relevance": 20,
       "relevanceReasons": [
         "+8 Cyber Security",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3020"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3020/"
         }
       ]
     },
@@ -8584,7 +8213,7 @@
       ],
       "participants": 0,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.717Z",
+      "fetchedAt": "2026-09-08T09:39:13.906Z",
       "domains": [
         "cyber-security",
         "blockchain"
@@ -8598,7 +8227,7 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 16,
+      "relevance": 14,
       "relevanceReasons": [
         "+7 Cyber Security",
         "+3 Blockchain & Web3",
@@ -8607,18 +8236,14 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3417"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3417/"
         }
       ]
     },
@@ -8667,7 +8292,7 @@
       ],
       "participants": 8,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.059Z",
+      "fetchedAt": "2026-09-08T09:39:15.563Z",
       "domains": [
         "cyber-security"
       ],
@@ -8679,20 +8304,13 @@
       "scopeReason": "matched india, bengaluru",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 18,
+      "relevance": 16,
       "relevanceReasons": [
         "+7 Cyber Security",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://cyberx-26-ctf.devpost.com/"
-        }
       ]
     },
     {
@@ -8742,7 +8360,7 @@
       ],
       "participants": 33,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.063Z",
+      "fetchedAt": "2026-09-08T09:39:15.567Z",
       "domains": [
         "iot-security",
         "ai-ml"
@@ -8756,7 +8374,7 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 22,
+      "relevance": 20,
       "relevanceReasons": [
         "+7 IoT & Embedded",
         "+4 AI / ML",
@@ -8764,13 +8382,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://hackfw.devpost.com/"
-        }
       ]
     },
     {
@@ -8826,7 +8437,7 @@
       ],
       "participants": 10,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.717Z",
+      "fetchedAt": "2026-09-08T09:39:13.907Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -8840,35 +8451,21 @@
       "scopeReason": "matched india, pune",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 36,
+      "relevance": 30,
       "relevanceReasons": [
         "+9 Cyber Security",
         "+10 Digital Forensics",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3381/"
-        },
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3380"
-        },
-        {
-          "id": "feeds",
-          "label": "Configured feeds",
-          "url": "https://ctftime.org/event/3381"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3380/"
         }
       ]
     },
@@ -8923,7 +8520,7 @@
       ],
       "participants": null,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:27.908Z",
+      "fetchedAt": "2026-09-08T09:39:24.349Z",
       "domains": [
         "cyber-security"
       ],
@@ -8935,20 +8532,13 @@
       "scopeReason": "source country = India",
       "status": "upcoming",
       "registrationStatus": "open",
-      "relevance": 17,
+      "relevance": 15,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devfolio",
-          "label": "Devfolio",
-          "url": "https://hackspire26.devfolio.co/"
-        }
       ]
     },
     {
@@ -8998,7 +8588,7 @@
       ],
       "participants": 2,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.059Z",
+      "fetchedAt": "2026-09-08T09:39:15.564Z",
       "domains": [
         "cyber-security"
       ],
@@ -9010,20 +8600,13 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 17,
+      "relevance": 15,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://gear-up-hacks-2026.devpost.com/"
-        }
       ]
     },
     {
@@ -9073,7 +8656,7 @@
       ],
       "participants": 87,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.059Z",
+      "fetchedAt": "2026-09-08T09:39:15.564Z",
       "domains": [
         "ai-ml"
       ],
@@ -9085,20 +8668,13 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 15,
+      "relevance": 13,
       "relevanceReasons": [
         "+4 AI / ML",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://forgehacks-2026.devpost.com/"
-        }
       ]
     },
     {
@@ -9150,7 +8726,7 @@
       ],
       "participants": 14,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.718Z",
+      "fetchedAt": "2026-09-08T09:39:13.907Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -9164,7 +8740,7 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 32,
+      "relevance": 30,
       "relevanceReasons": [
         "+9 Cyber Security",
         "+9 Digital Forensics",
@@ -9172,18 +8748,14 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3364"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3364/"
         }
       ]
     },
@@ -9236,7 +8808,7 @@
       ],
       "participants": 8,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.718Z",
+      "fetchedAt": "2026-09-08T09:39:13.908Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -9250,7 +8822,7 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 25,
+      "relevance": 23,
       "relevanceReasons": [
         "+7 Cyber Security",
         "+4 AI / ML",
@@ -9258,18 +8830,14 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3352"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3352/"
         }
       ]
     },
@@ -9322,7 +8890,7 @@
       ],
       "participants": 6,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.719Z",
+      "fetchedAt": "2026-09-08T09:39:13.909Z",
       "domains": [
         "cyber-security"
       ],
@@ -9334,25 +8902,21 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 22,
+      "relevance": 20,
       "relevanceReasons": [
         "+8 Cyber Security",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3293"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3293/"
         }
       ]
     },
@@ -9406,7 +8970,7 @@
       "participants": 0,
       "type": "ctf",
       "trusted": false,
-      "fetchedAt": "2026-09-08T09:33:24.720Z",
+      "fetchedAt": "2026-09-08T09:39:13.909Z",
       "domains": [
         "cyber-security"
       ],
@@ -9418,24 +8982,20 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 11,
+      "relevance": 10,
       "relevanceReasons": [
         "+7 Cyber Security",
         "-8 noise (dance)",
         "+5 upcoming",
         "+2 has official URL",
-        "+1 has image"
+        "+1 has image",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3432"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3432/"
         }
       ]
     },
@@ -9486,7 +9046,7 @@
       ],
       "participants": 290,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.060Z",
+      "fetchedAt": "2026-09-08T09:39:15.564Z",
       "domains": [
         "cyber-security",
         "ai-ml",
@@ -9502,7 +9062,7 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 24,
+      "relevance": 22,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+4 AI / ML",
@@ -9511,13 +9071,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://ieee-climatechain-hack.devpost.com/"
-        }
       ]
     },
     {
@@ -9571,7 +9124,7 @@
       ],
       "participants": null,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:27.911Z",
+      "fetchedAt": "2026-09-08T09:39:24.352Z",
       "domains": [
         "cyber-security"
       ],
@@ -9583,20 +9136,13 @@
       "scopeReason": "source country = India",
       "status": "upcoming",
       "registrationStatus": "open",
-      "relevance": 17,
+      "relevance": 15,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devfolio",
-          "label": "Devfolio",
-          "url": "https://recursiveacm.devfolio.co/"
-        }
       ]
     },
     {
@@ -9650,7 +9196,7 @@
       ],
       "participants": null,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:27.909Z",
+      "fetchedAt": "2026-09-08T09:39:24.350Z",
       "domains": [
         "blockchain"
       ],
@@ -9662,20 +9208,13 @@
       "scopeReason": "source country = India",
       "status": "upcoming",
       "registrationStatus": "open",
-      "relevance": 14,
+      "relevance": 12,
       "relevanceReasons": [
         "+3 Blockchain & Web3",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devfolio",
-          "label": "Devfolio",
-          "url": "https://define4.devfolio.co/"
-        }
       ]
     },
     {
@@ -9729,7 +9268,7 @@
       ],
       "participants": null,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:27.908Z",
+      "fetchedAt": "2026-09-08T09:39:24.350Z",
       "domains": [
         "cyber-security"
       ],
@@ -9741,20 +9280,13 @@
       "scopeReason": "source country = India",
       "status": "upcoming",
       "registrationStatus": "open",
-      "relevance": 17,
+      "relevance": 15,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devfolio",
-          "label": "Devfolio",
-          "url": "https://realm-hack-1.devfolio.co/"
-        }
       ]
     },
     {
@@ -9808,7 +9340,7 @@
       ],
       "participants": null,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:27.910Z",
+      "fetchedAt": "2026-09-08T09:39:24.351Z",
       "domains": [
         "critical-infrastructure",
         "cyber-security"
@@ -9822,7 +9354,7 @@
       "scopeReason": "source country = India",
       "status": "upcoming",
       "registrationStatus": "open",
-      "relevance": 25,
+      "relevance": 23,
       "relevanceReasons": [
         "+8 Critical Infrastructure",
         "+6 Cyber Security",
@@ -9830,13 +9362,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devfolio",
-          "label": "Devfolio",
-          "url": "https://hackify-3.devfolio.co/"
-        }
       ]
     },
     {
@@ -9886,7 +9411,7 @@
       ],
       "participants": 5,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.063Z",
+      "fetchedAt": "2026-09-08T09:39:15.567Z",
       "domains": [
         "iot-security"
       ],
@@ -9898,20 +9423,13 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 18,
+      "relevance": 16,
       "relevanceReasons": [
         "+7 IoT & Embedded",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://occhacks-2026.devpost.com/"
-        }
       ]
     },
     {
@@ -9970,7 +9488,7 @@
       ],
       "participants": null,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:27.913Z",
+      "fetchedAt": "2026-09-08T09:39:24.355Z",
       "domains": [
         "cyber-security",
         "unclassified"
@@ -9984,24 +9502,20 @@
       "scopeReason": "source country = India",
       "status": "upcoming",
       "registrationStatus": "open",
-      "relevance": 19,
+      "relevance": 17,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "mlh",
           "label": "Major League Hacking",
           "url": "https://www.mlh.com/seasons/2027/events"
-        },
-        {
-          "id": "devfolio",
-          "label": "Devfolio",
-          "url": "https://innohacks-4.devfolio.co/"
         }
       ]
     },
@@ -10054,7 +9568,7 @@
       ],
       "participants": 4,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.720Z",
+      "fetchedAt": "2026-09-08T09:39:13.909Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -10068,7 +9582,7 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 30,
+      "relevance": 28,
       "relevanceReasons": [
         "+8 Cyber Security",
         "+8 Digital Forensics",
@@ -10076,18 +9590,14 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3354"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3354/"
         }
       ]
     },
@@ -10142,7 +9652,7 @@
       ],
       "participants": null,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:27.911Z",
+      "fetchedAt": "2026-09-08T09:39:24.352Z",
       "domains": [
         "ai-ml"
       ],
@@ -10154,20 +9664,13 @@
       "scopeReason": "source country = India",
       "status": "upcoming",
       "registrationStatus": "open",
-      "relevance": 15,
+      "relevance": 13,
       "relevanceReasons": [
         "+4 AI / ML",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devfolio",
-          "label": "Devfolio",
-          "url": "https://hacktopusgdg.devfolio.co/"
-        }
       ]
     },
     {
@@ -10219,7 +9722,7 @@
       ],
       "participants": 3,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.061Z",
+      "fetchedAt": "2026-09-08T09:39:15.565Z",
       "domains": [
         "ai-ml"
       ],
@@ -10231,20 +9734,13 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 15,
+      "relevance": 13,
       "relevanceReasons": [
         "+4 AI / ML",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://hack-like-wacc-26.devpost.com/"
-        }
       ]
     },
     {
@@ -10294,7 +9790,7 @@
       "participants": null,
       "type": "hackathon",
       "trusted": false,
-      "fetchedAt": "2026-09-08T09:33:30.430Z",
+      "fetchedAt": "2026-09-08T09:39:27.711Z",
       "domains": [
         "ai-ml"
       ],
@@ -10306,19 +9802,12 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 15,
+      "relevance": 13,
       "relevanceReasons": [
         "+5 AI / ML",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image"
-      ],
-      "alsoOn": [
-        {
-          "id": "mlh",
-          "label": "Major League Hacking",
-          "url": "https://www.mlh.com/seasons/2027/events"
-        }
       ]
     },
     {
@@ -10368,7 +9857,7 @@
       "participants": null,
       "type": "hackathon",
       "trusted": false,
-      "fetchedAt": "2026-09-08T09:33:30.431Z",
+      "fetchedAt": "2026-09-08T09:39:27.711Z",
       "domains": [
         "ai-ml"
       ],
@@ -10380,19 +9869,12 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 15,
+      "relevance": 13,
       "relevanceReasons": [
         "+5 AI / ML",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image"
-      ],
-      "alsoOn": [
-        {
-          "id": "mlh",
-          "label": "Major League Hacking",
-          "url": "https://www.mlh.com/seasons/2027/events"
-        }
       ]
     },
     {
@@ -10444,7 +9926,7 @@
       ],
       "participants": 25,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.720Z",
+      "fetchedAt": "2026-09-08T09:39:13.909Z",
       "domains": [
         "cyber-security"
       ],
@@ -10456,25 +9938,21 @@
       "scopeReason": "matched national cyber",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 22,
+      "relevance": 20,
       "relevanceReasons": [
         "+8 Cyber Security",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3279"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3279/"
         }
       ]
     },
@@ -10528,7 +10006,7 @@
       ],
       "participants": 0,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.720Z",
+      "fetchedAt": "2026-09-08T09:39:13.910Z",
       "domains": [
         "cyber-security"
       ],
@@ -10540,7 +10018,7 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 15,
+      "relevance": 13,
       "relevanceReasons": [
         "+9 Cyber Security",
         "-8 noise (dance)",
@@ -10548,18 +10026,14 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3409"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3409/"
         }
       ]
     },
@@ -10610,7 +10084,7 @@
       ],
       "participants": 6,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.066Z",
+      "fetchedAt": "2026-09-08T09:39:15.569Z",
       "domains": [
         "ai-ml",
         "cyber-security"
@@ -10624,7 +10098,7 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 23,
+      "relevance": 21,
       "relevanceReasons": [
         "+6 AI / ML",
         "+6 Cyber Security",
@@ -10632,13 +10106,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://2026ai4goodhackathon.devpost.com/"
-        }
       ]
     },
     {
@@ -10690,7 +10157,7 @@
       ],
       "participants": 37,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.721Z",
+      "fetchedAt": "2026-09-08T09:39:13.910Z",
       "domains": [
         "cyber-security"
       ],
@@ -10702,24 +10169,20 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 20,
+      "relevance": 19,
       "relevanceReasons": [
         "+7 Cyber Security",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
-        "+1 prize listed"
+        "+1 prize listed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3340"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3340/"
         }
       ]
     },
@@ -10772,7 +10235,7 @@
       ],
       "participants": 53,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.721Z",
+      "fetchedAt": "2026-09-08T09:39:13.910Z",
       "domains": [
         "cyber-security"
       ],
@@ -10784,24 +10247,20 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 20,
+      "relevance": 19,
       "relevanceReasons": [
         "+7 Cyber Security",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
-        "+1 prize listed"
+        "+1 prize listed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3207"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3207/"
         }
       ]
     },
@@ -10857,7 +10316,7 @@
       ],
       "participants": null,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:27.912Z",
+      "fetchedAt": "2026-09-08T09:39:24.353Z",
       "domains": [
         "blockchain"
       ],
@@ -10869,20 +10328,13 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "open",
-      "relevance": 14,
+      "relevance": 12,
       "relevanceReasons": [
         "+3 Blockchain & Web3",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devfolio",
-          "label": "Devfolio",
-          "url": "https://hefty-hacks.devfolio.co/"
-        }
       ]
     },
     {
@@ -10932,7 +10384,7 @@
       ],
       "participants": 6,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.059Z",
+      "fetchedAt": "2026-09-08T09:39:15.564Z",
       "domains": [
         "cyber-security",
         "blockchain"
@@ -10946,7 +10398,7 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 21,
+      "relevance": 19,
       "relevanceReasons": [
         "+7 Cyber Security",
         "+3 Blockchain & Web3",
@@ -10954,13 +10406,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://804hacks.devpost.com/"
-        }
       ]
     },
     {
@@ -11009,7 +10454,7 @@
       ],
       "participants": 2,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.061Z",
+      "fetchedAt": "2026-09-08T09:39:15.565Z",
       "domains": [
         "ai-ml"
       ],
@@ -11021,20 +10466,13 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 15,
+      "relevance": 13,
       "relevanceReasons": [
         "+4 AI / ML",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://action-space-hacks.devpost.com/"
-        }
       ]
     },
     {
@@ -11086,7 +10524,7 @@
       ],
       "participants": 11,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.721Z",
+      "fetchedAt": "2026-09-08T09:39:13.910Z",
       "domains": [
         "cyber-security"
       ],
@@ -11098,7 +10536,7 @@
       "scopeReason": "matched srm, chennai",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 12,
+      "relevance": 10,
       "relevanceReasons": [
         "+8 Cyber Security",
         "-8 noise (dance)",
@@ -11107,13 +10545,6 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3094/"
-        }
       ]
     },
     {
@@ -11165,7 +10596,7 @@
       ],
       "participants": 0,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.721Z",
+      "fetchedAt": "2026-09-08T09:39:13.910Z",
       "domains": [
         "cyber-security"
       ],
@@ -11177,24 +10608,20 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 21,
+      "relevance": 19,
       "relevanceReasons": [
         "+8 Cyber Security",
         "+5 upcoming",
         "+2 has official URL",
         "+1 prize listed",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3404"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3404/"
         }
       ]
     },
@@ -11249,7 +10676,7 @@
       ],
       "participants": null,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:27.914Z",
+      "fetchedAt": "2026-09-08T09:39:24.355Z",
       "domains": [
         "ai-ml",
         "blockchain"
@@ -11263,7 +10690,7 @@
       "scopeReason": "source country = India",
       "status": "upcoming",
       "registrationStatus": "open",
-      "relevance": 19,
+      "relevance": 17,
       "relevanceReasons": [
         "+5 AI / ML",
         "+3 Blockchain & Web3",
@@ -11271,13 +10698,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devfolio",
-          "label": "Devfolio",
-          "url": "https://tum.devfolio.co/"
-        }
       ]
     },
     {
@@ -11331,7 +10751,7 @@
       ],
       "participants": null,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:27.913Z",
+      "fetchedAt": "2026-09-08T09:39:24.355Z",
       "domains": [
         "ai-ml",
         "blockchain"
@@ -11345,7 +10765,7 @@
       "scopeReason": "source country = India",
       "status": "upcoming",
       "registrationStatus": "open",
-      "relevance": 18,
+      "relevance": 16,
       "relevanceReasons": [
         "+4 AI / ML",
         "+3 Blockchain & Web3",
@@ -11353,13 +10773,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devfolio",
-          "label": "Devfolio",
-          "url": "https://hackonhills8.devfolio.co/"
-        }
       ]
     },
     {
@@ -11409,7 +10822,7 @@
       ],
       "participants": 51,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.060Z",
+      "fetchedAt": "2026-09-08T09:39:15.564Z",
       "domains": [
         "ai-ml"
       ],
@@ -11421,20 +10834,13 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 16,
+      "relevance": 14,
       "relevanceReasons": [
         "+5 AI / ML",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://sinceai2026.devpost.com/"
-        }
       ]
     },
     {
@@ -11486,7 +10892,7 @@
       ],
       "participants": 9,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.722Z",
+      "fetchedAt": "2026-09-08T09:39:13.911Z",
       "domains": [
         "cyber-security"
       ],
@@ -11498,25 +10904,21 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 23,
+      "relevance": 21,
       "relevanceReasons": [
         "+9 Cyber Security",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3418"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3418/"
         }
       ]
     },
@@ -11569,7 +10971,7 @@
       ],
       "participants": 8,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.723Z",
+      "fetchedAt": "2026-09-08T09:39:13.912Z",
       "domains": [
         "cyber-security"
       ],
@@ -11581,24 +10983,20 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 21,
+      "relevance": 19,
       "relevanceReasons": [
         "+8 Cyber Security",
         "+5 upcoming",
         "+2 has official URL",
         "+1 prize listed",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3331"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3331/"
         }
       ]
     },
@@ -11651,7 +11049,7 @@
       ],
       "participants": 5,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.723Z",
+      "fetchedAt": "2026-09-08T09:39:13.912Z",
       "domains": [
         "cyber-security",
         "digital-forensics",
@@ -11667,7 +11065,7 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 38,
+      "relevance": 36,
       "relevanceReasons": [
         "+9 Cyber Security",
         "+8 Digital Forensics",
@@ -11675,18 +11073,14 @@
         "+5 upcoming",
         "+2 has official URL",
         "+1 prize listed",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3333"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3333/"
         }
       ]
     },
@@ -11740,7 +11134,7 @@
       "participants": 6,
       "type": "ctf",
       "trusted": false,
-      "fetchedAt": "2026-09-08T09:33:24.723Z",
+      "fetchedAt": "2026-09-08T09:39:13.912Z",
       "domains": [
         "cyber-security"
       ],
@@ -11752,100 +11146,21 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 12,
+      "relevance": 10,
       "relevanceReasons": [
         "+7 Cyber Security",
         "-8 noise (dance)",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3242"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3242/"
-        }
-      ]
-    },
-    {
-      "id": "devpost-45c1f3fed1",
-      "source": "devpost",
-      "sourceLabel": "Devpost",
-      "sourceUrl": "https://makeuc-2026-30884.devpost.com/",
-      "url": "https://makeuc-2026-30884.devpost.com/",
-      "title": "MakeUC 2026",
-      "description": "DevOps, IoT, Web",
-      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/047/660/datas/medium_square.png",
-      "organizer": "IEEE@UC",
-      "format": "",
-      "prize": "$ 0",
-      "eligibility": "",
-      "rules": [
-        "Submission window: Nov 07 - 08, 2026",
-        "Time left to submit at crawl time: Upcoming"
-      ],
-      "tags": [
-        "Devpost",
-        "DevOps",
-        "IoT",
-        "Web"
-      ],
-      "location": {
-        "text": "1819 Innovation Hub",
-        "country": "",
-        "mode": "unspecified"
-      },
-      "startsAt": "2026-11-07T00:00:00.000Z",
-      "endsAt": "2026-11-07T00:00:00.000Z",
-      "registration": {
-        "opensAt": null,
-        "closesAt": null,
-        "url": ""
-      },
-      "timeline": [
-        {
-          "label": "Event starts",
-          "at": "2026-11-07T00:00:00.000Z"
-        },
-        {
-          "label": "Event ends",
-          "at": "2026-11-07T00:00:00.000Z"
-        }
-      ],
-      "participants": 3,
-      "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.063Z",
-      "domains": [
-        "iot-security"
-      ],
-      "domainLabels": [
-        "IoT & Embedded"
-      ],
-      "scope": "international",
-      "scopeConfidence": "low",
-      "scopeReason": "no India signal found",
-      "status": "upcoming",
-      "registrationStatus": "likely-open",
-      "relevance": 18,
-      "relevanceReasons": [
-        "+7 IoT & Embedded",
-        "+5 upcoming",
-        "+2 has official URL",
-        "+1 has image",
-        "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://makeuc-2026-30884.devpost.com/"
         }
       ]
     },
@@ -11896,8 +11211,7 @@
       ],
       "participants": 2,
       "type": "hackathon",
-      "trusted": false,
-      "fetchedAt": "2026-09-08T09:33:26.063Z",
+      "fetchedAt": "2026-09-08T09:39:15.567Z",
       "domains": [
         "iot-security"
       ],
@@ -11919,14 +11233,14 @@
       ]
     },
     {
-      "id": "devpost-38a3883268-2",
+      "id": "devpost-45c1f3fed1",
       "source": "devpost",
       "sourceLabel": "Devpost",
-      "sourceUrl": "https://makeuc-2026-30881.devpost.com/",
-      "url": "https://makeuc-2026-30881.devpost.com/",
-      "title": "Meow",
+      "sourceUrl": "https://makeuc-2026-30884.devpost.com/",
+      "url": "https://makeuc-2026-30884.devpost.com/",
+      "title": "MakeUC 2026",
       "description": "DevOps, IoT, Web",
-      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/046/979/datas/medium_square.png",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/047/660/datas/medium_square.png",
       "organizer": "IEEE@UC",
       "format": "",
       "prize": "$ 0",
@@ -11963,78 +11277,9 @@
           "at": "2026-11-07T00:00:00.000Z"
         }
       ],
-      "participants": 2,
+      "participants": 3,
       "type": "hackathon",
-      "trusted": false,
-      "fetchedAt": "2026-09-08T09:32:06.466Z",
-      "domains": [
-        "iot-security"
-      ],
-      "domainLabels": [
-        "IoT & Embedded"
-      ],
-      "scope": "international",
-      "scopeConfidence": "low",
-      "scopeReason": "no India signal found",
-      "status": "upcoming",
-      "registrationStatus": "likely-open",
-      "relevance": 16,
-      "relevanceReasons": [
-        "+7 IoT & Embedded",
-        "+5 upcoming",
-        "+2 has official URL",
-        "+1 has image",
-        "+1 prize listed"
-      ]
-    },
-    {
-      "id": "devpost-cddb2ad91b",
-      "source": "devpost",
-      "sourceLabel": "Devpost",
-      "sourceUrl": "https://makeuc-2026-30881.devpost.com/",
-      "url": "https://makeuc-2026-30881.devpost.com/",
-      "title": "Meow",
-      "description": "DevOps, IoT, Web",
-      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/046/979/datas/medium_square.png",
-      "organizer": "IEEE@UC",
-      "format": "",
-      "prize": "$ 0",
-      "eligibility": "",
-      "rules": [
-        "Submission window: Nov 07 - 08, 2026",
-        "Time left to submit at crawl time: Upcoming"
-      ],
-      "tags": [
-        "Devpost",
-        "DevOps",
-        "IoT",
-        "Web"
-      ],
-      "location": {
-        "text": "1819 Innovation Hub",
-        "country": "",
-        "mode": "unspecified"
-      },
-      "startsAt": "2026-11-07T00:00:00.000Z",
-      "endsAt": "2026-11-07T00:00:00.000Z",
-      "registration": {
-        "opensAt": null,
-        "closesAt": null,
-        "url": ""
-      },
-      "timeline": [
-        {
-          "label": "Event starts",
-          "at": "2026-11-07T00:00:00.000Z"
-        },
-        {
-          "label": "Event ends",
-          "at": "2026-11-07T00:00:00.000Z"
-        }
-      ],
-      "participants": 2,
-      "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:05:37.293Z",
+      "fetchedAt": "2026-09-08T09:39:15.567Z",
       "domains": [
         "iot-security"
       ],
@@ -12102,7 +11347,7 @@
       ],
       "participants": 3,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.061Z",
+      "fetchedAt": "2026-09-08T09:39:15.565Z",
       "domains": [
         "ai-ml"
       ],
@@ -12114,20 +11359,13 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 15,
+      "relevance": 13,
       "relevanceReasons": [
         "+4 AI / ML",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://sheridandatathon2026.devpost.com/"
-        }
       ]
     },
     {
@@ -12178,7 +11416,7 @@
       ],
       "participants": 2,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.723Z",
+      "fetchedAt": "2026-09-08T09:39:13.912Z",
       "domains": [
         "cyber-security"
       ],
@@ -12190,24 +11428,20 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 20,
+      "relevance": 18,
       "relevanceReasons": [
         "+7 Cyber Security",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3410"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3410/"
         }
       ]
     },
@@ -12260,7 +11494,7 @@
       ],
       "participants": 63,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.724Z",
+      "fetchedAt": "2026-09-08T09:39:13.912Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -12274,7 +11508,7 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 32,
+      "relevance": 30,
       "relevanceReasons": [
         "+9 Cyber Security",
         "+9 Digital Forensics",
@@ -12282,18 +11516,14 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed",
-        "+1 detailed"
+        "+1 detailed",
+        "+2 listed on 2 sources"
       ],
       "alsoOn": [
         {
           "id": "feeds",
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3049"
-        },
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3049/"
         }
       ]
     },
@@ -12345,7 +11575,7 @@
       ],
       "participants": 1,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.724Z",
+      "fetchedAt": "2026-09-08T09:39:13.913Z",
       "domains": [
         "cyber-security"
       ],
@@ -12357,7 +11587,7 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 19,
+      "relevance": 17,
       "relevanceReasons": [
         "+7 Cyber Security",
         "+5 upcoming",
@@ -12365,13 +11595,6 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3419/"
-        }
       ]
     },
     {
@@ -12422,7 +11645,7 @@
       ],
       "participants": 10,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.724Z",
+      "fetchedAt": "2026-09-08T09:39:13.913Z",
       "domains": [
         "cyber-security"
       ],
@@ -12434,7 +11657,7 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 19,
+      "relevance": 17,
       "relevanceReasons": [
         "+7 Cyber Security",
         "+5 upcoming",
@@ -12442,13 +11665,6 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3337/"
-        }
       ]
     },
     {
@@ -12499,7 +11715,7 @@
       ],
       "participants": 17,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.724Z",
+      "fetchedAt": "2026-09-08T09:39:13.913Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -12513,7 +11729,7 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 28,
+      "relevance": 26,
       "relevanceReasons": [
         "+9 Cyber Security",
         "+8 Digital Forensics",
@@ -12521,13 +11737,6 @@
         "+2 has official URL",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3118/"
-        }
       ]
     },
     {
@@ -12577,7 +11786,7 @@
       ],
       "participants": 5,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.066Z",
+      "fetchedAt": "2026-09-08T09:39:15.569Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -12591,7 +11800,7 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 21,
+      "relevance": 19,
       "relevanceReasons": [
         "+6 Cyber Security",
         "+4 AI / ML",
@@ -12599,13 +11808,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://futureforge-hacks.devpost.com/"
-        }
       ]
     },
     {
@@ -12657,7 +11859,7 @@
       ],
       "participants": 7,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.725Z",
+      "fetchedAt": "2026-09-08T09:39:13.913Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -12671,7 +11873,7 @@
       "scopeReason": "matched india",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 23,
+      "relevance": 21,
       "relevanceReasons": [
         "+9 Cyber Security",
         "+10 Digital Forensics",
@@ -12681,13 +11883,6 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3408/"
-        }
       ]
     },
     {
@@ -12737,7 +11932,7 @@
       ],
       "participants": 2,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.725Z",
+      "fetchedAt": "2026-09-08T09:39:13.914Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -12751,7 +11946,7 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 29,
+      "relevance": 27,
       "relevanceReasons": [
         "+9 Cyber Security",
         "+9 Digital Forensics",
@@ -12759,13 +11954,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3336/"
-        }
       ]
     },
     {
@@ -12817,7 +12005,7 @@
       ],
       "participants": 0,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.725Z",
+      "fetchedAt": "2026-09-08T09:39:13.914Z",
       "domains": [
         "cyber-security",
         "drone-security"
@@ -12831,7 +12019,7 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 22,
+      "relevance": 20,
       "relevanceReasons": [
         "+9 Cyber Security",
         "+9 Drone & UAV",
@@ -12841,13 +12029,6 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3386/"
-        }
       ]
     },
     {
@@ -12897,7 +12078,7 @@
       ],
       "participants": 2,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.064Z",
+      "fetchedAt": "2026-09-08T09:39:15.567Z",
       "domains": [
         "iot-security"
       ],
@@ -12909,20 +12090,13 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 18,
+      "relevance": 16,
       "relevanceReasons": [
         "+7 IoT & Embedded",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://revolution-mty2026.devpost.com/"
-        }
       ]
     },
     {
@@ -12973,7 +12147,7 @@
       ],
       "participants": 11,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.726Z",
+      "fetchedAt": "2026-09-08T09:39:13.915Z",
       "domains": [
         "cyber-security",
         "digital-forensics",
@@ -12989,7 +12163,7 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 37,
+      "relevance": 35,
       "relevanceReasons": [
         "+9 Cyber Security",
         "+9 Digital Forensics",
@@ -12999,13 +12173,6 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3367/"
-        }
       ]
     },
     {
@@ -13056,7 +12223,7 @@
       ],
       "participants": 0,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.727Z",
+      "fetchedAt": "2026-09-08T09:39:13.915Z",
       "domains": [
         "cyber-security"
       ],
@@ -13068,20 +12235,13 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 18,
+      "relevance": 16,
       "relevanceReasons": [
         "+7 Cyber Security",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3062/"
-        }
       ]
     },
     {
@@ -13131,7 +12291,7 @@
       ],
       "participants": 53,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.064Z",
+      "fetchedAt": "2026-09-08T09:39:15.567Z",
       "domains": [
         "iot-security",
         "ai-ml"
@@ -13145,7 +12305,7 @@
       "scopeReason": "no India signal found",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 22,
+      "relevance": 20,
       "relevanceReasons": [
         "+7 IoT & Embedded",
         "+4 AI / ML",
@@ -13153,13 +12313,6 @@
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://developerweek-2027-hackathon.devpost.com/"
-        }
       ]
     },
     {
@@ -13209,7 +12362,7 @@
       ],
       "participants": 13,
       "type": "hackathon",
-      "fetchedAt": "2026-09-08T09:33:26.064Z",
+      "fetchedAt": "2026-09-08T09:39:15.568Z",
       "domains": [
         "iot-security"
       ],
@@ -13221,20 +12374,13 @@
       "scopeReason": "matched goa",
       "status": "upcoming",
       "registrationStatus": "likely-open",
-      "relevance": 18,
+      "relevance": 16,
       "relevanceReasons": [
         "+7 IoT & Embedded",
         "+5 upcoming",
         "+2 has official URL",
         "+1 has image",
         "+1 prize listed"
-      ],
-      "alsoOn": [
-        {
-          "id": "devpost",
-          "label": "Devpost",
-          "url": "https://goathacks-2027.devpost.com/"
-        }
       ]
     },
     {
@@ -13286,7 +12432,7 @@
       ],
       "participants": 23,
       "type": "ctf",
-      "fetchedAt": "2026-09-08T09:33:24.705Z",
+      "fetchedAt": "2026-09-08T09:39:13.897Z",
       "domains": [
         "cyber-security",
         "digital-forensics",
@@ -13302,7 +12448,7 @@
       "scopeReason": "no India signal found",
       "status": "past",
       "registrationStatus": "closed",
-      "relevance": 12,
+      "relevance": 10,
       "relevanceReasons": [
         "+9 Cyber Security",
         "+9 Digital Forensics",
@@ -13313,13 +12459,6 @@
         "+1 has image",
         "+1 prize listed",
         "+1 detailed"
-      ],
-      "alsoOn": [
-        {
-          "id": "ctftime",
-          "label": "CTFtime",
-          "url": "https://ctftime.org/event/3389/"
-        }
       ]
     }
   ]
