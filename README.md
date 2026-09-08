@@ -193,12 +193,15 @@ under the `/HackUpdate/` sub-path without configuration.
 
 ### One-time setup
 
-1. **Settings → General → Danger Zone → Change visibility → Public.**
-   GitHub Pages only serves private repositories on a paid plan. Nothing in this
-   repository is sensitive: no credentials, no personal data, and no workflow
-   reads a secret (the crawl uses only the automatic `GITHUB_TOKEN`).
-2. **Settings → Pages → Build and deployment → Source: GitHub Actions.**
-   `.github/workflows/pages.yml` then publishes on every push to `main`.
+**Settings → General → Danger Zone → Change visibility → Public.**
+
+That is the only manual step. GitHub Pages serves a private repository only on a
+paid plan, and nothing here is sensitive: no credentials, no personal data, and
+no workflow reads a secret (the crawl uses only the automatic `GITHUB_TOKEN`).
+
+Pages does not need enabling by hand. `.github/workflows/pages.yml` passes
+`enablement: true` to `actions/configure-pages`, so the first run after the
+repository is public turns Pages on, points it at Actions, and deploys.
 
 `main` is the production branch: Pages deploys from it and the daily crawl
 commits its refreshed `data/events.json` to it, which in turn triggers a
