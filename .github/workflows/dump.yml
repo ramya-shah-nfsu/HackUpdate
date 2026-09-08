@@ -1,0 +1,33 @@
+# Prints the real markup of a listing page so a scraper can be written against
+# what is actually served. Manual only.
+name: Dump page markup
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "Page to dump"
+        required: true
+      n:
+        description: "Blocks per class token"
+        required: false
+        default: "2"
+
+permissions:
+  contents: read
+
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: |
+          set -o pipefail
+          node crawler/diagnose.mjs "--dump=${{ inputs.url }}" "--n=${{ inputs.n }}" 2>&1 | tee dump.log
+      - if: always()
+        run: |
+          { echo '## Markup dump'; echo; echo '```html'; head -c 60000 dump.log; echo; echo '```'; } >> "$GITHUB_STEP_SUMMARY"

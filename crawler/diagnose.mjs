@@ -44,7 +44,17 @@ const TARGETS = {
   ],
 };
 
-const wanted = process.argv.slice(2);
+const argv = process.argv.slice(2);
+
+/* --dump=<url> prints the repeating blocks of a listing page so a scraper can
+   be written against the markup that is actually served, not a guess at it. */
+const dump = (argv.find((a) => a.startsWith("--dump=")) || "").replace("--dump=", "");
+if (dump) {
+  await dumpBlocks(dump, Number((argv.find((a) => a.startsWith("--n=")) || "--n=2").replace("--n=", "")));
+  process.exit(0);
+}
+
+const wanted = argv.filter((a) => !a.startsWith("--"));
 const groups = wanted.length ? wanted : Object.keys(TARGETS);
 
 for (const group of groups) {
@@ -88,4 +98,49 @@ function describe(body) {
   if (/cloudflare|captcha|are you a robot|access denied/i.test(body)) bits.push("BLOCKED?");
   if (/__NEXT_DATA__|window\.__NUXT__|ng-version/i.test(body)) bits.push("client-rendered(SPA)");
   return bits.join(" ") || "plain";
+}
+
+/**
+ * Print the first few repeating "card" blocks of a listing page, plus any
+ * JSON-LD, so an adapter can be written against real markup.
+ */
+async function dumpBlocks(url, count) {
+  const res = await fetch(url, {
+    headers: { "user-agent": UA, accept: "text/html,application/xhtml+xml,*/*;q=0.8" },
+    redirect: "follow",
+    signal: AbortSignal.timeout(30000),
+  });
+  const html = await res.text();
+  console.log(`# ${url}\n  ${res.status} ${res.headers.get("content-type")} ${html.length}b final=${res.url}\n`);
+
+  const ld = [...html.matchAll(/<script[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)];
+  if (ld.length) {
+    console.log(`## JSON-LD blocks: ${ld.length}`);
+    console.log(ld[0][1].replace(/\s+/g, " ").slice(0, 1200), "\n");
+  }
+
+  // Which class token repeats most? That is almost always the card wrapper.
+  const freq = {};
+  for (const m of html.matchAll(/class=["']([^"']+)["']/gi)) {
+    for (const tok of m[1].split(/\s+/)) {
+      if (tok.length > 2 && !/^(row|col|container|wrapper|flex|grid|text|bg|p|m|w|h)-?\d*$/.test(tok)) {
+        freq[tok] = (freq[tok] || 0) + 1;
+      }
+    }
+  }
+  const top = Object.entries(freq).sort((a, b) => b[1] - a[1]).slice(0, 22);
+  console.log("## most repeated class tokens");
+  console.log("  " + top.map(([k, v]) => `${k}(${v})`).join("  "), "\n");
+
+  for (const token of ["event", "card", "challenge", "hackathon", "listing", "post"]) {
+    const re = new RegExp(`<(\\w+)[^>]*class=["'][^"']*\\b${token}\\b[^"']*["'][^>]*>`, "gi");
+    const hits = [...html.matchAll(re)];
+    if (!hits.length) continue;
+    console.log(`## blocks whose class contains "${token}" (${hits.length})`);
+    for (const h of hits.slice(0, count)) {
+      console.log("  ---");
+      console.log("  " + html.slice(h.index, h.index + 1400).replace(/\s+/g, " "));
+    }
+    console.log();
+  }
 }
