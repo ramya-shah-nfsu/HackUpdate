@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-10-12T07:37:16.613Z",
+  "generatedAt": "2026-10-13T07:56:40.557Z",
   "generatorVersion": 2,
-  "runMs": 28068,
+  "runMs": 34396,
   "counts": {
-    "total": 437,
+    "total": 441,
     "byType": {
-      "hackathon": 368,
-      "ctf": 69
+      "hackathon": 373,
+      "ctf": 68
     },
     "byScope": {
-      "national": 344,
-      "international": 93
+      "national": 347,
+      "international": 94
     },
     "byStatus": {
-      "ongoing": 326,
-      "upcoming": 87,
-      "past": 11,
+      "ongoing": 331,
+      "upcoming": 88,
+      "past": 9,
       "undated": 13
     },
     "byDomain": {
-      "cyber-security": 234,
-      "general-innovation": 114,
+      "cyber-security": 233,
+      "general-innovation": 116,
       "iot-security": 32,
-      "ai-ml": 149,
-      "digital-forensics": 39,
-      "drone-security": 12,
-      "blockchain": 34,
+      "ai-ml": 151,
+      "digital-forensics": 38,
+      "drone-security": 11,
+      "blockchain": 36,
       "ot-ics": 2,
-      "unclassified": 3,
-      "critical-infrastructure": 6
+      "unclassified": 4,
+      "critical-infrastructure": 7
     },
     "bySource": {
       "mygov": 5,
-      "devpost": 47,
-      "devfolio": 16,
-      "unstop": 300,
-      "ctftime": 53,
+      "devpost": 48,
+      "devfolio": 15,
+      "unstop": 305,
+      "ctftime": 52,
       "mlh": 3,
       "curated": 13
     }
@@ -97,7 +97,7 @@
       "homepage": "",
       "status": "ok",
       "count": 13,
-      "ms": 10
+      "ms": 7
     },
     {
       "id": "ctftime",
@@ -105,31 +105,31 @@
       "homepage": "https://ctftime.org/",
       "status": "ok",
       "count": 49,
-      "ms": 1059
+      "ms": 1289
     },
     {
       "id": "devpost",
       "label": "Devpost",
       "homepage": "https://devpost.com/hackathons",
       "status": "ok",
-      "count": 34,
-      "ms": 1740
+      "count": 35,
+      "ms": 2908
     },
     {
       "id": "unstop",
       "label": "Unstop",
       "homepage": "https://unstop.com/hackathons",
       "status": "ok",
-      "count": 100,
-      "ms": 6306
+      "count": 106,
+      "ms": 7247
     },
     {
       "id": "devfolio",
       "label": "Devfolio",
       "homepage": "https://devfolio.co/hackathons",
       "status": "ok",
-      "count": 20,
-      "ms": 582
+      "count": 19,
+      "ms": 1760
     },
     {
       "id": "hackerearth",
@@ -141,8 +141,8 @@
       "label": "Major League Hacking",
       "homepage": "https://www.mlh.com/seasons",
       "status": "ok",
-      "count": 108,
-      "ms": 2003
+      "count": 109,
+      "ms": 2886
     },
     {
       "id": "mygov",
@@ -150,7 +150,7 @@
       "homepage": "https://innovateindia.mygov.in/",
       "status": "ok",
       "count": 6,
-      "ms": 3773
+      "ms": 3908
     },
     {
       "id": "pib",
@@ -163,7 +163,7 @@
       "homepage": "",
       "status": "ok",
       "count": 78,
-      "ms": 12436
+      "ms": 14265
     }
   ],
   "events": [
@@ -224,7 +224,7 @@
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:37:04.020Z",
+      "fetchedAt": "2026-10-13T07:56:26.168Z",
       "domains": [
         "cyber-security",
         "general-innovation"
@@ -305,7 +305,7 @@
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:37:04.020Z",
+      "fetchedAt": "2026-10-13T07:56:26.168Z",
       "domains": [
         "iot-security",
         "general-innovation"
@@ -344,6 +344,7 @@
       "eligibility": "",
       "rules": [
         "Submission window: Jun 25 - Oct 27, 2026",
+        "Time left to submit at crawl time: 15 days left",
         "Time left to submit at crawl time: 16 days left",
         "Time left to submit at crawl time: 17 days left",
         "Time left to submit at crawl time: 18 days left",
@@ -353,8 +354,7 @@
         "Time left to submit at crawl time: 23 days left",
         "Time left to submit at crawl time: 24 days left",
         "Time left to submit at crawl time: 25 days left",
-        "Time left to submit at crawl time: 26 days left",
-        "Time left to submit at crawl time: 27 days left"
+        "Time left to submit at crawl time: 26 days left"
       ],
       "tags": [
         "Devpost",
@@ -384,11 +384,11 @@
           "at": "2026-10-27T00:00:00.000Z"
         }
       ],
-      "participants": 106,
+      "participants": 109,
       "type": "hackathon",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:51.351Z",
+      "fetchedAt": "2026-10-13T07:56:10.363Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -529,11 +529,11 @@
           "at": "2027-01-14T00:00:00.000Z"
         }
       ],
-      "participants": 316,
+      "participants": 320,
       "type": "hackathon",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:51.351Z",
+      "fetchedAt": "2026-10-13T07:56:10.363Z",
       "domains": [
         "ai-ml"
       ],
@@ -611,7 +611,7 @@
       "type": "hackathon",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:58.239Z",
+      "fetchedAt": "2026-10-13T07:56:19.370Z",
       "domains": [
         "cyber-security",
         "ai-ml",
@@ -741,13 +741,13 @@
       "eligibility": "",
       "rules": [
         "Submission window: Aug 07 - Oct 20, 2026",
+        "Time left to submit at crawl time: 8 days left",
         "Time left to submit at crawl time: 9 days left",
         "Submission window: Aug 07 - Oct 13, 2026",
         "Time left to submit at crawl time: 3 days left",
         "Time left to submit at crawl time: 4 days left",
         "Time left to submit at crawl time: 5 days left",
         "Time left to submit at crawl time: 6 days left",
-        "Time left to submit at crawl time: 8 days left",
         "Time left to submit at crawl time: 10 days left",
         "Time left to submit at crawl time: 11 days left",
         "Time left to submit at crawl time: 12 days left",
@@ -781,12 +781,12 @@
           "at": "2026-10-20T00:00:00.000Z"
         }
       ],
-      "participants": 824,
+      "participants": 836,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:51.356Z",
+      "fetchedAt": "2026-10-13T07:56:10.367Z",
       "domains": [
         "cyber-security"
       ],
@@ -1377,7 +1377,7 @@
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:37:04.020Z",
+      "fetchedAt": "2026-10-13T07:56:26.168Z",
       "domains": [
         "cyber-security",
         "general-innovation"
@@ -1510,6 +1510,7 @@
       "eligibility": "",
       "rules": [
         "Submission window: Aug 26 - Oct 27, 2026",
+        "Time left to submit at crawl time: 14 days left",
         "Time left to submit at crawl time: 15 days left",
         "Time left to submit at crawl time: 16 days left",
         "Time left to submit at crawl time: 17 days left",
@@ -1519,8 +1520,7 @@
         "Time left to submit at crawl time: 22 days left",
         "Time left to submit at crawl time: 23 days left",
         "Time left to submit at crawl time: 24 days left",
-        "Time left to submit at crawl time: 25 days left",
-        "Time left to submit at crawl time: 26 days left"
+        "Time left to submit at crawl time: 25 days left"
       ],
       "tags": [
         "Devpost",
@@ -1550,11 +1550,11 @@
           "at": "2026-10-27T00:00:00.000Z"
         }
       ],
-      "participants": 4701,
+      "participants": 4796,
       "type": "hackathon",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:51.354Z",
+      "fetchedAt": "2026-10-13T07:56:10.366Z",
       "domains": [
         "ai-ml",
         "iot-security"
@@ -2247,6 +2247,7 @@
       "eligibility": "",
       "rules": [
         "Submission window: Sep 01 - Oct 23, 2026",
+        "Time left to submit at crawl time: 10 days left",
         "Time left to submit at crawl time: 11 days left",
         "Time left to submit at crawl time: 13 days left",
         "Time left to submit at crawl time: 14 days left",
@@ -2256,8 +2257,7 @@
         "Time left to submit at crawl time: 19 days left",
         "Time left to submit at crawl time: 20 days left",
         "Time left to submit at crawl time: 21 days left",
-        "Time left to submit at crawl time: 22 days left",
-        "Time left to submit at crawl time: 23 days left"
+        "Time left to submit at crawl time: 22 days left"
       ],
       "tags": [
         "Devpost",
@@ -2287,11 +2287,11 @@
           "at": "2026-10-23T00:00:00.000Z"
         }
       ],
-      "participants": 323,
+      "participants": 331,
       "type": "hackathon",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:51.354Z",
+      "fetchedAt": "2026-10-13T07:56:10.365Z",
       "domains": [
         "iot-security",
         "ai-ml"
@@ -3055,95 +3055,6 @@
       "relevance": 10,
       "relevanceReasons": [
         "+2 General Innovation",
-        "+3 ongoing",
-        "+2 has official URL",
-        "+1 has image",
-        "+1 prize listed",
-        "+1 detailed"
-      ]
-    },
-    {
-      "id": "unstop-852b254f4d",
-      "source": "unstop",
-      "sourceLabel": "Unstop",
-      "sourceUrl": "https://unstop.com/hackathons/hackwave-30-chameli-devi-group-of-institutions-1750278",
-      "url": "https://unstop.com/hackathons/hackwave-30-chameli-devi-group-of-institutions-1750278",
-      "title": "Hackwave 3.0",
-      "description": "HackWave 3.0 Organised by Echelon Dev Society, Chameli Devi Group of Institutions (CDGI) HackWave 3.0 is CDGI’s annual 36-hour offline hackathon, bringing together student developers, innovators, and tech enthusiasts from across India to build innovative solutions, solve real-world problems, and compete for a total prize pool of ₹1,00,000. Date: 10th - 12th October 2026 Venue: Chameli Devi Group of Institutions, Indore Prize Pool: ₹1,00,000 Team Size: 3-5 Members Mode: Offline Shortlisted Teams: Top 50 Teams Who Can Participate? Open to college students across India. Teams must consist of 3-5 members. Both inter-college and inter-specialization teams are allowed.…",
-      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6a9da035bb96d_chatgpt_image_sep_6_2026_10_46_28_pm_1.png",
-      "organizer": "Chameli Devi Group of Institutions",
-      "format": "",
-      "prize": "₹100000",
-      "eligibility": "",
-      "rules": [
-        "Registration window closes in 11 days left day(s) as of the last crawl.",
-        "Team size: 3 to 5 member(s).",
-        "Opportunity type: hackathons",
-        "Registration window closes in 12 days left day(s) as of the last crawl.",
-        "Registration window closes in 13 days left day(s) as of the last crawl.",
-        "Registration window closes in 14 days left day(s) as of the last crawl.",
-        "Registration window closes in 15 days left day(s) as of the last crawl.",
-        "Registration window closes in 16 days left day(s) as of the last crawl.",
-        "Registration window closes in 17 days left day(s) as of the last crawl."
-      ],
-      "tags": [
-        "Unstop",
-        "India",
-        "Engineering Students",
-        "Postgraduate",
-        "Undergraduate",
-        "Fresher",
-        "All"
-      ],
-      "location": {
-        "text": "India",
-        "country": "India",
-        "mode": "onsite"
-      },
-      "startsAt": "2026-09-06T12:00:20.000Z",
-      "endsAt": "2026-10-12T09:30:13.000Z",
-      "registration": {
-        "opensAt": "2026-09-06T12:00:20.000Z",
-        "closesAt": "2026-09-25T18:30:38.000Z",
-        "url": "https://unstop.com/hackathons/hackwave-30-chameli-devi-group-of-institutions-1750278"
-      },
-      "timeline": [
-        {
-          "label": "Registration opens",
-          "at": "2026-09-06T12:00:20.000Z"
-        },
-        {
-          "label": "Event starts",
-          "at": "2026-09-06T12:00:20.000Z"
-        },
-        {
-          "label": "Registration closes",
-          "at": "2026-09-25T18:30:38.000Z"
-        },
-        {
-          "label": "Event ends",
-          "at": "2026-10-12T09:30:13.000Z"
-        }
-      ],
-      "participants": 237,
-      "type": "hackathon",
-      "scopeOverride": "",
-      "aliases": [],
-      "fetchedAt": "2026-09-14T06:36:26.527Z",
-      "domains": [
-        "cyber-security"
-      ],
-      "domainLabels": [
-        "Cyber Security"
-      ],
-      "scope": "national",
-      "scopeConfidence": "high",
-      "scopeReason": "source country = India",
-      "status": "ongoing",
-      "registrationStatus": "closed",
-      "relevance": 14,
-      "relevanceReasons": [
-        "+6 Cyber Security",
         "+3 ongoing",
         "+2 has official URL",
         "+1 has image",
@@ -5010,94 +4921,6 @@
       "relevance": 9,
       "relevanceReasons": [
         "+2 General Innovation",
-        "+3 ongoing",
-        "+2 has official URL",
-        "+1 has image",
-        "+1 detailed"
-      ]
-    },
-    {
-      "id": "unstop-1cc1089f86",
-      "source": "unstop",
-      "sourceLabel": "Unstop",
-      "sourceUrl": "https://unstop.com/hackathons/setu-bridge-the-gap-build-the-fix-forge-realm-1754670",
-      "url": "https://unstop.com/hackathons/setu-bridge-the-gap-build-the-fix-forge-realm-1754670",
-      "title": "Setu - Bridge the Gap. Build the Fix",
-      "description": "Overview SETU is a beginner-friendly hybrid technology innovation challenge by Forge Realm , where students turn problems into practical solutions. Participants can compete individually or in teams of 1-4 and build solutions around Problem Statements that will be revealed on the event day. How will SETU be organised? Hybrid : Offline and Online Tracks 3 Problem Statements : Revealed on the event day Build a practical solution or prototype Beginner-friendly : No previous hackathon experience required Join Your SETU Track Group After registering for SETU, join the community group for your chosen participation track.…",
-      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6aa7d6ff6c399_1000124365.png",
-      "organizer": "Forge Realm",
-      "format": "",
-      "prize": "",
-      "eligibility": "",
-      "rules": [
-        "Registration window closes in 23 days left day(s) as of the last crawl.",
-        "Team size: 1 to 4 member(s).",
-        "Opportunity type: hackathons",
-        "Registration window closes in 24 days left day(s) as of the last crawl.",
-        "Registration window closes in 25 days left day(s) as of the last crawl.",
-        "Registration window closes in 26 days left day(s) as of the last crawl."
-      ],
-      "tags": [
-        "Unstop",
-        "India",
-        "Engineering Students",
-        "Postgraduate",
-        "Undergraduate",
-        "Management",
-        "Medical",
-        "Law",
-        "Arts, Commerce, Sciences & Others"
-      ],
-      "location": {
-        "text": "Online (India)",
-        "country": "India",
-        "mode": "online"
-      },
-      "startsAt": "2026-09-14T18:30:00.000Z",
-      "endsAt": "2026-10-12T18:29:00.000Z",
-      "registration": {
-        "opensAt": "2026-09-14T18:30:00.000Z",
-        "closesAt": "2026-10-12T18:29:00.000Z",
-        "url": "https://unstop.com/hackathons/setu-bridge-the-gap-build-the-fix-forge-realm-1754670"
-      },
-      "timeline": [
-        {
-          "label": "Registration opens",
-          "at": "2026-09-14T18:30:00.000Z"
-        },
-        {
-          "label": "Event starts",
-          "at": "2026-09-14T18:30:00.000Z"
-        },
-        {
-          "label": "Registration closes",
-          "at": "2026-10-12T18:29:00.000Z"
-        },
-        {
-          "label": "Event ends",
-          "at": "2026-10-12T18:29:00.000Z"
-        }
-      ],
-      "participants": 168,
-      "type": "hackathon",
-      "trusted": false,
-      "scopeOverride": "",
-      "aliases": [],
-      "fetchedAt": "2026-09-19T06:09:16.744Z",
-      "domains": [
-        "general-innovation"
-      ],
-      "domainLabels": [
-        "General Innovation"
-      ],
-      "scope": "national",
-      "scopeConfidence": "high",
-      "scopeReason": "source country = India",
-      "status": "ongoing",
-      "registrationStatus": "open",
-      "relevance": 10,
-      "relevanceReasons": [
-        "+3 General Innovation",
         "+3 ongoing",
         "+2 has official URL",
         "+1 has image",
@@ -7217,7 +7040,7 @@
       "scopeConfidence": "high",
       "scopeReason": "source country = India",
       "status": "ongoing",
-      "registrationStatus": "open",
+      "registrationStatus": "closed",
       "relevance": 22,
       "relevanceReasons": [
         "+7 AI / ML",
@@ -7948,6 +7771,7 @@
       "eligibility": "",
       "rules": [
         "Submission window: Sep 22 - Oct 15, 2026",
+        "Time left to submit at crawl time: 2 days left",
         "Time left to submit at crawl time: 3 days left",
         "Time left to submit at crawl time: 4 days left",
         "Time left to submit at crawl time: 5 days left",
@@ -7957,8 +7781,7 @@
         "Time left to submit at crawl time: 10 days left",
         "Time left to submit at crawl time: 11 days left",
         "Time left to submit at crawl time: 13 days left",
-        "Time left to submit at crawl time: 14 days left",
-        "Time left to submit at crawl time: 15 days left"
+        "Time left to submit at crawl time: 14 days left"
       ],
       "tags": [
         "Devpost",
@@ -7988,12 +7811,12 @@
           "at": "2026-10-15T00:00:00.000Z"
         }
       ],
-      "participants": 179,
+      "participants": 192,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:51.350Z",
+      "fetchedAt": "2026-10-13T07:56:10.363Z",
       "domains": [
         "cyber-security"
       ],
@@ -8031,6 +7854,7 @@
         "SMU BIA members",
         "Invite-only hackathon: an invitation from the organiser is required.",
         "Submission window: Sep 22 - Oct 18, 2026",
+        "Time left to submit at crawl time: 5 days left",
         "Time left to submit at crawl time: 7 days left",
         "Submission window: Sep 22 - Oct 19, 2026",
         "Time left to submit at crawl time: 9 days left",
@@ -8038,8 +7862,7 @@
         "Time left to submit at crawl time: 12 days left",
         "Time left to submit at crawl time: 13 days left",
         "Time left to submit at crawl time: 16 days left",
-        "Time left to submit at crawl time: 17 days left",
-        "Time left to submit at crawl time: 18 days left"
+        "Time left to submit at crawl time: 17 days left"
       ],
       "tags": [
         "Devpost",
@@ -8067,12 +7890,12 @@
           "at": "2026-10-18T00:00:00.000Z"
         }
       ],
-      "participants": 48,
+      "participants": 51,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:51.353Z",
+      "fetchedAt": "2026-10-13T07:56:10.364Z",
       "domains": [
         "ai-ml"
       ],
@@ -8873,9 +8696,10 @@
       "prize": "₹175000",
       "eligibility": "",
       "rules": [
-        "Registration window closes in 5 days left day(s) as of the last crawl.",
+        "Registration window closes in 4 days left day(s) as of the last crawl.",
         "Team size: 2 to 5 member(s).",
         "Opportunity type: hackathons",
+        "Registration window closes in 5 days left day(s) as of the last crawl.",
         "Registration window closes in 6 days left day(s) as of the last crawl.",
         "Registration window closes in 11 hours left day(s) as of the last crawl."
       ],
@@ -8921,12 +8745,12 @@
           "at": "2026-11-01T15:30:00.000Z"
         }
       ],
-      "participants": 1906,
+      "participants": 1938,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:57.627Z",
+      "fetchedAt": "2026-10-13T07:56:17.593Z",
       "domains": [
         "ai-ml",
         "blockchain",
@@ -9613,7 +9437,7 @@
       "scopeConfidence": "high",
       "scopeReason": "source country = India",
       "status": "ongoing",
-      "registrationStatus": "open",
+      "registrationStatus": "closed",
       "relevance": 15,
       "relevanceReasons": [
         "+7 IoT & Embedded",
@@ -10842,93 +10666,6 @@
       ]
     },
     {
-      "id": "unstop-ae2c5adb8c",
-      "source": "unstop",
-      "sourceLabel": "Unstop",
-      "sourceUrl": "https://unstop.com/competitions/conceptia-26-bms-institute-of-technology-and-management-bmsitm-bangalore-1759009",
-      "url": "https://unstop.com/competitions/conceptia-26-bms-institute-of-technology-and-management-bmsitm-bangalore-1759009",
-      "title": "Conceptia ‘26",
-      "description": "Basic Details: Title: CONCEPTIA ‘26 Category: Competitions & Challenges (Ideathon / Case Study) Organizer: ARMS Club, BMS Institute of Technology & Management Mode: Offline | Date: 14th October | Time: 8:00 AM - 6:30 PM Fee: Free Participation & Team Setup: Type: Team (3-4 members) Cap: 50-55 teams Eligibility: Open to college students (Valid College ID mandatory) About the Event : CONCEPTIA ‘26 is a flagship one-day ideathon hosted by the ARMS Club at BMSIT&M . Teams will clear competitive screening rounds: featuring a robotics quiz, live pitching, and exciting surprise twist rounds : to reach the Ideathon Finals , where they will solve real-world industry problem statements .…",
-      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6ab6939339531_screenshot_2026-09-25_210007.png",
-      "organizer": "BMS Institute of Technology and Management (BMSITM), Bangalore",
-      "format": "",
-      "prize": "₹7000",
-      "eligibility": "",
-      "rules": [
-        "Registration window closes in 15 days left day(s) as of the last crawl.",
-        "Team size: 3 to 4 member(s).",
-        "Opportunity type: competitions",
-        "Registration window closes in 16 days left day(s) as of the last crawl."
-      ],
-      "tags": [
-        "Unstop",
-        "India",
-        "Engineering Students",
-        "Postgraduate",
-        "Undergraduate",
-        "Management",
-        "Medical",
-        "Law",
-        "Arts, Commerce, Sciences & Others"
-      ],
-      "location": {
-        "text": "India",
-        "country": "India",
-        "mode": "onsite"
-      },
-      "startsAt": "2026-09-25T18:30:00.000Z",
-      "endsAt": "2026-10-12T18:30:00.000Z",
-      "registration": {
-        "opensAt": "2026-09-25T18:30:00.000Z",
-        "closesAt": "2026-10-12T18:30:00.000Z",
-        "url": "https://unstop.com/competitions/conceptia-26-bms-institute-of-technology-and-management-bmsitm-bangalore-1759009"
-      },
-      "timeline": [
-        {
-          "label": "Registration opens",
-          "at": "2026-09-25T18:30:00.000Z"
-        },
-        {
-          "label": "Event starts",
-          "at": "2026-09-25T18:30:00.000Z"
-        },
-        {
-          "label": "Registration closes",
-          "at": "2026-10-12T18:30:00.000Z"
-        },
-        {
-          "label": "Event ends",
-          "at": "2026-10-12T18:30:00.000Z"
-        }
-      ],
-      "participants": 6,
-      "type": "hackathon",
-      "trusted": false,
-      "scopeOverride": "",
-      "aliases": [],
-      "fetchedAt": "2026-09-27T06:45:26.927Z",
-      "domains": [
-        "general-innovation"
-      ],
-      "domainLabels": [
-        "General Innovation"
-      ],
-      "scope": "national",
-      "scopeConfidence": "high",
-      "scopeReason": "source country = India",
-      "status": "ongoing",
-      "registrationStatus": "open",
-      "relevance": 11,
-      "relevanceReasons": [
-        "+3 General Innovation",
-        "+3 ongoing",
-        "+2 has official URL",
-        "+1 has image",
-        "+1 prize listed",
-        "+1 detailed"
-      ]
-    },
-    {
       "id": "unstop-cae9951c6d",
       "source": "unstop",
       "sourceLabel": "Unstop",
@@ -11842,178 +11579,6 @@
       ]
     },
     {
-      "id": "unstop-bcdce64d8d",
-      "source": "unstop",
-      "sourceLabel": "Unstop",
-      "sourceUrl": "https://unstop.com/competitions/chess-techfest26-annual-technical-festival-of-sliet-sant-longowal-institute-of-engineering-and-technology-l-1744757",
-      "url": "https://unstop.com/competitions/chess-techfest26-annual-technical-festival-of-sliet-sant-longowal-institute-of-engineering-and-technology-l-1744757",
-      "title": "Chess",
-      "description": "All that you need to know about Chess - techFEST'26 For Non-SLIET Participants Only techFEST'26 is North India's premier technical festival, organised by Sant Longowal Institute of Engineering and Technology (SLIET), Longowal, Punjab. \"This is a free opportunity for all participants.\" For Queries and Updates: Naman Kumar Sinha (Overall Coordinator): +91 78568 93952 Shubham Kumar Singh (Overall Coordinator): +91 97711 74465 Email: techfest@sliet.ac.in Website: www.techfest26.com Follow us on Instagram and other social media platforms for updates. Note: For accommodation and other perks visit the website and it's mendetry for registration.…",
-      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6aad53354322c_logo.webp",
-      "organizer": "Sant Longowal Institute of Engineering and Technology, Longowal, Punjab",
-      "format": "",
-      "prize": "₹2000",
-      "eligibility": "",
-      "rules": [
-        "Registration window closes in 2 days left day(s) as of the last crawl.",
-        "Team size: 1 to 1 member(s).",
-        "Opportunity type: competitions"
-      ],
-      "tags": [
-        "Unstop",
-        "India",
-        "Engineering Students",
-        "Postgraduate",
-        "Undergraduate",
-        "Management",
-        "Medical",
-        "Law",
-        "Arts, Commerce, Sciences & Others"
-      ],
-      "location": {
-        "text": "India",
-        "country": "India",
-        "mode": "unspecified"
-      },
-      "startsAt": "2026-09-27T18:30:00.000Z",
-      "endsAt": "2026-10-12T17:04:26.000Z",
-      "registration": {
-        "opensAt": "2026-09-27T18:30:00.000Z",
-        "closesAt": "2026-10-10T17:04:26.000Z",
-        "url": "https://unstop.com/competitions/chess-techfest26-annual-technical-festival-of-sliet-sant-longowal-institute-of-engineering-and-technology-l-1744757"
-      },
-      "timeline": [
-        {
-          "label": "Registration opens",
-          "at": "2026-09-27T18:30:00.000Z"
-        },
-        {
-          "label": "Event starts",
-          "at": "2026-09-27T18:30:00.000Z"
-        },
-        {
-          "label": "Registration closes",
-          "at": "2026-10-10T17:04:26.000Z"
-        },
-        {
-          "label": "Event ends",
-          "at": "2026-10-12T17:04:26.000Z"
-        }
-      ],
-      "participants": 119,
-      "type": "hackathon",
-      "trusted": false,
-      "scopeOverride": "",
-      "aliases": [],
-      "fetchedAt": "2026-10-08T07:41:20.790Z",
-      "domains": [
-        "cyber-security"
-      ],
-      "domainLabels": [
-        "Cyber Security"
-      ],
-      "scope": "national",
-      "scopeConfidence": "high",
-      "scopeReason": "source country = India",
-      "status": "ongoing",
-      "registrationStatus": "closed",
-      "relevance": 14,
-      "relevanceReasons": [
-        "+6 Cyber Security",
-        "+3 ongoing",
-        "+2 has official URL",
-        "+1 has image",
-        "+1 prize listed",
-        "+1 detailed"
-      ]
-    },
-    {
-      "id": "unstop-99d09dbe6b",
-      "source": "unstop",
-      "sourceLabel": "Unstop",
-      "sourceUrl": "https://unstop.com/competitions/digital-design-challenge-techfest26-annual-technical-festival-of-sliet-sant-longowal-institute-of-engineeri-1744229",
-      "url": "https://unstop.com/competitions/digital-design-challenge-techfest26-annual-technical-festival-of-sliet-sant-longowal-institute-of-engineeri-1744229",
-      "title": "Digital Design Challenge",
-      "description": "Digital Design Challenge - techFEST'26 For Non-SLIET Participants Only techFEST'26 is North India's premier technical festival, organised by Sant Longowal Institute of Engineering and Technology (SLIET), Longowal, Punjab. \"This is a free opportunity for all participants.\" Official Website: https://www.techfest26.com Follow us for updates: Instagram and other social media platforms. Accommodation and Meals: Registration for the techFEST’26 package is compulsory for accommodation and other perks, while participation in individual events is free*.…",
-      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6aad5454199d6_logo.webp",
-      "organizer": "Sant Longowal Institute of Engineering and Technology, Longowal, Punjab",
-      "format": "",
-      "prize": "₹10000",
-      "eligibility": "",
-      "rules": [
-        "Registration window closes in 2 days left day(s) as of the last crawl.",
-        "Team size: 1 to 2 member(s).",
-        "Opportunity type: competitions"
-      ],
-      "tags": [
-        "Unstop",
-        "India",
-        "Engineering Students",
-        "Postgraduate",
-        "Undergraduate",
-        "Management",
-        "Medical",
-        "Law",
-        "Arts, Commerce, Sciences & Others"
-      ],
-      "location": {
-        "text": "India",
-        "country": "India",
-        "mode": "unspecified"
-      },
-      "startsAt": "2026-09-27T18:30:00.000Z",
-      "endsAt": "2026-10-12T17:30:00.000Z",
-      "registration": {
-        "opensAt": "2026-09-27T18:30:00.000Z",
-        "closesAt": "2026-10-10T17:30:00.000Z",
-        "url": "https://unstop.com/competitions/digital-design-challenge-techfest26-annual-technical-festival-of-sliet-sant-longowal-institute-of-engineeri-1744229"
-      },
-      "timeline": [
-        {
-          "label": "Registration opens",
-          "at": "2026-09-27T18:30:00.000Z"
-        },
-        {
-          "label": "Event starts",
-          "at": "2026-09-27T18:30:00.000Z"
-        },
-        {
-          "label": "Registration closes",
-          "at": "2026-10-10T17:30:00.000Z"
-        },
-        {
-          "label": "Event ends",
-          "at": "2026-10-12T17:30:00.000Z"
-        }
-      ],
-      "participants": 66,
-      "type": "hackathon",
-      "trusted": false,
-      "scopeOverride": "",
-      "aliases": [],
-      "fetchedAt": "2026-10-08T07:41:20.791Z",
-      "domains": [
-        "cyber-security"
-      ],
-      "domainLabels": [
-        "Cyber Security"
-      ],
-      "scope": "national",
-      "scopeConfidence": "high",
-      "scopeReason": "source country = India",
-      "status": "ongoing",
-      "registrationStatus": "closed",
-      "relevance": 14,
-      "relevanceReasons": [
-        "+6 Cyber Security",
-        "+3 ongoing",
-        "+2 has official URL",
-        "+1 has image",
-        "+1 prize listed",
-        "+1 detailed"
-      ]
-    },
-    {
       "id": "unstop-463b5102ce",
       "source": "unstop",
       "sourceLabel": "Unstop",
@@ -12608,92 +12173,6 @@
       ]
     },
     {
-      "id": "unstop-7ed2deb918",
-      "source": "unstop",
-      "sourceLabel": "Unstop",
-      "sourceUrl": "https://unstop.com/competitions/the-visual-persuasion-relay26-barcode26-symbiosis-institute-of-management-studies-sims-pune-1763453",
-      "url": "https://unstop.com/competitions/the-visual-persuasion-relay26-barcode26-symbiosis-institute-of-management-studies-sims-pune-1763453",
-      "title": "The Visual Persuasion Relay'26",
-      "description": "Overview: The Visual Persuasion Relay is a data storytelling competition built around one question: can you make your insight impossible to miss - and can you get better when your audience misses it? It is not a contest for the prettiest dashboard. It is a test of whether a team can take a hidden business conclusion buried inside a dataset and make it so clear that a cold audience - seeing the data for the first time - arrives at the same conclusion on their own. Every team experiences both sides of a data-driven decision: the analyst who has to communicate a finding, and the executive who has to act on one without any background context.…",
-      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6abbef2fbc3cc_untitled_design_2_2.png",
-      "organizer": "Symbiosis Institute of Management Studies (SIMS), Pune",
-      "format": "",
-      "prize": "₹5000",
-      "eligibility": "",
-      "rules": [
-        "Registration window closes in 12 days left day(s) as of the last crawl.",
-        "Team size: 2 to 3 member(s).",
-        "Opportunity type: competitions"
-      ],
-      "tags": [
-        "Unstop",
-        "India",
-        "Engineering Students",
-        "Postgraduate",
-        "Undergraduate",
-        "Management",
-        "Medical",
-        "Law",
-        "Arts, Commerce, Sciences & Others"
-      ],
-      "location": {
-        "text": "India",
-        "country": "India",
-        "mode": "unspecified"
-      },
-      "startsAt": "2026-09-28T18:30:00.000Z",
-      "endsAt": "2026-10-12T18:30:00.000Z",
-      "registration": {
-        "opensAt": "2026-09-28T18:30:00.000Z",
-        "closesAt": "2026-10-12T18:30:00.000Z",
-        "url": "https://unstop.com/competitions/the-visual-persuasion-relay26-barcode26-symbiosis-institute-of-management-studies-sims-pune-1763453"
-      },
-      "timeline": [
-        {
-          "label": "Registration opens",
-          "at": "2026-09-28T18:30:00.000Z"
-        },
-        {
-          "label": "Event starts",
-          "at": "2026-09-28T18:30:00.000Z"
-        },
-        {
-          "label": "Registration closes",
-          "at": "2026-10-12T18:30:00.000Z"
-        },
-        {
-          "label": "Event ends",
-          "at": "2026-10-12T18:30:00.000Z"
-        }
-      ],
-      "participants": 3,
-      "type": "hackathon",
-      "trusted": false,
-      "scopeOverride": "",
-      "aliases": [],
-      "fetchedAt": "2026-09-30T06:58:24.660Z",
-      "domains": [
-        "drone-security"
-      ],
-      "domainLabels": [
-        "Drone & UAV"
-      ],
-      "scope": "national",
-      "scopeConfidence": "high",
-      "scopeReason": "source country = India",
-      "status": "ongoing",
-      "registrationStatus": "open",
-      "relevance": 16,
-      "relevanceReasons": [
-        "+8 Drone & UAV",
-        "+3 ongoing",
-        "+2 has official URL",
-        "+1 has image",
-        "+1 prize listed",
-        "+1 detailed"
-      ]
-    },
-    {
       "id": "unstop-c960a867e5",
       "source": "unstop",
       "sourceLabel": "Unstop",
@@ -12865,21 +12344,21 @@
       ]
     },
     {
-      "id": "unstop-de7a9322f3",
+      "id": "unstop-ff3b620efd",
       "source": "unstop",
       "sourceLabel": "Unstop",
-      "sourceUrl": "https://unstop.com/competitions/bio-economy-hackathon-delhi-indian-institute-of-forest-management-1763470",
-      "url": "https://unstop.com/competitions/bio-economy-hackathon-delhi-indian-institute-of-forest-management-1763470",
-      "title": "Bio-Economy Hackathon - Delhi",
-      "description": "Overview: Ideas | People | Nature | Sustainable Future The Innovation and Entrepreneurship Development Cell (IEDC) of the Indian Institute of Forest Management (IIFM), Bhopal presents Bioeconomy Hackathon 2026. Got an idea that can make India greener and more sustainable? Bring your team, pitch your solution and win big! Event Details: Round: Northern Region (Delhi) Date: 19 October 2026 (Monday) Time: 8:00 AM - 6:30 PM Venue: India International Centre, New Delhi Six Bio-Economy Tracks: Agribiotech and Tree-Based Farming System Bioenergy and Waste-to-Wealth Bio-Remediation Blue Economy Forest-Based Bioeconomy Bioplastics and Biomaterials Eligibility: Open to all UG and PG students from…",
-      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6abc261e3eda3_organisation_image-01FacWZo96941883571BivrUA9Ujk.png",
-      "organizer": "Indian Institute of Forest Management",
+      "sourceUrl": "https://unstop.com/competitions/murder-ballad-30-murder-mystery-treasure-hunt-fitoor-plaksha-university-1762195",
+      "url": "https://unstop.com/competitions/murder-ballad-30-murder-mystery-treasure-hunt-fitoor-plaksha-university-1762195",
+      "title": "Murder Ballad 3.0 - Murder Mystery Treasure Hunt",
+      "description": "Overview Solve a murder mystery through clues hidden in songs, poetry, crime scenes, and campus locations. Investigate evidence, analyse testimonies, uncover motives, and piece together the true narrative. The team that best solves the case will be crowned Murder Balladeers. Prize Pool: 25,000 INR Registration Fee: 300 INR Event type: Group (Size: 3-5) Event Rules: Round 1: Discovery of the Crime Teams will report to the ‘Headquarters’, where they will be briefed on investigative ethics, procedures, and the code of conduct for handling crime scenes.…",
+      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6ab847b86c7f1_untitled_design.png",
+      "organizer": "Plaksha University",
       "format": "",
-      "prize": "₹15000",
+      "prize": "",
       "eligibility": "",
       "rules": [
-        "Registration window closes in 12 days left day(s) as of the last crawl.",
-        "Team size: 1 to 4 member(s).",
+        "Registration window closes in 19 days left day(s) as of the last crawl.",
+        "Team size: 3 to 5 member(s).",
         "Opportunity type: competitions"
       ],
       "tags": [
@@ -12899,11 +12378,11 @@
         "mode": "onsite"
       },
       "startsAt": "2026-09-28T18:30:00.000Z",
-      "endsAt": "2026-10-12T18:30:00.000Z",
+      "endsAt": "2026-11-01T18:29:00.000Z",
       "registration": {
         "opensAt": "2026-09-28T18:30:00.000Z",
-        "closesAt": "2026-10-12T18:30:00.000Z",
-        "url": "https://unstop.com/competitions/bio-economy-hackathon-delhi-indian-institute-of-forest-management-1763470"
+        "closesAt": "2026-11-01T18:29:00.000Z",
+        "url": "https://unstop.com/competitions/murder-ballad-30-murder-mystery-treasure-hunt-fitoor-plaksha-university-1762195"
       },
       "timeline": [
         {
@@ -12916,19 +12395,19 @@
         },
         {
           "label": "Registration closes",
-          "at": "2026-10-12T18:30:00.000Z"
+          "at": "2026-11-01T18:29:00.000Z"
         },
         {
           "label": "Event ends",
-          "at": "2026-10-12T18:30:00.000Z"
+          "at": "2026-11-01T18:29:00.000Z"
         }
       ],
-      "participants": 5,
+      "participants": 0,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-09-30T06:58:24.660Z",
+      "fetchedAt": "2026-10-13T07:56:17.605Z",
       "domains": [
         "iot-security"
       ],
@@ -12940,13 +12419,12 @@
       "scopeReason": "source country = India",
       "status": "ongoing",
       "registrationStatus": "open",
-      "relevance": 15,
+      "relevance": 14,
       "relevanceReasons": [
         "+7 IoT & Embedded",
         "+3 ongoing",
         "+2 has official URL",
         "+1 has image",
-        "+1 prize listed",
         "+1 detailed"
       ]
     },
@@ -13115,7 +12593,7 @@
       "scopeConfidence": "high",
       "scopeReason": "source country = India",
       "status": "ongoing",
-      "registrationStatus": "open",
+      "registrationStatus": "closed",
       "relevance": 14,
       "relevanceReasons": [
         "+6 Cyber Security",
@@ -13279,6 +12757,176 @@
       "relevance": 11,
       "relevanceReasons": [
         "+4 AI / ML",
+        "+3 ongoing",
+        "+2 has official URL",
+        "+1 has image",
+        "+1 detailed"
+      ]
+    },
+    {
+      "id": "unstop-8979abcbf9",
+      "source": "unstop",
+      "sourceLabel": "Unstop",
+      "sourceUrl": "https://unstop.com/quiz/slumdog-questionnaire-fitoor-plaksha-university-1762197",
+      "url": "https://unstop.com/quiz/slumdog-questionnaire-fitoor-plaksha-university-1762197",
+      "title": "Slumdog Questionnaire",
+      "description": "Overview Are you chronically online? Are your friends perpetually frustrated by your niche references? If Rang de Basanti is in your Letterboxd Top 4 and you start your mornings with The Local Train, we earnestly hope you show up with a kulhad for our piping-hot chai tea (sorry) and a दिल full of excitement. The Desi entertainment landscape is littered with gossip, discourse, and actors-turned-politicians (iykyk). If you recognise who Kutta Singh and Gajinder are, you should DEFINITELY sign up for this quiz. We promise (or rather, we sincerely hope) you won’t regret it.…",
+      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6ab84aa4e7934_untitled_design.png",
+      "organizer": "Plaksha University",
+      "format": "",
+      "prize": "",
+      "eligibility": "",
+      "rules": [
+        "Registration window closes in 19 days left day(s) as of the last crawl.",
+        "Team size: 1 to 3 member(s).",
+        "Opportunity type: quizzes"
+      ],
+      "tags": [
+        "Unstop",
+        "India",
+        "Engineering Students",
+        "Postgraduate",
+        "Undergraduate",
+        "Management",
+        "Medical",
+        "Law",
+        "Arts, Commerce, Sciences & Others"
+      ],
+      "location": {
+        "text": "India",
+        "country": "India",
+        "mode": "online"
+      },
+      "startsAt": "2026-09-28T18:30:00.000Z",
+      "endsAt": "2026-11-01T18:29:00.000Z",
+      "registration": {
+        "opensAt": "2026-09-28T18:30:00.000Z",
+        "closesAt": "2026-11-01T18:29:00.000Z",
+        "url": "https://unstop.com/quiz/slumdog-questionnaire-fitoor-plaksha-university-1762197"
+      },
+      "timeline": [
+        {
+          "label": "Registration opens",
+          "at": "2026-09-28T18:30:00.000Z"
+        },
+        {
+          "label": "Event starts",
+          "at": "2026-09-28T18:30:00.000Z"
+        },
+        {
+          "label": "Registration closes",
+          "at": "2026-11-01T18:29:00.000Z"
+        },
+        {
+          "label": "Event ends",
+          "at": "2026-11-01T18:29:00.000Z"
+        }
+      ],
+      "participants": 0,
+      "type": "hackathon",
+      "trusted": false,
+      "scopeOverride": "",
+      "aliases": [],
+      "fetchedAt": "2026-10-13T07:56:17.605Z",
+      "domains": [
+        "blockchain"
+      ],
+      "domainLabels": [
+        "Blockchain & Web3"
+      ],
+      "scope": "national",
+      "scopeConfidence": "high",
+      "scopeReason": "source country = India",
+      "status": "ongoing",
+      "registrationStatus": "open",
+      "relevance": 10,
+      "relevanceReasons": [
+        "+3 Blockchain & Web3",
+        "+3 ongoing",
+        "+2 has official URL",
+        "+1 has image",
+        "+1 detailed"
+      ]
+    },
+    {
+      "id": "unstop-b7840bf273",
+      "source": "unstop",
+      "sourceLabel": "Unstop",
+      "sourceUrl": "https://unstop.com/quiz/2020-vision-all-about-the-2020s-fitoor-plaksha-university-1762196",
+      "url": "https://unstop.com/quiz/2020-vision-all-about-the-2020s-fitoor-plaksha-university-1762196",
+      "title": "20/20 Vision - All about the 2020s",
+      "description": "Overview Test your knowledge at 20/20 Vision, the ultimate on-campus general quiz covering the defining madness, memes, and memories of the 2020s. From politics, pandemics, and insurrections to climate records, viral pop culture, movies, music, and sports, this competition revisits five whirlwind years of chaos, resilience, and hope. Cut through the noise and prove how well you remember the historic moments, absurd trends, and cultural shifts that have shaped our decade so far!…",
+      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6ab848e94ebbc_untitled_design.png",
+      "organizer": "Plaksha University",
+      "format": "",
+      "prize": "",
+      "eligibility": "",
+      "rules": [
+        "Registration window closes in 19 days left day(s) as of the last crawl.",
+        "Team size: 1 to 3 member(s).",
+        "Opportunity type: quizzes"
+      ],
+      "tags": [
+        "Unstop",
+        "India",
+        "Engineering Students",
+        "Postgraduate",
+        "Undergraduate",
+        "Management",
+        "Medical",
+        "Law",
+        "Arts, Commerce, Sciences & Others"
+      ],
+      "location": {
+        "text": "India",
+        "country": "India",
+        "mode": "onsite"
+      },
+      "startsAt": "2026-09-28T18:30:00.000Z",
+      "endsAt": "2026-11-01T18:29:00.000Z",
+      "registration": {
+        "opensAt": "2026-09-28T18:30:00.000Z",
+        "closesAt": "2026-11-01T18:29:00.000Z",
+        "url": "https://unstop.com/quiz/2020-vision-all-about-the-2020s-fitoor-plaksha-university-1762196"
+      },
+      "timeline": [
+        {
+          "label": "Registration opens",
+          "at": "2026-09-28T18:30:00.000Z"
+        },
+        {
+          "label": "Event starts",
+          "at": "2026-09-28T18:30:00.000Z"
+        },
+        {
+          "label": "Registration closes",
+          "at": "2026-11-01T18:29:00.000Z"
+        },
+        {
+          "label": "Event ends",
+          "at": "2026-11-01T18:29:00.000Z"
+        }
+      ],
+      "participants": 0,
+      "type": "hackathon",
+      "trusted": false,
+      "scopeOverride": "",
+      "aliases": [],
+      "fetchedAt": "2026-10-13T07:56:17.605Z",
+      "domains": [
+        "blockchain"
+      ],
+      "domainLabels": [
+        "Blockchain & Web3"
+      ],
+      "scope": "national",
+      "scopeConfidence": "high",
+      "scopeReason": "source country = India",
+      "status": "ongoing",
+      "registrationStatus": "open",
+      "relevance": 10,
+      "relevanceReasons": [
+        "+3 Blockchain & Web3",
         "+3 ongoing",
         "+2 has official URL",
         "+1 has image",
@@ -13939,9 +13587,10 @@
       "prize": "₹1500",
       "eligibility": "",
       "rules": [
-        "Registration window closes in 3 days left day(s) as of the last crawl.",
+        "Registration window closes in 2 days left day(s) as of the last crawl.",
         "Team size: 1 to 4 member(s).",
         "Opportunity type: hackathons",
+        "Registration window closes in 3 days left day(s) as of the last crawl.",
         "Registration window closes in 4 days left day(s) as of the last crawl.",
         "Registration window closes in 5 days left day(s) as of the last crawl.",
         "Registration window closes in 6 days left day(s) as of the last crawl."
@@ -13981,12 +13630,12 @@
           "at": "2026-10-24T18:29:00.000Z"
         }
       ],
-      "participants": 729,
+      "participants": 852,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:57.637Z",
+      "fetchedAt": "2026-10-13T07:56:17.597Z",
       "domains": [
         "general-innovation"
       ],
@@ -14882,45 +14531,39 @@
       ]
     },
     {
-      "id": "unstop-b7af362de2",
+      "id": "unstop-7ef5cd8619",
       "source": "unstop",
       "sourceLabel": "Unstop",
-      "sourceUrl": "https://unstop.com/competitions/the-innovation-auction-shaheed-rajguru-college-of-applied-sciences-for-women-delhi-university-1764475",
-      "url": "https://unstop.com/competitions/the-innovation-auction-shaheed-rajguru-college-of-applied-sciences-for-women-delhi-university-1764475",
-      "title": "The Innovation Auction",
-      "description": "*About the Competition:* Innovation Auction is a two-round entrepreneurship and strategy competition that tests innovation, strategic thinking, adaptability and resource management. Teams build a business idea around a given problem, bid for resources such as AI technology, funding, sustainable production, expert consultation and marketing support, then adapt their idea and pitch it to the judges. *Build your idea. Bid for your resources. Adapt your strategy. Make it work.* Plan &rarr; Bid &rarr; Adapt &rarr; Innovate &rarr; Solve *General Guidelines:* - Register through Unstop before the deadline. - Teams must have 2-3 members.…",
-      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6abe8383f19df_organisation_image-qQR3ZxSrqs1913972161YB8qqaztms.png",
-      "organizer": "Shaheed Rajguru College of Applied Sciences for Women, Delhi University",
+      "sourceUrl": "https://unstop.com/hackathons/mergetober-hackers-unity-1769252",
+      "url": "https://unstop.com/hackathons/mergetober-hackers-unity-1769252",
+      "title": "Mergetober",
+      "description": "Mergetober: Open Source Month with Cognee | WeMakeDevs x Hacker's Unity Mergetober is a month-long open source contribution event hosted by WeMakeDevs in collaboration with Cognee. The goal is simple: get paid to contribute to real-world open source software that ships to developers and enterprises worldwide! Event Overview Instead of building a hackathon project that gets archived and forgotten, participants build production-ready integrations for Cognee: the open-source memory layer for AI agents. Every contribution merges directly into the real product codebase used by developers globally.…",
+      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6accb0dca2a8f_hacker_s_unity_black.png",
+      "organizer": "Hackers Unity",
       "format": "",
       "prize": "",
       "eligibility": "",
       "rules": [
-        "Registration window closes in 9 days left day(s) as of the last crawl.",
-        "Team size: 2 to 3 member(s).",
-        "Opportunity type: competitions"
+        "Registration window closes in 17 days left day(s) as of the last crawl.",
+        "Team size: 1 to 2 member(s).",
+        "Opportunity type: hackathons"
       ],
       "tags": [
         "Unstop",
         "India",
-        "Engineering Students",
-        "Postgraduate",
-        "Undergraduate",
-        "Management",
-        "Medical",
-        "Law",
-        "Arts, Commerce, Sciences & Others"
+        "All"
       ],
       "location": {
-        "text": "India",
+        "text": "Online (India)",
         "country": "India",
-        "mode": "unspecified"
+        "mode": "online"
       },
       "startsAt": "2026-09-30T18:30:00.000Z",
-      "endsAt": "2026-10-12T18:29:00.000Z",
+      "endsAt": "2026-10-30T18:30:00.000Z",
       "registration": {
         "opensAt": "2026-09-30T18:30:00.000Z",
-        "closesAt": "2026-10-11T18:29:00.000Z",
-        "url": "https://unstop.com/competitions/the-innovation-auction-shaheed-rajguru-college-of-applied-sciences-for-women-delhi-university-1764475"
+        "closesAt": "2026-10-30T18:30:00.000Z",
+        "url": "https://unstop.com/hackathons/mergetober-hackers-unity-1769252"
       },
       "timeline": [
         {
@@ -14933,19 +14576,19 @@
         },
         {
           "label": "Registration closes",
-          "at": "2026-10-11T18:29:00.000Z"
+          "at": "2026-10-30T18:30:00.000Z"
         },
         {
           "label": "Event ends",
-          "at": "2026-10-12T18:29:00.000Z"
+          "at": "2026-10-30T18:30:00.000Z"
         }
       ],
-      "participants": 3,
+      "participants": 99,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-02T07:11:14.656Z",
+      "fetchedAt": "2026-10-13T07:56:17.577Z",
       "domains": [
         "ai-ml"
       ],
@@ -14956,7 +14599,7 @@
       "scopeConfidence": "high",
       "scopeReason": "source country = India",
       "status": "ongoing",
-      "registrationStatus": "closed",
+      "registrationStatus": "open",
       "relevance": 11,
       "relevanceReasons": [
         "+4 AI / ML",
@@ -15046,7 +14689,7 @@
       "scopeConfidence": "high",
       "scopeReason": "source country = India",
       "status": "ongoing",
-      "registrationStatus": "open",
+      "registrationStatus": "closed",
       "relevance": 10,
       "relevanceReasons": [
         "+2 General Innovation",
@@ -16034,98 +15677,6 @@
         "+3 ongoing",
         "+2 has official URL",
         "+1 has image",
-        "+1 detailed"
-      ]
-    },
-    {
-      "id": "unstop-a7c2ff58d8",
-      "source": "unstop",
-      "sourceLabel": "Unstop",
-      "sourceUrl": "https://unstop.com/hackathons/codeastra-20-24-hour-offline-hackathon-association-of-budding-information-technocrats-abit-rgit-1764841",
-      "url": "https://unstop.com/hackathons/codeastra-20-24-hour-offline-hackathon-association-of-budding-information-technocrats-abit-rgit-1764841",
-      "title": "CodeAstra 2.0 – 24-Hour Offline Hackathon",
-      "description": "Department of Information Technology, Rajiv Gandhi Institute of Technology (RGIT), Mumbai Overview CodeAstra 2.0 isn't your standard hackathon. Carrying the banner of \"GO BEYOND\" , it challenges developers, designers, and innovators to push past conventional boundaries. Over 24 intensive offline hours, teams will build, adapt, and collaborate under real-world pressure through structured mentoring checkpoints, surprise technical twists, and a pioneering cross-domain convergence round. Domains AI & ML: Transform real-world data into high-impact, intelligent solutions. Web & Product Development: Architect sleek, user-first digital experiences and resilient, production-ready web products.…",
-      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6abf997b7f672_abitlogo-removebg-preview.png",
-      "organizer": "Association of Budding Information Technocrats (ABIT), RGIT",
-      "format": "",
-      "prize": "₹40000",
-      "eligibility": "",
-      "rules": [
-        "Registration window closes in 2 days left day(s) as of the last crawl.",
-        "Team size: 3 to 4 member(s).",
-        "Opportunity type: hackathons",
-        "Registration window closes in 3 days left day(s) as of the last crawl.",
-        "Registration window closes in 4 days left day(s) as of the last crawl.",
-        "Registration window closes in 5 days left day(s) as of the last crawl."
-      ],
-      "tags": [
-        "Unstop",
-        "India",
-        "Engineering Students",
-        "Postgraduate",
-        "Undergraduate",
-        "Management",
-        "Medical",
-        "Law",
-        "Arts, Commerce, Sciences & Others"
-      ],
-      "location": {
-        "text": "India",
-        "country": "India",
-        "mode": "onsite"
-      },
-      "startsAt": "2026-10-01T18:30:00.000Z",
-      "endsAt": "2026-10-13T02:30:00.000Z",
-      "registration": {
-        "opensAt": "2026-10-01T18:30:00.000Z",
-        "closesAt": "2026-10-08T18:29:00.000Z",
-        "url": "https://unstop.com/hackathons/codeastra-20-24-hour-offline-hackathon-association-of-budding-information-technocrats-abit-rgit-1764841"
-      },
-      "timeline": [
-        {
-          "label": "Registration opens",
-          "at": "2026-10-01T18:30:00.000Z"
-        },
-        {
-          "label": "Event starts",
-          "at": "2026-10-01T18:30:00.000Z"
-        },
-        {
-          "label": "Registration closes",
-          "at": "2026-10-08T18:29:00.000Z"
-        },
-        {
-          "label": "Event ends",
-          "at": "2026-10-13T02:30:00.000Z"
-        }
-      ],
-      "participants": 216,
-      "type": "hackathon",
-      "trusted": false,
-      "scopeOverride": "",
-      "aliases": [],
-      "fetchedAt": "2026-10-06T07:45:19.030Z",
-      "domains": [
-        "cyber-security",
-        "ai-ml"
-      ],
-      "domainLabels": [
-        "Cyber Security",
-        "AI / ML"
-      ],
-      "scope": "national",
-      "scopeConfidence": "high",
-      "scopeReason": "source country = India",
-      "status": "ongoing",
-      "registrationStatus": "closed",
-      "relevance": 18,
-      "relevanceReasons": [
-        "+6 Cyber Security",
-        "+4 AI / ML",
-        "+3 ongoing",
-        "+2 has official URL",
-        "+1 has image",
-        "+1 prize listed",
         "+1 detailed"
       ]
     },
@@ -19582,9 +19133,10 @@
       "prize": "",
       "eligibility": "",
       "rules": [
-        "Registration window closes in 6 days left day(s) as of the last crawl.",
+        "Registration window closes in 5 days left day(s) as of the last crawl.",
         "Team size: 1 to 4 member(s).",
         "Opportunity type: hackathons",
+        "Registration window closes in 6 days left day(s) as of the last crawl.",
         "Registration window closes in 7 days left day(s) as of the last crawl.",
         "Registration window closes in 8 days left day(s) as of the last crawl.",
         "Registration window closes in 9 days left day(s) as of the last crawl."
@@ -19631,12 +19183,12 @@
           "at": "2026-11-04T08:07:00.000Z"
         }
       ],
-      "participants": 102,
+      "participants": 149,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:57.635Z",
+      "fetchedAt": "2026-10-13T07:56:17.596Z",
       "domains": [
         "general-innovation"
       ],
@@ -19929,9 +19481,10 @@
       "prize": "₹10000",
       "eligibility": "",
       "rules": [
-        "Registration window closes in 4 days left day(s) as of the last crawl.",
+        "Registration window closes in 1 days left day(s) as of the last crawl.",
         "Team size: 1 to 2 member(s).",
         "Opportunity type: hackathons",
+        "Registration window closes in 4 days left day(s) as of the last crawl.",
         "Registration window closes in 5 days left day(s) as of the last crawl.",
         "Registration window closes in 3 days left day(s) as of the last crawl."
       ],
@@ -19949,7 +19502,7 @@
       "endsAt": "2026-10-17T11:30:00.000Z",
       "registration": {
         "opensAt": "2026-10-04T18:30:00.000Z",
-        "closesAt": "2026-10-16T13:00:00.000Z",
+        "closesAt": "2026-10-15T07:29:00.000Z",
         "url": "https://unstop.com/hackathons/redline-ares-netaji-subhas-university-of-technology-nsut-delhi-1766284"
       },
       "timeline": [
@@ -19963,19 +19516,19 @@
         },
         {
           "label": "Registration closes",
-          "at": "2026-10-16T13:00:00.000Z"
+          "at": "2026-10-15T07:29:00.000Z"
         },
         {
           "label": "Event ends",
           "at": "2026-10-17T11:30:00.000Z"
         }
       ],
-      "participants": 212,
+      "participants": 249,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:57.636Z",
+      "fetchedAt": "2026-10-13T07:56:17.596Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -21293,9 +20846,10 @@
       "prize": "₹150000",
       "eligibility": "",
       "rules": [
-        "Registration window closes in 18 days left day(s) as of the last crawl.",
+        "Registration window closes in 17 days left day(s) as of the last crawl.",
         "Team size: 1 to 4 member(s).",
         "Opportunity type: hackathons",
+        "Registration window closes in 18 days left day(s) as of the last crawl.",
         "Registration window closes in 19 days left day(s) as of the last crawl."
       ],
       "tags": [
@@ -21340,12 +20894,12 @@
           "at": "2026-11-15T12:30:00.000Z"
         }
       ],
-      "participants": 27,
+      "participants": 37,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:57.618Z",
+      "fetchedAt": "2026-10-13T07:56:17.587Z",
       "domains": [
         "cyber-security",
         "ai-ml",
@@ -22415,9 +21969,10 @@
       "prize": "₹30000",
       "eligibility": "",
       "rules": [
-        "Registration window closes in 8 days left day(s) as of the last crawl.",
+        "Registration window closes in 7 days left day(s) as of the last crawl.",
         "Team size: 1 to 4 member(s).",
         "Opportunity type: hackathons",
+        "Registration window closes in 8 days left day(s) as of the last crawl.",
         "Registration window closes in 9 days left day(s) as of the last crawl.",
         "Registration window closes in 10 days left day(s) as of the last crawl.",
         "Registration window closes in 11 days left day(s) as of the last crawl.",
@@ -22472,7 +22027,7 @@
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:57.633Z",
+      "fetchedAt": "2026-10-13T07:56:17.592Z",
       "domains": [
         "general-innovation"
       ],
@@ -22508,9 +22063,10 @@
       "prize": "",
       "eligibility": "",
       "rules": [
-        "Registration window closes in 23 days left day(s) as of the last crawl.",
+        "Registration window closes in 22 days left day(s) as of the last crawl.",
         "Team size: 1 to 4 member(s).",
         "Opportunity type: hackathons",
+        "Registration window closes in 23 days left day(s) as of the last crawl.",
         "Registration window closes in 24 days left day(s) as of the last crawl."
       ],
       "tags": [
@@ -22548,12 +22104,12 @@
           "at": "2026-11-06T00:18:23.000Z"
         }
       ],
-      "participants": 740,
+      "participants": 934,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:57.624Z",
+      "fetchedAt": "2026-10-13T07:56:17.587Z",
       "domains": [
         "ai-ml"
       ],
@@ -23274,9 +22830,10 @@
       "prize": "",
       "eligibility": "",
       "rules": [
-        "Registration window closes in 27 days left day(s) as of the last crawl.",
+        "Registration window closes in 26 days left day(s) as of the last crawl.",
         "Team size: 1 to 4 member(s).",
         "Opportunity type: hackathons",
+        "Registration window closes in 27 days left day(s) as of the last crawl.",
         "Registration window closes in 28 days left day(s) as of the last crawl.",
         "Registration window closes in 29 days left day(s) as of the last crawl."
       ],
@@ -23319,12 +22876,12 @@
           "at": "2026-11-08T13:00:00.000Z"
         }
       ],
-      "participants": 581,
+      "participants": 644,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:57.630Z",
+      "fetchedAt": "2026-10-13T07:56:17.595Z",
       "domains": [
         "ai-ml",
         "general-innovation"
@@ -23618,6 +23175,95 @@
       ]
     },
     {
+      "id": "unstop-b415c7b0c3",
+      "source": "unstop",
+      "sourceLabel": "Unstop",
+      "sourceUrl": "https://unstop.com/hackathons/pitchcraft-30-guru-tegh-bahadur-4th-centenary-engineering-college-delhi-1767954",
+      "url": "https://unstop.com/hackathons/pitchcraft-30-guru-tegh-bahadur-4th-centenary-engineering-college-delhi-1767954",
+      "title": "PitchCraft 3.0",
+      "description": "Overview PitchCraft 3.0 is a flagship ideathon organized as part of IEEE Days 2026. It provides a platform for students to develop innovative and feasible solutions to real-world problems and present their ideas before a judging panel. The event focuses on problem-solving, originality, feasibility, implementation, and impact. Shortlisted Teams Announcement: 21st October 2026, 12:00 Noon WhatsApp Group: https://chat.whatsapp.com/Hhagq0zSN2JCktgN4Xrcnc?s=cl&p=a&mlu=4&ilr=4 Guidelines: Open to all students from any college/university. Team size: 2-4 members . Only registered team members will be allowed to present. Registration is compulsory through Unstop . No on-spot registration is allowed.…",
+      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6acd9e0d8c361_lee.jpg",
+      "organizer": "Guru Tegh Bahadur 4th Centenary Engineering College, Delhi",
+      "format": "",
+      "prize": "₹5000",
+      "eligibility": "",
+      "rules": [
+        "Registration window closes in 6 days left day(s) as of the last crawl.",
+        "Team size: 2 to 4 member(s).",
+        "Opportunity type: hackathons"
+      ],
+      "tags": [
+        "Unstop",
+        "India",
+        "Engineering Students",
+        "Postgraduate",
+        "Undergraduate",
+        "Management",
+        "Medical",
+        "Law",
+        "Arts, Commerce, Sciences & Others"
+      ],
+      "location": {
+        "text": "India",
+        "country": "India",
+        "mode": "unspecified"
+      },
+      "startsAt": "2026-10-07T18:30:00.000Z",
+      "endsAt": "2026-10-22T12:00:00.000Z",
+      "registration": {
+        "opensAt": "2026-10-07T18:30:00.000Z",
+        "closesAt": "2026-10-19T18:52:21.000Z",
+        "url": "https://unstop.com/hackathons/pitchcraft-30-guru-tegh-bahadur-4th-centenary-engineering-college-delhi-1767954"
+      },
+      "timeline": [
+        {
+          "label": "Registration opens",
+          "at": "2026-10-07T18:30:00.000Z"
+        },
+        {
+          "label": "Event starts",
+          "at": "2026-10-07T18:30:00.000Z"
+        },
+        {
+          "label": "Registration closes",
+          "at": "2026-10-19T18:52:21.000Z"
+        },
+        {
+          "label": "Event ends",
+          "at": "2026-10-22T12:00:00.000Z"
+        }
+      ],
+      "participants": 27,
+      "type": "hackathon",
+      "trusted": false,
+      "scopeOverride": "",
+      "aliases": [],
+      "fetchedAt": "2026-10-13T07:56:17.573Z",
+      "domains": [
+        "cyber-security",
+        "general-innovation"
+      ],
+      "domainLabels": [
+        "Cyber Security",
+        "General Innovation"
+      ],
+      "scope": "national",
+      "scopeConfidence": "high",
+      "scopeReason": "source country = India",
+      "status": "ongoing",
+      "registrationStatus": "open",
+      "relevance": 16,
+      "relevanceReasons": [
+        "+6 Cyber Security",
+        "+2 General Innovation",
+        "+3 ongoing",
+        "+2 has official URL",
+        "+1 has image",
+        "+1 prize listed",
+        "+1 detailed"
+      ]
+    },
+    {
       "id": "unstop-64f4d69ba1",
       "source": "unstop",
       "sourceLabel": "Unstop",
@@ -23631,9 +23277,10 @@
       "prize": "₹2000",
       "eligibility": "",
       "rules": [
-        "Registration window closes in 13 days left day(s) as of the last crawl.",
+        "Registration window closes in 12 days left day(s) as of the last crawl.",
         "Team size: 3 to 3 member(s).",
         "Opportunity type: hackathons",
+        "Registration window closes in 13 days left day(s) as of the last crawl.",
         "Registration window closes in 14 days left day(s) as of the last crawl.",
         "Registration window closes in 15 days left day(s) as of the last crawl.",
         "Registration window closes in 16 days left day(s) as of the last crawl.",
@@ -23675,12 +23322,12 @@
           "at": "2026-10-30T07:30:00.000Z"
         }
       ],
-      "participants": 2,
+      "participants": 6,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:57.631Z",
+      "fetchedAt": "2026-10-13T07:56:17.591Z",
       "domains": [
         "cyber-security",
         "general-innovation"
@@ -23719,9 +23366,10 @@
       "prize": "₹20000",
       "eligibility": "",
       "rules": [
-        "Registration window closes in 19 days left day(s) as of the last crawl.",
+        "Registration window closes in 18 days left day(s) as of the last crawl.",
         "Team size: 5 to 5 member(s).",
         "Opportunity type: hackathons",
+        "Registration window closes in 19 days left day(s) as of the last crawl.",
         "Registration window closes in 20 days left day(s) as of the last crawl.",
         "Registration window closes in 21 days left day(s) as of the last crawl."
       ],
@@ -23762,12 +23410,12 @@
           "at": "2026-11-01T18:29:32.000Z"
         }
       ],
-      "participants": 17,
+      "participants": 26,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:57.619Z",
+      "fetchedAt": "2026-10-13T07:56:17.590Z",
       "domains": [
         "cyber-security"
       ],
@@ -24235,9 +23883,10 @@
       "prize": "₹3000",
       "eligibility": "",
       "rules": [
-        "Registration window closes in 13 days left day(s) as of the last crawl.",
+        "Registration window closes in 12 days left day(s) as of the last crawl.",
         "Team size: 1 to 2 member(s).",
         "Opportunity type: hackathons",
+        "Registration window closes in 13 days left day(s) as of the last crawl.",
         "Registration window closes in 14 days left day(s) as of the last crawl.",
         "Registration window closes in 15 days left day(s) as of the last crawl.",
         "Registration window closes in 16 days left day(s) as of the last crawl.",
@@ -24280,12 +23929,12 @@
           "at": "2026-10-30T10:30:00.000Z"
         }
       ],
-      "participants": 25,
+      "participants": 26,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:57.632Z",
+      "fetchedAt": "2026-10-13T07:56:17.591Z",
       "domains": [
         "ai-ml"
       ],
@@ -24665,92 +24314,6 @@
       ]
     },
     {
-      "id": "unstop-c01586098d",
-      "source": "unstop",
-      "sourceLabel": "Unstop",
-      "sourceUrl": "https://unstop.com/quiz/national-ai-tech-championship-2026-inspire-leap-pvt-ltd-1767766",
-      "url": "https://unstop.com/quiz/national-ai-tech-championship-2026-inspire-leap-pvt-ltd-1767766",
-      "title": "National AI & Tech Championship 2026",
-      "description": "National AI & Tech Championship 2026 Get ready to challenge your knowledge of Artificial Intelligence, Emerging Technologies, and Digital Innovation! The National AI & Tech Championship 2026 is an exciting online quiz designed to test your understanding of AI and the technologies shaping the future. Guidelines Open to college students and freshers . Individual participation. Online MCQ-based quiz. 20 Questions | 20 Minutes Questions will cover AI, Technology, Generative AI, and Emerging Technologies .…",
-      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6ac76012ef029_logo-150x150.webp",
-      "organizer": "Inspire Leap Pvt Ltd",
-      "format": "",
-      "prize": "",
-      "eligibility": "",
-      "rules": [
-        "Registration window closes in 3 days left day(s) as of the last crawl.",
-        "Team size: 1 to 1 member(s).",
-        "Opportunity type: quizzes"
-      ],
-      "tags": [
-        "Unstop",
-        "India",
-        "Engineering Students",
-        "Postgraduate",
-        "Undergraduate",
-        "Fresher",
-        "Management",
-        "Medical",
-        "Law",
-        "Arts, Commerce, Sciences & Others"
-      ],
-      "location": {
-        "text": "Online (India)",
-        "country": "India",
-        "mode": "online"
-      },
-      "startsAt": "2026-10-08T12:30:00.000Z",
-      "endsAt": "2026-10-12T14:30:00.000Z",
-      "registration": {
-        "opensAt": "2026-10-08T12:30:00.000Z",
-        "closesAt": "2026-10-12T14:30:00.000Z",
-        "url": "https://unstop.com/quiz/national-ai-tech-championship-2026-inspire-leap-pvt-ltd-1767766"
-      },
-      "timeline": [
-        {
-          "label": "Registration opens",
-          "at": "2026-10-08T12:30:00.000Z"
-        },
-        {
-          "label": "Event starts",
-          "at": "2026-10-08T12:30:00.000Z"
-        },
-        {
-          "label": "Registration closes",
-          "at": "2026-10-12T14:30:00.000Z"
-        },
-        {
-          "label": "Event ends",
-          "at": "2026-10-12T14:30:00.000Z"
-        }
-      ],
-      "participants": 25,
-      "type": "hackathon",
-      "trusted": false,
-      "scopeOverride": "",
-      "aliases": [],
-      "fetchedAt": "2026-10-09T07:37:32.250Z",
-      "domains": [
-        "ai-ml"
-      ],
-      "domainLabels": [
-        "AI / ML"
-      ],
-      "scope": "national",
-      "scopeConfidence": "high",
-      "scopeReason": "source country = India",
-      "status": "ongoing",
-      "registrationStatus": "open",
-      "relevance": 13,
-      "relevanceReasons": [
-        "+6 AI / ML",
-        "+3 ongoing",
-        "+2 has official URL",
-        "+1 has image",
-        "+1 detailed"
-      ]
-    },
-    {
       "id": "unstop-4fad255450",
       "source": "unstop",
       "sourceLabel": "Unstop",
@@ -24764,9 +24327,10 @@
       "prize": "₹25000",
       "eligibility": "",
       "rules": [
-        "Registration window closes in 8 days left day(s) as of the last crawl.",
+        "Registration window closes in 7 days left day(s) as of the last crawl.",
         "Team size: 2 to 4 member(s).",
         "Opportunity type: hackathons",
+        "Registration window closes in 8 days left day(s) as of the last crawl.",
         "Registration window closes in 9 days left day(s) as of the last crawl.",
         "Registration window closes in 10 days left day(s) as of the last crawl.",
         "Registration window closes in 11 days left day(s) as of the last crawl."
@@ -24806,12 +24370,12 @@
           "at": "2026-10-26T03:30:00.000Z"
         }
       ],
-      "participants": 610,
+      "participants": 732,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:57.636Z",
+      "fetchedAt": "2026-10-13T07:56:17.596Z",
       "domains": [
         "ai-ml"
       ],
@@ -25193,9 +24757,10 @@
       "prize": "",
       "eligibility": "",
       "rules": [
-        "Registration window closes in 9 days left day(s) as of the last crawl.",
+        "Registration window closes in 8 days left day(s) as of the last crawl.",
         "Team size: 1 to 2 member(s).",
         "Opportunity type: hackathons",
+        "Registration window closes in 9 days left day(s) as of the last crawl.",
         "Registration window closes in 10 days left day(s) as of the last crawl."
       ],
       "tags": [
@@ -25239,12 +24804,12 @@
           "at": "2026-10-24T03:30:00.000Z"
         }
       ],
-      "participants": 29,
+      "participants": 60,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:57.616Z",
+      "fetchedAt": "2026-10-13T07:56:17.585Z",
       "domains": [
         "ai-ml"
       ],
@@ -25421,7 +24986,7 @@
       "scopeConfidence": "high",
       "scopeReason": "source country = India",
       "status": "ongoing",
-      "registrationStatus": "open",
+      "registrationStatus": "closed",
       "relevance": 10,
       "relevanceReasons": [
         "+2 General Innovation",
@@ -25446,9 +25011,10 @@
       "prize": "₹12000",
       "eligibility": "",
       "rules": [
-        "Registration window closes in 6 days left day(s) as of the last crawl.",
+        "Registration window closes in 5 days left day(s) as of the last crawl.",
         "Team size: 3 to 3 member(s).",
         "Opportunity type: hackathons",
+        "Registration window closes in 6 days left day(s) as of the last crawl.",
         "Registration window closes in 7 days left day(s) as of the last crawl.",
         "Registration window closes in 8 days left day(s) as of the last crawl."
       ],
@@ -25489,12 +25055,12 @@
           "at": "2026-10-26T13:30:00.000Z"
         }
       ],
-      "participants": 42,
+      "participants": 52,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:57.628Z",
+      "fetchedAt": "2026-10-13T07:56:17.594Z",
       "domains": [
         "digital-forensics"
       ],
@@ -25573,7 +25139,7 @@
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:37:04.019Z",
+      "fetchedAt": "2026-10-13T07:56:26.168Z",
       "domains": [
         "iot-security",
         "general-innovation"
@@ -25696,9 +25262,10 @@
       "prize": "",
       "eligibility": "",
       "rules": [
-        "Registration window closes in 1 days left day(s) as of the last crawl.",
+        "Registration window closes in 3 hours left day(s) as of the last crawl.",
         "Team size: 1 to 4 member(s).",
         "Opportunity type: competitions",
+        "Registration window closes in 1 days left day(s) as of the last crawl.",
         "Registration window closes in 2 days left day(s) as of the last crawl.",
         "Registration window closes in 3 days left day(s) as of the last crawl."
       ],
@@ -25743,12 +25310,12 @@
           "at": "2026-10-15T11:30:00.000Z"
         }
       ],
-      "participants": 148,
+      "participants": 162,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:57.646Z",
+      "fetchedAt": "2026-10-13T07:56:17.601Z",
       "domains": [
         "cyber-security"
       ],
@@ -25825,7 +25392,7 @@
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:58.240Z",
+      "fetchedAt": "2026-10-13T07:56:19.371Z",
       "domains": [
         "blockchain"
       ],
@@ -25860,9 +25427,10 @@
       "prize": "",
       "eligibility": "",
       "rules": [
-        "Registration window closes in 4 days left day(s) as of the last crawl.",
+        "Registration window closes in 3 days left day(s) as of the last crawl.",
         "Team size: 2 to 4 member(s).",
         "Opportunity type: hackathons",
+        "Registration window closes in 4 days left day(s) as of the last crawl.",
         "Registration window closes in 5 days left day(s) as of the last crawl.",
         "Registration window closes in 6 days left day(s) as of the last crawl."
       ],
@@ -25908,12 +25476,12 @@
           "at": "2026-10-22T14:30:00.000Z"
         }
       ],
-      "participants": 288,
+      "participants": 348,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:57.626Z",
+      "fetchedAt": "2026-10-13T07:56:17.593Z",
       "domains": [
         "cyber-security"
       ],
@@ -25948,9 +25516,10 @@
       "prize": "",
       "eligibility": "",
       "rules": [
-        "Registration window closes in 12 days left day(s) as of the last crawl.",
+        "Registration window closes in 11 days left day(s) as of the last crawl.",
         "Team size: 1 to 4 member(s).",
         "Opportunity type: hackathons",
+        "Registration window closes in 12 days left day(s) as of the last crawl.",
         "Registration window closes in 13 days left day(s) as of the last crawl."
       ],
       "tags": [
@@ -25988,12 +25557,12 @@
           "at": "2026-10-24T18:30:00.000Z"
         }
       ],
-      "participants": 312,
+      "participants": 453,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:57.623Z",
+      "fetchedAt": "2026-10-13T07:56:17.586Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -26025,15 +25594,16 @@
       "url": "https://unstop.com/hackathons/ideathon-ram-lal-anand-college-university-of-delhi-1768697",
       "title": "Ideathon",
       "description": "IDEATHON 2026 - Where Ideas Turn Into Innovation! Organised by e~people.org - The Computer Science Society, Ram Lal Anand College, University of Delhi , in collaboration with the IT Skill Centre for Information & Technology , IDEATHON 2026 is a one-day technology-focused innovation event where creativity meets technology. Do you have ideas that can solve real-world problems? Here’s your chance to turn them into something meaningful! Participants will be given a problem statement on the spot, based on which they will develop an innovative solution using AI tools and other available technologies.…",
-      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6aca052806243_Ram_Lal_Anand_College.png",
+      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6acce34e91df8_Ram_Lal_Anand_College.png",
       "organizer": "Ram Lal Anand College, University of Delhi",
       "format": "",
       "prize": "₹1500",
       "eligibility": "",
       "rules": [
         "Registration window closes in 10 hours left day(s) as of the last crawl.",
-        "Team size: 1 to 2 member(s).",
+        "Team size: 2 to 2 member(s).",
         "Opportunity type: hackathons",
+        "Team size: 1 to 2 member(s).",
         "Registration window closes in 1 days left day(s) as of the last crawl."
       ],
       "tags": [
@@ -26056,7 +25626,7 @@
       "endsAt": "2026-10-15T11:30:00.000Z",
       "registration": {
         "opensAt": "2026-10-09T18:30:00.000Z",
-        "closesAt": "2026-10-12T18:30:00.000Z",
+        "closesAt": "2026-10-13T18:30:00.000Z",
         "url": "https://unstop.com/hackathons/ideathon-ram-lal-anand-college-university-of-delhi-1768697"
       },
       "timeline": [
@@ -26070,19 +25640,19 @@
         },
         {
           "label": "Registration closes",
-          "at": "2026-10-12T18:30:00.000Z"
+          "at": "2026-10-13T18:30:00.000Z"
         },
         {
           "label": "Event ends",
           "at": "2026-10-15T11:30:00.000Z"
         }
       ],
-      "participants": 29,
+      "participants": 49,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:57.618Z",
+      "fetchedAt": "2026-10-13T07:56:17.588Z",
       "domains": [
         "cyber-security",
         "ai-ml",
@@ -26206,9 +25776,10 @@
       "prize": "₹4000",
       "eligibility": "",
       "rules": [
-        "Registration window closes in 9 days left day(s) as of the last crawl.",
+        "Registration window closes in 8 days left day(s) as of the last crawl.",
         "Team size: 2 to 3 member(s).",
-        "Opportunity type: hackathons"
+        "Opportunity type: hackathons",
+        "Registration window closes in 9 days left day(s) as of the last crawl."
       ],
       "tags": [
         "Unstop",
@@ -26251,12 +25822,12 @@
           "at": "2026-10-24T10:30:00.000Z"
         }
       ],
-      "participants": 7,
+      "participants": 8,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:57.613Z",
+      "fetchedAt": "2026-10-13T07:56:17.581Z",
       "domains": [
         "ai-ml",
         "general-innovation"
@@ -26437,7 +26008,7 @@
       "scopeConfidence": "high",
       "scopeReason": "source country = India",
       "status": "ongoing",
-      "registrationStatus": "open",
+      "registrationStatus": "closed",
       "relevance": 14,
       "relevanceReasons": [
         "+6 Cyber Security",
@@ -26462,9 +26033,10 @@
       "prize": "",
       "eligibility": "",
       "rules": [
-        "Registration window closes in 17 days left day(s) as of the last crawl.",
+        "Registration window closes in 16 days left day(s) as of the last crawl.",
         "Team size: 1 to 1 member(s).",
         "Opportunity type: hackathons",
+        "Registration window closes in 17 days left day(s) as of the last crawl.",
         "Registration window closes in 18 days left day(s) as of the last crawl."
       ],
       "tags": [
@@ -26502,12 +26074,12 @@
           "at": "2026-10-29T18:30:00.000Z"
         }
       ],
-      "participants": 241,
+      "participants": 327,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:57.621Z",
+      "fetchedAt": "2026-10-13T07:56:17.584Z",
       "domains": [
         "unclassified",
         "general-innovation"
@@ -26632,9 +26204,10 @@
       "prize": "",
       "eligibility": "",
       "rules": [
-        "Registration window closes in 12 days left day(s) as of the last crawl.",
+        "Registration window closes in 11 days left day(s) as of the last crawl.",
         "Team size: 1 to 4 member(s).",
-        "Opportunity type: hackathons"
+        "Opportunity type: hackathons",
+        "Registration window closes in 12 days left day(s) as of the last crawl."
       ],
       "tags": [
         "Unstop",
@@ -26674,12 +26247,12 @@
           "at": "2026-10-24T18:30:00.000Z"
         }
       ],
-      "participants": 62,
+      "participants": 117,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:57.615Z",
+      "fetchedAt": "2026-10-13T07:56:17.582Z",
       "domains": [
         "iot-security",
         "cyber-security",
@@ -26710,6 +26283,95 @@
       ]
     },
     {
+      "id": "unstop-b0bbd8de91",
+      "source": "unstop",
+      "sourceLabel": "Unstop",
+      "sourceUrl": "https://unstop.com/hackathons/codekshetra-st-vincent-pallotti-college-of-engineering-and-technology-svpcet-nagpur-1769022",
+      "url": "https://unstop.com/hackathons/codekshetra-st-vincent-pallotti-college-of-engineering-and-technology-svpcet-nagpur-1769022",
+      "title": "Codekshetra",
+      "description": "About: Get ready to innovate, collaborate, and build solutions that matter! Join us for an intense 24-hour hackathon where creativity meets technology. Date: 31st October - 1st November 2026 Venue: St. Vincent Pallotti College of Engineering & Technology, Nagpur Team Size: 2-5 Members Mode: Direct Offline Round Prize Pool: ₹30,000 Registration Fee: ₹200 per team What’s in it for you? Exciting challenges across 5 Kshetras / Tracks AI & Emerging Technology Sustainability & Environment ️Smart Cities & Civic Innovation ️Healthcare & Social Impact Cyber Security Internship Opportunities & Pre-Placement Offers (PPOs)!…",
+      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6acb9ba320efc_rotaract_logo_en21_2.jpg",
+      "organizer": "St. Vincent Pallotti College of Engineering and Technology (SVPCET), Nagpur",
+      "format": "",
+      "prize": "₹15000",
+      "eligibility": "",
+      "rules": [
+        "Registration window closes in 14 days left day(s) as of the last crawl.",
+        "Team size: 2 to 5 member(s).",
+        "Opportunity type: hackathons"
+      ],
+      "tags": [
+        "Unstop",
+        "India",
+        "Engineering Students",
+        "Postgraduate",
+        "Undergraduate",
+        "Management",
+        "Medical",
+        "Law",
+        "Arts, Commerce, Sciences & Others"
+      ],
+      "location": {
+        "text": "India",
+        "country": "India",
+        "mode": "onsite"
+      },
+      "startsAt": "2026-10-10T18:30:00.000Z",
+      "endsAt": "2026-10-31T10:30:00.000Z",
+      "registration": {
+        "opensAt": "2026-10-10T18:30:00.000Z",
+        "closesAt": "2026-10-27T18:30:00.000Z",
+        "url": "https://unstop.com/hackathons/codekshetra-st-vincent-pallotti-college-of-engineering-and-technology-svpcet-nagpur-1769022"
+      },
+      "timeline": [
+        {
+          "label": "Registration opens",
+          "at": "2026-10-10T18:30:00.000Z"
+        },
+        {
+          "label": "Event starts",
+          "at": "2026-10-10T18:30:00.000Z"
+        },
+        {
+          "label": "Registration closes",
+          "at": "2026-10-27T18:30:00.000Z"
+        },
+        {
+          "label": "Event ends",
+          "at": "2026-10-31T10:30:00.000Z"
+        }
+      ],
+      "participants": 34,
+      "type": "hackathon",
+      "trusted": false,
+      "scopeOverride": "",
+      "aliases": [],
+      "fetchedAt": "2026-10-13T07:56:17.578Z",
+      "domains": [
+        "cyber-security",
+        "ai-ml"
+      ],
+      "domainLabels": [
+        "Cyber Security",
+        "AI / ML"
+      ],
+      "scope": "national",
+      "scopeConfidence": "high",
+      "scopeReason": "source country = India",
+      "status": "ongoing",
+      "registrationStatus": "open",
+      "relevance": 19,
+      "relevanceReasons": [
+        "+7 Cyber Security",
+        "+4 AI / ML",
+        "+3 ongoing",
+        "+2 has official URL",
+        "+1 has image",
+        "+1 prize listed",
+        "+1 detailed"
+      ]
+    },
+    {
       "id": "unstop-07749c2e08",
       "source": "unstop",
       "sourceLabel": "Unstop",
@@ -26723,9 +26385,10 @@
       "prize": "₹12000",
       "eligibility": "",
       "rules": [
-        "Registration window closes in 6 days left day(s) as of the last crawl.",
+        "Registration window closes in 5 days left day(s) as of the last crawl.",
         "Team size: 2 to 4 member(s).",
         "Opportunity type: hackathons",
+        "Registration window closes in 6 days left day(s) as of the last crawl.",
         "Registration window closes in 7 days left day(s) as of the last crawl."
       ],
       "tags": [
@@ -26764,12 +26427,12 @@
           "at": "2026-10-25T16:30:00.000Z"
         }
       ],
-      "participants": 53,
+      "participants": 75,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:57.626Z",
+      "fetchedAt": "2026-10-13T07:56:17.589Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -26808,9 +26471,10 @@
       "prize": "₹2000",
       "eligibility": "",
       "rules": [
-        "Registration window closes in 10 days left day(s) as of the last crawl.",
+        "Registration window closes in 9 days left day(s) as of the last crawl.",
         "Team size: 1 to 1 member(s).",
-        "Opportunity type: hackathons"
+        "Opportunity type: hackathons",
+        "Registration window closes in 10 days left day(s) as of the last crawl."
       ],
       "tags": [
         "Unstop",
@@ -26847,12 +26511,12 @@
           "at": "2026-10-25T16:30:00.000Z"
         }
       ],
-      "participants": 210,
+      "participants": 374,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:57.615Z",
+      "fetchedAt": "2026-10-13T07:56:17.582Z",
       "domains": [
         "ai-ml",
         "general-innovation"
@@ -26891,9 +26555,10 @@
       "prize": "₹5000",
       "eligibility": "",
       "rules": [
-        "Registration window closes in 15 days left day(s) as of the last crawl.",
+        "Registration window closes in 14 days left day(s) as of the last crawl.",
         "Team size: 3 to 4 member(s).",
         "Opportunity type: competitions",
+        "Registration window closes in 15 days left day(s) as of the last crawl.",
         "Registration window closes in 16 days left day(s) as of the last crawl."
       ],
       "tags": [
@@ -26931,12 +26596,12 @@
           "at": "2026-11-03T09:30:00.000Z"
         }
       ],
-      "participants": 88,
+      "participants": 172,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:57.643Z",
+      "fetchedAt": "2026-10-13T07:56:17.599Z",
       "domains": [
         "cyber-security"
       ],
@@ -26965,17 +26630,17 @@
       "sourceUrl": "https://unstop.com/competitions/moral-hazard-an-economic-social-deduction-portfolio-simulation-blisspoint-2026-27-sri-venkateswara-college--1768919",
       "url": "https://unstop.com/competitions/moral-hazard-an-economic-social-deduction-portfolio-simulation-blisspoint-2026-27-sri-venkateswara-college--1768919",
       "title": "Moral Hazard : An Economic Social-Deduction & Portfolio Simulation",
-      "description": "Team Size: Individual Registrations (1 Member) Stage 1: Preliminary Round (Online Quiz) An online screening quiz on Unstop to test participants on core Economic Concepts, Financial Markets, Tech-Economics, and Current Socio-Economic Affairs Format: 15-20 Multiple Choice Questions (MCQs). Selection: The top 20 individual scorers will qualify for the On-Campus Final Round at Sri Venkateswara College. Stage 2: The On-Campus Face-Off (Physical Simulation) Qualifying participants will be grouped into Algorithm Governance Boards on-the-spot at Sri Venkateswara College.…",
-      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6acb078ebd284_1519903617751.png",
+      "description": "Team Size: Individual Registrations (1 Member) Stage 1: Preliminary Round (Online Quiz) An online screening quiz on Unstop to test participants on core Economic Concepts, Financial Markets, Tech-Economics, and Current Socio-Economic Affairs Format: 15 Multiple Choice Questions (MCQs). Selection: The top 20 individual scorers will qualify for the On-Campus Final Round at Sri Venkateswara College. Stage 2: The On-Campus Face-Off (Physical Simulation) Qualifying participants will be grouped into Treasury Boards on-the-spot at Sri Venkateswara College. Each board manages capital while attempting to expose the secret System Saboteur (Mole) hiding in their team.",
+      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6acd1fd65ec59_1519903617751.png",
       "organizer": "Sri Venkateswara College (SVC), Delhi University, Delhi",
       "format": "",
       "prize": "₹5000",
       "eligibility": "",
       "rules": [
-        "Registration window closes in 14 days left day(s) as of the last crawl.",
+        "Registration window closes in 13 days left day(s) as of the last crawl.",
         "Team size: 1 to 1 member(s).",
         "Opportunity type: competitions",
-        "Registration window closes in 13 days left day(s) as of the last crawl."
+        "Registration window closes in 14 days left day(s) as of the last crawl."
       ],
       "tags": [
         "Unstop",
@@ -27012,12 +26677,12 @@
           "at": "2026-11-03T10:30:00.000Z"
         }
       ],
-      "participants": 107,
+      "participants": 185,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:57.644Z",
+      "fetchedAt": "2026-10-13T07:56:17.599Z",
       "domains": [
         "cyber-security"
       ],
@@ -27174,7 +26839,7 @@
       "type": "ctf",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.601Z",
+      "fetchedAt": "2026-10-13T07:56:07.443Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -27279,6 +26944,85 @@
       ]
     },
     {
+      "id": "unstop-e94cdf220e",
+      "source": "unstop",
+      "sourceLabel": "Unstop",
+      "sourceUrl": "https://unstop.com/hackathons/orca-coders-orcathon-devharbour-1768929",
+      "url": "https://unstop.com/hackathons/orca-coders-orcathon-devharbour-1768929",
+      "title": "Orca Coders: Orcathon",
+      "description": "Build. Compete. Create What's Next. An Online Student Hackathon | Organised by Dev Harbour Win exciting prizes, earn certificates, and showcase your project to the world! Compete for top honors, special awards, and recognition at ORCA CODERS: ORCATHON 2026 & Official website!!! Join our WhatsApp Community Click Here To join community Follow Dev Harbour on LinkedIn https://www.linkedin.com/company/devharbour Key Dates Registrations Opn: 11 October 2026 Registration Deadline: 24 October 2026, 11:59 PM IST Hackathon Date: Sunday, 25 October 2026 Opening & Doubt-Clearing Session: 11:00 AM-12:00 PM IST Problem Statement Release: 11:00 AM IST Build & Deployment Deadline: 3:30 PM IST Final…",
+      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6acd37336638e_organisation_image-HqgdMecpMv238872977BF0AmxSpu9.png",
+      "organizer": "DevHarbour",
+      "format": "",
+      "prize": "",
+      "eligibility": "",
+      "rules": [
+        "Registration window closes in 11 days left day(s) as of the last crawl.",
+        "Team size: 1 to 3 member(s).",
+        "Opportunity type: hackathons"
+      ],
+      "tags": [
+        "Unstop",
+        "India",
+        "All"
+      ],
+      "location": {
+        "text": "Online (India)",
+        "country": "India",
+        "mode": "online"
+      },
+      "startsAt": "2026-10-11T09:30:00.000Z",
+      "endsAt": "2026-10-25T10:01:00.000Z",
+      "registration": {
+        "opensAt": "2026-10-11T09:30:00.000Z",
+        "closesAt": "2026-10-24T18:29:00.000Z",
+        "url": "https://unstop.com/hackathons/orca-coders-orcathon-devharbour-1768929"
+      },
+      "timeline": [
+        {
+          "label": "Registration opens",
+          "at": "2026-10-11T09:30:00.000Z"
+        },
+        {
+          "label": "Event starts",
+          "at": "2026-10-11T09:30:00.000Z"
+        },
+        {
+          "label": "Registration closes",
+          "at": "2026-10-24T18:29:00.000Z"
+        },
+        {
+          "label": "Event ends",
+          "at": "2026-10-25T10:01:00.000Z"
+        }
+      ],
+      "participants": 169,
+      "type": "hackathon",
+      "trusted": false,
+      "scopeOverride": "",
+      "aliases": [],
+      "fetchedAt": "2026-10-13T07:56:17.577Z",
+      "domains": [
+        "general-innovation"
+      ],
+      "domainLabels": [
+        "General Innovation"
+      ],
+      "scope": "national",
+      "scopeConfidence": "high",
+      "scopeReason": "source country = India",
+      "status": "ongoing",
+      "registrationStatus": "open",
+      "relevance": 9,
+      "relevanceReasons": [
+        "+2 General Innovation",
+        "+3 ongoing",
+        "+2 has official URL",
+        "+1 has image",
+        "+1 detailed"
+      ]
+    },
+    {
       "id": "unstop-deb8707462",
       "source": "unstop",
       "sourceLabel": "Unstop",
@@ -27364,6 +27108,173 @@
       ]
     },
     {
+      "id": "unstop-45d88c9653",
+      "source": "unstop",
+      "sourceLabel": "Unstop",
+      "sourceUrl": "https://unstop.com/competitions/ideaforge-blacktheory-1769526",
+      "url": "https://unstop.com/competitions/ideaforge-blacktheory-1769526",
+      "title": "Ideaforge",
+      "description": "Overview Think Beyond. Innovate. Create Impact. About the Competition IDEATHON 2026 is an innovation-driven competition organized by BLACKTHEORY &times; TECHZEN, designed to encourage students to think creatively, identify real-world challenges, and develop innovative, practical, and impactful solutions. The competition provides a platform for aspiring innovators, entrepreneurs, and problem-solvers to showcase their ideas, demonstrate creative thinking, and present solutions that have the potential to create meaningful change.…",
+      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6acd246e684ea_ideathon_2026_neon_innovation_emblem.png",
+      "organizer": "Blacktheory",
+      "format": "",
+      "prize": "",
+      "eligibility": "",
+      "rules": [
+        "Registration window closes in 17 days left day(s) as of the last crawl.",
+        "Team size: 1 to 4 member(s).",
+        "Opportunity type: competitions"
+      ],
+      "tags": [
+        "Unstop",
+        "India",
+        "Engineering Students",
+        "Postgraduate",
+        "Undergraduate",
+        "Management",
+        "Medical",
+        "Law",
+        "Arts, Commerce, Sciences & Others"
+      ],
+      "location": {
+        "text": "Online (India)",
+        "country": "India",
+        "mode": "online"
+      },
+      "startsAt": "2026-10-11T18:30:00.000Z",
+      "endsAt": "2026-10-31T18:03:00.000Z",
+      "registration": {
+        "opensAt": "2026-10-11T18:30:00.000Z",
+        "closesAt": "2026-10-30T18:30:00.000Z",
+        "url": "https://unstop.com/competitions/ideaforge-blacktheory-1769526"
+      },
+      "timeline": [
+        {
+          "label": "Registration opens",
+          "at": "2026-10-11T18:30:00.000Z"
+        },
+        {
+          "label": "Event starts",
+          "at": "2026-10-11T18:30:00.000Z"
+        },
+        {
+          "label": "Registration closes",
+          "at": "2026-10-30T18:30:00.000Z"
+        },
+        {
+          "label": "Event ends",
+          "at": "2026-10-31T18:03:00.000Z"
+        }
+      ],
+      "participants": 19,
+      "type": "hackathon",
+      "trusted": false,
+      "scopeOverride": "",
+      "aliases": [],
+      "fetchedAt": "2026-10-13T07:56:17.607Z",
+      "domains": [
+        "cyber-security",
+        "general-innovation"
+      ],
+      "domainLabels": [
+        "Cyber Security",
+        "General Innovation"
+      ],
+      "scope": "national",
+      "scopeConfidence": "high",
+      "scopeReason": "source country = India",
+      "status": "ongoing",
+      "registrationStatus": "open",
+      "relevance": 15,
+      "relevanceReasons": [
+        "+6 Cyber Security",
+        "+2 General Innovation",
+        "+3 ongoing",
+        "+2 has official URL",
+        "+1 has image",
+        "+1 detailed"
+      ]
+    },
+    {
+      "id": "unstop-8267ed819c",
+      "source": "unstop",
+      "sourceLabel": "Unstop",
+      "sourceUrl": "https://unstop.com/competitions/consulting-strategy-under-pressure-caseunion-40-masters-union-school-of-business-1769343",
+      "url": "https://unstop.com/competitions/consulting-strategy-under-pressure-caseunion-40-masters-union-school-of-business-1769343",
+      "title": "Consulting: Strategy Under Pressure",
+      "description": "Overview How do you prioritise when the consequences extend beyond a single business? The Consulting track at CaseUnion 4.0 presents two strategic challenges involving government resilience and long-term resource value. Government Continuity A Middle Eastern government is assessing how to maintain essential state functions during a catastrophic national security crisis. Develop a strategy for prioritising resilient infrastructure that supports leadership, communications, decision-making and public services during severe disruption.…",
+      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6acd37d9b3371_Masters_Union_Logo_Black_on_Transparent.png",
+      "organizer": "Masters' Union School of Business",
+      "format": "",
+      "prize": "",
+      "eligibility": "",
+      "rules": [
+        "Registration window closes in 12 days left day(s) as of the last crawl.",
+        "Team size: 3 to 5 member(s).",
+        "Opportunity type: competitions"
+      ],
+      "tags": [
+        "Unstop",
+        "India",
+        "All"
+      ],
+      "location": {
+        "text": "Online (India)",
+        "country": "India",
+        "mode": "online"
+      },
+      "startsAt": "2026-10-11T18:30:00.000Z",
+      "endsAt": "2026-10-25T18:30:00.000Z",
+      "registration": {
+        "opensAt": "2026-10-11T18:30:00.000Z",
+        "closesAt": "2026-10-25T18:30:00.000Z",
+        "url": "https://unstop.com/competitions/consulting-strategy-under-pressure-caseunion-40-masters-union-school-of-business-1769343"
+      },
+      "timeline": [
+        {
+          "label": "Registration opens",
+          "at": "2026-10-11T18:30:00.000Z"
+        },
+        {
+          "label": "Event starts",
+          "at": "2026-10-11T18:30:00.000Z"
+        },
+        {
+          "label": "Registration closes",
+          "at": "2026-10-25T18:30:00.000Z"
+        },
+        {
+          "label": "Event ends",
+          "at": "2026-10-25T18:30:00.000Z"
+        }
+      ],
+      "participants": 18,
+      "type": "hackathon",
+      "trusted": false,
+      "scopeOverride": "",
+      "aliases": [],
+      "fetchedAt": "2026-10-13T07:56:17.611Z",
+      "domains": [
+        "critical-infrastructure"
+      ],
+      "domainLabels": [
+        "Critical Infrastructure"
+      ],
+      "scope": "national",
+      "scopeConfidence": "high",
+      "scopeReason": "source country = India",
+      "status": "ongoing",
+      "registrationStatus": "open",
+      "relevance": 15,
+      "relevanceReasons": [
+        "+8 Critical Infrastructure",
+        "+3 ongoing",
+        "+2 has official URL",
+        "+1 has image",
+        "+1 detailed"
+      ]
+    },
+    {
       "id": "unstop-5ecedf8b18",
       "source": "unstop",
       "sourceLabel": "Unstop",
@@ -27416,12 +27327,12 @@
           "at": "2026-12-06T18:29:00.000Z"
         }
       ],
-      "participants": 80,
+      "participants": 285,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:57.614Z",
+      "fetchedAt": "2026-10-13T07:56:17.582Z",
       "domains": [
         "ai-ml"
       ],
@@ -27450,23 +27361,25 @@
       "sourceUrl": "https://unstop.com/hackathons/kill-switch-tech-fusion-26-vaish-college-of-engineering-rohtak-haryana-1769184",
       "url": "https://unstop.com/hackathons/kill-switch-tech-fusion-26-vaish-college-of-engineering-rohtak-haryana-1769184",
       "title": "Kill Switch",
-      "description": "Kill Switch | Tech Fusion-2026 Organized By: Vaish College of Engineering, Rohtak Event: Tech Fusion-2026 - Inter-College Techno-Management Fest About The Competition: One system. Multiple threats. One mission: take control before it's too late. Kill Switch is a high-energy technical challenge designed to test participants' cybersecurity awareness, logical reasoning, problem-solving abilities, and decision-making under pressure. Participants will face technical challenges involving security scenarios, digital clues, system vulnerabilities, and time-sensitive problems.…",
+      "description": "KILL SWITCH | Technical Quiz Tech Fusion-2026 | Vaish College of Engineering, Rohtak About the Competition Think fast, answer smart, and prove your technical knowledge! Kill Switch is a competitive quiz designed to test participants' technical awareness, logical reasoning, general knowledge, and ability to perform under pressure. Eligibility and Team Size Engineering category: Eligible engineering and technical students, as defined by the organizers. Management category: BBA, MBA, B.Com and other eligible management students. Team size: 2-3 members. Engineering and Management categories will be conducted separately.…",
       "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6acc83abd8bbf_whatsapp_image_2026-10-12_at_12_22_10.jpeg",
       "organizer": "Vaish College of Engineering, Rohtak, Haryana",
       "format": "",
       "prize": "",
       "eligibility": "",
       "rules": [
-        "Registration window closes in 7 days left day(s) as of the last crawl.",
+        "Registration window closes in 6 days left day(s) as of the last crawl.",
         "Team size: 1 to 4 member(s).",
-        "Opportunity type: hackathons"
+        "Opportunity type: hackathons",
+        "Registration window closes in 7 days left day(s) as of the last crawl."
       ],
       "tags": [
         "Unstop",
         "India",
         "Engineering Students",
         "Postgraduate",
-        "Undergraduate"
+        "Undergraduate",
+        "Management"
       ],
       "location": {
         "text": "India",
@@ -27474,7 +27387,7 @@
         "mode": "unspecified"
       },
       "startsAt": "2026-10-11T18:30:00.000Z",
-      "endsAt": "2026-10-20T06:30:00.000Z",
+      "endsAt": "2026-10-27T17:09:00.000Z",
       "registration": {
         "opensAt": "2026-10-11T18:30:00.000Z",
         "closesAt": "2026-10-19T18:30:00.000Z",
@@ -27495,19 +27408,21 @@
         },
         {
           "label": "Event ends",
-          "at": "2026-10-20T06:30:00.000Z"
+          "at": "2026-10-27T17:09:00.000Z"
         }
       ],
-      "participants": 0,
+      "participants": 13,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:57.610Z",
+      "fetchedAt": "2026-10-13T07:56:17.579Z",
       "domains": [
+        "blockchain",
         "cyber-security"
       ],
       "domainLabels": [
+        "Blockchain & Web3",
         "Cyber Security"
       ],
       "scope": "national",
@@ -27531,16 +27446,18 @@
       "sourceUrl": "https://unstop.com/hackathons/server-crash-who-killed-the-server-tech-fusion-26-vaish-college-of-engineering-rohtak-haryana-1769168",
       "url": "https://unstop.com/hackathons/server-crash-who-killed-the-server-tech-fusion-26-vaish-college-of-engineering-rohtak-haryana-1769168",
       "title": "Server Crash - Who Killed the server?",
-      "description": "Server Crash: Who Killed The Server? Organized By: Vaish College of Engineering, Rohtak Part Of: Tech Fusion-2026 | Inter-College Techno-Management Fest Event Dates: 26-28 October 2026 Eligibility: B.Tech and BCA students About The Competition: A server has crashed, services are failing, and the logs contain clues. Can you identify the root cause? Server Crash: Who Killed the Server? is a technical investigation challenge designed to test participants' troubleshooting abilities, logical reasoning, server fundamentals, and basic cybersecurity knowledge.…",
+      "description": "Tech Fusion-2026 | Vaish College of Engineering, Rohtak About the Competition A server is broken, the application is failing, and the evidence is waiting to be discovered. Who caused the crash? Server Crash is a hands-on debugging challenge that tests participants' programming, troubleshooting, and server investigation skills. Eligibility and Team Size Team size: 1- 4 members. Participants must bring their own laptops. Programming languages: Java or Python. Competition Format Round 1: Find the Bug Teams receive a broken application or server setup containing intentional problems.…",
       "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6acc7ee3537c1_server_crash_competition_emblem-removebg-preview.png",
       "organizer": "Vaish College of Engineering, Rohtak, Haryana",
       "format": "",
       "prize": "",
       "eligibility": "",
       "rules": [
+        "Registration window closes in 6 days left day(s) as of the last crawl.",
+        "Team size: 1 to 4 member(s).",
+        "Opportunity type: hackathons",
         "Registration window closes in 7 days left day(s) as of the last crawl.",
-        "Team size: 1 to 3 member(s).",
-        "Opportunity type: hackathons"
+        "Team size: 1 to 3 member(s)."
       ],
       "tags": [
         "Unstop",
@@ -27554,7 +27471,7 @@
         "mode": "unspecified"
       },
       "startsAt": "2026-10-11T18:30:00.000Z",
-      "endsAt": "2026-10-20T06:36:00.000Z",
+      "endsAt": "2026-10-26T17:28:00.000Z",
       "registration": {
         "opensAt": "2026-10-11T18:30:00.000Z",
         "closesAt": "2026-10-19T18:30:00.000Z",
@@ -27575,19 +27492,21 @@
         },
         {
           "label": "Event ends",
-          "at": "2026-10-20T06:36:00.000Z"
+          "at": "2026-10-26T17:28:00.000Z"
         }
       ],
-      "participants": 0,
+      "participants": 2,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:57.611Z",
+      "fetchedAt": "2026-10-13T07:56:17.579Z",
       "domains": [
+        "unclassified",
         "cyber-security"
       ],
       "domainLabels": [
+        "Unclassified",
         "Cyber Security"
       ],
       "scope": "national",
@@ -27697,15 +27616,17 @@
       "url": "https://unstop.com/hackathons/codewithchat-ai-dev-challenge-build-launch-monetize-with-vibe-coding-codewithchat-1769081",
       "title": "CodewithChat AI Dev Challenge: Build, Launch & Monetize with Vibe Coding",
       "description": "Welcome to the CodewithChat AI Dev Challenge: Build, Launch & Monetize with Vibe Coding - by CodewithChat! An online hackathon for teams ready to build, launch, and monetize with vibe coding. About the Opportunity: The CodewithChat AI Dev Challenge is an online coding challenge by CodewithChat, designed for team participation. It brings together the energy of a hackathon with a focus on building, launching, and monetizing through vibe coding. Participants can showcase and develop skills across Artificial Intelligence, Python, React.js, TypeScript, product strategy, entrepreneurship, software development life cycle, code review, and teamwork and collaboration.…",
-      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6acbba3ce7fde_organisation_image-Pzy2IyuEnV40412724PASjjpVNao.png",
+      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6accffe206bfe_organisation_image-Pzy2IyuEnV40412724PASjjpVNao.png",
       "organizer": "CodewithChat",
       "format": "",
       "prize": "",
       "eligibility": "",
       "rules": [
+        "Registration window closes in 16 days left day(s) as of the last crawl.",
+        "Team size: 1 to 3 member(s).",
+        "Opportunity type: hackathons",
         "Registration window closes in 17 days left day(s) as of the last crawl.",
-        "Team size: 2 to 3 member(s).",
-        "Opportunity type: hackathons"
+        "Team size: 2 to 3 member(s)."
       ],
       "tags": [
         "Unstop",
@@ -27748,12 +27669,12 @@
           "at": "2026-10-30T16:35:00.000Z"
         }
       ],
-      "participants": 7,
+      "participants": 17,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:57.612Z",
+      "fetchedAt": "2026-10-13T07:56:17.580Z",
       "domains": [
         "ai-ml"
       ],
@@ -27775,6 +27696,249 @@
       ]
     },
     {
+      "id": "unstop-d9238983b2",
+      "source": "unstop",
+      "sourceLabel": "Unstop",
+      "sourceUrl": "https://unstop.com/competitions/ai-analytics-from-prediction-to-decision-caseunion-40-masters-union-school-of-business-1769339",
+      "url": "https://unstop.com/competitions/ai-analytics-from-prediction-to-decision-caseunion-40-masters-union-school-of-business-1769339",
+      "title": "AI & Analytics: From Prediction to Decision",
+      "description": "Overview Build an AI-supported business or system that can withstand the consequences of its decisions. The AI & Analytics track at CaseUnion 4.0 explores how technology can address difficult operational and access problems. The submitted case pack contains four challenges. The Fraud War Room Redesign a bank or payment service provider’s UPI fraud detection and investigation workflow over a 90-day planning horizon. Connect detection to response, prioritise investigation and explain the tradeoffs between missed fraud and incorrectly flagged customers. The Marketplace That Fixed the Wrong End Design a claims-first AI health insurtech.…",
+      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6acd37a9c38fa_Masters_Union_Logo_Black_on_Transparent.png",
+      "organizer": "Masters' Union School of Business",
+      "format": "",
+      "prize": "",
+      "eligibility": "",
+      "rules": [
+        "Registration window closes in 12 days left day(s) as of the last crawl.",
+        "Team size: 3 to 5 member(s).",
+        "Opportunity type: competitions"
+      ],
+      "tags": [
+        "Unstop",
+        "India",
+        "All"
+      ],
+      "location": {
+        "text": "Online (India)",
+        "country": "India",
+        "mode": "online"
+      },
+      "startsAt": "2026-10-11T18:30:00.000Z",
+      "endsAt": "2026-10-25T18:30:00.000Z",
+      "registration": {
+        "opensAt": "2026-10-11T18:30:00.000Z",
+        "closesAt": "2026-10-25T18:30:00.000Z",
+        "url": "https://unstop.com/competitions/ai-analytics-from-prediction-to-decision-caseunion-40-masters-union-school-of-business-1769339"
+      },
+      "timeline": [
+        {
+          "label": "Registration opens",
+          "at": "2026-10-11T18:30:00.000Z"
+        },
+        {
+          "label": "Event starts",
+          "at": "2026-10-11T18:30:00.000Z"
+        },
+        {
+          "label": "Registration closes",
+          "at": "2026-10-25T18:30:00.000Z"
+        },
+        {
+          "label": "Event ends",
+          "at": "2026-10-25T18:30:00.000Z"
+        }
+      ],
+      "participants": 8,
+      "type": "hackathon",
+      "trusted": false,
+      "scopeOverride": "",
+      "aliases": [],
+      "fetchedAt": "2026-10-13T07:56:17.610Z",
+      "domains": [
+        "ai-ml"
+      ],
+      "domainLabels": [
+        "AI / ML"
+      ],
+      "scope": "national",
+      "scopeConfidence": "high",
+      "scopeReason": "source country = India",
+      "status": "ongoing",
+      "registrationStatus": "open",
+      "relevance": 11,
+      "relevanceReasons": [
+        "+4 AI / ML",
+        "+3 ongoing",
+        "+2 has official URL",
+        "+1 has image",
+        "+1 detailed"
+      ]
+    },
+    {
+      "id": "unstop-7ef55faf86",
+      "source": "unstop",
+      "sourceLabel": "Unstop",
+      "sourceUrl": "https://unstop.com/competitions/marketing-in-the-age-of-ai-caseunion-40-masters-union-school-of-business-1769347",
+      "url": "https://unstop.com/competitions/marketing-in-the-age-of-ai-caseunion-40-masters-union-school-of-business-1769347",
+      "title": "Marketing in the Age of AI",
+      "description": "Overview In a world where everyone has access to AI, how does a brand remain unmistakably itself? Marketing in the Age of AI asks participants to build a differentiation strategy for an iconic Indian brand. Teams will receive a set of brands and select one. The challenge is to explain how the brand can use AI while protecting and strengthening the identity, experiences and consumer relationships that make it distinctive. The Challenge Determine where AI can improve the brand and which human or cultural elements should remain distinctly owned by it.…",
+      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6acd37f4802d3_Masters_Union_Logo_Black_on_Transparent.png",
+      "organizer": "Masters' Union School of Business",
+      "format": "",
+      "prize": "",
+      "eligibility": "",
+      "rules": [
+        "Registration window closes in 12 days left day(s) as of the last crawl.",
+        "Team size: 3 to 5 member(s).",
+        "Opportunity type: competitions"
+      ],
+      "tags": [
+        "Unstop",
+        "India",
+        "All"
+      ],
+      "location": {
+        "text": "Online (India)",
+        "country": "India",
+        "mode": "online"
+      },
+      "startsAt": "2026-10-11T18:30:00.000Z",
+      "endsAt": "2026-10-27T13:26:00.000Z",
+      "registration": {
+        "opensAt": "2026-10-11T18:30:00.000Z",
+        "closesAt": "2026-10-25T18:30:00.000Z",
+        "url": "https://unstop.com/competitions/marketing-in-the-age-of-ai-caseunion-40-masters-union-school-of-business-1769347"
+      },
+      "timeline": [
+        {
+          "label": "Registration opens",
+          "at": "2026-10-11T18:30:00.000Z"
+        },
+        {
+          "label": "Event starts",
+          "at": "2026-10-11T18:30:00.000Z"
+        },
+        {
+          "label": "Registration closes",
+          "at": "2026-10-25T18:30:00.000Z"
+        },
+        {
+          "label": "Event ends",
+          "at": "2026-10-27T13:26:00.000Z"
+        }
+      ],
+      "participants": 18,
+      "type": "hackathon",
+      "trusted": false,
+      "scopeOverride": "",
+      "aliases": [],
+      "fetchedAt": "2026-10-13T07:56:17.612Z",
+      "domains": [
+        "ai-ml"
+      ],
+      "domainLabels": [
+        "AI / ML"
+      ],
+      "scope": "national",
+      "scopeConfidence": "high",
+      "scopeReason": "source country = India",
+      "status": "ongoing",
+      "registrationStatus": "open",
+      "relevance": 11,
+      "relevanceReasons": [
+        "+4 AI / ML",
+        "+3 ongoing",
+        "+2 has official URL",
+        "+1 has image",
+        "+1 detailed"
+      ]
+    },
+    {
+      "id": "unstop-276e2eb307",
+      "source": "unstop",
+      "sourceLabel": "Unstop",
+      "sourceUrl": "https://unstop.com/hackathons/hackathon-shourya-mvsr-engineering-college-mvsrec-hyderabad-1769437",
+      "url": "https://unstop.com/hackathons/hackathon-shourya-mvsr-engineering-college-mvsrec-hyderabad-1769437",
+      "title": "Hackathon",
+      "description": "OFFICIAL REGISTRATION: Registrations are conducted directly on our official festival portal: Register Here: https://shouryacse.com/events/hackathon ABOUT THIS EVENT An intense product sprint where teams turn bold ideas into working prototypes. Problem statements will be provided on the spot, with mentor checkpoints along the way and a final jury pitch.…",
+      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6acdd784d14c6_",
+      "organizer": "MVSR Engineering College (MVSREC), Hyderabad",
+      "format": "",
+      "prize": "",
+      "eligibility": "",
+      "rules": [
+        "Registration window closes in 3 days left day(s) as of the last crawl.",
+        "Team size: 2 to 3 member(s).",
+        "Opportunity type: hackathons"
+      ],
+      "tags": [
+        "Unstop",
+        "India",
+        "Engineering Students",
+        "Postgraduate",
+        "Undergraduate",
+        "Management",
+        "Medical",
+        "Law",
+        "Arts, Commerce, Sciences & Others"
+      ],
+      "location": {
+        "text": "India",
+        "country": "India",
+        "mode": "unspecified"
+      },
+      "startsAt": "2026-10-11T18:30:00.000Z",
+      "endsAt": "2026-10-16T16:29:30.000Z",
+      "registration": {
+        "opensAt": "2026-10-11T18:30:00.000Z",
+        "closesAt": "2026-10-16T16:29:30.000Z",
+        "url": "https://unstop.com/hackathons/hackathon-shourya-mvsr-engineering-college-mvsrec-hyderabad-1769437"
+      },
+      "timeline": [
+        {
+          "label": "Registration opens",
+          "at": "2026-10-11T18:30:00.000Z"
+        },
+        {
+          "label": "Event starts",
+          "at": "2026-10-11T18:30:00.000Z"
+        },
+        {
+          "label": "Registration closes",
+          "at": "2026-10-16T16:29:30.000Z"
+        },
+        {
+          "label": "Event ends",
+          "at": "2026-10-16T16:29:30.000Z"
+        }
+      ],
+      "participants": 15,
+      "type": "hackathon",
+      "trusted": false,
+      "scopeOverride": "",
+      "aliases": [],
+      "fetchedAt": "2026-10-13T07:56:17.575Z",
+      "domains": [
+        "general-innovation"
+      ],
+      "domainLabels": [
+        "General Innovation"
+      ],
+      "scope": "national",
+      "scopeConfidence": "high",
+      "scopeReason": "source country = India",
+      "status": "ongoing",
+      "registrationStatus": "open",
+      "relevance": 9,
+      "relevanceReasons": [
+        "+2 General Innovation",
+        "+3 ongoing",
+        "+2 has official URL",
+        "+1 has image",
+        "+1 detailed"
+      ]
+    },
+    {
       "id": "unstop-5f83767d11",
       "source": "unstop",
       "sourceLabel": "Unstop",
@@ -27782,15 +27946,16 @@
       "url": "https://unstop.com/competitions/call-for-research-articles-for-the-economics-association-2026-27-sri-venkateswara-collegedu-1769108",
       "title": "Call for Research Articles for The Economics Association (2026-27)",
       "description": "Team Size: 1-2 Members Stages and Timelines: 11 Oct, 2026 12:00 PM IST - 20 Oct, 2026, 11:59 PM IST Submission Round All articles must be submitted to ecosoc.svc@gmail.com . All that you need to know about Call for Research Articles for The Economics Association (2026-27): The Economics Association of Sri Venkateswara College, University of Delhi, proudly presents its Annual Research Paper Competition- Economics Everywhere- in line with this year’s theme of our annual fest.…",
-      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6acc6cca6a4e7_organisation_image-Rz4KENtN3Z5388876452g13nstgiJ.png",
+      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6acca70f0d002_organisation_image-Rz4KENtN3Z5388876452g13nstgiJ.png",
       "organizer": "Sri Venkateswara College(DU)",
       "format": "",
       "prize": "",
       "eligibility": "",
       "rules": [
-        "Registration window closes in 8 days left day(s) as of the last crawl.",
+        "Registration window closes in 7 days left day(s) as of the last crawl.",
         "Team size: 1 to 2 member(s).",
-        "Opportunity type: competitions"
+        "Opportunity type: competitions",
+        "Registration window closes in 8 days left day(s) as of the last crawl."
       ],
       "tags": [
         "Unstop",
@@ -27833,12 +27998,12 @@
           "at": "2026-10-20T18:29:44.000Z"
         }
       ],
-      "participants": 2,
+      "participants": 24,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:57.643Z",
+      "fetchedAt": "2026-10-13T07:56:17.597Z",
       "domains": [
         "cyber-security"
       ],
@@ -27856,6 +28021,264 @@
         "+3 ongoing",
         "+2 has official URL",
         "+1 has image",
+        "+1 detailed"
+      ]
+    },
+    {
+      "id": "unstop-be40f86e21",
+      "source": "unstop",
+      "sourceLabel": "Unstop",
+      "sourceUrl": "https://unstop.com/hackathons/hustle-carnival-gl-bajaj-group-of-institutions-1763514",
+      "url": "https://unstop.com/hackathons/hustle-carnival-gl-bajaj-group-of-institutions-1763514",
+      "title": "Hustle Carnival",
+      "description": "Hustle Carnival is the flagship hybrid buildathon hosted by Club Ellusion , the official technical club of G.L. Bajaj Group of Institutions, Mathura. Designed around the vision “Hustle Beyond,” this event brings together student coders, designers, and innovators from engineering and management disciplines, including CSE, IT, ECE, AI/ML, and MBA. Hustle Carnival is an Open Innovation Buildathon , where participants are encouraged to think beyond boundaries, identify real-world problems, and develop creative, technology-driven solutions of their choice.…",
+      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6accb34ddac6b_1000104934.jpg",
+      "organizer": "Gl Bajaj group of institutions",
+      "format": "",
+      "prize": "",
+      "eligibility": "",
+      "rules": [
+        "Registration window closes in 8 days left day(s) as of the last crawl.",
+        "Team size: 1 to 2 member(s).",
+        "Opportunity type: hackathons"
+      ],
+      "tags": [
+        "Unstop",
+        "India",
+        "Experienced Professionals",
+        "Engineering Students",
+        "Postgraduate",
+        "Undergraduate",
+        "Fresher",
+        "Management"
+      ],
+      "location": {
+        "text": "India",
+        "country": "India",
+        "mode": "hybrid"
+      },
+      "startsAt": "2026-10-11T19:30:00.000Z",
+      "endsAt": "2026-10-21T18:30:00.000Z",
+      "registration": {
+        "opensAt": "2026-10-11T19:30:00.000Z",
+        "closesAt": "2026-10-21T18:30:00.000Z",
+        "url": "https://unstop.com/hackathons/hustle-carnival-gl-bajaj-group-of-institutions-1763514"
+      },
+      "timeline": [
+        {
+          "label": "Registration opens",
+          "at": "2026-10-11T19:30:00.000Z"
+        },
+        {
+          "label": "Event starts",
+          "at": "2026-10-11T19:30:00.000Z"
+        },
+        {
+          "label": "Registration closes",
+          "at": "2026-10-21T18:30:00.000Z"
+        },
+        {
+          "label": "Event ends",
+          "at": "2026-10-21T18:30:00.000Z"
+        }
+      ],
+      "participants": 47,
+      "type": "hackathon",
+      "trusted": false,
+      "scopeOverride": "",
+      "aliases": [],
+      "fetchedAt": "2026-10-13T07:56:17.578Z",
+      "domains": [
+        "ai-ml",
+        "general-innovation"
+      ],
+      "domainLabels": [
+        "AI / ML",
+        "General Innovation"
+      ],
+      "scope": "national",
+      "scopeConfidence": "high",
+      "scopeReason": "source country = India",
+      "status": "ongoing",
+      "registrationStatus": "open",
+      "relevance": 13,
+      "relevanceReasons": [
+        "+4 AI / ML",
+        "+2 General Innovation",
+        "+3 ongoing",
+        "+2 has official URL",
+        "+1 has image",
+        "+1 detailed"
+      ]
+    },
+    {
+      "id": "unstop-95bce0250b",
+      "source": "unstop",
+      "sourceLabel": "Unstop",
+      "sourceUrl": "https://unstop.com/competitions/commedge-30-the-case-competition-maharaja-agrasen-institute-of-technology-1769567",
+      "url": "https://unstop.com/competitions/commedge-30-the-case-competition-maharaja-agrasen-institute-of-technology-1769567",
+      "title": "CommEdge 3.0 : The Case Competition",
+      "description": "Overview Decode the Challenge. Design the Strategy. Deliver the Impact. Communite - The Commerce Society of MAIT proudly presents Commedge 3.0, its flagship business case competition, designed to foster innovation, collaboration, strategic thinking, and business acumen among aspiring professionals. Commedge 3.0 provides a dynamic platform for ambitious minds to analyse real-world business challenges, develop innovative and practical solutions, and present their strategies with confidence. More than just a competition, it is an opportunity to demonstrate analytical excellence, strategic decision-making, teamwork, and impactful execution. Why Participate?…",
+      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6acd39433dc07_cummunite.jpeg",
+      "organizer": "Maharaja Agrasen Institute of Technology",
+      "format": "",
+      "prize": "",
+      "eligibility": "",
+      "rules": [
+        "Registration window closes in 3 days left day(s) as of the last crawl.",
+        "Team size: 2 to 4 member(s).",
+        "Opportunity type: competitions"
+      ],
+      "tags": [
+        "Unstop",
+        "India",
+        "Engineering Students",
+        "Postgraduate",
+        "Undergraduate",
+        "Management",
+        "Medical",
+        "Law",
+        "Arts, Commerce, Sciences & Others"
+      ],
+      "location": {
+        "text": "India",
+        "country": "India",
+        "mode": "unspecified"
+      },
+      "startsAt": "2026-10-12T18:30:00.000Z",
+      "endsAt": "2026-10-22T08:30:00.000Z",
+      "registration": {
+        "opensAt": "2026-10-12T18:30:00.000Z",
+        "closesAt": "2026-10-16T18:30:00.000Z",
+        "url": "https://unstop.com/competitions/commedge-30-the-case-competition-maharaja-agrasen-institute-of-technology-1769567"
+      },
+      "timeline": [
+        {
+          "label": "Registration opens",
+          "at": "2026-10-12T18:30:00.000Z"
+        },
+        {
+          "label": "Event starts",
+          "at": "2026-10-12T18:30:00.000Z"
+        },
+        {
+          "label": "Registration closes",
+          "at": "2026-10-16T18:30:00.000Z"
+        },
+        {
+          "label": "Event ends",
+          "at": "2026-10-22T08:30:00.000Z"
+        }
+      ],
+      "participants": 12,
+      "type": "hackathon",
+      "trusted": false,
+      "scopeOverride": "",
+      "aliases": [],
+      "fetchedAt": "2026-10-13T07:56:17.606Z",
+      "domains": [
+        "cyber-security"
+      ],
+      "domainLabels": [
+        "Cyber Security"
+      ],
+      "scope": "national",
+      "scopeConfidence": "high",
+      "scopeReason": "source country = India",
+      "status": "ongoing",
+      "registrationStatus": "open",
+      "relevance": 14,
+      "relevanceReasons": [
+        "+7 Cyber Security",
+        "+3 ongoing",
+        "+2 has official URL",
+        "+1 has image",
+        "+1 detailed"
+      ]
+    },
+    {
+      "id": "unstop-4a208146db",
+      "source": "unstop",
+      "sourceLabel": "Unstop",
+      "sourceUrl": "https://unstop.com/competitions/promptdown-national-institute-of-technology-karnataka-1769614",
+      "url": "https://unstop.com/competitions/promptdown-national-institute-of-technology-karnataka-1769614",
+      "title": "Prompt Down: The AI-Native PM Challenge",
+      "description": "Prompt Down: The AI-Native PM Challenge Write the spec. Let the agent ship. Most product case competitions end at a slide deck. Prompt Down goes further: you design the product, write the blueprint, and then watch it get built live by an AI coding agent, with no manual coding allowed. What is it? A multi-stage Product Management case competition combined with a live AI build-off. Teams pitch a product idea, turn it into airtight specifications, and then use Claude Code at our live stations to generate a working app from their documentation and prompts alone.…",
+      "image": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6acdc14280636_promptdown-logo-dark.png",
+      "organizer": "National Institute of Technology Karnataka",
+      "format": "",
+      "prize": "₹7000",
+      "eligibility": "",
+      "rules": [
+        "Registration window closes in 8 days left day(s) as of the last crawl.",
+        "Team size: 1 to 3 member(s).",
+        "Opportunity type: competitions"
+      ],
+      "tags": [
+        "Unstop",
+        "India",
+        "Engineering Students",
+        "Postgraduate",
+        "Undergraduate",
+        "Management",
+        "Medical",
+        "Law",
+        "Arts, Commerce, Sciences & Others"
+      ],
+      "location": {
+        "text": "India",
+        "country": "India",
+        "mode": "unspecified"
+      },
+      "startsAt": "2026-10-12T18:30:00.000Z",
+      "endsAt": "2026-10-21T18:30:00.000Z",
+      "registration": {
+        "opensAt": "2026-10-12T18:30:00.000Z",
+        "closesAt": "2026-10-21T18:30:00.000Z",
+        "url": "https://unstop.com/competitions/promptdown-national-institute-of-technology-karnataka-1769614"
+      },
+      "timeline": [
+        {
+          "label": "Registration opens",
+          "at": "2026-10-12T18:30:00.000Z"
+        },
+        {
+          "label": "Event starts",
+          "at": "2026-10-12T18:30:00.000Z"
+        },
+        {
+          "label": "Registration closes",
+          "at": "2026-10-21T18:30:00.000Z"
+        },
+        {
+          "label": "Event ends",
+          "at": "2026-10-21T18:30:00.000Z"
+        }
+      ],
+      "participants": 4,
+      "type": "hackathon",
+      "trusted": false,
+      "scopeOverride": "",
+      "aliases": [],
+      "fetchedAt": "2026-10-13T07:56:17.603Z",
+      "domains": [
+        "ai-ml"
+      ],
+      "domainLabels": [
+        "AI / ML"
+      ],
+      "scope": "national",
+      "scopeConfidence": "high",
+      "scopeReason": "source country = India",
+      "status": "ongoing",
+      "registrationStatus": "open",
+      "relevance": 12,
+      "relevanceReasons": [
+        "+4 AI / ML",
+        "+3 ongoing",
+        "+2 has official URL",
+        "+1 has image",
+        "+1 prize listed",
         "+1 detailed"
       ]
     },
@@ -27926,7 +28349,7 @@
       "scopeConfidence": "low",
       "scopeReason": "no India signal found",
       "status": "upcoming",
-      "registrationStatus": "open",
+      "registrationStatus": "closed",
       "relevance": 11,
       "relevanceReasons": [
         "+2 General Innovation",
@@ -28055,12 +28478,12 @@
           "at": "2026-10-15T00:00:00.000Z"
         }
       ],
-      "participants": 2,
+      "participants": 4,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:51.351Z",
+      "fetchedAt": "2026-10-13T07:56:10.363Z",
       "domains": [
         "cyber-security"
       ],
@@ -28413,12 +28836,12 @@
           "at": "2026-10-17T00:00:00.000Z"
         }
       ],
-      "participants": 95,
+      "participants": 99,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:51.355Z",
+      "fetchedAt": "2026-10-13T07:56:10.366Z",
       "domains": [
         "ai-ml",
         "iot-security"
@@ -28489,11 +28912,11 @@
           "at": "2026-10-17T00:00:00.000Z"
         }
       ],
-      "participants": 33,
+      "participants": 34,
       "type": "hackathon",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:51.353Z",
+      "fetchedAt": "2026-10-13T07:56:10.365Z",
       "domains": [
         "ai-ml"
       ],
@@ -28563,7 +28986,7 @@
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:37:00.230Z",
+      "fetchedAt": "2026-10-13T07:56:22.247Z",
       "domains": [
         "ai-ml"
       ],
@@ -28630,11 +29053,11 @@
           "at": "2026-10-18T21:00:00.000Z"
         }
       ],
-      "participants": 154,
+      "participants": 185,
       "type": "ctf",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.601Z",
+      "fetchedAt": "2026-10-13T07:56:07.444Z",
       "domains": [
         "cyber-security"
       ],
@@ -28711,12 +29134,12 @@
           "at": "2026-10-18T09:00:00.000Z"
         }
       ],
-      "participants": 12,
+      "participants": 17,
       "type": "ctf",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.602Z",
+      "fetchedAt": "2026-10-13T07:56:07.445Z",
       "domains": [
         "cyber-security"
       ],
@@ -28793,11 +29216,11 @@
           "at": "2026-10-19T00:00:00.000Z"
         }
       ],
-      "participants": 124,
+      "participants": 148,
       "type": "ctf",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.603Z",
+      "fetchedAt": "2026-10-13T07:56:07.445Z",
       "domains": [
         "cyber-security"
       ],
@@ -28953,7 +29376,7 @@
       "type": "ctf",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.603Z",
+      "fetchedAt": "2026-10-13T07:56:07.445Z",
       "domains": [
         "cyber-security"
       ],
@@ -29033,7 +29456,7 @@
       "type": "hackathon",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:51.351Z",
+      "fetchedAt": "2026-10-13T07:56:10.364Z",
       "domains": [
         "ai-ml",
         "cyber-security"
@@ -29104,12 +29527,12 @@
           "at": "2026-10-25T00:30:00.000Z"
         }
       ],
-      "participants": 15,
+      "participants": 19,
       "type": "ctf",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.603Z",
+      "fetchedAt": "2026-10-13T07:56:07.446Z",
       "domains": [
         "cyber-security"
       ],
@@ -29342,11 +29765,11 @@
           "at": "2026-10-25T14:00:00.000Z"
         }
       ],
-      "participants": 117,
+      "participants": 124,
       "type": "ctf",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.604Z",
+      "fetchedAt": "2026-10-13T07:56:07.446Z",
       "domains": [
         "cyber-security"
       ],
@@ -29474,16 +29897,17 @@
       "sourceUrl": "https://ctftime.org/event/3377/",
       "url": "https://ctf.rstcon.org/",
       "title": "RSTCON 2026 CTF",
-      "description": "Online/Hybrid RSTCON CTF will available online, but there will be some challenges on available on-site at the conference. RSTCON CTF is an on-site/online competition for RSTCON, which is an annual technical security and hacking conference hosted in Charlotte, NC. RSTCON focuses on cutting-edge research, exploitation, and tradecraft in the logistics, energy, and manufacturing industries, as well as the sensors, systems, and architectures they rely on. RSTCON is home to the curious and those passionate about software and hardware security. (https://rstcon.org/)",
+      "description": "Online/Hybrid RSTCON CTF will available online, but there will be some challenges only available on-site at the conference. RSTCON CTF is an on-site/online competition for RSTCON, which is an annual technical security and hacking conference hosted in Charlotte, NC. RSTCON focuses on cutting-edge research, exploitation, and tradecraft in the logistics, energy, and manufacturing industries, as well as the sensors, systems, and architectures they rely on. RSTCON is home to the curious and those passionate about software and hardware security. (https://rstcon.org/)",
       "image": "https://ctftime.org//media/events/RSTCON-BLK_1.png",
       "organizer": "CTFtime upcoming (RSS)",
       "format": "Jeopardy",
-      "prize": "TBD",
+      "prize": "1st - RSTCON Hard Hats & Next Year Tickets\r\n2nd - Conference Shirt & Bottlecap Badge\r\n3rd - Conference Shirt",
       "eligibility": "Open",
       "rules": [
         "Participation: Open",
         "Format: Jeopardy",
         "Duration: 2 day(s)",
+        "Prizes: 1st - RSTCON Hard Hats & Next Year Tickets\r\n2nd - Conference Shirt & Bottlecap Badge\r\n3rd - Conference Shirt",
         "Prizes: TBD"
       ],
       "tags": [
@@ -29514,12 +29938,12 @@
           "at": "2026-10-25T17:00:00.000Z"
         }
       ],
-      "participants": 12,
+      "participants": 18,
       "type": "ctf",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.604Z",
+      "fetchedAt": "2026-10-13T07:56:07.446Z",
       "domains": [
         "cyber-security",
         "iot-security"
@@ -29599,11 +30023,11 @@
           "at": "2026-10-25T18:00:00.000Z"
         }
       ],
-      "participants": 90,
+      "participants": 94,
       "type": "ctf",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.604Z",
+      "fetchedAt": "2026-10-13T07:56:07.447Z",
       "domains": [
         "cyber-security"
       ],
@@ -29831,7 +30255,7 @@
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:51.351Z",
+      "fetchedAt": "2026-10-13T07:56:10.364Z",
       "domains": [
         "cyber-security"
       ],
@@ -29896,11 +30320,11 @@
           "at": "2026-10-24T00:00:00.000Z"
         }
       ],
-      "participants": 3,
+      "participants": 4,
       "type": "hackathon",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:51.354Z",
+      "fetchedAt": "2026-10-13T07:56:10.366Z",
       "domains": [
         "ai-ml"
       ],
@@ -29974,7 +30398,7 @@
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.604Z",
+      "fetchedAt": "2026-10-13T07:56:07.447Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -30138,7 +30562,7 @@
       "type": "ctf",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.605Z",
+      "fetchedAt": "2026-10-13T07:56:07.448Z",
       "domains": [
         "cyber-security"
       ],
@@ -30217,12 +30641,12 @@
           "at": "2026-10-24T20:45:00.000Z"
         }
       ],
-      "participants": 0,
+      "participants": 1,
       "type": "ctf",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.605Z",
+      "fetchedAt": "2026-10-13T07:56:07.448Z",
       "domains": [
         "cyber-security",
         "digital-forensics",
@@ -30304,12 +30728,12 @@
           "at": "2026-10-27T00:00:00.000Z"
         }
       ],
-      "participants": 20,
+      "participants": 21,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:51.352Z",
+      "fetchedAt": "2026-10-13T07:56:10.364Z",
       "domains": [
         "iot-security",
         "cyber-security",
@@ -30384,11 +30808,11 @@
           "at": "2026-10-28T15:30:00.000Z"
         }
       ],
-      "participants": 6,
+      "participants": 9,
       "type": "ctf",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.606Z",
+      "fetchedAt": "2026-10-13T07:56:07.448Z",
       "domains": [
         "cyber-security"
       ],
@@ -30471,7 +30895,7 @@
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.606Z",
+      "fetchedAt": "2026-10-13T07:56:07.449Z",
       "domains": [
         "cyber-security"
       ],
@@ -30555,7 +30979,7 @@
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.606Z",
+      "fetchedAt": "2026-10-13T07:56:07.449Z",
       "domains": [
         "cyber-security"
       ],
@@ -30640,7 +31064,7 @@
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:58.239Z",
+      "fetchedAt": "2026-10-13T07:56:19.370Z",
       "domains": [
         "ai-ml"
       ],
@@ -30714,7 +31138,7 @@
       "type": "hackathon",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:58.242Z",
+      "fetchedAt": "2026-10-13T07:56:19.372Z",
       "domains": [
         "ai-ml",
         "blockchain"
@@ -30785,12 +31209,12 @@
           "at": "2026-11-01T14:00:00.000Z"
         }
       ],
-      "participants": 10,
+      "participants": 12,
       "type": "ctf",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.607Z",
+      "fetchedAt": "2026-10-13T07:56:07.450Z",
       "domains": [
         "cyber-security",
         "digital-forensics",
@@ -30876,12 +31300,12 @@
           "at": "2026-11-01T02:00:00.000Z"
         }
       ],
-      "participants": 2,
+      "participants": 4,
       "type": "ctf",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.608Z",
+      "fetchedAt": "2026-10-13T07:56:07.451Z",
       "domains": [
         "cyber-security"
       ],
@@ -31043,7 +31467,7 @@
       "type": "hackathon",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:58.240Z",
+      "fetchedAt": "2026-10-13T07:56:19.370Z",
       "domains": [
         "ai-ml",
         "blockchain"
@@ -31113,12 +31537,12 @@
           "at": "2026-11-01T09:00:00.000Z"
         }
       ],
-      "participants": 4,
+      "participants": 6,
       "type": "ctf",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.608Z",
+      "fetchedAt": "2026-10-13T07:56:07.451Z",
       "domains": [
         "cyber-security"
       ],
@@ -31191,12 +31615,12 @@
           "at": "2026-11-02T00:00:00.000Z"
         }
       ],
-      "participants": 54,
+      "participants": 64,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:51.356Z",
+      "fetchedAt": "2026-10-13T07:56:10.367Z",
       "domains": [
         "ai-ml"
       ],
@@ -31262,12 +31686,12 @@
           "at": "2026-11-06T00:00:00.000Z"
         }
       ],
-      "participants": 9,
+      "participants": 11,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:51.352Z",
+      "fetchedAt": "2026-10-13T07:56:10.364Z",
       "domains": [
         "ai-ml",
         "cyber-security"
@@ -31411,7 +31835,7 @@
       "type": "hackathon",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:51.352Z",
+      "fetchedAt": "2026-10-13T07:56:10.364Z",
       "domains": [
         "ai-ml"
       ],
@@ -31479,11 +31903,11 @@
           "at": "2026-11-07T10:00:00.000Z"
         }
       ],
-      "participants": 19,
+      "participants": 20,
       "type": "ctf",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.608Z",
+      "fetchedAt": "2026-10-13T07:56:07.452Z",
       "domains": [
         "cyber-security"
       ],
@@ -31560,11 +31984,11 @@
           "at": "2026-11-09T12:00:00.000Z"
         }
       ],
-      "participants": 16,
+      "participants": 17,
       "type": "ctf",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.609Z",
+      "fetchedAt": "2026-10-13T07:56:07.452Z",
       "domains": [
         "cyber-security"
       ],
@@ -31640,11 +32064,11 @@
           "at": "2026-11-08T13:00:00.000Z"
         }
       ],
-      "participants": 18,
+      "participants": 20,
       "type": "ctf",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.609Z",
+      "fetchedAt": "2026-10-13T07:56:07.453Z",
       "domains": [
         "cyber-security",
         "digital-forensics",
@@ -31725,12 +32149,12 @@
           "at": "2026-11-07T17:00:00.000Z"
         }
       ],
-      "participants": 8,
+      "participants": 9,
       "type": "ctf",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.610Z",
+      "fetchedAt": "2026-10-13T07:56:07.453Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -31815,7 +32239,7 @@
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.610Z",
+      "fetchedAt": "2026-10-13T07:56:07.454Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -31847,6 +32271,80 @@
           "label": "Configured feeds",
           "url": "https://ctftime.org/event/3242"
         }
+      ]
+    },
+    {
+      "id": "devpost-4560c36c42",
+      "source": "devpost",
+      "sourceLabel": "Devpost",
+      "sourceUrl": "https://a10-x-aws-hack-26.devpost.com/",
+      "url": "https://a10-x-aws-hack-26.devpost.com/",
+      "title": "AWS x A10 Hack 2026",
+      "description": "Beginner Friendly, Cybersecurity, Machine Learning/AI",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/571/487/datas/medium_square.png",
+      "organizer": "Santa Clara University ACM",
+      "format": "",
+      "prize": "$ 7,500",
+      "eligibility": "",
+      "rules": [
+        "Submission window: Nov 07 - 08, 2026",
+        "Time left to submit at crawl time: Upcoming"
+      ],
+      "tags": [
+        "Devpost",
+        "Beginner Friendly",
+        "Cybersecurity",
+        "Machine Learning/AI"
+      ],
+      "location": {
+        "text": "Heafey Hall",
+        "country": "",
+        "mode": "unspecified"
+      },
+      "startsAt": "2026-11-07T00:00:00.000Z",
+      "endsAt": "2026-11-07T00:00:00.000Z",
+      "registration": {
+        "opensAt": null,
+        "closesAt": null,
+        "url": ""
+      },
+      "timeline": [
+        {
+          "label": "Event starts",
+          "at": "2026-11-07T00:00:00.000Z"
+        },
+        {
+          "label": "Event ends",
+          "at": "2026-11-07T00:00:00.000Z"
+        }
+      ],
+      "participants": 2,
+      "type": "hackathon",
+      "trusted": false,
+      "scopeOverride": "",
+      "aliases": [],
+      "fetchedAt": "2026-10-13T07:56:10.364Z",
+      "domains": [
+        "cyber-security",
+        "ai-ml"
+      ],
+      "domainLabels": [
+        "Cyber Security",
+        "AI / ML"
+      ],
+      "scope": "international",
+      "scopeConfidence": "low",
+      "scopeReason": "no India signal found",
+      "status": "upcoming",
+      "registrationStatus": "likely-open",
+      "relevance": 19,
+      "relevanceReasons": [
+        "+6 Cyber Security",
+        "+4 AI / ML",
+        "+5 upcoming",
+        "+2 has official URL",
+        "+1 has image",
+        "+1 prize listed"
       ]
     },
     {
@@ -31903,7 +32401,7 @@
       "type": "hackathon",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:51.355Z",
+      "fetchedAt": "2026-10-13T07:56:10.366Z",
       "domains": [
         "iot-security",
         "unclassified"
@@ -32058,7 +32556,7 @@
       "type": "hackathon",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:37:00.233Z",
+      "fetchedAt": "2026-10-13T07:56:22.250Z",
       "domains": [
         "unclassified",
         "ai-ml"
@@ -32132,7 +32630,7 @@
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.611Z",
+      "fetchedAt": "2026-10-13T07:56:07.454Z",
       "domains": [
         "cyber-security"
       ],
@@ -32211,7 +32709,7 @@
       "type": "ctf",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.611Z",
+      "fetchedAt": "2026-10-13T07:56:07.454Z",
       "domains": [
         "cyber-security"
       ],
@@ -32288,7 +32786,7 @@
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:51.354Z",
+      "fetchedAt": "2026-10-13T07:56:10.365Z",
       "domains": [
         "ai-ml"
       ],
@@ -32361,7 +32859,7 @@
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.611Z",
+      "fetchedAt": "2026-10-13T07:56:07.454Z",
       "domains": [
         "cyber-security"
       ],
@@ -32442,7 +32940,7 @@
       "type": "ctf",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.611Z",
+      "fetchedAt": "2026-10-13T07:56:07.455Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -32612,7 +33110,7 @@
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.612Z",
+      "fetchedAt": "2026-10-13T07:56:07.455Z",
       "domains": [
         "digital-forensics",
         "cyber-security"
@@ -32696,7 +33194,7 @@
       "type": "ctf",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.612Z",
+      "fetchedAt": "2026-10-13T07:56:07.455Z",
       "domains": [
         "cyber-security"
       ],
@@ -32777,7 +33275,7 @@
       "type": "ctf",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.612Z",
+      "fetchedAt": "2026-10-13T07:56:07.456Z",
       "domains": [
         "cyber-security"
       ],
@@ -32939,7 +33437,7 @@
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.613Z",
+      "fetchedAt": "2026-10-13T07:56:07.456Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -33017,11 +33515,11 @@
           "at": "2026-11-21T00:00:00.000Z"
         }
       ],
-      "participants": 7,
+      "participants": 8,
       "type": "hackathon",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:51.357Z",
+      "fetchedAt": "2026-10-13T07:56:10.367Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -33168,7 +33666,7 @@
       "type": "ctf",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.613Z",
+      "fetchedAt": "2026-10-13T07:56:07.456Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -33257,7 +33755,7 @@
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:58.244Z",
+      "fetchedAt": "2026-10-13T07:56:19.373Z",
       "domains": [
         "ai-ml",
         "blockchain"
@@ -33327,11 +33825,11 @@
           "at": "2026-11-21T21:00:00.000Z"
         }
       ],
-      "participants": 7,
+      "participants": 8,
       "type": "ctf",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.613Z",
+      "fetchedAt": "2026-10-13T07:56:07.457Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -33416,7 +33914,7 @@
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.614Z",
+      "fetchedAt": "2026-10-13T07:56:07.457Z",
       "domains": [
         "cyber-security"
       ],
@@ -33499,7 +33997,7 @@
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.614Z",
+      "fetchedAt": "2026-10-13T07:56:07.458Z",
       "domains": [
         "cyber-security"
       ],
@@ -33582,7 +34080,7 @@
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:58.244Z",
+      "fetchedAt": "2026-10-13T07:56:19.374Z",
       "domains": [
         "cyber-security"
       ],
@@ -33655,7 +34153,7 @@
       "type": "ctf",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.614Z",
+      "fetchedAt": "2026-10-13T07:56:07.458Z",
       "domains": [
         "cyber-security",
         "drone-security"
@@ -33741,7 +34239,7 @@
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.615Z",
+      "fetchedAt": "2026-10-13T07:56:07.458Z",
       "domains": [
         "cyber-security"
       ],
@@ -33820,7 +34318,7 @@
       "type": "hackathon",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:51.355Z",
+      "fetchedAt": "2026-10-13T07:56:10.366Z",
       "domains": [
         "iot-security"
       ],
@@ -33888,11 +34386,11 @@
           "at": "2026-12-13T12:00:00.000Z"
         }
       ],
-      "participants": 31,
+      "participants": 32,
       "type": "ctf",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.615Z",
+      "fetchedAt": "2026-10-13T07:56:07.458Z",
       "domains": [
         "cyber-security",
         "digital-forensics",
@@ -33980,7 +34478,7 @@
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.615Z",
+      "fetchedAt": "2026-10-13T07:56:07.459Z",
       "domains": [
         "cyber-security",
         "ai-ml"
@@ -34065,7 +34563,7 @@
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.615Z",
+      "fetchedAt": "2026-10-13T07:56:07.459Z",
       "domains": [
         "cyber-security",
         "digital-forensics",
@@ -34152,7 +34650,7 @@
       "type": "ctf",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.616Z",
+      "fetchedAt": "2026-10-13T07:56:07.459Z",
       "domains": [
         "cyber-security"
       ],
@@ -34227,12 +34725,12 @@
           "at": "2027-01-15T00:00:00.000Z"
         }
       ],
-      "participants": 23,
+      "participants": 24,
       "type": "hackathon",
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:51.355Z",
+      "fetchedAt": "2026-10-13T07:56:10.367Z",
       "domains": [
         "iot-security"
       ],
@@ -34307,7 +34805,7 @@
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:58.244Z",
+      "fetchedAt": "2026-10-13T07:56:19.374Z",
       "domains": [
         "cyber-security"
       ],
@@ -34373,11 +34871,11 @@
           "at": "2027-02-11T00:00:00.000Z"
         }
       ],
-      "participants": 200,
+      "participants": 203,
       "type": "hackathon",
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:51.356Z",
+      "fetchedAt": "2026-10-13T07:56:10.367Z",
       "domains": [
         "iot-security",
         "ai-ml"
@@ -34451,7 +34949,7 @@
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:51.356Z",
+      "fetchedAt": "2026-10-13T07:56:10.367Z",
       "domains": [
         "iot-security"
       ],
@@ -34592,7 +35090,7 @@
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.616Z",
+      "fetchedAt": "2026-10-13T07:56:07.460Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -35056,172 +35554,6 @@
       ]
     },
     {
-      "id": "devfolio-421c59b2a1",
-      "source": "devfolio",
-      "sourceLabel": "Devfolio",
-      "sourceUrl": "https://hackbios2k26.devfolio.co/",
-      "url": "https://hackbios2k26.devfolio.co/",
-      "title": "HACKBIOS 2K26",
-      "description": "HackBIOS 2k26 is a national-level hackathon bringing together the brightest young innovators, developers, and tech enthusiasts from across the country to solve real-world problems through technology. *Our previous edition saw 350+ attendees come together for an incredible offline experience , a remarkable success that left a lasting impression on all who attended.* **This year, HackBIOS 2k26 will be conducted in two rounds:** Round 1 — Online Selection - Submit a PPT based on your idea/solution - Choose from the following tracks: Healthcare, Web3/Blockchain, Web Development, Cybersecurity, AI/ML, FinTech, EdTech, and Open Innovation - 📄 Only the provided PPT template will be accepted —…",
-      "image": "https://assets.devfolio.co/hackathons/d1b100bab969429eb9bd286cfac13f52/assets/cover/827.png",
-      "organizer": "",
-      "format": "",
-      "prize": "",
-      "eligibility": "",
-      "rules": [
-        "Applications close on Wed Sep 30 2026.",
-        "Applications close on Tue Sep 29 2026.",
-        "Applications close on Thu Sep 24 2026."
-      ],
-      "tags": [
-        "Devfolio"
-      ],
-      "location": {
-        "text": "SSTC, Junwani, Chhattisgarh, India, Junwani",
-        "country": "India",
-        "mode": "onsite"
-      },
-      "startsAt": "2026-10-08T18:30:00.000Z",
-      "endsAt": "2026-10-09T18:30:00.000Z",
-      "registration": {
-        "opensAt": "2026-08-04T18:30:00.000Z",
-        "closesAt": "2026-09-30T18:29:00.000Z",
-        "url": "https://hackbios2k26.devfolio.co/"
-      },
-      "timeline": [
-        {
-          "label": "Registration opens",
-          "at": "2026-08-04T18:30:00.000Z"
-        },
-        {
-          "label": "Registration closes",
-          "at": "2026-09-30T18:29:00.000Z"
-        },
-        {
-          "label": "Event starts",
-          "at": "2026-10-08T18:30:00.000Z"
-        },
-        {
-          "label": "Event ends",
-          "at": "2026-10-09T18:30:00.000Z"
-        }
-      ],
-      "participants": null,
-      "type": "hackathon",
-      "trusted": false,
-      "scopeOverride": "",
-      "aliases": [],
-      "fetchedAt": "2026-09-30T06:58:26.466Z",
-      "domains": [
-        "cyber-security",
-        "blockchain",
-        "ai-ml",
-        "general-innovation"
-      ],
-      "domainLabels": [
-        "Cyber Security",
-        "Blockchain & Web3",
-        "AI / ML",
-        "General Innovation"
-      ],
-      "scope": "national",
-      "scopeConfidence": "high",
-      "scopeReason": "source country = India",
-      "status": "past",
-      "registrationStatus": "closed",
-      "relevance": 8,
-      "relevanceReasons": [
-        "+6 Cyber Security",
-        "+4 Blockchain & Web3",
-        "+4 AI / ML",
-        "+2 General Innovation",
-        "-12 already finished",
-        "+2 has official URL",
-        "+1 has image",
-        "+1 detailed"
-      ]
-    },
-    {
-      "id": "ctftime-aff5dee0db",
-      "source": "ctftime",
-      "sourceLabel": "CTFtime",
-      "sourceUrl": "https://ctftime.org/event/3438/",
-      "url": "https://bytemectf.owasppccoe.in/",
-      "title": "ByteMe CTF 26",
-      "description": "ByteMe CTF 26 is a hybrid Jeopardy-style Capture The Flag competition organized by OWASP PCCOE and the Department of Computer Engineering, PCCOE, Pune. The event is designed for college students and provides hands-on exposure to practical cybersecurity through challenges across multiple domains, including OSINT, Web Security, Cryptography, Digital Forensics, Steganography, Reverse Engineering, Binary Exploitation, AI Security, and Miscellaneous. The competition will be conducted in both online and onsite modes, with participants solving challenges and submitting flags through the CTF platform. Challenges will range from beginner-friendly to advanced difficulty levels.…",
-      "image": "https://ctftime.org//media/events/owasp_logo_1.png",
-      "organizer": "CTFtime upcoming (RSS)",
-      "format": "Jeopardy",
-      "prize": "Total Prize Pool Worth ₹1,50,000+\r\n\r\nOnline — Global\r\nTop 5 teams — Cybersecurity Certification Vouchers\r\n\r\nOnsite — PCC",
-      "eligibility": "Individual",
-      "rules": [
-        "Participation: Individual",
-        "Format: Jeopardy",
-        "Duration: 8 hour(s)",
-        "Prizes: Total Prize Pool Worth ₹1,50,000+\r\n\r\nOnline — Global\r\nTop 5 teams — Cybersecurity Certification Vouchers\r\n\r\nOnsite — PCCOE\r\nCash Prizes + Cybersecurity Certification Vouchers + Goodies\r\n\r\nCash prizes are applicable to the Onsite category."
-      ],
-      "tags": [
-        "Jeopardy",
-        "Online",
-        "CTF",
-        "CTFtime upcoming (RSS)"
-      ],
-      "location": {
-        "text": "[object Object]",
-        "country": "",
-        "mode": "online"
-      },
-      "startsAt": "2026-10-09T04:30:00.000Z",
-      "endsAt": "2026-10-09T12:30:00.000Z",
-      "registration": {
-        "opensAt": null,
-        "closesAt": null,
-        "url": ""
-      },
-      "timeline": [
-        {
-          "label": "Event starts",
-          "at": "2026-10-09T04:30:00.000Z"
-        },
-        {
-          "label": "Event ends",
-          "at": "2026-10-09T12:30:00.000Z"
-        }
-      ],
-      "participants": 0,
-      "type": "ctf",
-      "trusted": false,
-      "scopeOverride": "",
-      "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.597Z",
-      "domains": [
-        "cyber-security",
-        "digital-forensics",
-        "ai-ml"
-      ],
-      "domainLabels": [
-        "Cyber Security",
-        "Digital Forensics",
-        "AI / ML"
-      ],
-      "scope": "national",
-      "scopeConfidence": "high",
-      "scopeReason": "matched india, pune",
-      "status": "past",
-      "registrationStatus": "closed",
-      "relevance": 17,
-      "relevanceReasons": [
-        "+9 Cyber Security",
-        "+10 Digital Forensics",
-        "+5 AI / ML",
-        "-12 already finished",
-        "+2 has official URL",
-        "+1 has image",
-        "+1 prize listed",
-        "+1 detailed"
-      ]
-    },
-    {
       "id": "devfolio-ddf7a4ddcd",
       "source": "devfolio",
       "sourceLabel": "Devfolio",
@@ -35353,7 +35685,7 @@
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.598Z",
+      "fetchedAt": "2026-10-13T07:56:07.440Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -35515,7 +35847,7 @@
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.599Z",
+      "fetchedAt": "2026-10-13T07:56:07.441Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -35592,7 +35924,7 @@
       "trusted": false,
       "scopeOverride": "",
       "aliases": [],
-      "fetchedAt": "2026-10-12T07:36:49.600Z",
+      "fetchedAt": "2026-10-13T07:56:07.442Z",
       "domains": [
         "digital-forensics",
         "cyber-security"
@@ -35660,7 +35992,7 @@
         "Smart India Hackathon Software Edition",
         "Smart India Hackathon Hardware Edition"
       ],
-      "fetchedAt": "2026-10-12T07:36:48.553Z",
+      "fetchedAt": "2026-10-13T07:56:06.167Z",
       "domains": [
         "digital-forensics",
         "drone-security",
@@ -35735,7 +36067,7 @@
         "cOcOn",
         "Cyberdome"
       ],
-      "fetchedAt": "2026-10-12T07:36:48.556Z",
+      "fetchedAt": "2026-10-13T07:56:06.169Z",
       "domains": [
         "digital-forensics",
         "cyber-security",
@@ -35805,7 +36137,7 @@
         "Indian Computer Emergency Response Team",
         "ICERT"
       ],
-      "fetchedAt": "2026-10-12T07:36:48.554Z",
+      "fetchedAt": "2026-10-13T07:56:06.168Z",
       "domains": [
         "digital-forensics",
         "cyber-security"
@@ -35871,7 +36203,7 @@
         "bi0s",
         "Amrita CTF"
       ],
-      "fetchedAt": "2026-10-12T07:36:48.557Z",
+      "fetchedAt": "2026-10-13T07:56:06.170Z",
       "domains": [
         "cyber-security",
         "digital-forensics"
@@ -35937,7 +36269,7 @@
         "ZDI",
         "Zero Day Initiative"
       ],
-      "fetchedAt": "2026-10-12T07:36:48.555Z",
+      "fetchedAt": "2026-10-13T07:56:06.169Z",
       "domains": [
         "cyber-security",
         "ot-ics"
@@ -36003,7 +36335,7 @@
         "DC CTF",
         "Nautilus Institute"
       ],
-      "fetchedAt": "2026-10-12T07:36:48.555Z",
+      "fetchedAt": "2026-10-13T07:56:06.169Z",
       "domains": [
         "iot-security",
         "cyber-security"
@@ -36069,7 +36401,7 @@
         "Battle Underground",
         "HackIM"
       ],
-      "fetchedAt": "2026-10-12T07:36:48.555Z",
+      "fetchedAt": "2026-10-13T07:56:06.169Z",
       "domains": [
         "critical-infrastructure",
         "cyber-security"
@@ -36134,7 +36466,7 @@
         "HITBSecConf",
         "Hack in the Box"
       ],
-      "fetchedAt": "2026-10-12T07:36:48.557Z",
+      "fetchedAt": "2026-10-13T07:56:06.171Z",
       "domains": [
         "critical-infrastructure",
         "cyber-security"
@@ -36200,7 +36532,7 @@
         "Black Hat Asia",
         "Black Hat Europe"
       ],
-      "fetchedAt": "2026-10-12T07:36:48.555Z",
+      "fetchedAt": "2026-10-13T07:56:06.168Z",
       "domains": [
         "cyber-security"
       ],
@@ -36261,7 +36593,7 @@
         "GoogleCTF",
         "Beginners Quest"
       ],
-      "fetchedAt": "2026-10-12T07:36:48.558Z",
+      "fetchedAt": "2026-10-13T07:56:06.171Z",
       "domains": [
         "cyber-security"
       ],
@@ -36323,7 +36655,7 @@
         "SANS HHC",
         "KringleCon"
       ],
-      "fetchedAt": "2026-10-12T07:36:48.558Z",
+      "fetchedAt": "2026-10-13T07:56:06.171Z",
       "domains": [
         "cyber-security"
       ],
@@ -36386,7 +36718,7 @@
         "Hack The Box University CTF",
         "Business CTF"
       ],
-      "fetchedAt": "2026-10-12T07:36:48.558Z",
+      "fetchedAt": "2026-10-13T07:56:06.171Z",
       "domains": [
         "cyber-security"
       ],
@@ -36448,7 +36780,7 @@
         "CS AW",
         "Cyber Security Awareness Week"
       ],
-      "fetchedAt": "2026-10-12T07:36:48.557Z",
+      "fetchedAt": "2026-10-13T07:56:06.170Z",
       "domains": [
         "cyber-security"
       ],
